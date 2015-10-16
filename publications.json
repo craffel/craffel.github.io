@@ -1,0 +1,65 @@
+{"publications":
+    [
+        {
+            "authors": "Colin Raffel and Daniel P. W. Ellis",
+            "url": "http://colinraffel.com/publications/ismir2015large.pdf",
+            "title": "Large-Scale Content-Based Matching of MIDI and Audio Files",
+            "venue": "Proceedings of the 16th International Society for Music Information Retrieval Conference",
+            "day": 27,
+            "month": 10,
+            "year": 2015,
+            "code_url": "http://github.com/craffel/midi-dataset"
+        },
+        {
+            "authors": "Colin Raffel, Brian McFee, Eric J. Humphrey, Justin Salamon, Oriol Nieto, Dawen Liang, and Daniel P. W. Ellis",
+            "url": "http://colinraffel.com/publications/ismir2014mir_eval.pdf",
+            "title": "mir_eval: A Transparent Implementation of Common MIR Metrics",
+            "venue": "Proceedings of the 15th International Society for Music Information Retrieval Conference",
+            "day": 29,
+            "month": 10,
+            "year": 2014,
+            "note": "Best Poster Presentation Award"
+        },
+        {
+            "authors": "Colin Raffel and Daniel P. W. Ellis",
+            "url": "http://colinraffel.com/publications/icassp2014estimating.pdf",
+            "title": "Estimating Timing and Channel Distortion Across Related Signals",
+            "venue": "Proceedings of the 2014 IEEE International Conference on Acoustics, Speech and Signal Processing",
+            "day": 6,
+            "month": 5,
+            "year": 2014,
+            "code_url": "http://github.com/craffel/remixavier"
+        },
+        {
+            "authors": "Colin Raffel",
+            "url": "http://colinraffel.com/publications/aes2010using.pdf",
+            "title": "Using Noise Substitution for Backwards-Compatible Audio Codec Improvement",
+            "venue": "Proceedings of the 129th Convention of the Audio Engineering Society",
+            "day": 7,
+            "month": 11,
+            "year": 2010
+        },
+        {
+            "authors": "Colin Raffel and Julius O. Smith",
+            "url": "http://colinraffel.com/publications/dafx2010practical.pdf",
+            "title": "Practical Modeling of Bucket-Brigade Device Circuits",
+            "venue": "Proceedings of the 13th International Conference on Digital Audio Effects (DAFx-10)",
+            "day": 6,
+            "month": 9,
+            "year": 2010
+        },
+        {
+            "authors": "Colin Raffel, Nick Kruge, Diane Douglas, Edgar Berdahl, and Wendy Ju",
+            "url": "http://colinraffel.com/publications/icmc2010the.pdf",
+            "title": "The Lattice Harp: A New Hybrid Instrument and Controller",
+            "venue": "Proceedings of the 2010 International Computer Music Conference",
+            "day": 1,
+            "month": 6,
+            "year": 2010,
+            "code_url": "http://github.com/craffel/lattice-harp"
+        }
+    ]
+}
+
+
+

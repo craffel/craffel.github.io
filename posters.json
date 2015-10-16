@@ -1,0 +1,28 @@
+{"posters":
+    [
+        {
+            "title": "Learning Efficient Representations for Sequence Retrieval",
+            "venue": "National Science Foundation Data Science Workshop",
+            "year": 2015,
+            "url": "http://colinraffel.com/posters/nsf2015learning.pdf"
+        },
+        {
+            "title": "Intuitive Analysis, Creation and Manipulation of MIDI Data with pretty_midi",
+            "venue": "15th International Society for Music Information Retrieval Conference Late Breaking and Demo Papers",
+            "year": 2014,
+            "url": "http://colinraffel.com/posters/ismir2014intuitive.pdf"
+        },
+        {
+            "title": "mir_eval: A Transparent Implementation of Common MIR Metrics",
+            "venue": "15th International Society for Music Information Retrieval Conference",
+            "year": 2014,
+            "url": "http://colinraffel.com/posters/ismir2014mir_eval.pdf"
+        },
+        {
+            "title": "Estimating Timing and Channel Distortion Across Related Signals",
+            "venue": "IEEE International Conference on Acoustics, Speech and Signal Processing",
+            "year": 2014,
+            "url": "http://colinraffel.com/posters/icassp2014estimating.pdf"
+        }
+    ]
+}

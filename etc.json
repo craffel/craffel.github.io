@@ -1,0 +1,41 @@
+{"etc":
+    [
+        {
+            "name": "Experimentalists Anonymous",
+            "url": "http://www.experimentalistsanonymous.com",
+            "description": "is an online resource and community for people interested in do-it-yourself audio electronics which I have maintained since 2003."
+        },
+        {
+            "name": "eaced",
+            "url": "http://www.eaced.com",
+            "description": "was my web-based business, through which I sold custom-built audio hardware from 2004-2009."
+        },
+        {
+            "name": "The Columbia Neural Network Reading Group and Seminar Series",
+            "url": "http://labrosa.ee.columbia.edu/cuneuralnet/",
+            "description": "is a bi-weekly group I organize which hosts talks and paper discussions about neural networks and their applications."
+        },
+        {
+            "name": "Hacking Audio and Music Research (HAMR)",
+            "url": "http://labrosa.ee.columbia.edu/hamr",
+            "description": "is a series of research hackathons I have coordinated since 2013."
+        },
+        {
+            "name": "Synth-in-a-Month",
+            "url": "http://www.experimentalistsanonymous.com/other/siam",
+            "description": "is an analog modular synthesizer I built in January of 2006."
+        },
+        {
+            "name": "I built a hollowbody electric guitar",
+            "url": "http://www.experimentalistsanonymous.com/other/info/",
+            "description": "at the Totnes School of Guitarmaking during my final semester of high school."
+        },
+        {
+            "name": "The ooscc",
+            "url": "http://www.experimentalistsanonymous.com/ooscc/",
+            "description": "is an open-ended hardware controller I designed which communicates over Ethernet using Open Sound Control."
+        }
+    ]
+}
+
+

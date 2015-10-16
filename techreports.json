@@ -1,0 +1,50 @@
+{"techreports": 
+    [
+        {
+            "authors": "Nikolai Yakovenko, Liangliang Cao, Colin Raffel, and James Fan",
+            "url": "http://colinraffel.com/publications/arxiv2015poker.pdf",
+            "title": "Poker-CNN: A Pattern Learning Strategy for Making Draws and Bets in Poker Games",
+            "venue": "arXiv:1509.06731",
+            "day": 22,
+            "month": 9,
+            "year": 2015
+        },
+        {
+            "authors": "Colin Raffel",
+            "url": "http://colinraffel.com/publications/nsf2015learning.pdf",
+            "title": "Learning Efficient Representations for Sequence Retrieval",
+            "venue": "National Science Foundation Data Science Workshop",
+            "day": 6,
+            "month": 8,
+            "year": 2015
+        },
+        {
+            "authors": "Brian McFee, Colin Raffel, Dawen Liang, Daniel P. W. Ellis, Matt McVicar, and Oriol Nieto",
+            "url": "http://colinraffel.com/publications/scipy2015librosa.pdf",
+            "title": "librosa: Audio and Music Signal Analysis in Python",
+            "venue": "Proceedings of the 14th Python in Science Conference",
+            "day": 8,
+            "month": 7,
+            "year": 2015
+        },
+        {
+            "authors": "Colin Raffel and Daniel P. W. Ellis",
+            "url": "http://colinraffel.com/publications/ismir2014intuitive.pdf",
+            "title": "Intuitive Analysis, Creation and Manipulation of MIDI Data with pretty_midi",
+            "venue": "15th International Society for Music Information Retrieval Conference Late Breaking and Demo Papers",
+            "day": 31,
+            "month": 10,
+            "year": 2014
+        },
+        {
+            "authors": "Colin Raffel and Daniel P. W. Ellis",
+            "url": "http://colinraffel.com/publications/report2013reproducing.pdf",
+            "title": "Reproducing Pitch Experiments in \"Measuring the Evolution of Contemporary Western Popular Music\"",
+            "venue": "Technical Report",
+            "day": 2,
+            "month": 5,
+            "year": 2013,
+            "note": "SoundSoftware.ac.uk Prize for Reproducible Research"
+        }
+    ]
+}

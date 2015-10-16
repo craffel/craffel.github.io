@@ -1,0 +1,100 @@
+{"talks":
+    [
+        {
+            "title": "Large-Scale Content-Based Matching of MIDI and Audio Files",
+            "venue": "16th International Society for Music Information Retrieval Conference",
+            "url": "http://colinraffel.com/talks/ismir2015large.pdf",
+            "year": 2015
+        },
+        {
+            "title": "Learning Efficient Representations for Sequence Retrieval",
+            "venue": "Boston Data Festival",
+            "url": "http://colinraffel.com/talks/boston2015learning.pdf",
+            "year": 2015
+        },
+        {
+            "title": "Using Convolutional Networks (with Attention) for Orders-of-Magnitude Speedup of DTW-Based Sequence Retrieval",
+            "venue": "Spotify Machine Learning Seminar",
+            "url": "http://colinraffel.com/talks/spotify2015using.pdf",
+            "year": 2015
+        },
+        {
+            "title": "Recurrent Networks in Lasagne",
+            "venue": "Mount Sinai Hammer Lab Seminar",
+            "url": "http://colinraffel.com/talks/hammer2015recurrent.pdf",
+            "year": 2015
+        },
+        {
+            "title": "Theano and Lasagne Tutorial",
+            "venue": "Next.ml Boston",
+            "url": "http://colinraffel.com/talks/next2015theano.pdf",
+            "year": 2015
+        },
+        {
+            "title": "Objective Evaluation in Semantic Audio Analysis and Processing Panel",
+            "venue": "138th Convention of the Audio Engineering Society",
+            "url": "http://colinraffel.com/talks/aes2015objective.pdf",
+            "year": 2015
+        },
+        {
+            "title": "Large-Scale Content-Based Matching of Audio and MIDI Data",
+            "venue": "Stanford University DSP Seminar",
+            "url": "http://colinraffel.com/talks/stanford2015large.pdf",
+            "year": 2015
+        },
+        {
+            "title": "Advances and Challenges in Large-Scale Music Information Retrieval",
+            "venue": "Digital Music Research Network+8",
+            "url": "http://colinraffel.com/talks/dmrn2013advances.pdf",
+            "year": 2013
+        },
+        {
+            "title": "Quantifying Rhythmic Synchrony",
+            "venue": "Midwestern Music Cognition Symposium",
+            "url": "http://colinraffel.com/talks/mmcs2013quantifying.pdf",
+            "year": 2013
+        },
+        {
+            "title": "A Sequential Approach to Musical Event Detection",
+            "venue": "Carnegie Mellon University Music and Technology Seminar",
+            "url": "http://colinraffel.com/talks/cmu2011sequential.pdf",
+            "year": 2011
+        },
+        {
+            "title": "Using Noise Substitution for Backwards-Compatible Audio Codec Improvement",
+            "venue": "129th Convention of the Audio Engineering Society",
+            "url": "http://colinraffel.com/talks/aes2010using.pdf",
+            "year": 2010
+        },
+        {
+            "title": "ROW-mp3: An Enhanced MP3-Compatible Audio Codec",
+            "venue": "Stanford University DSP Seminar",
+            "url": "http://colinraffel.com/talks/stanford2010row.pdf",
+            "year": 2010
+        },
+        {
+            "title": "Practical Modeling of Bucket-Brigade Device Circuits",
+            "venue": "13th International Conference on Digital Audio Effects",
+            "url": "http://colinraffel.com/talks/dafx2010practical.pdf",
+            "year": 2010
+        },
+        {
+            "title": "The Lattice Harp: A New Hybrid Instrument and Controller",
+            "venue": "2010 International Computer Music Conference",
+            "url": "http://colinraffel.com/talks/icmc2010lattice.pdf",
+            "year": 2010
+        },
+        {
+            "title": "An Effective Model of Bucket-Brigade Device-Based Audio Circuits",
+            "venue": "Stanford University DSP Seminar",
+            "url": "http://colinraffel.com/talks/stanford2010effective.pdf",
+            "year": 2010
+        },
+        {
+            "title": "Voltage-Controlled Resistance: Modulate Anything",
+            "venue": "Circuitastrophe Circuit Bending Music Festival",
+            "url": "http://colinraffel.com/talks/circuitastrophe2008voltage.pdf",
+            "year": 2008
+        }
+    ]
+}

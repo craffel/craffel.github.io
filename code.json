@@ -1,0 +1,24 @@
+{"code":
+    [
+        {
+            "title": "mir_eval",
+            "url": "http://github.com/craffel/mir_eval",
+            "description": "a simple-to-use reference implementation of many music information retrieval metrics."
+        },
+        {
+            "title": "lasagne",
+            "url": "http://github.com/Lasagne/Lasagne",
+            "description": "a library for constructing neural networks in Theano."
+        },
+        {
+            "title": "pretty_midi",
+            "url": "http://github.com/craffel/pretty-midi",
+            "description": "utility classes and functions for easily creating, manipulating, and analyzing MIDI data."
+        },
+        {
+            "title": "librosa",
+            "url": "http://github.com/bmcfee/librosa",
+            "description": "DSP routines for audio and music signal analysis."
+        }
+    ]
+}

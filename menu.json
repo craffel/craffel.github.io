@@ -1,0 +1,24 @@
+{"menu":
+    [
+        {
+            "title": "colinraffel.com",
+            "url": "http://colinraffel.com"
+        },
+        {
+            "title": "CV",
+            "url": "http://colinraffel.com/cv.pdf"
+        },
+        {
+            "title": "Wiki",
+            "url": "http://colinraffel.com/wiki"
+        },
+        {
+            "title": "Github",
+            "url": "http://github.com/craffel"
+        },
+        {
+            "title": "E-mail",
+            "url": "&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#99;&#114;&#97;&#102;&#102;&#101;&#108;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;"
+        }
+    ]
+}
