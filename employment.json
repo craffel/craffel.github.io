@@ -1,0 +1,42 @@
+{"employment":
+    [
+        {
+            "url": "http://www.rockprodigy.com/",
+            "name": "The Way of H",
+            "blurb": "Developed pitch detection and audio timescale modification algorithms for Rock Prodigy, an educational iPhone application for guitarists",
+            "start": 2011,
+            "end": 2013
+        },
+        {
+            "url": "http://www.beatkangz.com/",
+            "name": "Beat Kangz Electronics",
+            "blurb": "Maintained and improved audio processing functionality for a hardware- and software-based music production system",
+            "start": 2011,
+            "end": 2012
+        },
+        {
+            "url": "http://www.imagine-research.com/",
+            "name": "Imagine Research",
+            "blurb": "Helped develop a machine learning-based sound classification and identification system",
+            "start": 2010,
+            "end": 2012
+        },
+        {
+            "url": "http://sacredagent.com/",
+            "name": "SacredAgent",
+            "blurb": "Created a musical event detection system which algorithmically demarcates beats and changes in instrumentation, dynamics, and melody",
+            "start": 2010
+        },
+        {
+            "url": "http://wobc.org/",
+            "name": "WOBC, Oberlin College Radio",
+            "blurb": "Worked as Engineer, 2007&#8211;2008, Station Manager, 2008&#8211;2009, and Web Administrator, 2009"
+        },
+        {
+            "url": "http://www.ebay.com/",
+            "name": "eBay",
+            "blurb": "Employed as summer intern in user interface design department and Musical Instrument category management team",
+            "start": 2004
+        }
+    ]
+}

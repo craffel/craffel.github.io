@@ -1,0 +1,18 @@
+{"business":
+    [
+        {
+            "name": "Experimentalists Anonymous",
+            "start": "2003",
+            "end": "present",
+            "blurb": "Design, build, and sell custom electronic devices; host audio circuit schematic archive with over three million downloads served; maintain online message board with over fourteen thousand posts; provide site hosting for do-it-yourself audio hardware enthusiasts; help individuals start successful independent businesses selling electronic audio devices"
+        },
+        {
+            "name": "Noisette Audio, LLC",
+            "start": "2011",
+            "end": "2012",
+            "blurb": "Provide consulting services in the field of audio signal processing, analysis, and synthesis; develop software for electronic music composition"
+        }
+    ]
+}
+
+

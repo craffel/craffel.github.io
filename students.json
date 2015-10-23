@@ -1,0 +1,24 @@
+{"students":
+    [
+        {
+            "name": "Rafael Valle",
+            "description": "visiting researcher at Columbia Univeristy",
+            "year": 2015
+        },
+        {
+            "name": "Hilary Mogul",
+            "description": "undergraduate student at Columbia University",
+            "year": 2014
+        },
+        {
+            "name": "Dylan Kario",
+            "description": "undergraduate student at Columbia University",
+            "year": 2014
+        },
+        {
+            "name": "Zhengshan Shi",
+            "description": "visiting researcher at Columbia University",
+            "year": 2013
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+{"programming":
+    [
+        {
+            "name": "Computer Software",
+            "blurb": "Machine learning and audio signal processing software developed in Python, C/C++, Objective C, ActionScript, Matlab and Java"
+        },
+        {
+            "name": "Embedded Systems",
+            "blurb": "Experience with C and assembly on TI TMS320, x86, ARM, and AVR architectures for control and signal processing purposes"
+        },
+        {
+            "name": "Web Development",
+            "blurb": "Proficiency in PHP, Python, SQL, JavaScript, and HTML/CSS, experience in web application programming, system administration and site design"
+        }
+    ]
+}

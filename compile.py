@@ -25,3 +25,4 @@ def compile_template(template_path, data, output_path):
 
 if __name__ == '__main__':
     compile_template('index.tpl', load_data('*.json'), 'index.html')
+    compile_template('cv.tpl', load_data('*.json'), 'cv.html')

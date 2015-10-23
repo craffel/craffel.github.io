@@ -1,0 +1,55 @@
+{"service":
+    [
+        {
+            "url": "http://labrosa.ee.columbia.edu/cuneuralnet/",
+            "name": "Columbia Neural Network Research Group and Seminar Series",
+            "blurb": "Organize and present paper discussions, tutorials, and seminars on neural networks",
+            "start": 2014,
+            "end": "present"
+        },
+        {
+            "url": "http://labrosa.ee.columbia.edu/crucialpython/",
+            "name": "Crucial Python",
+            "blurb": "Organized a seminar series on obscure but useful aspects of the Python programming language",
+            "start": 2014
+        },
+        {
+            "url": "http://labrosa.ee.columbia.edu/hamr/",
+            "name": "Hacking Audio and Music Research (HAMR)",
+            "blurb": "Started a series of hackathons where researchers rapidly prototype new ideas over the course of a weekend; past HAMRs have been held at Columbia University, Dartmouth College, Drexel University, and Academia Sinica",
+            "start": 2013,
+            "end": "present"
+        },
+        {
+            "name": "Intern Supervisor",
+            "blurb": "Oversee summer interns working on Music Information Retrieval research projects",
+            "start": 2013,
+            "end": "present"
+        },
+        {
+            "url": "http://kzsu.stanford.edu/",
+            "name": "KZSU, Stanford University Radio",
+            "blurb": "Developed web applications and a music fingerprinting system",
+            "start": 2009,
+            "end": 2010
+        },
+        {
+            "name": "Mathematics Tutor",
+            "blurb": "Assisted students studying algebra and linear algebra",
+            "start": 2008,
+            "end": 2009
+        },
+        {
+            "name": "Engineering People of Oberlin Club",
+            "blurb": "Served as the Electrical Engineering group coordinator and web administrator",
+            "start": 2008,
+            "end": 2009
+        },
+        {
+            "name": "Oberlin Student Cooperative Association Website Coordinator",
+            "blurb": "Maintained the website for Oberlin's eating and living cooperative organization",
+            "start": 2006,
+            "end": 2007
+        }
+    ]
+}

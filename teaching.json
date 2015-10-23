@@ -1,0 +1,28 @@
+{"teaching":
+    [
+        {
+            "url": "http://llcao.net/cu-deeplearning15/",
+            "name": "Teacher's Assistant, Deep Learning for Computer Vision and NLP",
+            "blurb": "Advised students on software and final projects culminating in multiple conference submissions",
+            "start": 2015
+        },
+        {
+            "url": "http://www.ee.columbia.edu/~dpwe/e4896/",
+            "name": "Teacher's Assistant, Music Digital Signal Processing",
+            "blurb": "Evaluated projects, provided assistance, and held office hours for a Master's-level course",
+            "start": 2013,
+            "end": 2014
+        },
+        {
+            "name": "Electronics",
+            "blurb": "Filled in for a professor on sabbatical and taught a recurring electronics course in the Oberlin College Physics Department",
+            "start": 2009
+        },
+        {
+            "url": "http://experimentalistsanonymous.com/other/circuitbendingexco/",
+            "name": "Circuit Bending",
+            "blurb": "Taught a course on modifying electronic music circuits and basic electronics as part of the Oberlin Experimental College program; developed a curriculum, lab activities, and lectures",
+            "start": 2006
+        }
+    ]
+}

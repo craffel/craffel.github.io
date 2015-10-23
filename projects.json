@@ -1,0 +1,43 @@
+{"projects":
+    [
+        {
+            "name": "Automello",
+            "blurb": "Designed software which chops up audio into small segments and maps them to musical pitches",
+            "start": 2012
+        },
+        {
+            "name": "Real-Time Computer Accompaniment",
+            "blurb": "Created a real-time musical beat detection algorithm as part of an automatic accompaniment system being created at Carnegie Mellon University",
+            "start": 2011
+        },
+        {
+            "url": "http://petervandernoord.nl/patchwork/",
+            "name": "Patchwork",
+            "blurb": "Developed audio signal processing algorithms for a browser-based modular synthesizer",
+            "start": 2011,
+            "end": 2012
+        },
+        {
+            "name": "Electromagnetically Prepared Piano",
+            "blurb": "Built an improved version of an electromagnetic string vibration system",
+            "start": 2009
+        },
+        {
+            "url": "http://experimentalistsanonymous.com/ooscc/",
+            "name": "ooscc - Open Open Sound Control Controller",
+            "blurb": "Created a modular computer controller implementing the Open Sound Control protocol",
+            "start": 2008
+        },
+        {
+            "url": "http://experimentalistsanonymous.com/siam/",
+            "name": "Synth-in-a-Month",
+            "blurb": "Constructed an analog modular synthesizer over the course of a month",
+            "start": 2006
+        },
+        {
+            "name": "The Starblaster",
+            "blurb": "Built a hollowbody electric guitar by hand at the Totnes School of Guitarmaking",
+            "start": 2005
+        }
+    ]
+}

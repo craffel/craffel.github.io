@@ -1,0 +1,16 @@
+{"music":
+    [
+        {
+            "name": "Guitar",
+            "blurb": "Proficient in modern and folk playing styles with private lessons in classical guitar at the Oberlin Conservatory of Music"
+        },
+        {
+            "name": "Electronic Music",
+            "blurb": "Popular and experimental music composed using most major digital audio workstations and programming environments with private lessons at the Oberlin Conservatory of Music"
+        },
+        {
+            "name": "DJing",
+            "blurb": "Curated radio shows focusing on experimental electronic music"
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{"education":
+    [
+        {
+            "place": "Columbia University, New York, NY",
+            "start": "2012",
+            "end": "present",
+            "blurb": "PhD in Electrical Engineering at the Laboratory for the Recognition and Organization of Speech and Audio, advisor Dan Ellis, 4.1 cumulative GPA"
+        },
+        {
+            "place": "Stanford University, Stanford, CA",
+            "start": "2009",
+            "end": "2010",
+            "blurb": "Master of Arts in Music, Science, and Technology at the Center for Computer Research in Music and Acoustics, 4.1 cumulative GPA"
+        },
+        {
+            "place": "Oberlin College, Oberlin, OH",
+            "start": "2005",
+            "end": "2009",
+            "blurb": "Bachelor of Arts in Mathematics with Physics minor and independent studies in audio circuit design, 3.7 cumulative GPA"
+        },
+        {
+            "place": "Relevant Courses Taken",
+            "blurb": "Advanced Machine Learning, Statistical Machine Learning, Introduction to Adaptive Signal Representations, Sparse Representations and High-Dimensional Geometry, Speech Recognition, Signal Processing Methods in Musical Acoustics, Audio Applications of the Fast Fourier Transform"
+        }
+    ]
+}
+
+

@@ -1,0 +1,16 @@
+{"languages":
+    [
+        {
+            "language": "English",
+            "level": "native"
+        },
+        {
+            "language": "Spanish",
+            "level": "proficient"
+        },
+        {
+            "language": "Mandarin Chinese",
+            "level": "beginniner"
+        }
+    ]
+}

@@ -1,0 +1,51 @@
+{"awards":
+    [
+        {
+            "name": "Travel Grant",
+            "venue": "National Science Foundation Data Science Workshop",
+            "start": 2015
+        },
+        {
+            "name": "Best Poster Presentation",
+            "venue": "International Society for Music Information Retrival Conference",
+            "start": 2014
+        },
+        {
+            "name": "Student Travel Award",
+            "venue": "International Society for Music Information Retrieval",
+            "start": 2014
+        },
+        {
+            "name": "Prize for Reproducibility in Audio and Music Research",
+            "venue": "SoundSoftware.ac.uk",
+            "start": 2013
+        },
+        {
+            "name": "NSF Integrative Graduate Education and Research Traineeship Grant",
+            "start": 2012,
+            "end": 2014
+        },
+        {
+            "name": "Ableton Best Hack Award",
+            "venue": "Music Hack Day San Francisco",
+            "start": 2012
+        },
+        {
+            "name": "Best Educational App: Rock Prodigy",
+            "venue": "Appy Awards",
+            "start": 2011
+        },
+        {
+            "name": "Echo Nest Best Hack Award",
+            "venue": "Music Hack Day Barcelona",
+            "start": 2010
+        },
+        {
+            "name": "7Digital Best Hack Award",
+            "venue": "Music Hack Day Barcelona",
+            "start": 2010
+        }
+    ]
+}
+
+

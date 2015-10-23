@@ -1,0 +1,17 @@
+{"courses":
+    [
+        {
+            "url": "https://ccrma.stanford.edu/wiki/MIR_workshop_2010",
+            "name": "Music Information Retrieval Workshop, Stanford, CA",
+            "blurb": "Summer workshop covering machine learning and audio feature extraction",
+            "start": 2010
+        },
+        {
+            "url": "http://www.rctc.edu/program/music/",
+            "name": "Rochester Community and Technical College, Rochester, MN",
+            "blurb": "Courses in studio recording and electronic music composition",
+            "start": 2002,
+            "end": 2004
+        }
+    ]
+}
