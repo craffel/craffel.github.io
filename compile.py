@@ -24,5 +24,7 @@ def compile_template(template_path, data, output_path):
         f.write(template.render(**data))
 
 if __name__ == '__main__':
-    compile_template('index.tpl', load_data('*.json'), 'index.html')
-    compile_template('cv.tpl', load_data('*.json'), 'cv.html')
+    compile_template(
+        'index.tpl', load_data(os.path.join('data', '*.json')), 'index.html')
+    compile_template(
+        'cv.tpl', load_data(os.path.join('data', '*.json')), 'cv.html')
