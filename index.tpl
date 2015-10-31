@@ -16,7 +16,7 @@
         <div id="main" style="width:650px">
 
             <div id="photo">
-                <img src="minimug.jpg" width=100% />
+                <a href="images/me.jpg"><img src="images/me_small.jpg" width=100% /></a>
             </div>
             
             <h1 style="margin-top: 0px; margin-bottom: 4px">Colin Raffel</h1>
