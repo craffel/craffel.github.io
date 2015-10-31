@@ -1,13 +1,18 @@
 {"awards":
     [
         {
+            "name": "Best Student Paper",
+            "venue": "16th International Society for Music Information Retrieval Conference",
+            "start": 2015
+        },
+        {
             "name": "Travel Grant",
             "venue": "National Science Foundation Data Science Workshop",
             "start": 2015
         },
         {
             "name": "Best Poster Presentation",
-            "venue": "International Society for Music Information Retrival Conference",
+            "venue": "15th International Society for Music Information Retrival Conference",
             "start": 2014
         },
         {
