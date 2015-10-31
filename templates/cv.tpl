@@ -6,27 +6,27 @@
         <style type="text/css">
             @font-face {
                 font-family: "latex";
-                src: url('normal.otf');
+                src: url('fonts/computer_modern/normal.otf');
             }
             @font-face {
                 font-family: "latex";
-                src: url('bold.otf');
+                src: url('fonts/computer_modern/bold.otf');
                 font-weight: bold;
             }
             @font-face {
                 font-family: "latex";
-                src: url('italic.otf');
+                src: url('fonts/computer_modern/italic.otf');
                 font-style: italic;
             }
             @font-face {
                 font-family: "latex";
-                src: url('bolditalic.otf');
+                src: url('fonts/computer_modern/bolditalic.otf');
                 font-weight: bold;
                 font-style: italic;
             }
             @font-face {
                 font-family: "tt";
-                src: url('tt.otf');
+                src: url('fonts/computer_modern/tt.otf');
                 font-weight: normal;
                 font-style: normal;
             }
