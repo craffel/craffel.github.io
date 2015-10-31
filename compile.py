@@ -3,6 +3,7 @@ import os
 import glob
 import json
 
+TEMPLATE_PATH = 'templates'
 
 def load_data(json_glob):
     datas = []
@@ -25,6 +26,8 @@ def compile_template(template_path, data, output_path):
 
 if __name__ == '__main__':
     compile_template(
-        'index.tpl', load_data(os.path.join('data', '*.json')), 'index.html')
+        os.path.join(TEMPLATE_PATH, 'index.tpl'),
+        load_data(os.path.join('data', '*.json')), 'index.html')
     compile_template(
-        'cv.tpl', load_data(os.path.join('data', '*.json')), 'cv.html')
+        os.path.join(TEMPLATE_PATH, 'cv.tpl'),
+        load_data(os.path.join('data', '*.json')), 'cv.html')
