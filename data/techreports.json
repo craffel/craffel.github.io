@@ -1,6 +1,15 @@
 {"techreports": 
     [
         {
+            "authors": "Andreas Jansson, Colin Raffel, and Tillman Weyde",
+            "url": "http://colinraffel.com/publications/ismir2015this.pdf",
+            "title": "This Is My Jam: Data Dump",
+            "venue": "16th International Society for Music Information Retrieval Conference Late Breaking and Demo Papers",
+            "day": 30,
+            "month": 10,
+            "year": 2015
+        },
+        {
             "authors": "Nikolai Yakovenko, Liangliang Cao, Colin Raffel, and James Fan",
             "url": "http://colinraffel.com/publications/arxiv2015poker.pdf",
             "title": "Poker-CNN: A Pattern Learning Strategy for Making Draws and Bets in Poker Games",
