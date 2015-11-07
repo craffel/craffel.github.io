@@ -18,7 +18,7 @@
             <div id="photo">
                 <a href="images/me.jpg"><img src="images/me_small.jpg" width=100% /></a>
             </div>
-            
+
             <h1 style="margin-top: 0px; margin-bottom: 4px">Colin Raffel</h1>
 
             My current research focuses on machine learning
@@ -26,7 +26,7 @@
             sequential data (especially audio signals).  Since Fall 2012, I've
             been pursuing a PhD in Electrical Engineering at Columbia
             University in <a
-            href="http://labrosa.ee.columbia.edu/">LabROSA</a>, supervised by 
+            href="http://labrosa.ee.columbia.edu/">LabROSA</a>, supervised by
             <a href="http://www.ee.columbia.edu/~dpwe/">Dan Ellis</a>.
             In 2010, I received a Master's in Music, Science and Technology from
             Stanford University's <a href="https://ccrma.stanford.edu">CCRMA</a>,
@@ -42,7 +42,7 @@
             {% if item.note %}<b>{{item.note}}</b><br />{% endif %}
             <br />
             {% endfor %}
-           
+
             <h2>Technical Reports, Whitepapers, etc.</h2>
 
             {% for item in techreports %}
@@ -52,21 +52,21 @@
             {% if item.note %}<b>{{item.note}}</b><br />{% endif %}
             <br />
             {% endfor %}
-            
+
             <h2>Code</h2>
 
             {% for item in code %}
             <a href="{{item.url}}">{{item.title}}</a> - {{item.description}}
             <br /><br />
             {% endfor %}
-            
+
             <h2>Talks</h2>
 
             {% for item in talks %}
             <a href="{{item.url}}">{{item.title}}</a> at {{item.venue}}, {{item.year}}.
             <br /><br />
             {% endfor %}
-            
+
             <h2>Poster Presentations</h2>
 
             {% for item in posters %}
