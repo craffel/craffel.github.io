@@ -2,6 +2,15 @@
     [
         {
             "authors": "Colin Raffel and Daniel P. W. Ellis",
+            "url": "http://colinraffel.com/publications/nips2015accelerating.pdf",
+            "title": "Accelerating Multimodal Sequence Retrieval with Convolutional Networks",
+            "venue": "NIPS Multimodal Machine Learning Workshop",
+            "day": 11,
+            "month": 12,
+            "year": 2015
+        },
+        {
+            "authors": "Colin Raffel and Daniel P. W. Ellis",
             "url": "http://colinraffel.com/publications/ismir2015large.pdf",
             "title": "Large-Scale Content-Based Matching of MIDI and Audio Files",
             "venue": "Proceedings of the 16th International Society for Music Information Retrieval Conference",
