@@ -33,7 +33,7 @@
             supervised by <a href="https://ccrma.stanford.edu/~jos/">Julius O. Smith III</a>.
             I did my undergrad at Oberlin College, where I majored in Mathematics.
 
-            <h2>Publications</h2>
+            <h2 id="publications">Publications</h2>
 
             {% for item in publications %}
             <a href="{{item.url}}">{{item.title}}</a><br />
@@ -43,7 +43,7 @@
             <br />
             {% endfor %}
 
-            <h2>Technical Reports, Whitepapers, etc.</h2>
+            <h2 id="techreports">Technical Reports, Whitepapers, etc.</h2>
 
             {% for item in techreports %}
             <a href="{{item.url}}">{{item.title}}</a><br />
@@ -53,28 +53,28 @@
             <br />
             {% endfor %}
 
-            <h2>Code</h2>
+            <h2 id="code">Code</h2>
 
             {% for item in code %}
             <a href="{{item.url}}">{{item.title}}</a> - {{item.description}}
             <br /><br />
             {% endfor %}
 
-            <h2>Talks</h2>
+            <h2 id="talks">Talks</h2>
 
             {% for item in talks %}
             <a href="{{item.url}}">{{item.title}}</a> at {{item.venue}}, {{item.year}}.
             <br /><br />
             {% endfor %}
 
-            <h2>Poster Presentations</h2>
+            <h2 id="posters">Poster Presentations</h2>
 
             {% for item in posters %}
             <a href="{{item.url}}">{{item.title}}</a> at {{item.venue}}, {{item.year}}.
             <br /><br />
             {% endfor %}
 
-            <h2>Etc.</h2>
+            <h2 id="etc">Etc.</h2>
 
             {% for item in etc %}
             <a href="{{item.url}}">{{item.name}}</a> {{item.description}}
