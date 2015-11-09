@@ -3,9 +3,9 @@ import os
 import glob
 import json
 
-TEMPLATE_PATH = 'templates'
-DATA_PATH = 'data'
-BUILD_PATH = 'build'
+TEMPLATE_PATH = '../templates'
+DATA_PATH = '../data'
+BUILD_PATH = '..'
 
 
 def load_data(json_glob):
