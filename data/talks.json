@@ -25,7 +25,13 @@
             "year": 2015
         },
         {
-            "title": "Theano and Lasagne Tutorial",
+            "title": "Lasagne Tutorial",
+            "venue": "Next.ml Boston",
+            "url": "http://colinraffel.com/talks/next2015lasagne.pdf",
+            "year": 2015
+        },
+        {
+            "title": "Theano Tutorial",
             "venue": "Next.ml Boston",
             "url": "http://colinraffel.com/talks/next2015theano.pdf",
             "year": 2015
