@@ -53,7 +53,7 @@
             <br />
             {% endfor %}
 
-            <h2 id="code">Code</h2>
+            <h2 id="software">Software Projects</h2>
 
             {% for item in code %}
             <a href="{{item.url}}">{{item.title}}</a> - {{item.description}}
