@@ -254,48 +254,5 @@
             {% endfor %}
         </div>
 
-        <h2>Programming Experience</h2>
-
-        <div class="block">
-            {% for item in programming %}
-            <div class="item">
-                <h3>{{item.name}}</h3>
-                {{item.blurb}}
-            </div>
-            {% endfor %}
-        </div>
-
-        <h2>Languages</h2>
-
-        <div class="block">
-            {% for item in languages %}
-            <div class="item">
-                <b>{{item.language}}</b>, {{item.level}}
-            </div>
-            {% endfor %}
-        </div>
-
-        <h2>Audio Projects</h2>
-
-        <div class="block">
-            {% for item in projects %}
-            <div class="item">
-                <h3>{% if item.url %}<a href="{{item.url}}">{% endif %}{{item.name}}{% if item.url %}</a>{% endif %}</h3>
-                {{item.blurb}}, {% if item.start %}{{item.start}}{% endif %}{% if item.end %}&#8211;{{item.end}}{% endif %}
-            </div>
-            {% endfor %}
-        </div>
-
-        <h2>Musical Background</h2>
-
-        <div class="block">
-            {% for item in music %}
-            <div class="item">
-                <h3>{{item.name}}</h3>
-                {{item.blurb}}
-            </div>
-            {% endfor %}
-        </div>
-
     </body>
 </html>
