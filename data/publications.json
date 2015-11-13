@@ -1,6 +1,15 @@
 {"publications":
     [
         {
+            "authors": "Nikolai Yakovenko, Liangliang Cao, Colin Raffel, and James Fan",
+            "url": "http://colinraffel.com/publications/aaai2016poker.pdf",
+            "title": "Poker-CNN: A Pattern Learning Strategy for Making Draws and Bets in Poker Games",
+            "venue": "Proceedings of the 30th AAAI Conference on Artificial Intelligence",
+            "day": 14,
+            "month": 12,
+            "year": 2016
+        },
+        {
             "authors": "Colin Raffel and Daniel P. W. Ellis",
             "url": "http://colinraffel.com/publications/nips2015accelerating.pdf",
             "title": "Accelerating Multimodal Sequence Retrieval with Convolutional Networks",

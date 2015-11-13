@@ -10,15 +10,6 @@
             "year": 2015
         },
         {
-            "authors": "Nikolai Yakovenko, Liangliang Cao, Colin Raffel, and James Fan",
-            "url": "http://colinraffel.com/publications/arxiv2015poker.pdf",
-            "title": "Poker-CNN: A Pattern Learning Strategy for Making Draws and Bets in Poker Games",
-            "venue": "arXiv:1509.06731",
-            "day": 22,
-            "month": 9,
-            "year": 2015
-        },
-        {
             "authors": "Colin Raffel",
             "url": "http://colinraffel.com/publications/nsf2015learning.pdf",
             "title": "Learning Efficient Representations for Sequence Retrieval",
