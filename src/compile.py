@@ -2,6 +2,8 @@ import jinja2
 import os
 import glob
 import json
+import datetime
+now = datetime.datetime.now()
 
 TEMPLATE_PATH = '../templates'
 DATA_PATH = '../data'
@@ -12,7 +14,17 @@ def load_data(json_glob):
     datas = []
     for json_file in glob.glob(json_glob):
         with open(json_file) as f:
-            datas.append(json.load(f))
+            data = json.load(f)
+            entries = data.values()[0]
+            for entry in entries:
+                if 'day' in entry and 'month' in entry and 'year' in entry:
+                    entry_time = datetime.datetime(
+                        entry['year'], entry['month'], entry['day'])
+                    if entry_time > now:
+                        entry['year'] = '{} (to appear)'.format(entry['year'])
+
+            datas.append(data)
+
     return dict((k, v) for d in datas for (k, v) in d.items())
 
 
