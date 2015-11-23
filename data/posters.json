@@ -1,6 +1,12 @@
 {"posters":
     [
         {
+            "title": "Accelerating Multimodal Sequence Retrieval with Convolutional Networks",
+            "venue": "NIPS Multimodal Machine Learning Workshop",
+            "year": 2015,
+            "url": "http://colinraffel.com/posters/nips2015accelerating.pdf"
+        },
+        {
             "title": "Learning Efficient Representations for Sequence Retrieval",
             "venue": "National Science Foundation Data Science Workshop",
             "year": 2015,
