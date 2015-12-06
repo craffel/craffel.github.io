@@ -30,6 +30,15 @@
             "note": "Best Student Paper Award"
         },
         {
+            "authors": "Brian McFee, Colin Raffel, Dawen Liang, Daniel P. W. Ellis, Matt McVicar, and Oriol Nieto",
+            "url": "http://colinraffel.com/publications/scipy2015librosa.pdf",
+            "title": "librosa: Audio and Music Signal Analysis in Python",
+            "venue": "Proceedings of the 14th Python in Science Conference",
+            "day": 8,
+            "month": 7,
+            "year": 2015
+        },
+        {
             "authors": "Colin Raffel, Brian McFee, Eric J. Humphrey, Justin Salamon, Oriol Nieto, Dawen Liang, and Daniel P. W. Ellis",
             "url": "http://colinraffel.com/publications/ismir2014mir_eval.pdf",
             "title": "mir_eval: A Transparent Implementation of Common MIR Metrics",
