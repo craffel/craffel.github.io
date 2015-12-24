@@ -1,6 +1,12 @@
 {"talks":
     [
         {
+            "title": "Accelerating Large-Scale Sequence Retrieval with Convolutional Networks",
+            "venue": "IIT Bombay Electrical Engineering Seminar",
+            "url": "http://colinraffel.com/talks/iitbombay2015accelerating.pdf",
+            "year": 2015
+        },
+        {
             "title": "Large-Scale Content-Based Matching of MIDI and Audio Files",
             "venue": "16th International Society for Music Information Retrieval Conference",
             "url": "http://colinraffel.com/talks/ismir2015large.pdf",
