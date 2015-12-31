@@ -1,6 +1,15 @@
 {"techreports": 
     [
         {
+            "authors": "Colin Raffel and Daniel P. W. Ellis",
+            "url": "http://colinraffel.com/publications/arxiv2015feed.pdf",
+            "title": "Feed-Forward Networks with Attention Can Solve Some Long-Term Memory Problems",
+            "venue": "arXiv:1512.08756 [cs.LG]",
+            "day": 29,
+            "month": 12,
+            "year": 2015
+        },
+        {
             "authors": "Andreas Jansson, Colin Raffel, and Tillman Weyde",
             "url": "http://colinraffel.com/publications/ismir2015this.pdf",
             "title": "This Is My Jam: Data Dump",
