@@ -1,6 +1,11 @@
 {"awards":
     [
         {
+            "name": "National Science Foundation Student Travel Grant",
+            "venue": "41st IEEE International Conference on Acoustics, Speech, and Signal Processing",
+            "start": 2016
+        },
+        {
             "name": "Best Student Paper",
             "venue": "16th International Society for Music Information Retrieval Conference",
             "start": 2015
