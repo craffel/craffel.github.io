@@ -5,7 +5,7 @@
             "url": "http://colinraffel.com/publications/icassp2016pruning.pdf",
             "title": "Pruning Subsequence Search with Attention-Based Embedding",
             "venue": "Proceedings of the 2016 IEEE International Conference on Acoustics, Speech and Signal Processing",
-            "day": 25,
+            "day": 22,
             "month": 3,
             "year": 2016
         },
@@ -14,7 +14,7 @@
             "url": "http://colinraffel.com/publications/icassp2016optimizing.pdf",
             "title": "Optimizing DTW-Based Audio-to-MIDI Alignment and Matching",
             "venue": "Proceedings of the 2016 IEEE International Conference on Acoustics, Speech and Signal Processing",
-            "day": 25,
+            "day": 22,
             "month": 3,
             "year": 2016
         },
@@ -23,8 +23,8 @@
             "url": "http://colinraffel.com/publications/aaai2016poker.pdf",
             "title": "Poker-CNN: A Pattern Learning Strategy for Making Draws and Bets in Poker Games",
             "venue": "Proceedings of the 30th AAAI Conference on Artificial Intelligence",
-            "day": 14,
-            "month": 12,
+            "day": 17,
+            "month": 2,
             "year": 2016
         },
         {
