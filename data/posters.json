@@ -1,6 +1,12 @@
 {"posters":
     [
         {
+            "title": "Pruning Subsequence Search with Attention-Based Embedding",
+            "venue": "41st IEEE International Conference on Acoustics, Speech, and Signal Processing",
+            "year": 2016,
+            "url": "http://colinraffel.com/posters/icassp2016pruning.pdf"
+        },
+        {
             "title": "Accelerating Multimodal Sequence Retrieval with Convolutional Networks",
             "venue": "NIPS Multimodal Machine Learning Workshop",
             "year": 2015,

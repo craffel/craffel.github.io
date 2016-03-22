@@ -1,6 +1,12 @@
 {"talks":
     [
         {
+            "title": "Optimizing DTW-Based Audio-to-MIDI Alignment and Matching",
+            "venue": "41st IEEE International Conference on Acoustics, Speech, and Signal Processing",
+            "url": "http://colinraffel.com/talks/icassp2016optimizing.pdf",
+            "year": 2016
+        },
+        {
             "title": "Accelerating Large-Scale Sequence Retrieval with Convolutional Networks",
             "venue": "IIT Bombay Electrical Engineering Seminar",
             "url": "http://colinraffel.com/talks/iitbombay2015accelerating.pdf",
