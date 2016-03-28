@@ -2,6 +2,15 @@
     [
         {
             "authors": "Colin Raffel and Daniel P. W. Ellis",
+            "url": "http://colinraffel.com/publications/iclr2016feed.pdf",
+            "title": "Feed-Forward Networks with Attention Can Solve Some Long-Term Memory Problems",
+            "venue": "International Conference on Learning Representations (Workshop Track)",
+            "day": 2,
+            "month": 5,
+            "year": 2016
+        },
+        {
+            "authors": "Colin Raffel and Daniel P. W. Ellis",
             "url": "http://colinraffel.com/publications/icassp2016pruning.pdf",
             "title": "Pruning Subsequence Search with Attention-Based Embedding",
             "venue": "Proceedings of the 2016 IEEE International Conference on Acoustics, Speech and Signal Processing",
