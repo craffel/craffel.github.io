@@ -1,6 +1,12 @@
 {"posters":
     [
         {
+            "title": "Feed-Forward Networks with Attention Can Solve Some Long-Term Memory Problems",
+            "venue": "International Conference on Learning Representations",
+            "year": 2016,
+            "url": "http://colinraffel.com/posters/iclr2016feed.pdf"
+        },
+        {
             "title": "Pruning Subsequence Search with Attention-Based Embedding",
             "venue": "41st IEEE International Conference on Acoustics, Speech, and Signal Processing",
             "year": 2016,
