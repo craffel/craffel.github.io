@@ -166,7 +166,7 @@
             {% for item in teaching %}
             <div class="item">
                 <h3>{% if item.url %}<a href="{{item.url}}">{% endif %}{{item.name}}{% if item.url %}</a>{% endif %}</h3>
-                {{item.blurb}}, {% if item.start %}{{item.start}}{% endif %}{% if item.end %}&#8211;{{item.end}}{% endif %}
+                {{item.blurb}}, {{item.start}}{% if item.end %}&#8211;{{item.end}}{% endif %}
             </div>
             {% endfor %}
         </div>
@@ -207,7 +207,7 @@
             {% for item in employment %}
             <div class="item">
                 <h3><a href="{{item.url}}">{{item.name}}</a></h3>
-                {{item.blurb}}, {% if item.start %}{{item.start}}{% endif %}{% if item.end %}&#8211;{{item.end}}{% endif %}
+                {{item.blurb}}, {{item.start}}{% if item.end %}&#8211;{{item.end}}{% endif %}
             </div>
             {% endfor %}
         </div>
@@ -218,7 +218,7 @@
             {% for item in service %}
             <div class="item">
                 <h3>{% if item.url %}<a href="{{item.url}}">{% endif %}{{item.name}}{% if item.url %}</a>{% endif %}</h3>
-                {{item.blurb}}, {% if item.start %}{{item.start}}{% endif %}{% if item.end %}&#8211;{{item.end}}{% endif %}
+                {{item.blurb}}, {{item.start}}{% if item.end %}&#8211;{{item.end}}{% endif %}
             </div>
             {% endfor %}
         </div>
@@ -239,7 +239,7 @@
             {% for item in courses %}
             <div class="item">
                 <h3>{% if item.url %}<a href="{{item.url}}">{% endif %}{{item.name}}{% if item.url %}</a>{% endif %}</h3>
-                {{item.blurb}}, {% if item.start %}{{item.start}}{% endif %}{% if item.end %}&#8211;{{item.end}}{% endif %}
+                {{item.blurb}}, {{item.start}}{% if item.end %}&#8211;{{item.end}}{% endif %}
             </div>
             {% endfor %}
         </div>
