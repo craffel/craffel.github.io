@@ -2,6 +2,16 @@
     [
         {
             "authors": "Colin Raffel and Daniel P. W. Ellis",
+            "url": "http://colinraffel.com/publications/ismir2016extracting.pdf",
+            "title": "Extracting Ground Truth Information from MIDI Files: A MIDIfesto",
+            "venue": "Proceedings of the 17th International Society for Music Information Retrieval Conference",
+            "day": 8,
+            "month": 11,
+            "year": 2016,
+            "code_url": "http://github.com/craffel/midi-ground-truth"
+        },
+        {
+            "authors": "Colin Raffel and Daniel P. W. Ellis",
             "url": "http://colinraffel.com/publications/iclr2016feed.pdf",
             "title": "Feed-Forward Networks with Attention Can Solve Some Long-Term Memory Problems",
             "venue": "International Conference on Learning Representations (Workshop Track)",
