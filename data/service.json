@@ -1,6 +1,12 @@
 {"service":
     [
         {
+            "url": "https://github.com/ismir-net/ismir2016-lbd",
+            "name": "Late Breaking/Demo and Unconference Chair",
+            "blurb": "Organize and review submissions for the late breaking/demo session and unconference at the 17th International Society for Music Information Retrieval Conference",
+            "start": 2016
+        },
+        {
             "url": "http://labrosa.ee.columbia.edu/cuneuralnet/",
             "name": "Columbia Neural Network Research Group and Seminar Series",
             "blurb": "Organize and present paper discussions, tutorials, and seminars on neural networks",

@@ -228,7 +228,7 @@
         <div class="block">
             {% for item in reviewing %}
             <div class="item">
-                <b>{{item.venue}}</b>, {{item.year}}
+                <b>{{item.venue}}</b>, {{item.start}}{% if item.end %}&#8211;{{item.end}}{% endif %}
             </div>
             {% endfor %}
         </div>

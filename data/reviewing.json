@@ -1,20 +1,21 @@
 {"reviewing":
     [
         {
-            "venue": "16th International Society for Music Information Retrieval Conference",
-            "year": 2015
+            "venue": "International Society for Music Information Retrieval Conference",
+            "start": 2014,
+            "end": 2016
+        },
+        {
+            "venue": "Journal of New Music Research",
+            "start": 2016
         },
         {
             "venue": "EURASIP Journal on Audio, Speech, and Music Processing",
-            "year": 2015
-        },
-        {
-            "venue": "15th International Society for Music Information Retrieval Conference",
-            "year": 2014
+            "start": 2015
         },
         {
             "venue": "IEEE International Symposium on Information Theory",
-            "year": 2014
+            "start": 2014
         }
     ]
 }
