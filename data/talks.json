@@ -1,6 +1,12 @@
 {"talks":
     [
         {
+            "title": "Learning-Based Methods for Comparing Sequences, with Applications to Audio-to-MIDI Alignment and Matching",
+            "venue": "2nd ICML Machine Learning for Music Discovery Workshop",
+            "url": "http://colinraffel.com/talks/icml2016learning.pdf",
+            "year": 2016
+        },
+        {
             "title": "Optimizing DTW-Based Audio-to-MIDI Alignment and Matching",
             "venue": "41st IEEE International Conference on Acoustics, Speech, and Signal Processing",
             "url": "http://colinraffel.com/talks/icassp2016optimizing.pdf",
