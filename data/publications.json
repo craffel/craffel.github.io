@@ -11,6 +11,16 @@
             "code_url": "http://github.com/craffel/midi-ground-truth"
         },
         {
+            "authors": "Colin Raffel",
+            "url": "http://colinraffel.com/publications/thesis.pdf",
+            "title": "Learning-Based Methods for Comparing Sequences, with Applications to Audio-to-MIDI Alignment and Matching",
+            "venue": "PhD Thesis",
+            "day": 12,
+            "month": 7,
+            "year": 2016,
+            "code_url": "http://github.com/craffel/midi-dataset"
+        },
+        {
             "authors": "Colin Raffel and Daniel P. W. Ellis",
             "url": "http://colinraffel.com/publications/iclr2016feed.pdf",
             "title": "Feed-Forward Networks with Attention Can Solve Some Long-Term Memory Problems",
