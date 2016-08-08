@@ -23,10 +23,6 @@
             "start": "2005",
             "end": "2009",
             "blurb": "Bachelor of Arts in Mathematics with Physics minor and independent studies in audio circuit design, 3.7 cumulative GPA"
-        },
-        {
-            "place": "Relevant Courses Taken",
-            "blurb": "Advanced Machine Learning, Statistical Machine Learning, Introduction to Adaptive Signal Representations, Sparse Representations and High-Dimensional Geometry, Speech Recognition, Signal Processing Methods in Musical Acoustics, Audio Applications of the Fast Fourier Transform"
         }
     ]
 }
