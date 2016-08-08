@@ -1,9 +1,15 @@
 {"education":
     [
         {
+            "place": "Google, Mountain View, CA",
+            "start": "2016",
+            "end": "2017 (expected)",
+            "blurb": "Resident in the Google Brain group"
+        },
+        {
             "place": "Columbia University, New York, NY",
             "start": "2012",
-            "end": "2016 (expected)",
+            "end": "2016",
             "blurb": "PhD in Electrical Engineering at the Laboratory for the Recognition and Organization of Speech and Audio, advisor Dan Ellis, 4.1 cumulative GPA"
         },
         {
