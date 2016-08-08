@@ -38,7 +38,7 @@
             {% for item in publications %}
             <a href="{{item.url}}">{{item.title}}</a><br />
             {{item.authors}}<br />
-            in <i>{{item.venue}}</i>, {{item.year}}.<br />
+            <i>{{item.venue}}</i>, {{item.year}}.<br />
             {% if item.note %}<b>{{item.note}}</b><br />{% endif %}
             <br />
             {% endfor %}

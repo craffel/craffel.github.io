@@ -124,7 +124,7 @@
         <div class="block">
             {% for item in publications %}
             <div class="item">
-                {{item.authors}}, <b><a href="{{item.url}}">&#x201c;{{item.title}}&#x201d;</a></b>, in <i>{{item.venue}}</i>, {{item.year}}.
+                {{item.authors}}, <b><a href="{{item.url}}">&#x201c;{{item.title}}&#x201d;</a></b>, <i>{{item.venue}}</i>, {{item.year}}.
             </div>
             {% endfor %}
         </div>
