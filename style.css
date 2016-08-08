@@ -9,7 +9,7 @@ div.menublock {
 	position: absolute;
 	left: 20px;
 	border: black 1px solid;
-	width: 80px;
+	width: 86px;
 	text-align: center;
 	height: 22px;
 	vertical-align: middle;
@@ -27,7 +27,7 @@ img {
 
 #main {
 	position: absolute;
-	left: 114px;
+	left: 120px;
 	border: black 1px solid;
 	background-color: #EEE;
 	top: 10px;
