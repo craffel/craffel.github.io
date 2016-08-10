@@ -5,8 +5,8 @@
             "url": "http://colinraffel.com/publications/ismir2016extracting.pdf",
             "title": "Extracting Ground Truth Information from MIDI Files: A MIDIfesto",
             "venue": "Proceedings of the 17th International Society for Music Information Retrieval Conference",
-            "day": 8,
-            "month": 11,
+            "day": 10,
+            "month": 8,
             "year": 2016,
             "code_url": "http://github.com/craffel/midi-ground-truth"
         },
