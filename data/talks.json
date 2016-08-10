@@ -1,6 +1,12 @@
 {"talks":
     [
         {
+            "title": "Extracting Ground Truth Information from MIDI Files: A MIDIfesto",
+            "venue": "17th International Society for Music Information Retrieval Conference",
+            "url": "http://colinraffel.com/talks/ismir2016extracting.pdf",
+            "year": 2016
+        },
+        {
             "title": "Learning-Based Methods for Comparing Sequences, with Applications to Audio-to-MIDI Alignment and Matching",
             "venue": "2nd ICML Machine Learning for Music Discovery Workshop",
             "url": "http://colinraffel.com/talks/icml2016learning.pdf",
