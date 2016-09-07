@@ -1,6 +1,12 @@
 {"talks":
     [
         {
+            "title": "The Lakh MIDI Dataset: How It Was Made, and How to Use It",
+            "venue": "BISH Bash Meetup",
+            "url": "http://colinraffel.com/talks/bishbash2016lakh.pdf",
+            "year": 2016
+        },
+        {
             "title": "Extracting Ground Truth Information from MIDI Files: A MIDIfesto",
             "venue": "17th International Society for Music Information Retrieval Conference",
             "url": "http://colinraffel.com/talks/ismir2016extracting.pdf",
