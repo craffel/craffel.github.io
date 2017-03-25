@@ -39,7 +39,7 @@
             <h2 id="publications">Publications</h2>
 
             {% for item in publications %}
-            <a href="{{item.url}}">{{item.title}}</a><br />
+            {% if item.url %}<a href="{{item.url}}">{% endif %}{{item.title}}{% if item.url %}</a>{% endif %}<br />
             {{item.authors}}<br />
             <i>{{item.venue}}</i>, {{item.year}}.<br />
             {% if item.note %}<b>{{item.note}}</b><br />{% endif %}
