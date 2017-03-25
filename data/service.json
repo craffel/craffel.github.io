@@ -3,20 +3,20 @@
         {
             "url": "https://github.com/ismir-net/ismir2016-lbd",
             "name": "Late Breaking/Demo and Unconference Chair",
-            "blurb": "Organize and review submissions for the late breaking/demo session and unconference at the 17th International Society for Music Information Retrieval Conference",
+            "blurb": "Reviewed all submissions for the late breaking/demo session and coordinated the unconference at the 17th International Society for Music Information Retrieval Conference",
             "start": 2016
         },
         {
             "url": "http://labrosa.ee.columbia.edu/cuneuralnet/",
             "name": "Columbia Neural Network Research Group and Seminar Series",
-            "blurb": "Organize and present paper discussions, tutorials, and seminars on neural networks",
+            "blurb": "Organized and presented paper discussions, tutorials, and seminars on neural networks",
             "start": 2014,
             "end": 2016
         },
         {
             "url": "http://labrosa.ee.columbia.edu/crucialpython/",
             "name": "Crucial Python",
-            "blurb": "Organized a seminar series on obscure but useful aspects of the Python programming language",
+            "blurb": "Curated a seminar series on obscure but useful aspects of the Python programming language",
             "start": 2014
         },
         {
@@ -28,7 +28,7 @@
         },
         {
             "name": "Intern Supervisor",
-            "blurb": "Oversee summer interns working on Music Information Retrieval research projects",
+            "blurb": "Oversaw summer interns working on Music Information Retrieval research projects",
             "start": 2013,
             "end": 2016
         },
