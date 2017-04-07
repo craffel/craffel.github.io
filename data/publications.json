@@ -1,6 +1,35 @@
 {"publications":
     [
         {
+            "authors": "Colin Raffel, Thang Luong, Peter J. Liu, Ron J. Weiss, and Douglas Eck",
+            "url": "http://colinraffel.com/publications/arxiv2017online.pdf",
+            "title": "Online and Linear-Time Attention by Enforcing Monotonic Alignments",
+            "venue": "arXiv preprint arXiv:1704.00784",
+            "day": 3,
+            "month": 4,
+            "year": 2017,
+            "code_url": "https://github.com/craffel/mad"
+        },
+        {
+            "authors": "Colin Raffel and Dieterich Lawson",
+            "url": "http://colinraffel.com/publications/iclr2017training.pdf",
+            "title": "Training a Subsampling Mechanism in Expectation",
+            "venue": "Workshop Extended Abstracts of the 5th International Conference on Learning Representations",
+            "day": 24,
+            "month": 4,
+            "year": 2017,
+            "code_url": "https://github.com/craffel/subsampling_in_expectation"
+        },
+        {
+            "authors": "Justin Gilmer, Colin Raffel, Samuel S. Schoenholz, Maithra Raghu, and Jascha Sohl-Dickstein",
+            "url": "http://colinraffel.com/publications/iclr2017explaining.pdf",
+            "title": "Explaining the Learning Dynamics of Direct Feedback Alignment",
+            "venue": "Workshop Extended Abstracts of the 5th International Conference on Learning Representations",
+            "day": 24,
+            "month": 4,
+            "year": 2017
+        },
+        {
             "authors": "Colin Raffel and Daniel P. W. Ellis",
             "url": "http://colinraffel.com/publications/ismir2016extracting.pdf",
             "title": "Extracting Ground Truth Information from MIDI Files: A MIDIfesto",
