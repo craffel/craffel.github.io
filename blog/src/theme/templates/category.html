@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Category {{category}}</h1>
+
+<dl>
+{% for article in dates %}
+    <dt><time>{{ article.locale_date }}</time></dt>
+    <dd><a href='{{ SITEURL }}/{{ article.url }}'>{{ article.title }}</a></dd>
+{% endfor %}
+</dl>
+{% endblock %}
