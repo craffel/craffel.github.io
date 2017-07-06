@@ -1,14 +1,23 @@
 {"publications":
     [
         {
-            "authors": "Colin Raffel, Thang Luong, Peter J. Liu, Ron J. Weiss, and Douglas Eck",
-            "url": "http://colinraffel.com/publications/arxiv2017online.pdf",
+            "authors": "Colin Raffel, Minh-Thang Luong, Peter J. Liu, Ron J. Weiss, and Douglas Eck",
+            "url": "http://colinraffel.com/publications/icml2017online.pdf",
             "title": "Online and Linear-Time Attention by Enforcing Monotonic Alignments",
-            "venue": "arXiv preprint arXiv:1704.00784",
-            "day": 3,
-            "month": 4,
+            "venue": "Proceedings of the 34th International Conference on Machine Learning",
+            "day": 6,
+            "month": 8,
             "year": 2017,
             "code_url": "https://github.com/craffel/mad"
+        },
+        {
+            "authors": "Dieterich Lawson, George Tucker, Chung-Cheng Chiu, Colin Raffel, Kevin Swersky, and Navdeep Jaitly",
+            "url": "http://colinraffel.com/publications/arxiv2017learning.pdf",
+            "title": "Learning Hard Alignments with Variational Inference",
+            "venue": "arXiv preprint arXiv:1705.05524",
+            "day": 16,
+            "month": 5,
+            "year": 2017
         },
         {
             "authors": "Colin Raffel and Dieterich Lawson",
