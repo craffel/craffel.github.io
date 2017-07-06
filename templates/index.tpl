@@ -21,10 +21,11 @@
 
             <h1 style="margin-top: 0px; margin-bottom: 4px">Colin Raffel</h1>
 
-            My research focuses on machine learning techniques for sequential
-            data.  I am currently a resident at <a href="https://research.google.com/teams/brain/"> Google Brain</a>.
-            I recently completed a PhD in Electrical Engineering at Columbia
-            University In <a href="http://labrosa.ee.columbia.edu/">LabROSA</a>,
+            I am currently a Research Scientist (formerly a resident) at
+            <a href="https://research.google.com/teams/brain/">Google Brain</a>,
+            where I am working on unsupervised learning, machine learning security,
+            and models for sequential data.  I did my PhD at Columbia
+            University in <a href="http://labrosa.ee.columbia.edu/">LabROSA</a>,
             supervised by <a href="http://www.ee.columbia.edu/~dpwe/">Dan Ellis</a>.
             My <a href="publications/thesis.pdf">thesis</a> focused on
             learning-based methods for comparing sequences.  The main product
