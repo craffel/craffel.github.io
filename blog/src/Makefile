@@ -63,7 +63,7 @@ help:
 
 html:
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
-	mv $(OUTPUTDIR)/* ../
+	cp -r $(OUTPUTDIR)/* ../ && rm -rf $(OUTPUTDIR)
 
 clean:
 	[ ! -d $(OUTPUTDIR) ] || rm -rf $(OUTPUTDIR)

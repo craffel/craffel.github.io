@@ -197,7 +197,7 @@ The speedup is particularly strong when the input sequence is short, because the
 Code
 ----
 
-To help people try this model out, I put an `example TensorFlow implementation on GitHub <github.com/craffel/mad>`_.
+To help people try this model out, I put an `example TensorFlow implementation on GitHub <http://github.com/craffel/mad>`_.
 The code for the speed benchmark is in the same repository.
 I've also added an implementation to ``tf.contrib.seq2seq``, so if you have the latest version of TensorFlow installed you can try it out immediately!
 Finally, I added a "practitioner's guide" to Appendix D of the paper, which gives lots of practical tips for getting it to work without trouble.
