@@ -44,16 +44,6 @@
         {% include 'github.html' %}
         {% block content %}
         {% endblock %}
-        <footer>
-            <nav>
-                <ul>
-                {% for name, link in SOCIAL %}
-                    <li><a href={{link}}>{{ name|title }}</a>{% if not loop.last %} ::{% endif %}</li>
-                {% endfor %}
-                </ul>
-            </nav>
-        <p id="theme-credit"><a href="https://github.com/chrisglass/tribaal-mnmlist">tribaal-mnmlist Theme</a></p>
-        </footer>
 
 {% include 'piwik.html' %}
 {% include 'disqus_script.html' %}
