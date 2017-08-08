@@ -1,6 +1,12 @@
 {"talks":
     [
         {
+            "title": "Online and Linear-Time Attention by Enforcing Monotonic Alignments",
+            "venue": "34th International Conference on Machine Learning",
+            "url": "http://colinraffel.com/talks/icml2017online.pdf",
+            "year": 2017
+        },
+        {
             "title": "The Lakh MIDI Dataset: How It Was Made, and How to Use It",
             "venue": "BISH Bash Meetup",
             "url": "http://colinraffel.com/talks/bishbash2016lakh.pdf",
