@@ -42,8 +42,9 @@ p {
   text-indent:0px }
 
 p.caption {
-  font-size:80%;
-  margin-top:0 }
+  font-size:16px;
+  margin-top:0;
+  line-height:22px }
 
 a {
   color:#303030;
