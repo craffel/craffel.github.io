@@ -9,7 +9,7 @@ It's been a great opportunity for the first year out of my PhD, and in this blog
 The Residency
 -------------
 
-Throughout the year I've had a lot of people have ask me what the residency actually is, since this is the first year Brain is running it.
+Throughout the year I've had a lot of people ask me what the residency actually is, since this is the first year Brain is running it.
 The most accurate description I've heard is that it's like spending a year in a PhD, except you're at Brain, not at a university.
 If you're new to machine learning, it might be like the *first* year of a PhD; if you already have a lot of experience in ML, doing research, writing papers, etc., it may be more like one of the later years of a PhD.
 That said, if you do the residency for four or five years you won't be able to make people call you "doctor".
@@ -18,11 +18,11 @@ I think this is an apt description because my day-to-day routine and responsibil
 Specifically, I'd normally spend an hour or two each morning reading papers, then I'd spend the day writing code to run experiments.
 From time to time, I'd attend talks by Brain researchers or people visiting.
 I had various people serving as my "advisor", who I'd report my research progress to and bounce ideas off of.
-And, of course, around paper deadlines I'd often be trying to cram my experimental results into the page limit for some conference or another.
+And, as usual, around paper deadlines I'd often be trying to cram my experimental results into the page limit for some conference or another.
 
 Of course, there have been some substantial differences too, mostly stemming from the fact that Brain is a very large research lab (hundreds of people), whereas most academic labs are considerably smaller.
 What this means in practice is that if you have a question about some specific research topic, there's probably someone at Brain who has worked on it, or more concretely if you're reading some random recent machine learning paper there's a good chance one of the authors is sitting within a few hundred feet from you.
-Also, it makes for a lot more collaboration opportunities - maybe too many!
+Also, it makes for many more opportunities for collaboration - maybe too many!
 I had never had to turn down/put off working on promising research with smart people before coming to Brain.
 
 Another significant difference is that you have a pretty crazy amount of computation at your disposal.
@@ -100,7 +100,7 @@ The difficult part is that variance of the gradient estimates can make training 
         The model (shown in grey) processes the input sequence x, and at each timestep decides to either emit a new token to include in the output sequence y, or continue ingesting inputs.
         This binary ingest/emit sequence is denoted b.
 
-In the beginning, we mostly shared results an insight at a high-level, but eventually I ended up trying out their idea on a sentence summarization benchmark I had been working with.
+In the beginning, we mostly shared results and insight at a high-level, but eventually I ended up trying out their idea on a sentence summarization benchmark I had been working with.
 This was mainly to see whether it worked in a setting other than speech recognition, which had been their primary testbed.
 Unfortunately it wasn't able to beat a simple attention-free sequence-to-sequence baseline, which suggested that the model was not really taking advantage of the attention mechanism.
 This could be at least in part because getting the model to work on speech recognition required some regularization which didn't generalize well to text data.
@@ -130,7 +130,7 @@ The tl;dr version being that, under this view, it's not that surprising that DFA
 Magenta
 =======
 
-A nice thing about working at Brain for me personally was that, while I could learn about new research areas and do foundational ML research, there was a group within Brain which was partially focused on music, namely `Magenta <http://magenta.tensorflow.org>`_.
+A nice thing about working at Brain for me personally was that, while I could learn about new research areas and do foundational ML research, there was a group within Brain which was partially focused on music: `Magenta <http://magenta.tensorflow.org>`_.
 I never did substantial work under the Magenta umbrella, but they were nice enough to let me come to their meetings and even asked me for my opinion on different research ideas from time to time.
 I also got the chance to go to Moogfest to represent Magenta, where I helped lead a tutorial on some of the tools they've developed.
 
@@ -139,10 +139,10 @@ What I'm Doing Next
 
 My initial post-PhD plan was (fittingly) to do a postdoc.
 After deciding to do the residency instead, I still planned to do a postdoc after the residency.
-A postdoc sounds really nice to me, in terms of where I'm at in my research career - I still want good top-down device from an advisor, but I've also really enjoyed my mentorship opportunities in the past, and a postdoc seems like an ideal combination of these dynamics.
+A postdoc sounds really nice to me, in terms of where I'm at in my research career - I still want good top-down advice from an advisor, but I've also really enjoyed my mentorship opportunities in the past, and a postdoc seems like an ideal combination of these dynamics.
 But, I've ultimately decided to stay at Brain as a research scientist (and fortunately Google is on board with this decision).
 Here's why:
-I think if you asked your average ML researcher to describe their ideal research lab, they'd say something like "I'd like to be able to work on whatever I want, be surrounded by smart people, share my results freely, and have effectively unlimited resources".
+I think if you asked your average ML researcher to describe their ideal research lab, they'd say something like "I'd like to be able to work on whatever I want, be surrounded by smart people, share my results freely, and have effectively unlimited resources."
 Incidentally, I think you could describe Brain this way.
 
 I honestly don't know of a lab anywhere where researchers have the same freedom that they do at Brain; I think I realized this when I was talking to my fellow resident `Sam <https://samschoenholz.wordpress.com/>`_ and he said something along the lines of "look, I just wrote a paper on chemistry [#]_.  What ML-focused research labs would let me do something like that?"
@@ -150,7 +150,7 @@ As far as I can tell, researchers at Brain are never required, or even asked, to
 
 In terms of colleagues, as I mentioned above you are basically surrounded by leading ML researchers.
 In analogy with the postdoc, a new crop of residents has just arrived and there are always interns around, which provides excellent potential mentorship opportunities.
-I also have come to realize that a huge part of a lab's culture comes from it's leadership, and I think Brain's great culture is largely thanks to this.
+I also have come to realize that a huge part of a lab's culture comes from its leadership, and I think Brain's great culture is largely thanks to this.
 The senior staff at Brain are uniformly approachable, friendly, and sharing-focused.
 Of course, the more junior people are also extremely knowledgeable and hard-working.
 
