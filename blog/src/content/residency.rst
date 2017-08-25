@@ -11,7 +11,8 @@ The Residency
 
 Throughout the year I've had a lot of people ask me what the residency actually is, since this is the first year Brain is running it.
 The most accurate description I've heard is that it's like spending a year in a PhD, except you're at Brain, not at a university.
-If you're new to machine learning, it might be like the *first* year of a PhD; if you already have a lot of experience in ML, doing research, writing papers, etc., it may be more like one of the later years of a PhD.
+If you're new to machine learning, it might be like the *first* year of a PhD (except without any classes!).
+If you already have a lot of experience in ML, doing research, writing papers, etc., it may be more like one of the later years of a PhD.
 That said, if you do the residency for four or five years you won't be able to make people call you "doctor".
 
 I think this is an apt description because my day-to-day routine and responsibilities felt pretty unchanged compared to what I was doing during my PhD.
