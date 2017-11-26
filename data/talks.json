@@ -1,6 +1,18 @@
 {"talks":
     [
         {
+            "title": "Leveraging MIDI Files for Music Information Retrieval",
+            "venue": "18th International Society for Music Information Retrieval Tutorials",
+            "url": "http://colinraffel.com/talks/ismir2017leveraging.pdf",
+            "year": 2017
+        },
+        {
+            "title": "Doing Strange Things with Attention",
+            "venue": "AI With The Best &amp; 1st USF Data Institute Conference",
+            "url": "http://colinraffel.com/talks/aiwtb2017doing.pdf",
+            "year": 2017
+        },
+        {
             "title": "Online and Linear-Time Attention by Enforcing Monotonic Alignments",
             "venue": "34th International Conference on Machine Learning",
             "url": "http://colinraffel.com/talks/icml2017online.pdf",
@@ -8,8 +20,8 @@
         },
         {
             "title": "The Lakh MIDI Dataset: How It Was Made, and How to Use It",
-            "venue": "BISH Bash Meetup",
-            "url": "http://colinraffel.com/talks/bishbash2016lakh.pdf",
+            "venue": "BISH Bash Meetup, Centre for Digital Music Seminar &amp; Jukedeck Lunch and Learn",
+            "url": "http://colinraffel.com/talks/c4dm2016lakh.pdf",
             "year": 2016
         },
         {
