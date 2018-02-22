@@ -1,9 +1,22 @@
 {"reviewing":
     [
         {
+            "venue": "International Conference on Machine Learning",
+            "start": 2018
+        },
+        {
+            "venue": "International Conference on Learning Representations",
+            "start": 2017,
+            "end": 2018
+        },
+        {
+            "venue": "Neural Information Processing Systems",
+            "start": 2017
+        },
+        {
             "venue": "International Society for Music Information Retrieval Conference",
             "start": 2014,
-            "end": 2017
+            "end": 2018
         },
         {
             "venue": "Journal of New Music Research",
