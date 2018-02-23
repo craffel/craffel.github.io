@@ -1,6 +1,42 @@
 {"publications":
     [
         {
+            "authors": "Chung-Cheng Chiu* and Colin Raffel*",
+            "url": "http://colinraffel.com/publications/iclr2018monotonic.pdf",
+            "title": "Monotonic Chunkwise Attention",
+            "venue": "Proceedings of the 6th International Conference on Learning Representations",
+            "day": 30,
+            "month": 4,
+            "year": 2018
+        },
+        {
+            "authors": "Jacob Buckman*, Aurko Roy*, Colin Raffel and Ian J. Goodfellow",
+            "url": "http://colinraffel.com/publications/iclr2018thermometer.pdf",
+            "title": "Thermometer Encoding: One Hot Way To Resist Adversarial Examples",
+            "venue": "Proceedings of the 6th International Conference on Learning Representations",
+            "day": 30,
+            "month": 4,
+            "year": 2018
+        },
+        {
+            "authors": "Dieterich Lawson*, George Tucker*, Chung-Cheng Chiu*, Colin Raffel, Kevin Swersky, and Navdeep Jaitly",
+            "url": "http://colinraffel.com/publications/icassp2018learning.pdf",
+            "title": "Learning Hard Alignments with Variational Inference",
+            "venue": "Proceedings of the 43rd IEEE International Conference on Acoustics, Speech and Signal Processing",
+            "day": 15,
+            "month": 4,
+            "year": 2018
+        },
+        {
+            "authors": "Curtis Hawthorne*, Erich Elsen*, Jialin Song*, Adam Roberts, Ian Simon, Colin Raffel, Jesse Engel, Sageev Oore, and Douglas Eck",
+            "url": "http://colinraffel.com/publications/arxiv2017dual.pdf",
+            "title": "Onsets and Frames: Dual-Objective Piano Transcription",
+            "venue": "arXiv preprint arXiv:1710.11153",
+            "day": 30,
+            "month": 10,
+            "year": 2017
+        },
+        {
             "authors": "Colin Raffel, Minh-Thang Luong, Peter J. Liu, Ron J. Weiss, and Douglas Eck",
             "url": "http://colinraffel.com/publications/icml2017online.pdf",
             "title": "Online and Linear-Time Attention by Enforcing Monotonic Alignments",
@@ -9,15 +45,6 @@
             "month": 8,
             "year": 2017,
             "code_url": "https://github.com/craffel/mad"
-        },
-        {
-            "authors": "Dieterich Lawson, George Tucker, Chung-Cheng Chiu, Colin Raffel, Kevin Swersky, and Navdeep Jaitly",
-            "url": "http://colinraffel.com/publications/arxiv2017learning.pdf",
-            "title": "Learning Hard Alignments with Variational Inference",
-            "venue": "arXiv preprint arXiv:1705.05524",
-            "day": 16,
-            "month": 5,
-            "year": 2017
         },
         {
             "authors": "Colin Raffel and Dieterich Lawson",
