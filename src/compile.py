@@ -2,6 +2,7 @@ import jinja2
 import os
 import glob
 import json
+import re
 import datetime
 now = datetime.datetime.now()
 
@@ -22,6 +23,9 @@ def load_data(json_glob):
                         entry['year'], entry['month'], entry['day'])
                     if entry_time > now:
                         entry['year'] = '{} (to appear)'.format(entry['year'])
+                if 'authors' in entry:
+                    entry['authors'] = re.sub(
+                        r'(Colin Raffel)', r'<b>\1</b>', entry['authors'])
 
             datas.append(data)
 
@@ -38,6 +42,7 @@ def compile_template(template_path, data, output_path):
 
     with open(output_path, 'w') as f:
         f.write(template.render(**data))
+
 
 if __name__ == '__main__':
     compile_template(

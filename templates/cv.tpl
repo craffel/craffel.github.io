@@ -124,7 +124,7 @@
         <div class="block">
             {% for item in publications %}
             <div class="item">
-                {{item.authors}}, <b>{% if item.url %}<a href="{{item.url}}">{% endif %}&#x201c;{{item.title}}&#x201d;{% if item.url %}</a>{% endif %}</b>, <i>{{item.venue}}</i>, {{item.year}}.
+                {{item.authors}}, <u>{% if item.url %}<a href="{{item.url}}">{% endif %}&#x201c;{{item.title}}&#x201d;{% if item.url %}</a>{% endif %}</u>, <i>{{item.venue}}</i>, {{item.year}}.
             </div>
             {% endfor %}
         </div>
@@ -134,7 +134,7 @@
         <div class="block">
             {% for item in techreports %}
             <div class="item">
-                {{item.authors}}, <b><a href="{{item.url}}">&#x201c;{{item.title}}&#x201d;</a></b>, <i>{{item.venue}}</i>, {{item.year}}.
+                {{item.authors}}, <u><a href="{{item.url}}">&#x201c;{{item.title}}&#x201d;</a></u>, <i>{{item.venue}}</i>, {{item.year}}.
             </div>
             {% endfor %}
         </div>
