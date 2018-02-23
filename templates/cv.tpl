@@ -108,6 +108,16 @@
 
         <hr width="98%" />
 
+        <h2>Research Experience</h2>
+
+        <div class="block">
+            {% for item in research %}
+            <div class="item">
+                <b>{{item.title}}</b>, {{item.place}}, {{item.start}}&#8211;{{item.end}}
+            </div>
+            {% endfor %}
+        </div>
+
         <h2>Education</h2>
 
         <div class="block">

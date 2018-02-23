@@ -1,12 +1,6 @@
 {"education":
     [
         {
-            "place": "Google, Mountain View, CA",
-            "start": "2016",
-            "end": "2017",
-            "blurb": "Resident in the Google Brain group"
-        },
-        {
             "place": "Columbia University, New York, NY",
             "start": "2012",
             "end": "2016",
