@@ -131,6 +131,15 @@
             "year": 2015
         },
         {
+            "authors": "Andreas Jansson, Colin Raffel, and Tillman Weyde",
+            "url": "http://colinraffel.com/publications/ismir2015this.pdf",
+            "title": "This Is My Jam: Data Dump",
+            "venue": "16th International Society for Music Information Retrieval Conference Late Breaking and Demo Papers",
+            "day": 30,
+            "month": 10,
+            "year": 2015
+        },
+        {
             "authors": "Colin Raffel and Daniel P. W. Ellis",
             "url": "http://colinraffel.com/publications/ismir2015large.pdf",
             "title": "Large-Scale Content-Based Matching of MIDI and Audio Files",
@@ -149,6 +158,15 @@
             "day": 8,
             "month": 7,
             "year": 2015
+        },
+        {
+            "authors": "Colin Raffel and Daniel P. W. Ellis",
+            "url": "http://colinraffel.com/publications/ismir2014intuitive.pdf",
+            "title": "Intuitive Analysis, Creation and Manipulation of MIDI Data with pretty_midi",
+            "venue": "15th International Society for Music Information Retrieval Conference Late Breaking and Demo Papers",
+            "day": 31,
+            "month": 10,
+            "year": 2014
         },
         {
             "authors": "Colin Raffel, Brian McFee, Eric J. Humphrey, Justin Salamon, Oriol Nieto, Dawen Liang, and Daniel P. W. Ellis",

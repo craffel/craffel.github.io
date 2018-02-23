@@ -139,16 +139,6 @@
             {% endfor %}
         </div>
 
-        <h2>Technical Reports, Whitepapers, etc.</h2>
-
-        <div class="block">
-            {% for item in techreports %}
-            <div class="item">
-                {{item.authors}}, <u><a href="{{item.url}}">&#x201c;{{item.title}}&#x201d;</a></u>, <i>{{item.venue}}</i>, {{item.year}}.
-            </div>
-            {% endfor %}
-        </div>
-
         <h2>Honors and Awards</h2>
 
         <div class="block">

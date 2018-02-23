@@ -47,16 +47,6 @@
             <br />
             {% endfor %}
 
-            <h2 id="techreports">Technical Reports, Whitepapers, etc.</h2>
-
-            {% for item in techreports %}
-            <a href="{{item.url}}">{{item.title}}</a><br />
-            {{item.authors}}<br />
-            <i>{{item.venue}}</i>, {{item.year}}.<br />
-            {% if item.note %}<b>{{item.note}}</b><br />{% endif %}
-            <br />
-            {% endfor %}
-
             <h2 id="software">Software Projects</h2>
 
             {% for item in code %}
