@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>colinraffel.com : Reviewing Criteria</title>
+        <meta charset="utf-8" />
+        <meta name=viewport content="width=device-width, initial-scale=1" />
+
+        <link rel="icon" type="image/png" href="/favicon.png" />
+
+        <link href="./None" type="application/atom+xml" rel="alternate" title="colinraffel.com ATOM Feed" />
+
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> <!-- Include jQuery 1.11.1 -->
+
+          <script>
+            $(function() {  //Run once DOM is ready
+              
+              $('img:not([data-nolink])').each(function() {  //Iterate through each img element
+              
+                $(this).wrap('<a href="' + $(this).attr('src') + '">'); //Wrap with link to own src
+              
+              });
+            
+            });
+          </script>
+
+        <!--[if IE]>
+                <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+        <!--[if lte IE 7]>
+                <link rel="stylesheet" type="text/css" media="all" href="./css/ie.css"/>
+                <script src="./js/IE8.js" type="text/javascript"></script><![endif]-->
+
+        <!--[if lt IE 7]>
+                <link rel="stylesheet" type="text/css" media="all" href="./css/ie6.css"/><![endif]-->
+
+</head>
+
+<body>
+        <h3><a href="http://colinraffel.com/blog">colinraffel.com/blog</a></h3>
+
+        
+<header>
+    <h1><a href="./reviewing-criteria.html" id="page-title">Reviewing Criteria</a></h1>
+<time datetime="2018-03-26T11:00:00-07:00">Mon 26 March 2018</time></header>
+<article>
+    <p>I have been reviewing more and more papers recently and have been thinking about how exactly I decide whether a submission is worth accepting.
+I thought I'd write down my reviewing criteria, mostly to confirm to myself that I actually have a principled way of doing it.
+I'd also be interested in hearing if other reviewers think it's reasonable, and if it is, it could potentially serve as a point of reference for people writing papers
+If I review your paper and it fails to meet one of these criteria, I'll probably recommend that it gets rejected; if your paper does a great job in all of them, I'll fight for its acceptance.
+<em>Disclaimer: I only review for (and submit to) a small handful of venues, which are all machine learning-related conferences.  This same set of rules may not apply to other fields, or different types of venues like journals and workshops.</em></p>
+<div class="section" id="criteria">
+<h2>Criteria</h2>
+<ol class="arabic simple">
+<li>The paper must present a New Thing.
+It doesn't have to be a new algorithm or technique - it can be new perspective or experiments on something which already exists.
+But there must be information or insight in the paper which is not available elsewhere.
+Further, it shouldn't be &quot;incremental&quot; - this information delta should be non-negligible.</li>
+<li>The paper must provide a convincing justification of the New Thing.
+This can be theoretical, empirical, or philosophical, but I should finish reading the paper thinking that it is worth people's time.
+For example, the New Thing could improve the performance of an existing model, or there could be a compelling argument that it exhibits improved theoretical properties.</li>
+<li>The description of the New Thing must be clear and understandable.
+Writing is important.
+I'm not really willing to accept a state-of-the-art result if it's really poorly described or there are lots of missing details.
+To the above point, if the justification isn't also clear and understandable, it won't really be convincing either.</li>
+</ol>
+<p>Note that I'm not including &quot;the paper must cite everything related to the New Thing&quot; as a criterion.
+As long as the New Thing is genuinely new, I'm happy to tell the authors that they missed some relevant citations and give them the benefit of the doubt that it will be included in the final version of the paper.
+Nor are &quot;the paper must follow a standard narrative format&quot; or &quot;the paper must be completely free of grammatical errors or typos&quot; or &quot;the graphs must be pretty&quot; criteria, though they don't hurt.
+As long as I can understand the contribution and the proof of concept, I'm happy.</p>
+</div>
+<div class="section" id="example">
+<h2>Example</h2>
+<p>As an example, I'll consider <a class="reference external" href="https://openreview.net/forum?id=rkEtzzWAb">&quot;Parametric Adversarial Divergences are Good Task Losses for Generative Modeling&quot;</a>.
+Since it was submitted to ICLR, you can see the reviews, and you'll notice that the reviewers didn't like the paper much.
+I liked it a lot (I even posted a public comment on OpenReview saying as much), so I'll try to justify why based on my reviewing criteria.</p>
+<p>First, this is a &quot;position paper&quot;, and as such its goal is to provide new perspective on existing ideas.
+It argues that adversarial divergences are a) sample efficient and b) able to enforce task-specific priors.
+Both of these facts had been established before, but this paper fleshes them out in a compelling way and provides the novel perspective of considering them like &quot;task losses&quot; used for structured prediction.
+This satisfies criterion 1.
+The authors provide some simple theoretical justification and a series of clever experiments to show that adversarial divergences can encode and learn task-specific structure, which covers the second criterion.
+Finally, I personally found the paper understandable and well-written, but you'll have to decide for yourself!</p>
+<p><em>Thanks to Catherine Olsson, Martin Abadi, and  Ishaan Gulrajani for their comments and feedback on a draft version of this blog post.</em></p>
+</div>
+
+</article>
+
+
+<link property='stylesheet' rel="stylesheet" href="./theme/css/main.css" type="text/css" />
+<link property='stylesheet' rel="stylesheet" href="./theme/css/pygment.css" type="text/css" />
+<link property='stylesheet' href='//fonts.googleapis.com/css?family=Ubuntu+Condensed' rel='stylesheet' type='text/css'>
+<link property='stylesheet' href='//fonts.googleapis.com/css?family=Ubuntu+Mono' rel='stylesheet' type='text/css'>
+</body>
+</html>
