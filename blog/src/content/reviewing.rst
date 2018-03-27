@@ -30,6 +30,8 @@ Note that I'm not including "the paper must cite everything related to the New T
 As long as the New Thing is genuinely new, I'm happy to tell the authors that they missed some relevant citations and give them the benefit of the doubt that it will be included in the final version of the paper.
 Nor are "the paper must follow a standard narrative format" or "the paper must be completely free of grammatical errors or typos" or "the graphs must be pretty" criteria, though they don't hurt.
 As long as I can understand the contribution and the proof of concept, I'm happy.
+Finally, I think there are issues with the current reviewing system (for example, in most venues there's no reliable way to evaluate the reproducibility of a paper), but that's a subject for another post.
+This list of criteria are the way I review things in the current (arguably flawed) system.
 
 Example
 -------
@@ -45,4 +47,4 @@ This satisfies criterion 1.
 The authors provide some simple theoretical justification and a series of clever experiments to show that adversarial divergences can encode and learn task-specific structure, which covers the second criterion.
 Finally, I personally found the paper understandable and well-written, but you'll have to decide for yourself!
 
-*Thanks to Catherine Olsson, Martin Abadi, and  Ishaan Gulrajani for their comments and feedback on a draft version of this blog post.*
+*Thanks to Catherine Olsson, Martin Abadi, and Ishaan Gulrajani for their comments and feedback on a draft version of this blog post.  Thanks also to Vincent Lostanlen for pointing out that I initially failed to address reproducibility as a criterion.*
