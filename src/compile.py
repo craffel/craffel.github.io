@@ -12,10 +12,14 @@ BUILD_PATH = '..'
 
 
 def load_data(json_glob):
+    def _ordinal_day(e):
+        return -datetime.date(
+            e.get('year', 1), e.get('month', 1), e.get('day', 1)).toordinal()
     datas = []
     for json_file in glob.glob(json_glob):
         with open(json_file) as f:
             data = json.load(f)
+            data = {k: sorted(v, key=_ordinal_day) for k, v in data.items()}
             entries = data.values()[0]
             for entry in entries:
                 if 'day' in entry and 'month' in entry and 'year' in entry:
@@ -26,7 +30,6 @@ def load_data(json_glob):
                 if 'authors' in entry:
                     entry['authors'] = re.sub(
                         r'(Colin Raffel)', r'<b>\1</b>', entry['authors'])
-
             datas.append(data)
 
     return dict((k, v) for d in datas for (k, v) in d.items())
