@@ -1,6 +1,11 @@
 {"awards":
     [
         {
+            "name": "Top 10 Reviewer Award",
+            "venue": "35th International Conference on Machine Learning",
+            "start": 2018
+        },
+        {
             "name": "National Science Foundation Student Travel Grant",
             "venue": "41st IEEE International Conference on Acoustics, Speech, and Signal Processing",
             "start": 2016
