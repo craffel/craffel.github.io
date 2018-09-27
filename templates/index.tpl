@@ -87,19 +87,6 @@
                url('../fonts/roboto-v18-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
                url('../fonts/roboto-v18-latin-700.svg#Roboto') format('svg'); /* Legacy iOS */
         }
-        /* roboto-700italic - latin */
-        @font-face {
-          font-family: 'Roboto';
-          font-style: italic;
-          font-weight: 700;
-          src: url('../fonts/roboto-v18-latin-700italic.eot'); /* IE9 Compat Modes */
-          src: local('Roboto Bold Italic'), local('Roboto-BoldItalic'),
-               url('../fonts/roboto-v18-latin-700italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-               url('../fonts/roboto-v18-latin-700italic.woff2') format('woff2'), /* Super Modern Browsers */
-               url('../fonts/roboto-v18-latin-700italic.woff') format('woff'), /* Modern Browsers */
-               url('../fonts/roboto-v18-latin-700italic.ttf') format('truetype'), /* Safari, Android, iOS */
-               url('../fonts/roboto-v18-latin-700italic.svg#Roboto') format('svg'); /* Legacy iOS */
-        }
 
         body {
 
@@ -168,11 +155,6 @@
 
         .social-links a {
             text-decoration: none;
-        }
-
-        .social-links a:hover>svg path {
-            fill: #333;
-            transition: all .4s ease;
         }
 
         svg {
