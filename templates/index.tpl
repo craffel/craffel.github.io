@@ -130,7 +130,7 @@
 
         @media (max-width: 650px) {
             .headshot {
-                width: 11em;
+                width: 10em;
             }
         }
 
@@ -150,6 +150,16 @@
 
             .social-links {
                 margin-top: 0.5em;
+            }
+        }
+
+        @media (max-width: 390px) {
+            header {
+                width: 8em;
+            }
+
+            .social-links {
+                width: 8em;
             }
         }
 
