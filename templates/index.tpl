@@ -128,9 +128,9 @@
             width: 100%;
         }
 
-        @media (max-width: 599px) {
+        @media (max-width: 650px) {
             .headshot {
-                width: 6em;
+                width: 11em;
             }
         }
 
@@ -141,7 +141,7 @@
             flex-flow: row;
         }
 
-        @media (max-width: 599px) {
+        @media (max-width: 650px) {
             header {
                 display: flex;
                 align-items: baseline;
