@@ -1,6 +1,12 @@
 {"teaching":
     [
         {
+            "url": "https://www.blog.google/outreach-initiatives/diversity/tech-exchange-brings-black-and-latinx-students-google/",
+            "name": "Instructor, Introduction to Machine Learning",
+            "blurb": "Taught semester-long course to undergraduate juniors from underrepresented groups as part of Google's TechExchange program",
+            "start": 2018
+        },
+        {
             "url": "http://llcao.net/cu-deeplearning15/",
             "name": "Teacher's Assistant, Deep Learning for Computer Vision and NLP",
             "blurb": "Advised students on software and final projects culminating in multiple conference submissions",
