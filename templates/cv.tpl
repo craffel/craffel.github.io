@@ -37,6 +37,7 @@
                 font-size: 11pt;
                 width: 670px;
                 margin: 0 auto;
+                line-height: 1.5;
             }
             h2 {
                 page-break-after: avoid;
@@ -54,6 +55,9 @@
                 margin-left: 20px;
             }
             .item {
+                margin-bottom: 10px;
+            }
+            .onelineitem {
                 margin-bottom: 5px;
             }
             #name {
@@ -112,7 +116,7 @@
 
         <div class="block">
             {% for item in research %}
-            <div class="item">
+            <div class="onelineitem">
                 <b>{{item.title}}</b>, {{item.place}}, {{item.start}}&#8211;{{item.end}}
             </div>
             {% endfor %}
@@ -143,7 +147,7 @@
 
         <div class="block">
             {% for item in awards %}
-            <div class="item">
+            <div class="onelineitem">
                 <b>{{item.name}}</b>,{% if item.venue %} {{item.venue}},{% endif %} {{item.start}}{% if item.end %}&#8211;{{item.end}}{% endif %}
             </div>
             {% endfor %}
@@ -175,7 +179,7 @@
 
         <div class="block">
             {% for item in mentorship %}
-            <div class="item">
+            <div class="onelineitem">
                 <b>{{item.name}}</b>, {{item.description}}, {{item.start}}{% if item.end %}&#8211;{{item.end}}{% endif %}
             </div>
             {% endfor %}
@@ -227,7 +231,7 @@
 
         <div class="block">
             {% for item in reviewing %}
-            <div class="item">
+            <div class="onelineitem">
                 <b>{{item.venue}}</b>, {{item.start}}{% if item.end %}&#8211;{{item.end}}{% endif %}
             </div>
             {% endfor %}
@@ -248,7 +252,7 @@
 
         <div class="block">
             {% for item in code %}
-            <div class="item">
+            <div class="onelineitem">
                 <font face="tt"><a href="{{item.url}}">{{item.title}}</a></font>, {{item.description}}
             </div>
             {% endfor %}
