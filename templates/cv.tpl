@@ -153,17 +153,6 @@
             {% endfor %}
         </div>
 
-        <h2>Business Ventures</h2>
-
-        <div class="block">
-            {% for item in business %}
-            <div class="item">
-                <h3>{{item.name}}</h3>
-                {{item.blurb}}, {{item.start}}&#8211;{{item.end}}
-            </div>
-            {% endfor %}
-        </div>
-
         <h2>Teaching</h2>
 
         <div class="block">
@@ -205,17 +194,6 @@
             {% endfor %}
         </div>
 
-        <h2>Employment</h2>
-
-        <div class="block">
-            {% for item in employment %}
-            <div class="item">
-                <h3><a href="{{item.url}}">{{item.name}}</a></h3>
-                {{item.blurb}}, {{item.start}}{% if item.end %}&#8211;{{item.end}}{% endif %}
-            </div>
-            {% endfor %}
-        </div>
-
         <h2>Academic Service</h2>
 
         <div class="block">
@@ -237,23 +215,34 @@
             {% endfor %}
         </div>
 
-        <h2>Additional Coursework</h2>
-
-        <div class="block">
-            {% for item in courses %}
-            <div class="item">
-                <h3>{% if item.url %}<a href="{{item.url}}">{% endif %}{{item.name}}{% if item.url %}</a>{% endif %}</h3>
-                {{item.blurb}}, {{item.start}}{% if item.end %}&#8211;{{item.end}}{% endif %}
-            </div>
-            {% endfor %}
-        </div>
-
         <h2>Software Libraries</h2>
 
         <div class="block">
             {% for item in code %}
             <div class="onelineitem">
                 <font face="tt"><a href="{{item.url}}">{{item.title}}</a></font>, {{item.description}}
+            </div>
+            {% endfor %}
+        </div>
+
+        <h2>Business Ventures</h2>
+
+        <div class="block">
+            {% for item in business %}
+            <div class="item">
+                <h3>{{item.name}}</h3>
+                {{item.blurb}}, {{item.start}}&#8211;{{item.end}}
+            </div>
+            {% endfor %}
+        </div>
+
+        <h2>Employment</h2>
+
+        <div class="block">
+            {% for item in employment %}
+            <div class="item">
+                <h3><a href="{{item.url}}">{{item.name}}</a></h3>
+                {{item.blurb}}, {{item.start}}{% if item.end %}&#8211;{{item.end}}{% endif %}
             </div>
             {% endfor %}
         </div>

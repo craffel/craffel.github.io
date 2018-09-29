@@ -4,19 +4,19 @@
             "place": "Columbia University, New York, NY",
             "start": "2012",
             "end": "2016",
-            "blurb": "PhD in Electrical Engineering at the Laboratory for the Recognition and Organization of Speech and Audio, advisor Dan Ellis, 4.1 cumulative GPA"
+            "blurb": "PhD in Electrical Engineering at the Laboratory for the Recognition and Organization of Speech and Audio"
         },
         {
             "place": "Stanford University, Stanford, CA",
             "start": "2009",
             "end": "2010",
-            "blurb": "Master of Arts in Music, Science, and Technology at the Center for Computer Research in Music and Acoustics, 4.1 cumulative GPA"
+            "blurb": "Master of Arts in Music, Science, and Technology at the Center for Computer Research in Music and Acoustics"
         },
         {
             "place": "Oberlin College, Oberlin, OH",
             "start": "2005",
             "end": "2009",
-            "blurb": "Bachelor of Arts in Mathematics with Physics minor and independent studies in audio circuit design, 3.7 cumulative GPA"
+            "blurb": "Bachelor of Arts in Mathematics with Physics minor"
         }
     ]
 }

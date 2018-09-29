@@ -33,29 +33,10 @@
             "end": 2016
         },
         {
-            "url": "http://kzsu.stanford.edu/",
-            "name": "KZSU, Stanford University Radio",
-            "blurb": "Developed web applications and a music fingerprinting system",
-            "start": 2009,
-            "end": 2010
-        },
-        {
             "name": "Mathematics Tutor",
             "blurb": "Assisted students studying algebra and linear algebra",
             "start": 2008,
             "end": 2009
-        },
-        {
-            "name": "Engineering People of Oberlin Club",
-            "blurb": "Served as the Electrical Engineering group coordinator and web administrator",
-            "start": 2008,
-            "end": 2009
-        },
-        {
-            "name": "Oberlin Student Cooperative Association Website Coordinator",
-            "blurb": "Maintained the website for Oberlin's eating and living cooperative organization",
-            "start": 2006,
-            "end": 2007
         }
     ]
 }
