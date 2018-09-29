@@ -20,12 +20,13 @@
         },
         {
             "authors": "Avital Oliver*, Augustus Odena*, Colin Raffel*, Ekin D. Cubuk and Ian J. Goodfellow",
-            "url": "http://colinraffel.com/publications/arxiv2018realistic.pdf",
+            "url": "http://colinraffel.com/publications/nips2018realistic.pdf",
             "title": "Realistic Evaluation of Deep Semi-Supervised Learning Algorithms",
-            "venue": "arXiv preprint arXiv:1804.09170",
-            "day": 24,
-            "month": 4,
-            "year": 2018
+            "venue": "Advances in Neural Information Processing Systems 31",
+            "day": 3,
+            "month": 12,
+            "year": 2018,
+            "note": "Spotlight Paper"
         },
         {
             "authors": "Adam Roberts, Jesse Engel, Colin Raffel, Curtis Hawthorne and Douglas Eck",
