@@ -171,12 +171,12 @@
             {% endfor %}
         </div>
 
-        <h2>Students Supervised</h2>
+        <h2>Mentorship</h2>
 
         <div class="block">
-            {% for item in students %}
+            {% for item in mentorship %}
             <div class="item">
-                <b>{{item.name}}</b>, {{item.description}}, {{item.year}}
+                <b>{{item.name}}</b>, {{item.description}}, {{item.start}}{% if item.end %}&#8211;{{item.end}}{% endif %}
             </div>
             {% endfor %}
         </div>
