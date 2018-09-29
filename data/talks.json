@@ -1,6 +1,12 @@
 {"talks":
     [
         {
+            "title": "A Few Unusual Autoencoders",
+            "venue": "Vector Institute &amp; New York University",
+            "url": "http://colinraffel.com/talks/vector2018few.pdf",
+            "year": 2018
+        },
+        {
             "title": "Leveraging MIDI Files for Music Information Retrieval",
             "venue": "18th International Society for Music Information Retrieval Tutorials",
             "url": "http://colinraffel.com/talks/ismir2017leveraging.pdf",
