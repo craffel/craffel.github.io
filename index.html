@@ -115,7 +115,7 @@
         }
 
         a {
-            color: #0012EE;
+            color: #005fd3;
         }
 
         .headshot {
@@ -175,7 +175,7 @@
         }
 
         svg path {
-            fill: #0012EE;
+            fill: #005fd3;
         }
 
     </style>
