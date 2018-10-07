@@ -8,7 +8,7 @@
         },
         {
             "title": "Leveraging MIDI Files for Music Information Retrieval",
-            "venue": "18th International Society for Music Information Retrieval Tutorials",
+            "venue": "18th International Society for Music Information Retrieval Conference Tutorials",
             "url": "http://colinraffel.com/talks/ismir2017leveraging.pdf",
             "year": 2017
         },
@@ -19,21 +19,9 @@
             "year": 2017
         },
         {
-            "title": "Online and Linear-Time Attention by Enforcing Monotonic Alignments",
-            "venue": "34th International Conference on Machine Learning",
-            "url": "http://colinraffel.com/talks/icml2017online.pdf",
-            "year": 2017
-        },
-        {
             "title": "The Lakh MIDI Dataset: How It Was Made, and How to Use It",
             "venue": "BISH Bash Meetup, Centre for Digital Music Seminar &amp; Jukedeck Lunch and Learn",
             "url": "http://colinraffel.com/talks/c4dm2016lakh.pdf",
-            "year": 2016
-        },
-        {
-            "title": "Extracting Ground Truth Information from MIDI Files: A MIDIfesto",
-            "venue": "17th International Society for Music Information Retrieval Conference",
-            "url": "http://colinraffel.com/talks/ismir2016extracting.pdf",
             "year": 2016
         },
         {
@@ -43,21 +31,9 @@
             "year": 2016
         },
         {
-            "title": "Optimizing DTW-Based Audio-to-MIDI Alignment and Matching",
-            "venue": "41st IEEE International Conference on Acoustics, Speech, and Signal Processing",
-            "url": "http://colinraffel.com/talks/icassp2016optimizing.pdf",
-            "year": 2016
-        },
-        {
             "title": "Accelerating Large-Scale Sequence Retrieval with Convolutional Networks",
             "venue": "IIT Bombay Electrical Engineering Seminar",
             "url": "http://colinraffel.com/talks/iitbombay2015accelerating.pdf",
-            "year": 2015
-        },
-        {
-            "title": "Large-Scale Content-Based Matching of MIDI and Audio Files",
-            "venue": "16th International Society for Music Information Retrieval Conference",
-            "url": "http://colinraffel.com/talks/ismir2015large.pdf",
             "year": 2015
         },
         {
@@ -97,12 +73,6 @@
             "year": 2015
         },
         {
-            "title": "MIR at LabROSA in 2014",
-            "venue": "NEMISIG 2015",
-            "url": "http://colinraffel.com/talks/nemisig2015mir.pdf",
-            "year": 2015
-        },
-        {
             "title": "Large-Scale Content-Based Matching of Audio and MIDI Data",
             "venue": "Stanford University DSP Seminar",
             "url": "http://colinraffel.com/talks/stanford2015large.pdf",
@@ -127,27 +97,9 @@
             "year": 2011
         },
         {
-            "title": "Using Noise Substitution for Backwards-Compatible Audio Codec Improvement",
-            "venue": "129th Convention of the Audio Engineering Society",
-            "url": "http://colinraffel.com/talks/aes2010using.pdf",
-            "year": 2010
-        },
-        {
             "title": "ROW-mp3: An Enhanced MP3-Compatible Audio Codec",
             "venue": "Stanford University DSP Seminar",
             "url": "http://colinraffel.com/talks/stanford2010row.pdf",
-            "year": 2010
-        },
-        {
-            "title": "Practical Modeling of Bucket-Brigade Device Circuits",
-            "venue": "13th International Conference on Digital Audio Effects",
-            "url": "http://colinraffel.com/talks/dafx2010practical.pdf",
-            "year": 2010
-        },
-        {
-            "title": "The Lattice Harp: A New Hybrid Instrument and Controller",
-            "venue": "2010 International Computer Music Conference",
-            "url": "http://colinraffel.com/talks/icmc2010lattice.pdf",
             "year": 2010
         },
         {

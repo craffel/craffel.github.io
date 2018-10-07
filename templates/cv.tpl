@@ -153,10 +153,20 @@
             {% endfor %}
         </div>
 
-        <h2>Talks</h2>
+        <h2>Invited Talks</h2>
 
         <div class="block">
             {% for item in talks %}
+            <div class="item">
+                <b><a href="{{item.url}}">{{item.title}}</a></b> at <i>{{item.venue}}</i>, {{item.year}}.
+            </div>
+            {% endfor %}
+        </div>
+
+        <h2>Conference Presentations</h2>
+
+        <div class="block">
+            {% for item in presentations %}
             <div class="item">
                 <b><a href="{{item.url}}">{{item.title}}</a></b> at <i>{{item.venue}}</i>, {{item.year}}.
             </div>
