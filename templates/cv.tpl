@@ -112,16 +112,6 @@
 
         <hr width="98%" />
 
-        <h2>Research Experience</h2>
-
-        <div class="block">
-            {% for item in research %}
-            <div class="onelineitem">
-                <b>{{item.title}}</b>, {{item.place}}, {{item.start}}&#8211;{{item.end}}
-            </div>
-            {% endfor %}
-        </div>
-
         <h2>Education</h2>
 
         <div class="block">
@@ -129,6 +119,16 @@
             <div class="item">
                 <h3>{{item.place}}</h3>
                 {{item.blurb}}{% if item.start %}, {{item.start}}&#8211;{{item.end}} {% endif %}
+            </div>
+            {% endfor %}
+        </div>
+
+        <h2>Research Experience</h2>
+
+        <div class="block">
+            {% for item in research %}
+            <div class="onelineitem">
+                <b>{{item.title}}</b>, {{item.place}}, {{item.start}}&#8211;{{item.end}}
             </div>
             {% endfor %}
         </div>
