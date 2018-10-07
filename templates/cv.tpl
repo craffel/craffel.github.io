@@ -153,26 +153,6 @@
             {% endfor %}
         </div>
 
-        <h2>Teaching</h2>
-
-        <div class="block">
-            {% for item in teaching %}
-            <div class="onelineitem">
-                <b>{% if item.url %}<a href="{{item.url}}">{% endif %}{{item.name}}{% if item.url %}</a>{% endif %}</b>, {{item.location}}, {{item.start}}{% if item.end %}&#8211;{{item.end}}{% endif %}
-            </div>
-            {% endfor %}
-        </div>
-
-        <h2>Mentorship</h2>
-
-        <div class="block">
-            {% for item in mentorship %}
-            <div class="onelineitem">
-                <b>{{item.name}}</b>, {{item.description}}, {{item.start}}{% if item.end %}&#8211;{{item.end}}{% endif %}
-            </div>
-            {% endfor %}
-        </div>
-
         <h2>Talks</h2>
 
         <div class="block">
@@ -189,6 +169,26 @@
             {% for item in posters %}
             <div class="item">
                 <b><a href="{{item.url}}">{{item.title}}</a></b> at <i>{{item.venue}}</i>, {{item.year}}.
+            </div>
+            {% endfor %}
+        </div>
+
+        <h2>Teaching</h2>
+
+        <div class="block">
+            {% for item in teaching %}
+            <div class="onelineitem">
+                <b>{% if item.url %}<a href="{{item.url}}">{% endif %}{{item.name}}{% if item.url %}</a>{% endif %}</b>, {{item.location}}, {{item.start}}{% if item.end %}&#8211;{{item.end}}{% endif %}
+            </div>
+            {% endfor %}
+        </div>
+
+        <h2>Mentorship</h2>
+
+        <div class="block">
+            {% for item in mentorship %}
+            <div class="onelineitem">
+                <b>{{item.name}}</b>, {{item.description}}, {{item.start}}{% if item.end %}&#8211;{{item.end}}{% endif %}
             </div>
             {% endfor %}
         </div>
