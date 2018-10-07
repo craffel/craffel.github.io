@@ -123,7 +123,7 @@
             {% endfor %}
         </div>
 
-        <h2>Research Experience</h2>
+        <h2>Research Positions</h2>
 
         <div class="block">
             {% for item in research %}
