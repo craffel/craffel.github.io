@@ -157,9 +157,8 @@
 
         <div class="block">
             {% for item in teaching %}
-            <div class="item">
-                <h3>{% if item.url %}<a href="{{item.url}}">{% endif %}{{item.name}}{% if item.url %}</a>{% endif %}</h3>
-                {{item.blurb}}, {{item.start}}{% if item.end %}&#8211;{{item.end}}{% endif %}
+            <div class="onelineitem">
+                <b>{% if item.url %}<a href="{{item.url}}">{% endif %}{{item.name}}{% if item.url %}</a>{% endif %}</b>, {{item.location}}, {{item.start}}{% if item.end %}&#8211;{{item.end}}{% endif %}
             </div>
             {% endfor %}
         </div>

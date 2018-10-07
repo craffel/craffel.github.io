@@ -3,31 +3,31 @@
         {
             "url": "https://www.blog.google/outreach-initiatives/diversity/tech-exchange-brings-black-and-latinx-students-google/",
             "name": "Instructor, Introduction to Machine Learning",
-            "blurb": "Taught semester-long course to undergraduate juniors from underrepresented groups as part of Google's TechExchange program",
+            "location": "Google TechExchange",
             "start": 2018
         },
         {
             "url": "http://llcao.net/cu-deeplearning15/",
             "name": "Teacher's Assistant, Deep Learning for Computer Vision and NLP",
-            "blurb": "Advised students on software and final projects culminating in multiple conference submissions",
+            "location": "Columbia University",
             "start": 2015
         },
         {
             "url": "http://www.ee.columbia.edu/~dpwe/e4896/",
             "name": "Teacher's Assistant, Music Digital Signal Processing",
-            "blurb": "Evaluated projects, provided assistance, and held office hours for a Master's-level course",
+            "location": "Columbia University",
             "start": 2013,
             "end": 2014
         },
         {
-            "name": "Electronics",
-            "blurb": "Filled in for a professor on sabbatical and taught a recurring electronics course in the Oberlin College Physics Department",
+            "name": "Instructor, Electronics",
+            "location": "Oberlin College",
             "start": 2009
         },
         {
             "url": "http://experimentalistsanonymous.com/other/circuitbendingexco/",
-            "name": "Circuit Bending",
-            "blurb": "Taught a course on modifying electronic music circuits and basic electronics as part of the Oberlin Experimental College program; developed a curriculum, lab activities, and lectures",
+            "name": "Instructor, Circuit Bending",
+            "location": "Oberlin ExCo",
             "start": 2006
         }
     ]
