@@ -4,19 +4,23 @@
             "place": "Columbia University, New York, NY",
             "start": "2012",
             "end": "2016",
-            "blurb": "Ph.D. in Electrical Engineering at the Laboratory for the Recognition and Organization of Speech and Audio"
+            "degree": "Ph.D. in Electrical Engineering",
+            "lab": "Laboratory for the Recognition and Organization of Speech and Audio",
+            "advisor": "Daniel P. W. Ellis"
         },
         {
             "place": "Stanford University, Stanford, CA",
             "start": "2009",
             "end": "2010",
-            "blurb": "M.A. in Music, Science, and Technology at the Center for Computer Research in Music and Acoustics"
+            "degree": "M.A. in Music, Science, and Technology",
+            "lab": "Center for Computer Research in Music and Acoustics",
+            "advisor": "Julius O. Smith III"
         },
         {
             "place": "Oberlin College, Oberlin, OH",
             "start": "2005",
             "end": "2009",
-            "blurb": "B.A. in Mathematics with Physics minor"
+            "degree": "B.A. in Mathematics with Physics minor"
         }
     ]
 }

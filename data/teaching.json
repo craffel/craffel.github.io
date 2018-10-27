@@ -4,31 +4,36 @@
             "url": "https://www.blog.google/outreach-initiatives/diversity/tech-exchange-brings-black-and-latinx-students-google/",
             "name": "Instructor, Introduction to Machine Learning",
             "location": "Google TechExchange",
-            "start": 2018
+            "year": 2018
         },
         {
             "url": "http://llcao.net/cu-deeplearning15/",
             "name": "Teacher's Assistant, Deep Learning for Computer Vision and NLP",
             "location": "Columbia University",
-            "start": 2015
+            "year": 2015
         },
         {
             "url": "http://www.ee.columbia.edu/~dpwe/e4896/",
             "name": "Teacher's Assistant, Music Digital Signal Processing",
             "location": "Columbia University",
-            "start": 2013,
-            "end": 2014
+            "year": 2014
+        },
+        {
+            "url": "http://www.ee.columbia.edu/~dpwe/e4896/",
+            "name": "Teacher's Assistant, Music Digital Signal Processing",
+            "location": "Columbia University",
+            "year": 2013
         },
         {
             "name": "Instructor, Electronics",
             "location": "Oberlin College",
-            "start": 2009
+            "year": 2009
         },
         {
             "url": "http://experimentalistsanonymous.com/other/circuitbendingexco/",
             "name": "Instructor, Circuit Bending",
             "location": "Oberlin ExCo",
-            "start": 2006
+            "year": 2006
         }
     ]
 }

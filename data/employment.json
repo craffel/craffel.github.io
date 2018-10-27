@@ -3,41 +3,55 @@
         {
             "url": "http://www.rockprodigy.com/",
             "name": "The Way of H",
-            "blurb": "Developed pitch detection and audio timescale modification algorithms for Rock Prodigy, an educational iPhone application for guitarists",
+            "role": "Signal Processing Contractor",
             "start": 2011,
             "end": 2013
         },
         {
             "url": "http://www.beatkangz.com/",
             "name": "Beat Kangz Electronics",
-            "blurb": "Maintained and improved audio processing functionality for a hardware- and software-based music production system",
+            "role": "Software Engineer",
             "start": 2011,
             "end": 2012
         },
         {
+            "name": "Noisette Audio LLC",
+            "start": "2011",
+            "end": "2012",
+            "role": "Founder, Independent Contractor"
+        },
+        {
             "url": "http://www.imagine-research.com/",
             "name": "Imagine Research",
-            "blurb": "Helped develop a machine learning-based sound classification and identification system",
+            "role": "Intern, Contractor",
             "start": 2010,
             "end": 2012
         },
         {
             "url": "http://sacredagent.com/",
             "name": "SacredAgent",
-            "blurb": "Created a musical event detection system which algorithmically demarcates beats and changes in instrumentation, dynamics, and melody",
+            "role": "Signal Processing Researcher",
             "start": 2010
         },
         {
             "url": "http://wobc.org/",
-            "name": "WOBC, Oberlin College Radio",
-            "blurb": "Worked as Engineer, 2007&#8211;2008, Station Manager, 2008&#8211;2009, and Web Administrator",
-            "start": "2009"
+            "name": "WOBC, Oberlin College and Community Radio",
+            "role": "Engineer, Station Manager",
+            "start": "2008",
+            "end": "2009"
         },
         {
             "url": "http://www.ebay.com/",
             "name": "eBay",
-            "blurb": "Employed as summer intern in user interface design department and Musical Instrument category management team",
+            "role": "Intern",
             "start": 2004
+        },
+        {
+            "url": "http://www.experimentalistsanonymous.com/",
+            "name": "Experimentalists Anonymous",
+            "start": "2003",
+            "end": "2013",
+            "role": "Founder, Custom Electronics Designer"
         }
     ]
 }

@@ -1,0 +1,40 @@
+{"presentations":
+    [
+        {
+            "title": "Extracting Ground Truth Information from MIDI Files: A MIDIfesto",
+            "venue": "17th International Society for Music Information Retrieval Conference (ISMIR)",
+            "url": "http://colinraffel.com/talks/ismir2016extracting.pdf",
+            "year": 2016
+        },
+        {
+            "title": "Optimizing DTW-Based Audio-to-MIDI Alignment and Matching",
+            "venue": "41st IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)",
+            "url": "http://colinraffel.com/talks/icassp2016optimizing.pdf",
+            "year": 2016
+        },
+        {
+            "title": "Large-Scale Content-Based Matching of MIDI and Audio Files",
+            "venue": "16th International Society for Music Information Retrieval Conference (ISMIR)",
+            "url": "http://colinraffel.com/talks/ismir2015large.pdf",
+            "year": 2015
+        },
+        {
+            "title": "Using Noise Substitution for Backwards-Compatible Audio Codec Improvement",
+            "venue": "129th Convention of the Audio Engineering Society (AES)",
+            "url": "http://colinraffel.com/talks/aes2010using.pdf",
+            "year": 2010
+        },
+        {
+            "title": "Practical Modeling of Bucket-Brigade Device Circuits",
+            "venue": "13th International Conference on Digital Audio Effects (DAFx)",
+            "url": "http://colinraffel.com/talks/dafx2010practical.pdf",
+            "year": 2010
+        },
+        {
+            "title": "The Lattice Harp: A New Hybrid Instrument and Controller",
+            "venue": "2010 International Computer Music Conference (ICMC)",
+            "url": "http://colinraffel.com/talks/icmc2010lattice.pdf",
+            "year": 2010
+        }
+    ]
+}

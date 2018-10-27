@@ -1,40 +1,77 @@
 {"service":
     [
         {
+            "role": "Program Committee Member",
+            "venue": "International Society for Music Information Retrieval Conference",
+            "start": 2018
+        },
+        {
+            "role": "Reviewer",
+            "venue": "International Conference on Machine Learning",
+            "start": 2018
+        },
+        {
+            "role": "Reviewer",
+            "venue": "International Conference on Learning Representations",
+            "start": 2018,
+            "end": 2019
+        },
+        {
+            "role": "Reviewer",
+            "venue": "Neural Information Processing Systems",
+            "start": 2017,
+            "end": 2018
+        },
+        {
             "url": "https://github.com/ismir-net/ismir2016-lbd",
-            "name": "Late Breaking/Demo and Unconference Chair",
-            "blurb": "Reviewed all submissions for the late breaking/demo session and coordinated the unconference at the 17th International Society for Music Information Retrieval Conference",
+            "role": "Late Breaking/Demo and Unconference Chair",
+            "venue": "17th International Society for Music Information Retrieval Conference",
             "start": 2016
         },
         {
+            "role": "Reviewer",
+            "venue": "Journal of New Music Research",
+            "start": 2016
+        },
+        {
+            "role": "Reviewer",
+            "venue": "EURASIP Journal on Audio, Speech, and Music Processing",
+            "start": 2015
+        },
+        {
             "url": "http://labrosa.ee.columbia.edu/cuneuralnet/",
-            "name": "Columbia Neural Network Research Group and Seminar Series",
-            "blurb": "Organized and presented paper discussions, tutorials, and seminars on neural networks",
+            "role": "Founder and Organizer",
+            "venue": "Neural Network Reading Group and Seminar Series at Columbia University",
             "start": 2014,
             "end": 2016
         },
         {
+            "role": "Reviewer",
+            "venue": "International Society for Music Information Retrieval Conference",
+            "start": 2014,
+            "end": 2017
+        },
+        {
             "url": "http://labrosa.ee.columbia.edu/crucialpython/",
-            "name": "Crucial Python",
-            "blurb": "Curated a seminar series on obscure but useful aspects of the Python programming language",
+            "role": "Founder and Organizer",
+            "venue": "Crucial Python Seminar Series at Columbia University",
+            "start": 2014
+        },
+        {
+            "role": "Reviewer",
+            "venue": "IEEE International Symposium on Information Theory",
             "start": 2014
         },
         {
             "url": "http://labrosa.ee.columbia.edu/hamr/",
-            "name": "Hacking Audio and Music Research (HAMR)",
-            "blurb": "Started a series of hackathons where researchers rapidly prototype new ideas over the course of a weekend; past HAMRs have been held at Columbia University, Dartmouth College, Drexel University, and Academia Sinica",
+            "role": "Founder and Organizer",
+            "venue": "Hacking Audio and Music Research (HAMR) hackathon series",
             "start": 2013,
-            "end": "present"
+            "end": "now"
         },
         {
-            "name": "Intern Supervisor",
-            "blurb": "Oversaw summer interns working on Music Information Retrieval research projects",
-            "start": 2013,
-            "end": 2016
-        },
-        {
-            "name": "Mathematics Tutor",
-            "blurb": "Assisted students studying algebra and linear algebra",
+            "role": "Mathematics Tutor",
+            "venue": "Oberlin College",
             "start": 2008,
             "end": 2009
         }

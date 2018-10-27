@@ -4,64 +4,143 @@
         <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
         <title>Colin Raffel: Curriculum Vitae</title>
         <style type="text/css">
+            /* roboto-300 - latin */
             @font-face {
-                font-family: "latex";
-                src: url('fonts/computer_modern/normal.otf');
-            }
-            @font-face {
-                font-family: "latex";
-                src: url('fonts/computer_modern/bold.otf');
-                font-weight: bold;
-            }
-            @font-face {
-                font-family: "latex";
-                src: url('fonts/computer_modern/italic.otf');
-                font-style: italic;
-            }
-            @font-face {
-                font-family: "latex";
-                src: url('fonts/computer_modern/bolditalic.otf');
-                font-weight: bold;
-                font-style: italic;
-            }
-            @font-face {
-                font-family: "tt";
-                src: url('fonts/computer_modern/tt.otf');
-                font-weight: normal;
+                font-family: 'Roboto';
                 font-style: normal;
+                font-weight: 300;
+                src: url('fonts/roboto/roboto-v18-latin-300.eot'); /* IE9 Compat Modes */
+                src: local('Roboto Light'), local('Roboto-Light'),
+                     url('fonts/roboto/roboto-v18-latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+                     url('fonts/roboto/roboto-v18-latin-300.woff2') format('woff2'), /* Super Modern Browsers */
+                     url('fonts/roboto/roboto-v18-latin-300.woff') format('woff'), /* Modern Browsers */
+                     url('fonts/roboto/roboto-v18-latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
+                     url('fonts/roboto/roboto-v18-latin-300.svg#Roboto') format('svg'); /* Legacy iOS */
+            }
+            /* roboto-300italic - latin */
+            @font-face {
+                font-family: 'Roboto';
+                font-style: italic;
+                font-weight: 300;
+                src: url('fonts/roboto/roboto-v18-latin-300italic.eot'); /* IE9 Compat Modes */
+                src: local('Roboto Light Italic'), local('Roboto-LightItalic'),
+                     url('fonts/roboto/roboto-v18-latin-300italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+                     url('fonts/roboto/roboto-v18-latin-300italic.woff2') format('woff2'), /* Super Modern Browsers */
+                     url('fonts/roboto/roboto-v18-latin-300italic.woff') format('woff'), /* Modern Browsers */
+                     url('fonts/roboto/roboto-v18-latin-300italic.ttf') format('truetype'), /* Safari, Android, iOS */
+                     url('fonts/roboto/roboto-v18-latin-300italic.svg#Roboto') format('svg'); /* Legacy iOS */
+            }
+            /* roboto-italic - latin */
+            @font-face {
+                font-family: 'Roboto';
+                font-style: italic;
+                font-weight: 400;
+                src: url('fonts/roboto/roboto-v18-latin-italic.eot'); /* IE9 Compat Modes */
+                src: local('Roboto Italic'), local('Roboto-Italic'),
+                     url('fonts/roboto/roboto-v18-latin-italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+                     url('fonts/roboto/roboto-v18-latin-italic.woff2') format('woff2'), /* Super Modern Browsers */
+                     url('fonts/roboto/roboto-v18-latin-italic.woff') format('woff'), /* Modern Browsers */
+                     url('fonts/roboto/roboto-v18-latin-italic.ttf') format('truetype'), /* Safari, Android, iOS */
+                     url('fonts/roboto/roboto-v18-latin-italic.svg#Roboto') format('svg'); /* Legacy iOS */
+            }
+            /* roboto-regular - latin */
+            @font-face {
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 400;
+                src: url('fonts/roboto/roboto-v18-latin-regular.eot'); /* IE9 Compat Modes */
+                src: local('Roboto'), local('Roboto-Regular'),
+                     url('fonts/roboto/roboto-v18-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+                     url('fonts/roboto/roboto-v18-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+                     url('fonts/roboto/roboto-v18-latin-regular.woff') format('woff'), /* Modern Browsers */
+                     url('fonts/roboto/roboto-v18-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+                     url('fonts/roboto/roboto-v18-latin-regular.svg#Roboto') format('svg'); /* Legacy iOS */
+            }
+            /* roboto-500italic - latin */
+            @font-face {
+                font-family: 'Roboto';
+                font-style: italic;
+                font-weight: 500;
+                src: url('fonts/roboto/roboto-v18-latin-500italic.eot'); /* IE9 Compat Modes */
+                src: local('Roboto Medium Italic'), local('Roboto-MediumItalic'),
+                     url('fonts/roboto/roboto-v18-latin-500italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+                     url('fonts/roboto/roboto-v18-latin-500italic.woff2') format('woff2'), /* Super Modern Browsers */
+                     url('fonts/roboto/roboto-v18-latin-500italic.woff') format('woff'), /* Modern Browsers */
+                     url('fonts/roboto/roboto-v18-latin-500italic.ttf') format('truetype'), /* Safari, Android, iOS */
+                     url('fonts/roboto/roboto-v18-latin-500italic.svg#Roboto') format('svg'); /* Legacy iOS */
+            }
+            /* roboto-500 - latin */
+            @font-face {
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 500;
+                src: url('fonts/roboto/roboto-v18-latin-500.eot'); /* IE9 Compat Modes */
+                src: local('Roboto Medium'), local('Roboto-Medium'),
+                     url('fonts/roboto/roboto-v18-latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+                     url('fonts/roboto/roboto-v18-latin-500.woff2') format('woff2'), /* Super Modern Browsers */
+                     url('fonts/roboto/roboto-v18-latin-500.woff') format('woff'), /* Modern Browsers */
+                     url('fonts/roboto/roboto-v18-latin-500.ttf') format('truetype'), /* Safari, Android, iOS */
+                     url('fonts/roboto/roboto-v18-latin-500.svg#Roboto') format('svg'); /* Legacy iOS */
             }
             body {
-                font-family: "latex";
-                font-weight: normal;
+                font-family: 'Roboto';
+                font-weight: 300;
                 font-style: normal;
                 font-size: 11pt;
-                width: 670px;
+                width: 760px;
                 margin: 0 auto;
                 line-height: 1.5;
             }
             h2 {
+                font-size: 14pt;
+                font-weight: 400;
                 page-break-after: avoid;
                 margin-bottom: 4px;
             }
-            h3 {
-                page-break-after: avoid;
-                margin: 0px;
+            h1 {
+                font-size: 18pt;
+                font-weight: 400;
+                display: inline-block;
+                margin-top: 8px;
+                margin-bottom: 0px;
             }
             a {
                 text-decoration: none;
                 color: #000;
+            }
+            b {
+                font-weight: 400;
+            }
+            strong {
+                font-weight: 400;
             }
             .block {
                 margin-left: 20px;
             }
             .item {
                 margin-bottom: 10px;
+                display: table;
+                page-break-inside: avoid;
+            }
+            .year {
+                width: 48px;
+                display: table-cell;
+            }
+            .yearrange {
+                width: 88px;
+                display: table-cell;
+            }
+            .yearright {
+                display: table-cell;
             }
             .onelineitem {
                 margin-bottom: 5px;
+                display: table;
             }
             #name {
-                font-size: 36pt;
+                page-break-after: avoid;
+                font-size: 24pt;
+                font-weight: 500;
                 margin-bottom: 0px;
             }
             #contact {
@@ -78,57 +157,56 @@
                 padding-left: 5px;
                 padding-right: 5px;
             }
+            .tt {
+                font-family: "Courier New", Courier, monospace;
+                font-weight: 600;
             hr {
                 border: 0px;
                 height: 1px;
                 background: #000;
-                margin: 0 auto;
                 padding: 0px;
+                margin: 0px;
             }
         </style>
     </head>
     <body>
 
-        <div id="contact">
-            <div class="row">
-                <div class="cell" style="font-family: tt">
-                    <a href="mailto:craffel@gmail.com">craffel@gmail.com</a>
-                </div>
-                <div class="cell" style="font-family: tt">
-                    <a href="http://colinraffel.com">http://colinraffel.com</a>
-                </div>
-            </div>
-            <div class="row">
-                <div class="cell">
-                    507-398-2646
-                </div>
-                <div class="cell">
-                    San Francisco, CA 94107
-                </div>
-            </div>
-        </div>
+        <h1 id="name">Colin Raffel</h1> &nbsp; &nbsp;<span style="font-size: 18pt">Curriculum Vit&aelig;</span>
 
-        <h1 id="name">Colin Raffel</h1>
-
-        <hr width="98%" />
+        <div style="width: 100%; height: 1px; background-color: #000;"></div>
 
         <h2>Education</h2>
 
         <div class="block">
             
             <div class="item">
-                <h3>Columbia University, New York, NY</h3>
-                Ph.D. in Electrical Engineering at the Laboratory for the Recognition and Organization of Speech and Audio, 2012&#8211;2016 
+                <div class="yearrange">2012&#8211;2016</div>
+                <div class="yearright">
+                    <strong>Columbia University, New York, NY</strong><br />
+                    Ph.D. in Electrical Engineering<br />
+                    Laboratory for the Recognition and Organization of Speech and Audio<br />
+                    Advisor: Daniel P. W. Ellis<br />
+                </div>
             </div>
             
             <div class="item">
-                <h3>Stanford University, Stanford, CA</h3>
-                M.A. in Music, Science, and Technology at the Center for Computer Research in Music and Acoustics, 2009&#8211;2010 
+                <div class="yearrange">2009&#8211;2010</div>
+                <div class="yearright">
+                    <strong>Stanford University, Stanford, CA</strong><br />
+                    M.A. in Music, Science, and Technology<br />
+                    Center for Computer Research in Music and Acoustics<br />
+                    Advisor: Julius O. Smith III<br />
+                </div>
             </div>
             
             <div class="item">
-                <h3>Oberlin College, Oberlin, OH</h3>
-                B.A. in Mathematics with Physics minor, 2005&#8211;2009 
+                <div class="yearrange">2005&#8211;2009</div>
+                <div class="yearright">
+                    <strong>Oberlin College, Oberlin, OH</strong><br />
+                    B.A. in Mathematics with Physics minor<br />
+                    
+                    
+                </div>
             </div>
             
         </div>
@@ -138,15 +216,31 @@
         <div class="block">
             
             <div class="onelineitem">
-                <b>Research Scientist</b>, Google Brain, Mountain View, CA, 2017&#8211;present
+                <div class="yearrange">2018&#8211;now</div>
+                <div class="yearright">
+                    <strong>Senior Research Scientist</strong>, Google Brain
+                </div>
             </div>
             
             <div class="onelineitem">
-                <b>Resident</b>, Google Brain, Mountain View, CA, 2016&#8211;2017
+                <div class="yearrange">2017&#8211;2018</div>
+                <div class="yearright">
+                    <strong>Research Scientist</strong>, Google Brain
+                </div>
             </div>
             
             <div class="onelineitem">
-                <b>Graduate Research Assistant</b>, Columbia University, New York, NY, 2012&#8211;2016
+                <div class="yearrange">2016&#8211;2017</div>
+                <div class="yearright">
+                    <strong>Resident</strong>, Google Brain
+                </div>
+            </div>
+            
+            <div class="onelineitem">
+                <div class="yearrange">2012&#8211;2016</div>
+                <div class="yearright">
+                    <strong>Graduate Research Assistant</strong>, Columbia University
+                </div>
             </div>
             
         </div>
@@ -273,36 +367,68 @@
 
         <div class="block">
             
-            <div class="onelineitem">
-                <b>Top 10 Reviewer Award</b>, 35th International Conference on Machine Learning, 2018
+            <div class="item">
+                <div class="year">2018</div>
+                <div class="yearright">
+                    <strong>Top 10 Reviewer Award</strong><br />
+                    35th International Conference on Machine Learning
+                </div>
             </div>
             
-            <div class="onelineitem">
-                <b>National Science Foundation Student Travel Grant</b>, 41st IEEE International Conference on Acoustics, Speech, and Signal Processing, 2016
+            <div class="item">
+                <div class="year">2016</div>
+                <div class="yearright">
+                    <strong>National Science Foundation Student Travel Grant</strong><br />
+                    41st IEEE International Conference on Acoustics, Speech, and Signal Processing
+                </div>
             </div>
             
-            <div class="onelineitem">
-                <b>Best Student Paper</b>, 16th International Society for Music Information Retrieval Conference, 2015
+            <div class="item">
+                <div class="year">2015</div>
+                <div class="yearright">
+                    <strong>Best Student Paper</strong><br />
+                    16th International Society for Music Information Retrieval Conference
+                </div>
             </div>
             
-            <div class="onelineitem">
-                <b>Travel Grant</b>, National Science Foundation Data Science Workshop, 2015
+            <div class="item">
+                <div class="year">2015</div>
+                <div class="yearright">
+                    <strong>Travel Grant</strong><br />
+                    National Science Foundation Data Science Workshop
+                </div>
             </div>
             
-            <div class="onelineitem">
-                <b>Best Poster Presentation</b>, 15th International Society for Music Information Retrival Conference, 2014
+            <div class="item">
+                <div class="year">2014</div>
+                <div class="yearright">
+                    <strong>Best Poster Presentation</strong><br />
+                    15th International Society for Music Information Retrival Conference
+                </div>
             </div>
             
-            <div class="onelineitem">
-                <b>Student Travel Award</b>, International Society for Music Information Retrieval, 2014
+            <div class="item">
+                <div class="year">2014</div>
+                <div class="yearright">
+                    <strong>Student Travel Award</strong><br />
+                    15th International Society for Music Information Retrieval Conference
+                </div>
             </div>
             
-            <div class="onelineitem">
-                <b>Prize for Reproducibility in Audio and Music Research</b>, SoundSoftware.ac.uk, 2013
+            <div class="item">
+                <div class="year">2013</div>
+                <div class="yearright">
+                    <strong>Prize for Reproducibility in Audio and Music Research</strong><br />
+                    SoundSoftware.ac.uk
+                </div>
             </div>
             
-            <div class="onelineitem">
-                <b>National Science Foundation Integrative Graduate Education and Research Traineeship Grant</b>, 2012&#8211;2014
+            <div class="item">
+                <div class="year">2012</div>
+                <div class="yearright">
+                    <strong>Integrative Graduate Education and Research Training Fellowship</strong><br />
+                    National Science Foundation
+                </div>
             </div>
             
         </div>
@@ -312,79 +438,117 @@
         <div class="block">
             
             <div class="item">
-                <b><a href="http://colinraffel.com/talks/vector2018few.pdf">A Few Unusual Autoencoders</a></b> at <i>Vector Institute &amp; New York University</i>, 2018.
+                <div class="year">2018</div>
+                <strong><a href="http://colinraffel.com/talks/vector2018few.pdf">A Few Unusual Autoencoders</a></strong><br />
+                Vector Institute &amp; New York University
             </div>
             
             <div class="item">
-                <b><a href="http://colinraffel.com/talks/ismir2017leveraging.pdf">Leveraging MIDI Files for Music Information Retrieval</a></b> at <i>18th International Society for Music Information Retrieval Conference Tutorials</i>, 2017.
+                <div class="year">2017</div>
+                <strong><a href="http://colinraffel.com/talks/ismir2017leveraging.pdf">Leveraging MIDI Files for Music Information Retrieval</a></strong><br />
+                18th International Society for Music Information Retrieval Conference Tutorials
             </div>
             
             <div class="item">
-                <b><a href="http://colinraffel.com/talks/aiwtb2017doing.pdf">Doing Strange Things with Attention</a></b> at <i>AI With The Best &amp; 1st USF Data Institute Conference</i>, 2017.
+                <div class="year">2017</div>
+                <strong><a href="http://colinraffel.com/talks/aiwtb2017doing.pdf">Doing Strange Things with Attention</a></strong><br />
+                AI With The Best &amp; 1st USF Data Institute Conference
             </div>
             
             <div class="item">
-                <b><a href="http://colinraffel.com/talks/c4dm2016lakh.pdf">The Lakh MIDI Dataset: How It Was Made, and How to Use It</a></b> at <i>BISH Bash Meetup, Centre for Digital Music Seminar &amp; Jukedeck Lunch and Learn</i>, 2016.
+                <div class="year">2016</div>
+                <strong><a href="http://colinraffel.com/talks/c4dm2016lakh.pdf">The Lakh MIDI Dataset: How It Was Made, and How to Use It</a></strong><br />
+                BISH Bash Meetup, Centre for Digital Music Seminar &amp; Jukedeck Lunch and Learn
             </div>
             
             <div class="item">
-                <b><a href="http://colinraffel.com/talks/icml2016learning.pdf">Learning-Based Methods for Comparing Sequences, with Applications to Audio-to-MIDI Alignment and Matching</a></b> at <i>2nd ICML Machine Learning for Music Discovery Workshop</i>, 2016.
+                <div class="year">2016</div>
+                <strong><a href="http://colinraffel.com/talks/icml2016learning.pdf">Learning-Based Methods for Comparing Sequences, with Applications to Audio-to-MIDI Alignment and Matching</a></strong><br />
+                2nd ICML Machine Learning for Music Discovery Workshop
             </div>
             
             <div class="item">
-                <b><a href="http://colinraffel.com/talks/iitbombay2015accelerating.pdf">Accelerating Large-Scale Sequence Retrieval with Convolutional Networks</a></b> at <i>IIT Bombay Electrical Engineering Seminar</i>, 2015.
+                <div class="year">2015</div>
+                <strong><a href="http://colinraffel.com/talks/iitbombay2015accelerating.pdf">Accelerating Large-Scale Sequence Retrieval with Convolutional Networks</a></strong><br />
+                IIT Bombay Electrical Engineering Seminar
             </div>
             
             <div class="item">
-                <b><a href="http://colinraffel.com/talks/boston2015learning.pdf">Learning Efficient Representations for Sequence Retrieval</a></b> at <i>Boston Data Festival</i>, 2015.
+                <div class="year">2015</div>
+                <strong><a href="http://colinraffel.com/talks/boston2015learning.pdf">Learning Efficient Representations for Sequence Retrieval</a></strong><br />
+                Boston Data Festival
             </div>
             
             <div class="item">
-                <b><a href="http://colinraffel.com/talks/spotify2015using.pdf">Using Convolutional Networks (with Attention) for Orders-of-Magnitude Speedup of DTW-Based Sequence Retrieval</a></b> at <i>Spotify Machine Learning Seminar</i>, 2015.
+                <div class="year">2015</div>
+                <strong><a href="http://colinraffel.com/talks/spotify2015using.pdf">Using Convolutional Networks (with Attention) for Orders-of-Magnitude Speedup of DTW-Based Sequence Retrieval</a></strong><br />
+                Spotify Machine Learning Seminar
             </div>
             
             <div class="item">
-                <b><a href="http://colinraffel.com/talks/hammer2015recurrent.pdf">Recurrent Networks in Lasagne</a></b> at <i>Mount Sinai Hammer Lab Seminar</i>, 2015.
+                <div class="year">2015</div>
+                <strong><a href="http://colinraffel.com/talks/hammer2015recurrent.pdf">Recurrent Networks in Lasagne</a></strong><br />
+                Mount Sinai Hammer Lab Seminar
             </div>
             
             <div class="item">
-                <b><a href="http://colinraffel.com/talks/next2015lasagne.pdf">Lasagne Tutorial</a></b> at <i>Next.ml Boston</i>, 2015.
+                <div class="year">2015</div>
+                <strong><a href="http://colinraffel.com/talks/next2015lasagne.pdf">Lasagne Tutorial</a></strong><br />
+                Next.ml Boston
             </div>
             
             <div class="item">
-                <b><a href="http://colinraffel.com/talks/next2015theano.pdf">Theano Tutorial</a></b> at <i>Next.ml Boston</i>, 2015.
+                <div class="year">2015</div>
+                <strong><a href="http://colinraffel.com/talks/next2015theano.pdf">Theano Tutorial</a></strong><br />
+                Next.ml Boston
             </div>
             
             <div class="item">
-                <b><a href="http://colinraffel.com/talks/aes2015objective.pdf">mir_eval</a></b> at <i>Objective Evaluation in Semantic Audio Analysis and Processing Panel at the 138th Convention of the Audio Engineering Society</i>, 2015.
+                <div class="year">2015</div>
+                <strong><a href="http://colinraffel.com/talks/aes2015objective.pdf">mir_eval</a></strong><br />
+                Objective Evaluation in Semantic Audio Analysis and Processing Panel at the 138th Convention of the Audio Engineering Society
             </div>
             
             <div class="item">
-                <b><a href="http://colinraffel.com/talks/stanford2015large.pdf">Large-Scale Content-Based Matching of Audio and MIDI Data</a></b> at <i>Stanford University DSP Seminar</i>, 2015.
+                <div class="year">2015</div>
+                <strong><a href="http://colinraffel.com/talks/stanford2015large.pdf">Large-Scale Content-Based Matching of Audio and MIDI Data</a></strong><br />
+                Stanford University DSP Seminar
             </div>
             
             <div class="item">
-                <b><a href="http://colinraffel.com/talks/dmrn2013advances.pdf">Advances and Challenges in Large-Scale Music Information Retrieval</a></b> at <i>Digital Music Research Network+8</i>, 2013.
+                <div class="year">2013</div>
+                <strong><a href="http://colinraffel.com/talks/dmrn2013advances.pdf">Advances and Challenges in Large-Scale Music Information Retrieval</a></strong><br />
+                Digital Music Research Network+8
             </div>
             
             <div class="item">
-                <b><a href="http://colinraffel.com/talks/mmcs2013quantifying.pdf">Quantifying Rhythmic Synchrony</a></b> at <i>Midwestern Music Cognition Symposium</i>, 2013.
+                <div class="year">2013</div>
+                <strong><a href="http://colinraffel.com/talks/mmcs2013quantifying.pdf">Quantifying Rhythmic Synchrony</a></strong><br />
+                Midwestern Music Cognition Symposium
             </div>
             
             <div class="item">
-                <b><a href="http://colinraffel.com/talks/cmu2011sequential.pdf">A Sequential Approach to Musical Event Detection</a></b> at <i>Carnegie Mellon University Music and Technology Seminar</i>, 2011.
+                <div class="year">2011</div>
+                <strong><a href="http://colinraffel.com/talks/cmu2011sequential.pdf">A Sequential Approach to Musical Event Detection</a></strong><br />
+                Carnegie Mellon University Music and Technology Seminar
             </div>
             
             <div class="item">
-                <b><a href="http://colinraffel.com/talks/stanford2010row.pdf">ROW-mp3: An Enhanced MP3-Compatible Audio Codec</a></b> at <i>Stanford University DSP Seminar</i>, 2010.
+                <div class="year">2010</div>
+                <strong><a href="http://colinraffel.com/talks/stanford2010row.pdf">ROW-mp3: An Enhanced MP3-Compatible Audio Codec</a></strong><br />
+                Stanford University DSP Seminar
             </div>
             
             <div class="item">
-                <b><a href="http://colinraffel.com/talks/stanford2010effective.pdf">An Effective Model of Bucket-Brigade Device-Based Audio Circuits</a></b> at <i>Stanford University DSP Seminar</i>, 2010.
+                <div class="year">2010</div>
+                <strong><a href="http://colinraffel.com/talks/stanford2010effective.pdf">An Effective Model of Bucket-Brigade Device-Based Audio Circuits</a></strong><br />
+                Stanford University DSP Seminar
             </div>
             
             <div class="item">
-                <b><a href="http://colinraffel.com/talks/circuitastrophe2008voltage.pdf">Voltage-Controlled Resistance: Modulate Anything</a></b> at <i>Circuitastrophe Circuit Bending Music Festival</i>, 2008.
+                <div class="year">2008</div>
+                <strong><a href="http://colinraffel.com/talks/circuitastrophe2008voltage.pdf">Voltage-Controlled Resistance: Modulate Anything</a></strong><br />
+                Circuitastrophe Circuit Bending Music Festival
             </div>
             
         </div>
@@ -394,27 +558,39 @@
         <div class="block">
             
             <div class="item">
-                <b><a href="http://colinraffel.com/talks/ismir2016extracting.pdf">Extracting Ground Truth Information from MIDI Files: A MIDIfesto</a></b> at <i>17th International Society for Music Information Retrieval Conference (ISMIR)</i>, 2016.
+                <div class="year">2016</div>
+                <strong><a href="http://colinraffel.com/talks/ismir2016extracting.pdf">Extracting Ground Truth Information from MIDI Files: A MIDIfesto</a></strong><br />
+                17th International Society for Music Information Retrieval Conference (ISMIR)
             </div>
             
             <div class="item">
-                <b><a href="http://colinraffel.com/talks/icassp2016optimizing.pdf">Optimizing DTW-Based Audio-to-MIDI Alignment and Matching</a></b> at <i>41st IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)</i>, 2016.
+                <div class="year">2016</div>
+                <strong><a href="http://colinraffel.com/talks/icassp2016optimizing.pdf">Optimizing DTW-Based Audio-to-MIDI Alignment and Matching</a></strong><br />
+                41st IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)
             </div>
             
             <div class="item">
-                <b><a href="http://colinraffel.com/talks/ismir2015large.pdf">Large-Scale Content-Based Matching of MIDI and Audio Files</a></b> at <i>16th International Society for Music Information Retrieval Conference (ISMIR)</i>, 2015.
+                <div class="year">2015</div>
+                <strong><a href="http://colinraffel.com/talks/ismir2015large.pdf">Large-Scale Content-Based Matching of MIDI and Audio Files</a></strong><br />
+                16th International Society for Music Information Retrieval Conference (ISMIR)
             </div>
             
             <div class="item">
-                <b><a href="http://colinraffel.com/talks/aes2010using.pdf">Using Noise Substitution for Backwards-Compatible Audio Codec Improvement</a></b> at <i>129th Convention of the Audio Engineering Society (AES)</i>, 2010.
+                <div class="year">2010</div>
+                <strong><a href="http://colinraffel.com/talks/aes2010using.pdf">Using Noise Substitution for Backwards-Compatible Audio Codec Improvement</a></strong><br />
+                129th Convention of the Audio Engineering Society (AES)
             </div>
             
             <div class="item">
-                <b><a href="http://colinraffel.com/talks/dafx2010practical.pdf">Practical Modeling of Bucket-Brigade Device Circuits</a></b> at <i>13th International Conference on Digital Audio Effects (DAFx)</i>, 2010.
+                <div class="year">2010</div>
+                <strong><a href="http://colinraffel.com/talks/dafx2010practical.pdf">Practical Modeling of Bucket-Brigade Device Circuits</a></strong><br />
+                13th International Conference on Digital Audio Effects (DAFx)
             </div>
             
             <div class="item">
-                <b><a href="http://colinraffel.com/talks/icmc2010lattice.pdf">The Lattice Harp: A New Hybrid Instrument and Controller</a></b> at <i>2010 International Computer Music Conference (ICMC)</i>, 2010.
+                <div class="year">2010</div>
+                <strong><a href="http://colinraffel.com/talks/icmc2010lattice.pdf">The Lattice Harp: A New Hybrid Instrument and Controller</a></strong><br />
+                2010 International Computer Music Conference (ICMC)
             </div>
             
         </div>
@@ -424,35 +600,51 @@
         <div class="block">
             
             <div class="item">
-                <b><a href="http://colinraffel.com/posters/icml2017online.pdf">Online and Linear-Time Attention by Enforcing Monotonic Alignments</a></b> at <i>34th International Conference on Machine Learning</i>, 2017.
+                <div class="year">2017</div>
+                <strong><a href="http://colinraffel.com/posters/icml2017online.pdf">Online and Linear-Time Attention by Enforcing Monotonic Alignments</a></strong><br />
+                34th International Conference on Machine Learning
             </div>
             
             <div class="item">
-                <b><a href="http://colinraffel.com/posters/iclr2016feed.pdf">Feed-Forward Networks with Attention Can Solve Some Long-Term Memory Problems</a></b> at <i>4th International Conference on Learning Representations</i>, 2016.
+                <div class="year">2016</div>
+                <strong><a href="http://colinraffel.com/posters/iclr2016feed.pdf">Feed-Forward Networks with Attention Can Solve Some Long-Term Memory Problems</a></strong><br />
+                4th International Conference on Learning Representations
             </div>
             
             <div class="item">
-                <b><a href="http://colinraffel.com/posters/icassp2016pruning.pdf">Pruning Subsequence Search with Attention-Based Embedding</a></b> at <i>41st IEEE International Conference on Acoustics, Speech, and Signal Processing</i>, 2016.
+                <div class="year">2016</div>
+                <strong><a href="http://colinraffel.com/posters/icassp2016pruning.pdf">Pruning Subsequence Search with Attention-Based Embedding</a></strong><br />
+                41st IEEE International Conference on Acoustics, Speech, and Signal Processing
             </div>
             
             <div class="item">
-                <b><a href="http://colinraffel.com/posters/nips2015accelerating.pdf">Accelerating Multimodal Sequence Retrieval with Convolutional Networks</a></b> at <i>NIPS Multimodal Machine Learning Workshop</i>, 2015.
+                <div class="year">2015</div>
+                <strong><a href="http://colinraffel.com/posters/nips2015accelerating.pdf">Accelerating Multimodal Sequence Retrieval with Convolutional Networks</a></strong><br />
+                NIPS Multimodal Machine Learning Workshop
             </div>
             
             <div class="item">
-                <b><a href="http://colinraffel.com/posters/nsf2015learning.pdf">Learning Efficient Representations for Sequence Retrieval</a></b> at <i>National Science Foundation Data Science Workshop</i>, 2015.
+                <div class="year">2015</div>
+                <strong><a href="http://colinraffel.com/posters/nsf2015learning.pdf">Learning Efficient Representations for Sequence Retrieval</a></strong><br />
+                National Science Foundation Data Science Workshop
             </div>
             
             <div class="item">
-                <b><a href="http://colinraffel.com/posters/ismir2014intuitive.pdf">Intuitive Analysis, Creation and Manipulation of MIDI Data with pretty_midi</a></b> at <i>15th International Society for Music Information Retrieval Conference Late Breaking and Demo Papers</i>, 2014.
+                <div class="year">2014</div>
+                <strong><a href="http://colinraffel.com/posters/ismir2014intuitive.pdf">Intuitive Analysis, Creation and Manipulation of MIDI Data with pretty_midi</a></strong><br />
+                15th International Society for Music Information Retrieval Conference Late Breaking and Demo Papers
             </div>
             
             <div class="item">
-                <b><a href="http://colinraffel.com/posters/ismir2014mir_eval.pdf">mir_eval: A Transparent Implementation of Common MIR Metrics</a></b> at <i>15th International Society for Music Information Retrieval Conference</i>, 2014.
+                <div class="year">2014</div>
+                <strong><a href="http://colinraffel.com/posters/ismir2014mir_eval.pdf">mir_eval: A Transparent Implementation of Common MIR Metrics</a></strong><br />
+                15th International Society for Music Information Retrieval Conference
             </div>
             
             <div class="item">
-                <b><a href="http://colinraffel.com/posters/icassp2014estimating.pdf">Estimating Timing and Channel Distortion Across Related Signals</a></b> at <i>39th IEEE International Conference on Acoustics, Speech and Signal Processing</i>, 2014.
+                <div class="year">2014</div>
+                <strong><a href="http://colinraffel.com/posters/icassp2014estimating.pdf">Estimating Timing and Channel Distortion Across Related Signals</a></strong><br />
+                39th IEEE International Conference on Acoustics, Speech and Signal Processing
             </div>
             
         </div>
@@ -462,23 +654,45 @@
         <div class="block">
             
             <div class="onelineitem">
-                <b><a href="https://www.blog.google/outreach-initiatives/diversity/tech-exchange-brings-black-and-latinx-students-google/">Instructor, Introduction to Machine Learning</a></b>, Google TechExchange, 2018
+                <div class="year">2018</div>
+                <div class="yearright">
+                    <strong><a href="https://www.blog.google/outreach-initiatives/diversity/tech-exchange-brings-black-and-latinx-students-google/">Instructor, Introduction to Machine Learning</a></strong>, Google TechExchange
+                </div>
             </div>
             
             <div class="onelineitem">
-                <b><a href="http://llcao.net/cu-deeplearning15/">Teacher's Assistant, Deep Learning for Computer Vision and NLP</a></b>, Columbia University, 2015
+                <div class="year">2015</div>
+                <div class="yearright">
+                    <strong><a href="http://llcao.net/cu-deeplearning15/">Teacher's Assistant, Deep Learning for Computer Vision and NLP</a></strong>, Columbia University
+                </div>
             </div>
             
             <div class="onelineitem">
-                <b><a href="http://www.ee.columbia.edu/~dpwe/e4896/">Teacher's Assistant, Music Digital Signal Processing</a></b>, Columbia University, 2013&#8211;2014
+                <div class="year">2014</div>
+                <div class="yearright">
+                    <strong><a href="http://www.ee.columbia.edu/~dpwe/e4896/">Teacher's Assistant, Music Digital Signal Processing</a></strong>, Columbia University
+                </div>
             </div>
             
             <div class="onelineitem">
-                <b>Instructor, Electronics</b>, Oberlin College, 2009
+                <div class="year">2013</div>
+                <div class="yearright">
+                    <strong><a href="http://www.ee.columbia.edu/~dpwe/e4896/">Teacher's Assistant, Music Digital Signal Processing</a></strong>, Columbia University
+                </div>
             </div>
             
             <div class="onelineitem">
-                <b><a href="http://experimentalistsanonymous.com/other/circuitbendingexco/">Instructor, Circuit Bending</a></b>, Oberlin ExCo, 2006
+                <div class="year">2009</div>
+                <div class="yearright">
+                    <strong>Instructor, Electronics</strong>, Oberlin College
+                </div>
+            </div>
+            
+            <div class="onelineitem">
+                <div class="year">2006</div>
+                <div class="yearright">
+                    <strong><a href="http://experimentalistsanonymous.com/other/circuitbendingexco/">Instructor, Circuit Bending</a></strong>, Oberlin ExCo
+                </div>
             </div>
             
         </div>
@@ -488,35 +702,59 @@
         <div class="block">
             
             <div class="onelineitem">
-                <b>Vaishnavh Nagarajan</b>, intern at Google Brain, 2018
+                <div class="yearrange">2018</div>
+                <div class="yearright">
+                    <strong>Vaishnavh Nagarajan</strong>, intern at Google Brain
+                </div>
             </div>
             
             <div class="onelineitem">
-                <b>Ishaan Gulrajani</b>, resident at Google Brain, 2017&#8211;2018
+                <div class="yearrange">2017&#8211;2018</div>
+                <div class="yearright">
+                    <strong>Ishaan Gulrajani</strong>, resident at Google Brain
+                </div>
             </div>
             
             <div class="onelineitem">
-                <b>Avital Oliver</b>, resident at Google Brain, 2017&#8211;2018
+                <div class="yearrange">2017&#8211;2018</div>
+                <div class="yearright">
+                    <strong>Avital Oliver</strong>, resident at Google Brain
+                </div>
             </div>
             
             <div class="onelineitem">
-                <b>Jacob Buckman</b>, resident at Google Brain, 2017
+                <div class="yearrange">2017</div>
+                <div class="yearright">
+                    <strong>Jacob Buckman</strong>, resident at Google Brain
+                </div>
             </div>
             
             <div class="onelineitem">
-                <b>Rafael Valle</b>, visiting researcher at Columbia Univeristy, 2015
+                <div class="yearrange">2015</div>
+                <div class="yearright">
+                    <strong>Rafael Valle</strong>, visiting researcher at Columbia Univeristy
+                </div>
             </div>
             
             <div class="onelineitem">
-                <b>Hilary Mogul</b>, undergraduate student at Columbia University, 2014
+                <div class="yearrange">2014</div>
+                <div class="yearright">
+                    <strong>Hilary Mogul</strong>, undergraduate student at Columbia University
+                </div>
             </div>
             
             <div class="onelineitem">
-                <b>Dylan Kario</b>, undergraduate student at Columbia University, 2014
+                <div class="yearrange">2014</div>
+                <div class="yearright">
+                    <strong>Dylan Kario</strong>, undergraduate student at Columbia University
+                </div>
             </div>
             
             <div class="onelineitem">
-                <b>Zhengshan Shi</b>, visiting researcher at Columbia University, 2013
+                <div class="yearrange">2013</div>
+                <div class="yearright">
+                    <strong>Zhengshan Shi</strong>, visiting researcher at Columbia University
+                </div>
             </div>
             
         </div>
@@ -525,72 +763,95 @@
 
         <div class="block">
             
-            <div class="item">
-                <h3><a href="https://github.com/ismir-net/ismir2016-lbd">Late Breaking/Demo and Unconference Chair</a></h3>
-                Reviewed all submissions for the late breaking/demo session and coordinated the unconference at the 17th International Society for Music Information Retrieval Conference, 2016
-            </div>
-            
-            <div class="item">
-                <h3><a href="http://labrosa.ee.columbia.edu/cuneuralnet/">Columbia Neural Network Research Group and Seminar Series</a></h3>
-                Organized and presented paper discussions, tutorials, and seminars on neural networks, 2014&#8211;2016
-            </div>
-            
-            <div class="item">
-                <h3><a href="http://labrosa.ee.columbia.edu/crucialpython/">Crucial Python</a></h3>
-                Curated a seminar series on obscure but useful aspects of the Python programming language, 2014
-            </div>
-            
-            <div class="item">
-                <h3><a href="http://labrosa.ee.columbia.edu/hamr/">Hacking Audio and Music Research (HAMR)</a></h3>
-                Started a series of hackathons where researchers rapidly prototype new ideas over the course of a weekend; past HAMRs have been held at Columbia University, Dartmouth College, Drexel University, and Academia Sinica, 2013&#8211;present
-            </div>
-            
-            <div class="item">
-                <h3>Intern Supervisor</h3>
-                Oversaw summer interns working on Music Information Retrieval research projects, 2013&#8211;2016
-            </div>
-            
-            <div class="item">
-                <h3>Mathematics Tutor</h3>
-                Assisted students studying algebra and linear algebra, 2008&#8211;2009
-            </div>
-            
-        </div>
-
-        <h2>Reviewing</h2>
-
-        <div class="block">
-            
             <div class="onelineitem">
-                <b>Progam Committee, International Society for Music Information Retrieval Conference</b>, 2018
+                <div class="yearrange">2018</div>
+                <div class="yearright">
+                    <strong>Program Committee Member</strong>, International Society for Music Information Retrieval Conference
+                </div>
             </div>
             
             <div class="onelineitem">
-                <b>International Conference on Machine Learning</b>, 2018
+                <div class="yearrange">2018</div>
+                <div class="yearright">
+                    <strong>Reviewer</strong>, International Conference on Machine Learning
+                </div>
             </div>
             
             <div class="onelineitem">
-                <b>International Conference on Learning Representations</b>, 2017&#8211;2018
+                <div class="yearrange">2018&#8211;2019</div>
+                <div class="yearright">
+                    <strong>Reviewer</strong>, International Conference on Learning Representations
+                </div>
             </div>
             
             <div class="onelineitem">
-                <b>Neural Information Processing Systems</b>, 2017&#8211;2018
+                <div class="yearrange">2017&#8211;2018</div>
+                <div class="yearright">
+                    <strong>Reviewer</strong>, Neural Information Processing Systems
+                </div>
             </div>
             
             <div class="onelineitem">
-                <b>International Society for Music Information Retrieval Conference</b>, 2014&#8211;2017
+                <div class="yearrange">2016</div>
+                <div class="yearright">
+                    <a href="https://github.com/ismir-net/ismir2016-lbd"><strong>Late Breaking/Demo and Unconference Chair</strong>, 17th International Society for Music Information Retrieval Conference</a>
+                </div>
             </div>
             
             <div class="onelineitem">
-                <b>Journal of New Music Research</b>, 2016
+                <div class="yearrange">2016</div>
+                <div class="yearright">
+                    <strong>Reviewer</strong>, Journal of New Music Research
+                </div>
             </div>
             
             <div class="onelineitem">
-                <b>EURASIP Journal on Audio, Speech, and Music Processing</b>, 2015
+                <div class="yearrange">2015</div>
+                <div class="yearright">
+                    <strong>Reviewer</strong>, EURASIP Journal on Audio, Speech, and Music Processing
+                </div>
             </div>
             
             <div class="onelineitem">
-                <b>IEEE International Symposium on Information Theory</b>, 2014
+                <div class="yearrange">2014&#8211;2016</div>
+                <div class="yearright">
+                    <a href="http://labrosa.ee.columbia.edu/cuneuralnet/"><strong>Founder and Organizer</strong>, Neural Network Reading Group and Seminar Series at Columbia University</a>
+                </div>
+            </div>
+            
+            <div class="onelineitem">
+                <div class="yearrange">2014&#8211;2017</div>
+                <div class="yearright">
+                    <strong>Reviewer</strong>, International Society for Music Information Retrieval Conference
+                </div>
+            </div>
+            
+            <div class="onelineitem">
+                <div class="yearrange">2014</div>
+                <div class="yearright">
+                    <a href="http://labrosa.ee.columbia.edu/crucialpython/"><strong>Founder and Organizer</strong>, Crucial Python Seminar Series at Columbia University</a>
+                </div>
+            </div>
+            
+            <div class="onelineitem">
+                <div class="yearrange">2014</div>
+                <div class="yearright">
+                    <strong>Reviewer</strong>, IEEE International Symposium on Information Theory
+                </div>
+            </div>
+            
+            <div class="onelineitem">
+                <div class="yearrange">2013&#8211;now</div>
+                <div class="yearright">
+                    <a href="http://labrosa.ee.columbia.edu/hamr/"><strong>Founder and Organizer</strong>, Hacking Audio and Music Research (HAMR) hackathon series</a>
+                </div>
+            </div>
+            
+            <div class="onelineitem">
+                <div class="yearrange">2008&#8211;2009</div>
+                <div class="yearright">
+                    <strong>Mathematics Tutor</strong>, Oberlin College
+                </div>
             </div>
             
         </div>
@@ -600,71 +861,81 @@
         <div class="block">
             
             <div class="onelineitem">
-                <font face="tt"><a href="http://github.com/craffel/mir_eval">mir_eval</a></font>, a simple-to-use reference implementation of many music information retrieval metrics.
+                <span class="tt"><a href="http://github.com/craffel/mir_eval">mir_eval</a></span>, a simple-to-use reference implementation of many music information retrieval metrics.
             </div>
             
             <div class="onelineitem">
-                <font face="tt"><a href="http://github.com/Lasagne/Lasagne">lasagne</a></font>, a library for constructing neural networks in Theano.
+                <span class="tt"><a href="http://github.com/Lasagne/Lasagne">lasagne</a></span>, a library for constructing neural networks in Theano.
             </div>
             
             <div class="onelineitem">
-                <font face="tt"><a href="http://github.com/craffel/pretty-midi">pretty_midi</a></font>, utility classes and functions for easily creating, manipulating, and analyzing MIDI data.
+                <span class="tt"><a href="http://github.com/craffel/pretty-midi">pretty_midi</a></span>, utility classes and functions for easily creating, manipulating, and analyzing MIDI data.
             </div>
             
             <div class="onelineitem">
-                <font face="tt"><a href="http://github.com/bmcfee/librosa">librosa</a></font>, DSP routines for audio and music signal analysis.
+                <span class="tt"><a href="http://github.com/bmcfee/librosa">librosa</a></span>, DSP routines for audio and music signal analysis.
             </div>
             
         </div>
 
-        <h2>Business Ventures</h2>
+        <h2>Employment and Business Ventures</h2>
 
         <div class="block">
             
-            <div class="item">
-                <h3>Experimentalists Anonymous</h3>
-                Design, build, and sell custom electronic devices; host audio circuit schematic archive with over three million downloads served; maintain online message board with over fourteen thousand posts; provide site hosting for do-it-yourself audio hardware enthusiasts; help individuals start successful independent businesses selling electronic audio devices, 2003&#8211;present
+            <div class="onelineitem">
+                <div class="yearrange">2011&#8211;2013</div>
+                <div class="yearright">
+                    <a href="http://www.rockprodigy.com/"><strong>The Way of H</strong>, Signal Processing Contractor</a>
+                </div>
             </div>
             
-            <div class="item">
-                <h3>Noisette Audio, LLC</h3>
-                Provided consulting services in the field of audio signal processing, analysis, and synthesis; develop software for electronic music composition, 2011&#8211;2012
+            <div class="onelineitem">
+                <div class="yearrange">2011&#8211;2012</div>
+                <div class="yearright">
+                    <a href="http://www.beatkangz.com/"><strong>Beat Kangz Electronics</strong>, Software Engineer</a>
+                </div>
             </div>
             
-        </div>
-
-        <h2>Employment</h2>
-
-        <div class="block">
-            
-            <div class="item">
-                <h3><a href="http://www.rockprodigy.com/">The Way of H</a></h3>
-                Developed pitch detection and audio timescale modification algorithms for Rock Prodigy, an educational iPhone application for guitarists, 2011&#8211;2013
+            <div class="onelineitem">
+                <div class="yearrange">2011&#8211;2012</div>
+                <div class="yearright">
+                    <strong>Noisette Audio LLC</strong>, Founder, Independent Contractor
+                </div>
             </div>
             
-            <div class="item">
-                <h3><a href="http://www.beatkangz.com/">Beat Kangz Electronics</a></h3>
-                Maintained and improved audio processing functionality for a hardware- and software-based music production system, 2011&#8211;2012
+            <div class="onelineitem">
+                <div class="yearrange">2010&#8211;2012</div>
+                <div class="yearright">
+                    <a href="http://www.imagine-research.com/"><strong>Imagine Research</strong>, Intern, Contractor</a>
+                </div>
             </div>
             
-            <div class="item">
-                <h3><a href="http://www.imagine-research.com/">Imagine Research</a></h3>
-                Helped develop a machine learning-based sound classification and identification system, 2010&#8211;2012
+            <div class="onelineitem">
+                <div class="yearrange">2010</div>
+                <div class="yearright">
+                    <a href="http://sacredagent.com/"><strong>SacredAgent</strong>, Signal Processing Researcher</a>
+                </div>
             </div>
             
-            <div class="item">
-                <h3><a href="http://sacredagent.com/">SacredAgent</a></h3>
-                Created a musical event detection system which algorithmically demarcates beats and changes in instrumentation, dynamics, and melody, 2010
+            <div class="onelineitem">
+                <div class="yearrange">2008&#8211;2009</div>
+                <div class="yearright">
+                    <a href="http://wobc.org/"><strong>WOBC, Oberlin College and Community Radio</strong>, Engineer, Station Manager</a>
+                </div>
             </div>
             
-            <div class="item">
-                <h3><a href="http://wobc.org/">WOBC, Oberlin College Radio</a></h3>
-                Worked as Engineer, 2007&#8211;2008, Station Manager, 2008&#8211;2009, and Web Administrator, 2009
+            <div class="onelineitem">
+                <div class="yearrange">2004</div>
+                <div class="yearright">
+                    <a href="http://www.ebay.com/"><strong>eBay</strong>, Intern</a>
+                </div>
             </div>
             
-            <div class="item">
-                <h3><a href="http://www.ebay.com/">eBay</a></h3>
-                Employed as summer intern in user interface design department and Musical Instrument category management team, 2004
+            <div class="onelineitem">
+                <div class="yearrange">2003&#8211;2013</div>
+                <div class="yearright">
+                    <a href="http://www.experimentalistsanonymous.com/"><strong>Experimentalists Anonymous</strong>, Founder, Custom Electronics Designer</a>
+                </div>
             </div>
             
         </div>

@@ -3,42 +3,42 @@
         {
             "name": "Top 10 Reviewer Award",
             "venue": "35th International Conference on Machine Learning",
-            "start": 2018
+            "year": 2018
         },
         {
             "name": "National Science Foundation Student Travel Grant",
             "venue": "41st IEEE International Conference on Acoustics, Speech, and Signal Processing",
-            "start": 2016
+            "year": 2016
         },
         {
             "name": "Best Student Paper",
             "venue": "16th International Society for Music Information Retrieval Conference",
-            "start": 2015
+            "year": 2015
         },
         {
             "name": "Travel Grant",
             "venue": "National Science Foundation Data Science Workshop",
-            "start": 2015
+            "year": 2015
         },
         {
             "name": "Best Poster Presentation",
             "venue": "15th International Society for Music Information Retrival Conference",
-            "start": 2014
+            "year": 2014
         },
         {
             "name": "Student Travel Award",
-            "venue": "International Society for Music Information Retrieval",
-            "start": 2014
+            "venue": "15th International Society for Music Information Retrieval Conference",
+            "year": 2014
         },
         {
             "name": "Prize for Reproducibility in Audio and Music Research",
             "venue": "SoundSoftware.ac.uk",
-            "start": 2013
+            "year": 2013
         },
         {
-            "name": "National Science Foundation Integrative Graduate Education and Research Traineeship Grant",
-            "start": 2012,
-            "end": 2014
+            "name": "Integrative Graduate Education and Research Training Fellowship",
+            "venue": "National Science Foundation",
+            "year": 2012
         }
     ]
 }
