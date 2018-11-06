@@ -1,6 +1,11 @@
 {"mentorship":
     [
         {
+            "name": "Yao Qin",
+            "description": "intern at Google Brain",
+            "start": 2018
+        },
+        {
             "name": "Vaishnavh Nagarajan",
             "description": "intern at Google Brain",
             "start": 2018
