@@ -1,6 +1,11 @@
 {"service":
     [
         {
+            "role": "Reviewer",
+            "venue": "Machine Learning for Creativity and Design Workshop",
+            "start": 2018
+        },
+        {
             "role": "Program Committee Member",
             "venue": "International Society for Music Information Retrieval Conference",
             "start": 2018
