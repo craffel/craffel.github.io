@@ -1,6 +1,18 @@
 {"posters":
     [
         {
+            "title": "Realistic Evaluation of Deep Semi-Supervised Learning Algorithms",
+            "venue": "Neural Information Processing Systems 31",
+            "url": "http://colinraffel.com/posters/nips2018realistic.pdf",
+            "year": 2018
+        },
+        {
+            "title": "Monotonic Chunkwise Attention",
+            "venue": "6th International Conference on Learning Representations",
+            "url": "http://colinraffel.com/posters/iclr2018monotonic.pdf",
+            "year": 2018
+        },
+        {
             "title": "Online and Linear-Time Attention by Enforcing Monotonic Alignments",
             "venue": "34th International Conference on Machine Learning",
             "url": "http://colinraffel.com/posters/icml2017online.pdf",
