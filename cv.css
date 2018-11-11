@@ -162,3 +162,10 @@ p {
 .docname {
         font-size: 16pt
 }
+
+@media print{
+        body {
+                width: 680px;
+                font-size: 90%;
+        }
+}
