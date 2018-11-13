@@ -10,7 +10,7 @@
 
         <h1 id="name">Colin Raffel</h1> &nbsp; <span class="docname">Curriculum Vit&aelig;</span>
 
-        <div style="width: 100%; height: 1px; background-color: #000;"></div>
+        <div class="vline"></div>
 
         <h2>Education</h2>
 
