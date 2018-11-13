@@ -10,7 +10,7 @@
             "year": 2018
         },
         {
-            "authors": "Ian Simon, Adam Roberts, Colin Raffel, Jesse Engel, Curtis Hawthorne and Douglas Eck",
+            "authors": "Ian Simon, Adam Roberts, Colin Raffel, Jesse Engel, Curtis Hawthorne, and Douglas Eck",
             "url": "http://colinraffel.com/publications/arxiv2018learning.pdf",
             "title": "Learning a Latent Space of Multitrack Measures",
             "venue": "arXiv preprint: arXiv:1806.00195",
@@ -19,7 +19,7 @@
             "year": 2018
         },
         {
-            "authors": "Avital Oliver*, Augustus Odena*, Colin Raffel*, Ekin D. Cubuk and Ian J. Goodfellow",
+            "authors": "Avital Oliver*, Augustus Odena*, Colin Raffel*, Ekin D. Cubuk, and Ian J. Goodfellow",
             "url": "http://colinraffel.com/publications/nips2018realistic.pdf",
             "title": "Realistic Evaluation of Deep Semi-Supervised Learning Algorithms",
             "venue": "Neural Information Processing Systems 31 (NIPS)",
@@ -29,7 +29,7 @@
             "note": "Spotlight Paper"
         },
         {
-            "authors": "Adam Roberts, Jesse Engel, Colin Raffel, Curtis Hawthorne and Douglas Eck",
+            "authors": "Adam Roberts, Jesse Engel, Colin Raffel, Curtis Hawthorne, and Douglas Eck",
             "url": "http://colinraffel.com/publications/icml2018hierarchical.pdf",
             "title": "A Hierarchical Latent Vector Model for Learning Long-Term Structure in Music",
             "venue": "35th International Conference on Machine Learning (ICML)",
