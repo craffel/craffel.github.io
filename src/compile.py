@@ -48,11 +48,10 @@ def compile_template(template_path, data, output_path):
 
 
 if __name__ == '__main__':
-    compile_template(
-        os.path.join(TEMPLATE_PATH, 'index.tpl'),
-        load_data(os.path.join(DATA_PATH, '*.json')),
-        os.path.join(BUILD_PATH, 'index.html'))
-    compile_template(
-        os.path.join(TEMPLATE_PATH, 'cv.tpl'),
-        load_data(os.path.join(DATA_PATH, '*.json')),
-        os.path.join(BUILD_PATH, 'cv.html'))
+    for template_file in glob.glob(os.path.join(TEMPLATE_PATH, '*.tpl')):
+        filename = os.path.splitext(os.path.split(template_file)[1])[0]
+        compile_template(
+            template_file,
+            load_data(os.path.join(DATA_PATH, '*.json')),
+            os.path.join(BUILD_PATH, '{}.html'.format(filename)),
+        )
