@@ -130,6 +130,7 @@ strong {
 .onelineitem {
         margin-bottom: 5px;
         display: table;
+        page-break-inside: avoid;
 }
 #name {
         page-break-after: avoid;
@@ -166,6 +167,5 @@ p {
 @media print{
         body {
                 width: 680px;
-                font-size: 90%;
         }
 }
