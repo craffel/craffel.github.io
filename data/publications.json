@@ -10,23 +10,23 @@
             "year": 2018
         },
         {
-            "authors": "Ian Simon, Adam Roberts, Colin Raffel, Jesse Engel, Curtis Hawthorne, and Douglas Eck",
-            "url": "http://colinraffel.com/publications/arxiv2018learning.pdf",
-            "title": "Learning a Latent Space of Multitrack Measures",
-            "venue": "arXiv preprint: arXiv:1806.00195",
-            "day": 1,
-            "month": 6,
-            "year": 2018
-        },
-        {
             "authors": "Avital Oliver*, Augustus Odena*, Colin Raffel*, Ekin D. Cubuk, and Ian J. Goodfellow",
-            "url": "http://colinraffel.com/publications/nips2018realistic.pdf",
+            "url": "http://colinraffel.com/publications/neurips2018realistic.pdf",
             "title": "Realistic Evaluation of Deep Semi-Supervised Learning Algorithms",
-            "venue": "Neural Information Processing Systems 31 (NIPS)",
+            "venue": "Neural Information Processing Systems 32 (NeurIPS)",
             "day": 3,
             "month": 12,
             "year": 2018,
             "note": "Spotlight Paper"
+        },
+        {
+            "authors": "Ian Simon, Adam Roberts, Colin Raffel, Jesse Engel, Curtis Hawthorne, and Douglas Eck",
+            "url": "http://colinraffel.com/publications/arxiv2018learning.pdf",
+            "title": "Learning a Latent Space of Multitrack Measures",
+            "venue": "2nd NeurIPS Workshop on Machine Learning for Creativity and Design",
+            "day": 3,
+            "month": 12,
+            "year": 2018
         },
         {
             "authors": "Adam Roberts, Jesse Engel, Colin Raffel, Curtis Hawthorne, and Douglas Eck",
@@ -169,9 +169,9 @@
         },
         {
             "authors": "Colin Raffel and Daniel P. W. Ellis",
-            "url": "http://colinraffel.com/publications/nips2015accelerating.pdf",
+            "url": "http://colinraffel.com/publications/neurips2015accelerating.pdf",
             "title": "Accelerating Multimodal Sequence Retrieval with Convolutional Networks",
-            "venue": "NIPS Multimodal Machine Learning Workshop",
+            "venue": "NeurIPS Multimodal Machine Learning Workshop",
             "day": 11,
             "month": 12,
             "year": 2015

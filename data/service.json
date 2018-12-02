@@ -23,6 +23,11 @@
         },
         {
             "role": "Reviewer",
+            "venue": "International Journal of Computer Vision",
+            "start": 2018
+        },
+        {
+            "role": "Reviewer",
             "venue": "Neural Information Processing Systems",
             "start": 2017,
             "end": 2018
