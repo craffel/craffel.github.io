@@ -226,21 +226,23 @@
     <main>
 
         <p>
-            I am currently a Research Scientist (formerly a resident) at <a href="https://research.google.com/teams/brain/">Google Brain</a>, where I am working on generative modeling, sequential data, and improving experimental practice.
-            I did my PhD at Columbia University in <a href="http://labrosa.ee.columbia.edu/">LabROSA</a>, supervised by <a href="http://www.ee.columbia.edu/~dpwe/">Dan Ellis</a>.
-            My <a href="publications/thesis.pdf">thesis</a> focused on learning-based methods for comparing sequences.
-            The main product of my doctoral work is the <a href="projects/lmd">Lakh MIDI Dataset</a>, a large collection of music transcriptions which have been matched and aligned to corresponding audio recordings.
+            My research is focused on generative modeling and representation learning with an emphasis on sequential data like music, speech, and text.
+            I also work to improve experimental practice by releasing software tools and conducting meta-studies on evaluation.
+        </p>
+        <p>
+            I am currently a Senior Research Scientist (formerly a resident) at <a href="https://research.google.com/teams/brain/">Google Brain</a>, where I work in <a href="http://iangoodfellow.com">Ian Goodfellow</a>'s group.
+            I did my Ph.D. at Columbia University in <a href="http://labrosa.ee.columbia.edu/">LabROSA</a>, supervised by <a href="http://www.ee.columbia.edu/~dpwe/">Dan Ellis</a>.
             In 2010, I received a Master's in Music, Science and Technology from Stanford University's <a href="https://ccrma.stanford.edu">CCRMA</a>, supervised by <a href="https://ccrma.stanford.edu/~jos/">Julius O. Smith III</a>.
             I did my undergrad at Oberlin College, where I majored in Mathematics.
         </p>
 
         <p>
-            <i>This page contains an abbreviated version of my curriculum vit&aelig;; an extended, printer-friendly version is available <a href="cv.html">here</a>.</i>
+        <b>I am currently applying for tenure-track faculty positions at research institutions.</b> My application materials are available <a href="faculty_application">here</a>.
         </p>
     </main>
 
     <!-- Section navigation using anchors -->
-    <nav style="margin-top: 3em;">
+    <nav style="margin-top: 2em;">
         <p>
             <strong>Jump to: </strong>
             <a href="#publications">Publications</a> |
