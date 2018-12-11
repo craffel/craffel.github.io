@@ -27,7 +27,7 @@ This will produce our model $q_\theta(x)$, which ideally will match the true dis
 To do so, we need to adjust the parameters $\theta$ (in this case, the mean and covariance) of our Gaussian model so that they minimize some measure of the difference between $q_\theta(x)$ and the samples from $p(x)$.
 In practice, we'll use gradient descent over $\theta$ for this minimization.
 Let's start by using the KL divergence as a measure of the difference.
-Our goal will be to minimize the KL divergence (using gradient descent) between $p(x)$ and $q_\theta(x)$ to find a best set of parameters $\theta^*$:
+Our goal will be to minimize the KL divergence (using gradient descent) between $p(x)$ and $q_\theta(x)$ to find the best set of parameters $\theta^*$:
 
 \begin{eqnarray}
 \theta^* &=& \mathrm{arg}\min_\theta \mathrm{KL}(p(x) || q_\theta(x))\\
@@ -107,12 +107,12 @@ Let's see what happens when we fit a 2D Gaussian to the mixture of Gaussians usi
 
 ![](images/gans-and-divergence-minimization/qmix_rkl_contours.gif width="50%" border=1)
 
-Our model basically picks a single mode, and models it well.
-This solution is is reasonably high-entropy, and any sample from the estimated distribution has a reasonably high probability under $p(x)$, because the support of $q_\theta$ is basically a subset of the support of $p(x)$.
+Our model basically picks a single mode and models it well.
+This solution is reasonably high-entropy, and any sample from the estimated distribution has a reasonably high probability under $p(x)$, because the support of $q_\theta$ is basically a subset of the support of $p(x)$.
 The drawback here is that we are basically missing an entire mode of the true distribution.
 
 When might this be a desirable solution?
-As an example, let's consider image superresolution, where we want to recover a high resolution image (right) from a low-resolution version (left):
+As an example, let's consider image superresolution, where we want to recover a high-resolution image (right) from a low-resolution version (left):
 
 ![](images/gans-and-divergence-minimization/superresolution.png width="75%")
 
@@ -154,7 +154,7 @@ where $f_\phi$ is required to have a sigmoid nonlinearity on its output.
 
 Interestingly, if $f_\phi(x)$ can represent any function, choosing $\theta^*$ via Equation [ganobjective] using the loss function in Equation [originalganloss] is equivalent to minimizing the Jensen-Shannon divergence between $p(x)$ and $q_\theta(x)$.
 More generally, it is possible to construct loss functions $V(\cdot, \cdot)$ and critic architectures which result (in some limit) in minimization of some analytical divergence.
-This can allow for minimization of divergences which are otherwise intractible or impossible to minimize directly.
+This can allow for minimization of divergences which are otherwise intractable or impossible to minimize directly.
 For example, [#nowozin2016] showed that the following loss function corresponds to minimization of the reverse KL divergence:
 
 \begin{equation}
@@ -169,7 +169,7 @@ Let's go ahead and do this in the example above of fitting a 2D Gaussian to a mi
 Sure enough, the solution found by minimizing the GAN objective with the loss function in Equation [rklganloss] looks roughly the same as the one found by minimizing the reverse KL divergence.
 
 To re-emphasize the importance of this, the GAN framework opens up the possibility of minimizing divergences which we can't compute or minimize otherwise.
-This opens up the possibility of learning generative models using objectives other than maximum likelihood, which has been the dominant paradigm for roughly a century (not without good reson - it has nice theoretical properties, like its efficiency and consistency).
+This opens up the possibility of learning generative models using objectives other than maximum likelihood, which has been the dominant paradigm for roughly a century (not without good reason - it has nice theoretical properties, like its efficiency and consistency).
 Nevertheless, it opens the possibility of using alternative objectives which, for example and loosely speaking, prioritize "realism" over covering the entire support of $p(x)$.
 
 As a final note on this perspective, the statements above about how GANs minimize some underlying analytical divergence can lead people thinking of them as "just minimizing the Jensen-Shannon (or whichever other) divergence".
@@ -208,7 +208,7 @@ Of course, Equation [ganeval] requires training a neural network from scratch, b
 
 While not widely used, this evaluation procedure has seen some study, for example in [#danihelka2017] and [#im2018].
 In recent work [#gulrajani2018], we argue that this evaluation procedure facilitates some notion of generalization and include some experiments to gain better insight into its behavior.
-I plan to discuss this work in a future blogpost.
+I plan to discuss this work in a future blog post.
 
 (#) References
 
