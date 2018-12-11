@@ -26,7 +26,7 @@ Let's fit a Gaussian distribution to these samples.
 This will produce our model $q_\theta(x)$, which ideally will match the true distribution $p(x)$.
 To do so, we need to adjust the parameters $\theta$ (in this case, the mean and covariance) of our Gaussian model so that they minimize some measure of the difference between $q_\theta(x)$ and the samples from $p(x)$.
 In practice, we'll use gradient descent over $\theta$ for this minimization.
-Let's start by using the KL divergence as a measure of the difference.
+Let's start by using the [KL divergence](https://en.wikipedia.org/wiki/Kullback%E2%80%93Leibler_divergence) as a measure of the difference.
 Our goal will be to minimize the KL divergence (using gradient descent) between $p(x)$ and $q_\theta(x)$ to find the best set of parameters $\theta^*$:
 
 \begin{eqnarray}
@@ -39,6 +39,7 @@ Our goal will be to minimize the KL divergence (using gradient descent) between 
 where the separation of terms in eqn. [linearity] comes from the linearity of expectation.
 The first term, $\mathbb{E}_{x \sim p}[\log p(x)]$, is just the negative entropy of the true distribution $p(x)$.
 Changing $\theta$ won't change this quantity, so we can ignore it for the purposes of finding $\theta^*$.
+This is nice because we also can't compute it in practice -- it requires evaluating $p(x)$, and we do not have access to the true distribution.
 This gives us
 
 \begin{eqnarray}
@@ -79,8 +80,8 @@ Let's look at the maximum likelihood equation again:
 What happens if we draw a sample from $p(x)$ and it has low probability under $q_\theta(x)$?
 As $q_\theta(x)$ approaches zero for some $x \sim p$, $\log q_\theta(x)$ goes to negative infinity.
 Since we are trying to maximize $q_\theta(x)$, this means it's *really really bad* if we draw a sample from $p(x)$ and $q_\theta(x)$ assigns a low probability to it.
-The result is that the estimated model tries to cover the entire support of the true distribution.
-As a result, our model ends up assigning probability mass to regions of space (between the two mixture components) which have low probability under $p(x)$.
+In contrast, if some $x$ has low probability under $p(x)$ but high probability under $q_\theta(x)$, this will not affect maximum likelihood loss much.
+The result is that the estimated model tries to cover the entire support of the true distribution, and in doing so ends up assigning probability mass to regions of space (between the two mixture components) which have low probability under $p(x)$.
 In looser terms, this means that samples from $q_\theta(x)$ might be "unrealistic".
 
 # The Reverse KL Divergence
@@ -109,7 +110,7 @@ Let's see what happens when we fit a 2D Gaussian to the mixture of Gaussians usi
 
 Our model basically picks a single mode and models it well.
 This solution is reasonably high-entropy, and any sample from the estimated distribution has a reasonably high probability under $p(x)$, because the support of $q_\theta$ is basically a subset of the support of $p(x)$.
-The drawback here is that we are basically missing an entire mode of the true distribution.
+The drawback here is that we are basically missing an entire mixture component of the true distribution.
 
 When might this be a desirable solution?
 As an example, let's consider image superresolution, where we want to recover a high-resolution image (right) from a low-resolution version (left):
@@ -150,7 +151,7 @@ The original GAN paper used the following loss function:
 \mathrm{V}(f_\phi(x), f_\phi(\hat{x})) = \log f_\phi(x) + \log[1 - f_\phi(\hat{x})]
 \end{equation}
 
-where $f_\phi$ is required to have a sigmoid nonlinearity on its output.
+where $f_\phi(x)$ is required to output a value between 0 and 1.
 
 Interestingly, if $f_\phi(x)$ can represent any function, choosing $\theta^*$ via Equation [ganobjective] using the loss function in Equation [originalganloss] is equivalent to minimizing the Jensen-Shannon divergence between $p(x)$ and $q_\theta(x)$.
 More generally, it is possible to construct loss functions $V(\cdot, \cdot)$ and critic architectures which result (in some limit) in minimization of some analytical divergence.
@@ -166,11 +167,12 @@ Let's go ahead and do this in the example above of fitting a 2D Gaussian to a mi
 
 ![](images/gans-and-divergence-minimization/qmix_fgan_contours.gif width="50%" border=1)
 
-Sure enough, the solution found by minimizing the GAN objective with the loss function in Equation [rklganloss] looks roughly the same as the one found by minimizing the reverse KL divergence.
+Sure enough, the solution found by minimizing the GAN objective with the loss function in Equation [rklganloss] looks roughly the same as the one found by minimizing the reverse KL divergence, but did not require "cheating" by evaluating $p(x)$.
 
 To re-emphasize the importance of this, the GAN framework opens up the possibility of minimizing divergences which we can't compute or minimize otherwise.
-This opens up the possibility of learning generative models using objectives other than maximum likelihood, which has been the dominant paradigm for roughly a century (not without good reason - it has nice theoretical properties, like its efficiency and consistency).
-Nevertheless, it opens the possibility of using alternative objectives which, for example and loosely speaking, prioritize "realism" over covering the entire support of $p(x)$.
+This allows earning generative models using objectives other than maximum likelihood, which has been the dominant paradigm for roughly a century.
+Maximum likelihood's ubiquity is not without good reason -- it is tractable (unlike, say, the reverse KL divergence) and has nice theoretical properties, like its efficiency and consistency.
+Nevertheless, the GAN framework opens the possibility of using alternative objectives which, for example and loosely speaking, prioritize "realism" over covering the entire support of $p(x)$.
 
 As a final note on this perspective, the statements above about how GANs minimize some underlying analytical divergence can lead people thinking of them as "just minimizing the Jensen-Shannon (or whichever other) divergence".
 However, the proofs of these statements rely on assumptions that don't hold up in practice.
@@ -196,7 +198,7 @@ Note that Equation [mltest] simply computes the divergence used to train the mod
 Typically, the GAN framework is not thought to allow this kind of evaluation.
 As a result, various ad-hoc and task-specific evaluation functions have been proposed (such as the Inception Score and the Frechet Inception Distance for modeling natural images).
 However, following the reasoning above actually provides a natural analog to the evaluation procedure used for maximum likelihood:
-After training our model, we train an "independent critic" (used only for evaluation) from scratch on our held-out set of samples from $p(x)$ and samples from $q_\theta(x)$:
+After training our model, we train an "independent critic" (used only for evaluation) from scratch on our held-out set of samples from $p(x)$ and samples from $q_\theta(x)$ with $\theta$ held fixed:
 
 \begin{equation}
 \label{ganeval}
@@ -210,9 +212,23 @@ While not widely used, this evaluation procedure has seen some study, for exampl
 In recent work [#gulrajani2018], we argue that this evaluation procedure facilitates some notion of generalization and include some experiments to gain better insight into its behavior.
 I plan to discuss this work in a future blog post.
 
+# Pointers
+
+The perspective given in this blog post is not new.
+[#theis2015] and [#huszar2015] both discuss the different behavior of maximum likelihood, reverse KL, and GAN-based training in terms of support coverage.
+Huszár also has a few follow-up blog posts on the subject [#huszar2016a], [#huszar2016b].
+[#poole2016] further develops the use of the GAN framework for minimizing arbitrary f-divergences.
+[#fedus2017] demonstrates how GANs are not always minimizing some analytical divergence in practice.
+[#huang2017] provides some perspective on the idea that the design of the critic architecture allows us to imbue task-specific priors in our objective.
+Finally, [#arora2017] and [#liu2017] provide some theory about the "adversarial divergences" learned and optimized in the GAN framework.
+
+(#) Acknowledgements
+
+Thanks to Ben Poole and Avital Oliver for their feedback on this blog post.
+
 (#) References
 
-[#goodfellow2014]: Ian Goodfellow, Jean Pouget-Abadie, Mehdi Mirza, Bing Xu, David Warde-Farley, Sherjil Ozair, Aaron Courville, and Yoshua Bengio. Generative Adversarial Nets. arXiv:1406.2661, 2014.
+[#goodfellow2014]: Ian Goodfellow, Jean Pouget-Abadie, Mehdi Mirza, Bing Xu, David Warde-Farley, Sherjil Ozair, Aaron Courville, and Yoshua Bengio. Generative Adversarial Networks. arXiv:1406.2661, 2014.
 
 [#nowozin2016]: Sebastian Nowozin, Botond Cseke, and Ryota Tomioka. f-GAN: Training Generative Neural Samplers using Variational Divergence Minimization. arXiv:1606.00709, 2016.
 
@@ -221,6 +237,24 @@ I plan to discuss this work in a future blog post.
 [#im2018]: Daniel Jiwoong Im, He Ma, Graham Taylor, and Kristin Branson. Quantitatively Evaluating GANs With Divergences Proposed for Training. arXiv:1803.01045, 2018.
 
 [#gulrajani2018]: Ishaan Gulrajani, Colin Raffel, and Luke Metz. Towards GAN Benchmarks Which Require Generalization. In preparation, 2018.
+
+[#theis2015]: Lucas Theis, Aäron van den Oord, and Matthias Bethge. A note on the evaluation of generative models. arXiv:1511.01844, 2015.
+
+[#huszar2015]: Ferenc Huszár. How (not) to Train your Generative Model: Scheduled Sampling, Likelihood, Adversary? arXiv:1511.05101, 2015.
+
+[#huszar2016a]: Ferenc Huszár. An Alternative Update Rule for Generative Adversarial Networks. [https://www.inference.vc/an-alternative-update-rule-for-generative-adversarial-networks/](https://www.inference.vc/an-alternative-update-rule-for-generative-adversarial-networks/), 2015.
+
+[#huszar2016b]: Ferenc Huszár. Understanding Minibatch Discrimination in GANs. [https://www.inference.vc/understanding-minibatch-discrimination-in-gans/](https://www.inference.vc/understanding-minibatch-discrimination-in-gans/), 2015.
+
+[#poole2016]: Ben Poole, Alexander A. Alemi, Jascha Sohl-Dickstein, and Anelia Angelova. Improved generator objectives for GANs. arXiv:1612.02780, 2016.
+
+[#fedus2017]: William Fedus, Mihaela Rosca, Balaji Lakshminarayanan, Andrew M. Dai, Shakir Mohamed, and Ian Goodfellow. Many Paths to Equilibrium: GANs Do Not Need to Decrease a Divergence At Every Step. arXiv:1710.08446, 2017.
+
+[#huang2017]: Gabriel Huang, Hugo Berard, Ahmed Touati, Gauthier Gidel, Pascal Vincent, and Simon Lacoste-Julien. Parametric Adversarial Divergences are Good Task Losses for Generative Modeling. arXiv:1708.02511, 2017.
+
+[#arora2017]: Sanjeev Arora, Rong Ge, Yingyu Liang, Tengyu Ma, and Yi Zhang. Generalization and Equilibrium in Generative Adversarial Nets (GANs). arXiv:1703.00573, 2017.
+
+[#liu2017]: Shuang Liu, Olivier Bousquet, and Kamalika Chaudhuri. Approximation and Convergence Properties of Generative Adversarial Learning. arXiv:1705.08991, 2017.
 
 <script>window.markdeepOptions={}; window.markdeepOptions.tocStyle="none";</script> 
 <!-- Markdeep: --><script src="markdeep.min.js"></script>
