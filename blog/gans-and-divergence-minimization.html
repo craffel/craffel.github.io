@@ -1,4 +1,6 @@
 <meta charset="utf-8" lang="en"><style class="fallback">body{visibility:hidden;}</style>
+<style>body{line-height: 1.5;}</style>
+
 
     **GANs and Divergence Minimization**
     Colin Raffel
@@ -50,7 +52,7 @@ This gives us
          &=& \mathrm{arg}\max_\theta \mathbb{E}_{x \sim p}[\log q_\theta(x)]
 \end{eqnarray}
 
-Eqn. [maximumlikelihood] states that we want to find the value of $\theta$ which assigns samples from $p(x)$ the highest possible (log) probability under $q_\theta(x)$.
+Eqn. [maximumlikelihood] states that we want to find the value of $\theta$ which assigns samples from $p(x)$ the highest possible log probability under $q_\theta(x)$.
 This is exactly the equation for maximum likelihood estimation, which we have shown is equivalent to minimizing $\mathrm{KL}(p(x) || q_\theta(x))$.
 Let's see what happens when we optimize the parameters $\theta$ of our Gaussian $q_\theta(x)$ to fit the samples from $p(x)$ via maximum likelihood:
 
@@ -119,8 +121,10 @@ As an example, let's consider image superresolution, where we want to recover a 
 
 This figure was made by my colleague David Berthelot.
 In this task, there are multiple possible "good" solutions.
-In practice, it may be much more important that our model produces a single high-quality output than that it correctly models the distribution over all possible outputs.
-In this case, maximum likelihood can produce a "worse" solution in practice because it might produce low-quality or incorrect outputs by virtue of trying to model every possible outcome despite insufficient capacity.
+In this case, it may be much more important that our model produces a single high-quality output than that it correctly models the distribution over all possible outputs.
+Of course, reverse KL provides no control over which output is chosen, just that the distribution learned by the model has high probability under the true distribution.
+In contrast, maximum likelihood can result in a "worse" solution in practice because it might produce low-quality or incorrect outputs by virtue of trying to model every possible outcome despite model misspecification or insufficient capacity.
+Note that one way to deal with this is to train a model with more capacity; a recent example of this approach is Glow [#kingma2018], a maximum likelihood-based model which achieves impressive results with over 100 million parameters.
 
 # Generative Adversarial Networks
 
@@ -170,7 +174,7 @@ Let's go ahead and do this in the example above of fitting a 2D Gaussian to a mi
 Sure enough, the solution found by minimizing the GAN objective with the loss function in Equation [rklganloss] looks roughly the same as the one found by minimizing the reverse KL divergence, but did not require "cheating" by evaluating $p(x)$.
 
 To re-emphasize the importance of this, the GAN framework opens up the possibility of minimizing divergences which we can't compute or minimize otherwise.
-This allows earning generative models using objectives other than maximum likelihood, which has been the dominant paradigm for roughly a century.
+This allows learning generative models using objectives other than maximum likelihood, which has been the dominant paradigm for roughly a century.
 Maximum likelihood's ubiquity is not without good reason -- it is tractable (unlike, say, the reverse KL divergence) and has nice theoretical properties, like its efficiency and consistency.
 Nevertheless, the GAN framework opens the possibility of using alternative objectives which, for example and loosely speaking, prioritize "realism" over covering the entire support of $p(x)$.
 
@@ -224,7 +228,7 @@ Finally, [#arora2017] and [#liu2017] provide some theory about the "adversarial 
 
 (#) Acknowledgements
 
-Thanks to Ben Poole and Avital Oliver for their feedback on this blog post.
+Thanks to Ben Poole, Avital Oliver, and Anselm Levskaya for their feedback on this blog post.
 
 (#) References
 
