@@ -1,13 +1,22 @@
 {"publications":
     [
         {
-            "authors": "David Berthelot*, Colin Raffel*, Aurko Roy and Ian Goodfellow",
-            "url": "http://colinraffel.com/publications/arxiv2018understanding.pdf",
+            "authors": "David Berthelot*, Colin Raffel*, Aurko Roy, and Ian Goodfellow",
+            "url": "http://colinraffel.com/publications/iclr2019understanding.pdf",
             "title": "Understanding and Improving Interpolation in Autoencoders via an Adversarial Regularizer",
-            "venue": "arXiv preprint: arXiv:1807.07543",
-            "day": 19,
-            "month": 7,
-            "year": 2018
+            "venue": "7th International Conference on Learning Representations (ICLR)",
+            "day": 6,
+            "month": 5,
+            "year": 2019
+        },
+        {
+            "authors": "Ishaan Gulrajani, Colin Raffel, and Luke Metz",
+            "url": "http://colinraffel.com/publications/iclr2019towards.pdf",
+            "title": "Towards GAN Benchmarks Which Require Generalization",
+            "venue": "7th International Conference on Learning Representations (ICLR)",
+            "day": 6,
+            "month": 5,
+            "year": 2019
         },
         {
             "authors": "Avital Oliver*, Augustus Odena*, Colin Raffel*, Ekin D. Cubuk, and Ian J. Goodfellow",
@@ -16,8 +25,7 @@
             "venue": "Neural Information Processing Systems 32 (NeurIPS)",
             "day": 3,
             "month": 12,
-            "year": 2018,
-            "note": "Spotlight Paper"
+            "year": 2018
         },
         {
             "authors": "Ian Simon, Adam Roberts, Colin Raffel, Jesse Engel, Curtis Hawthorne, and Douglas Eck",
@@ -38,7 +46,7 @@
             "year": 2018
         },
         {
-            "authors": "Augustus Odena, Jacob Buckman, Catherine Olsson, Tom B. Brown, Christopher Olah, Colin Raffel, Ian Goodfellow",
+            "authors": "Augustus Odena, Jacob Buckman, Catherine Olsson, Tom B. Brown, Christopher Olah, Colin Raffel, and Ian Goodfellow",
             "url": "http://colinraffel.com/publications/icml2018generator.pdf",
             "title": "Is Generator Conditioning Causally Related to GAN Performance?",
             "venue": "35th International Conference on Machine Learning (ICML)",
@@ -56,7 +64,7 @@
             "year": 2018
         },
         {
-            "authors": "Jacob Buckman*, Aurko Roy*, Colin Raffel and Ian J. Goodfellow",
+            "authors": "Jacob Buckman*, Aurko Roy*, Colin Raffel, and Ian J. Goodfellow",
             "url": "http://colinraffel.com/publications/iclr2018thermometer.pdf",
             "title": "Thermometer Encoding: One Hot Way To Resist Adversarial Examples",
             "venue": "6th International Conference on Learning Representations (ICLR)",
