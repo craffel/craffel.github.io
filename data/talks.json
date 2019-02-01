@@ -1,6 +1,12 @@
 {"talks":
     [
         {
+            "title": "Why are GANs Interesting?",
+            "venue": "New York University CILVR Seminar",
+            "url": "http://colinraffel.com/talks/nyu2018why.pdf",
+            "year": 2018
+        },
+        {
             "title": "A Few Unusual Autoencoders",
             "venue": "Vector Institute, New York University &amp; San Francisco State University",
             "url": "http://colinraffel.com/talks/vector2018few.pdf",
