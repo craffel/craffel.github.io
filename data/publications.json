@@ -1,6 +1,15 @@
 {"publications":
     [
         {
+            "authors": "Vaishnavh Nagarajan, Colin Raffel, and Ian J. Goodfellow",
+            "url": "http://colinraffel.com/publications/idlt2018theoretical.pdf",
+            "title": "Theoretical Insights into Memorization in GANs",
+            "venue": "NeurIPS Workshop on Integration of Deep Learning Theories",
+            "day": 8,
+            "month": 12,
+            "year": 2018
+        },
+        {
             "authors": "David Berthelot*, Colin Raffel*, Aurko Roy, and Ian Goodfellow",
             "url": "http://colinraffel.com/publications/iclr2019understanding.pdf",
             "title": "Understanding and Improving Interpolation in Autoencoders via an Adversarial Regularizer",
