@@ -1,6 +1,15 @@
 {"publications":
     [
         {
+            "authors": "Yao Qin, Nicholas Carlini, Ian Goodfellow, Garrison Cottrell, and Colin Raffel",
+            "url": "http://colinraffel.com/publications/icml2019imperceptible.pdf",
+            "title": "Imperceptible, Robust, and Targeted Adversarial Examples for Automatic Speech Recognition",
+            "venue": "36th International Conference on Machine Learning (ICML)",
+            "day": 9,
+            "month": 6,
+            "year": 2019
+        },
+        {
             "authors": "Vaishnavh Nagarajan, Colin Raffel, and Ian J. Goodfellow",
             "url": "http://colinraffel.com/publications/idlt2018theoretical.pdf",
             "title": "Theoretical Insights into Memorization in GANs",
