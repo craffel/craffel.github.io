@@ -230,15 +230,12 @@
             I also work to improve experimental practice by releasing software tools and conducting meta-studies on evaluation.
         </p>
         <p>
-            I am currently a Senior Research Scientist (formerly a resident) at <a href="https://research.google.com/teams/brain/">Google Brain</a>, where I work in <a href="http://iangoodfellow.com">Ian Goodfellow</a>'s group.
+            I am currently a Senior Research Scientist (formerly a resident) at <a href="https://research.google.com/teams/brain/">Google Brain</a>.
             I did my Ph.D. at Columbia University in <a href="http://labrosa.ee.columbia.edu/">LabROSA</a>, supervised by <a href="http://www.ee.columbia.edu/~dpwe/">Dan Ellis</a>.
             In 2010, I received a Master's in Music, Science and Technology from Stanford University's <a href="https://ccrma.stanford.edu">CCRMA</a>, supervised by <a href="https://ccrma.stanford.edu/~jos/">Julius O. Smith III</a>.
             I did my undergrad at Oberlin College, where I majored in Mathematics.
         </p>
 
-        <p>
-        <b>I am currently applying for tenure-track faculty positions at research institutions.</b> My application materials are available <a href="faculty_application">here</a>.
-        </p>
     </main>
 
     <!-- Section navigation using anchors -->
