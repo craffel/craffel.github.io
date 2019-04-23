@@ -226,10 +226,6 @@
     <main>
 
         <p>
-            My research is focused on generative modeling and representation learning with an emphasis on sequential data like music, speech, and text.
-            I also work to improve experimental practice by releasing software tools and conducting meta-studies on evaluation.
-        </p>
-        <p>
             I am currently a Senior Research Scientist (formerly a resident) at <a href="https://research.google.com/teams/brain/">Google Brain</a>.
             I did my Ph.D. at Columbia University in <a href="http://labrosa.ee.columbia.edu/">LabROSA</a>, supervised by <a href="http://www.ee.columbia.edu/~dpwe/">Dan Ellis</a>.
             In 2010, I received a Master's in Music, Science and Technology from Stanford University's <a href="https://ccrma.stanford.edu">CCRMA</a>, supervised by <a href="https://ccrma.stanford.edu/~jos/">Julius O. Smith III</a>.
@@ -239,7 +235,7 @@
     </main>
 
     <!-- Section navigation using anchors -->
-    <nav style="margin-top: 2em;">
+    <nav style="margin-top: 1.5em;">
         <p>
             <strong>Jump to: </strong>
             <a href="#publications">Publications</a> |
