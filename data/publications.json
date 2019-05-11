@@ -10,6 +10,15 @@
             "year": 2019
         },
         {
+            "authors": "David Berthelot, Nicholas Carlini, Ian Goodfellow, Nicolas Papernot, Avital Oliver and Colin Raffel",
+            "url": "http://colinraffel.com/publications/arxiv2019mixmatch.pdf",
+            "title": "MixMatch: A Holistic Approach to Semi-Supervised Learning",
+            "venue": "arXiv preprint arXiv:1905.02249",
+            "day": 6,
+            "month": 5,
+            "year": 2019
+        },
+        {
             "authors": "Vaishnavh Nagarajan, Colin Raffel, and Ian J. Goodfellow",
             "url": "http://colinraffel.com/publications/idlt2018theoretical.pdf",
             "title": "Theoretical Insights into Memorization in GANs",
