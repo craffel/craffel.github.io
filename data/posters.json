@@ -1,6 +1,12 @@
 {"posters":
     [
         {
+            "title": "Understanding and Improving Interpolation in Autoencoders via an Adversarial Regularizer",
+            "venue": "7th International Conference on Learning Representations",
+            "url": "http://colinraffel.com/posters/iclr2019understanding.pdf",
+            "year": 2019
+        },
+        {
             "title": "Realistic Evaluation of Deep Semi-Supervised Learning Algorithms",
             "venue": "Neural Information Processing Systems 32",
             "url": "http://colinraffel.com/posters/neurips2018realistic.pdf",
