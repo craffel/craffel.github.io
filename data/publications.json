@@ -1,6 +1,24 @@
 {"publications":
     [
         {
+            "authors": "Naveen Arivazhagan*, Colin Cherry*, Wolfgang Macherey, Chung-Cheng Chiu, Semih Yavuz, Ruoming Pang, Wei Li, and Colin Raffel",
+            "url": "http://colinraffel.com/publications/acl2019monotonic.pdf",
+            "title": "Monotonic Infinite Lookback Attention for Simultaneous Machine Translation",
+            "venue": "57th Annual Meeting of the Association for Computational Linguistics (ACL)",
+            "day": 28,
+            "month": 7,
+            "year": 2019
+        },
+        {
+            "authors": "Yao Qin*, Nicholas Frosst*, Sara Sabour, Colin Raffel, Garrison Cottrell, and Geoffrey Hinton",
+            "url": "http://colinraffel.com/publications/arxiv2019detecting.pdf",
+            "title": "Detecting and Diagnosing Adversarial Images with Class-Conditional Capsule Reconstructions",
+            "venue": "arXiv preprint arXiv:1907.02957",
+            "day": 5,
+            "month": 7,
+            "year": 2019
+        },
+        {
             "authors": "Yao Qin, Nicholas Carlini, Ian Goodfellow, Garrison Cottrell, and Colin Raffel",
             "url": "http://colinraffel.com/publications/icml2019imperceptible.pdf",
             "title": "Imperceptible, Robust, and Targeted Adversarial Examples for Automatic Speech Recognition",
@@ -10,7 +28,7 @@
             "year": 2019
         },
         {
-            "authors": "David Berthelot, Nicholas Carlini, Ian Goodfellow, Nicolas Papernot, Avital Oliver and Colin Raffel",
+            "authors": "David Berthelot, Nicholas Carlini, Ian Goodfellow, Nicolas Papernot, Avital Oliver, and Colin Raffel",
             "url": "http://colinraffel.com/publications/arxiv2019mixmatch.pdf",
             "title": "MixMatch: A Holistic Approach to Semi-Supervised Learning",
             "venue": "arXiv preprint arXiv:1905.02249",
