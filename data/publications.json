@@ -1,6 +1,15 @@
 {"publications":
     [
         {
+            "authors": "Colin Raffel*, Noam Shazeer*, Adam Roberts*, Katherine Lee*, Sharan Narang, Michael Matena, Yanqi Zhou, Wei Li, and Peter J. Liu",
+            "url": "http://colinraffel.com/publications/arxiv2019exploring.pdf",
+            "title": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+            "venue": "arXiv preprint arXiv:1905.02249",
+            "day": 23,
+            "month": 10,
+            "year": 2019
+        },
+        {
             "authors": "Naveen Arivazhagan*, Colin Cherry*, Wolfgang Macherey, Chung-Cheng Chiu, Semih Yavuz, Ruoming Pang, Wei Li, and Colin Raffel",
             "url": "http://colinraffel.com/publications/acl2019monotonic.pdf",
             "title": "Monotonic Infinite Lookback Attention for Simultaneous Machine Translation",
