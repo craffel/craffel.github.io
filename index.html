@@ -226,10 +226,14 @@
     <main>
 
         <p>
-            I am currently a Senior Research Scientist (formerly a resident) at <a href="https://research.google.com/teams/brain/">Google Brain</a>.
+            <strong>I will be joining the <a href="https://cs.unc.edu/">Computer Science Department at the University of North Carolina</a> as an assistant professor in fall 2020.</strong>
+            If you're interested in doing a Ph.D. at UNC and want to work on learning from limited labels (semi-supervised/unsupervised/transfer learning), please get in touch.
+        </p>
+        <p>
+            I am currently a Senior Research Scientist at <a href="https://research.google.com/teams/brain/">Google Brain</a>.
             I did my Ph.D. at Columbia University in <a href="http://labrosa.ee.columbia.edu/">LabROSA</a>, supervised by <a href="http://www.ee.columbia.edu/~dpwe/">Dan Ellis</a>.
-            In 2010, I received a Master's in Music, Science and Technology from Stanford University's <a href="https://ccrma.stanford.edu">CCRMA</a>, supervised by <a href="https://ccrma.stanford.edu/~jos/">Julius O. Smith III</a>.
-            I did my undergrad at Oberlin College, where I majored in Mathematics.
+            <!--In 2010, I received a Master's in Music, Science and Technology from Stanford University's <a href="https://ccrma.stanford.edu">CCRMA</a>, supervised by <a href="https://ccrma.stanford.edu/~jos/">Julius O. Smith III</a>.
+            I did my undergrad at Oberlin College, where I majored in Mathematics.//-->
         </p>
 
     </main>
