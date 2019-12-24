@@ -1,6 +1,33 @@
 {"publications":
     [
         {
+            "authors": "David Berthelot, Nicholas Carlini, Ekin D. Cubuk, Alex Kurakin, Kihyuk Sohn, Han Zhang, and Colin Raffel",
+            "url": "http://colinraffel.com/publications/iclr2020remixmatch.pdf",
+            "title": "ReMixMatch: Semi-Supervised Learning with Distribution Alignment and Augmentation Anchoring",
+            "venue": "8th International Conference on Learning Representations (ICLR)",
+            "day": 26,
+            "month": 4,
+            "year": 2020
+        },
+        {
+            "authors": "Yao Qin*, Nicholas Frosst*, Sara Sabour, Colin Raffel, Garrison Cottrell, and Geoffrey Hinton",
+            "url": "http://colinraffel.com/publications/iclr2020detecting.pdf",
+            "title": "Detecting and Diagnosing Adversarial Images with Class-Conditional Capsule Reconstructions",
+            "venue": "8th International Conference on Learning Representations (ICLR)",
+            "day": 26,
+            "month": 4,
+            "year": 2020
+        },
+        {
+            "authors": "David Berthelot, Nicholas Carlini, Ian Goodfellow, Nicolas Papernot, Avital Oliver, and Colin Raffel",
+            "url": "http://colinraffel.com/publications/neurips2019mixmatch.pdf",
+            "title": "MixMatch: A Holistic Approach to Semi-Supervised Learning",
+            "venue": "Neural Information Processing Systems 33 (NeurIPS)",
+            "day": 9,
+            "month": 12,
+            "year": 2019
+        },
+        {
             "authors": "Colin Raffel*, Noam Shazeer*, Adam Roberts*, Katherine Lee*, Sharan Narang, Michael Matena, Yanqi Zhou, Wei Li, and Peter J. Liu",
             "url": "http://colinraffel.com/publications/arxiv2019exploring.pdf",
             "title": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
@@ -19,30 +46,12 @@
             "year": 2019
         },
         {
-            "authors": "Yao Qin*, Nicholas Frosst*, Sara Sabour, Colin Raffel, Garrison Cottrell, and Geoffrey Hinton",
-            "url": "http://colinraffel.com/publications/arxiv2019detecting.pdf",
-            "title": "Detecting and Diagnosing Adversarial Images with Class-Conditional Capsule Reconstructions",
-            "venue": "arXiv preprint arXiv:1907.02957",
-            "day": 5,
-            "month": 7,
-            "year": 2019
-        },
-        {
             "authors": "Yao Qin, Nicholas Carlini, Ian Goodfellow, Garrison Cottrell, and Colin Raffel",
             "url": "http://colinraffel.com/publications/icml2019imperceptible.pdf",
             "title": "Imperceptible, Robust, and Targeted Adversarial Examples for Automatic Speech Recognition",
             "venue": "36th International Conference on Machine Learning (ICML)",
             "day": 9,
             "month": 6,
-            "year": 2019
-        },
-        {
-            "authors": "David Berthelot, Nicholas Carlini, Ian Goodfellow, Nicolas Papernot, Avital Oliver, and Colin Raffel",
-            "url": "http://colinraffel.com/publications/arxiv2019mixmatch.pdf",
-            "title": "MixMatch: A Holistic Approach to Semi-Supervised Learning",
-            "venue": "arXiv preprint arXiv:1905.02249",
-            "day": 6,
-            "month": 5,
             "year": 2019
         },
         {
