@@ -10,6 +10,15 @@
             "year": 2020
         },
         {
+            "authors": "Kihyuk Sohn*, David Berthelot*, Chun-Liang Li, Zizhao Zhang, Nicholas Carlini, Ekin D. Cubuk, Alex Kurakin, Han Zhang, and Colin Raffel",
+            "url": "http://colinraffel.com/publications/arxiv2020fixmatch.pdf",
+            "title": "FixMatch: Simplifying Semi-Supervised Learning with Consistency and Confidence",
+            "venue": "arXiv preprint arXiv:2001.07685",
+            "day": 21,
+            "month": 1,
+            "year": 2020
+        },
+        {
             "authors": "David Berthelot, Nicholas Carlini, Ekin D. Cubuk, Alex Kurakin, Kihyuk Sohn, Han Zhang, and Colin Raffel",
             "url": "http://colinraffel.com/publications/iclr2020remixmatch.pdf",
             "title": "ReMixMatch: Semi-Supervised Learning with Distribution Alignment and Augmentation Anchoring",
