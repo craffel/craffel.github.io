@@ -1,6 +1,15 @@
 {"publications":
     [
         {
+            "authors": "Adam Roberts*, Colin Raffel*, and Noam Shazeer",
+            "url": "http://colinraffel.com/publications/arxiv2020how.pdf",
+            "title": "How Much Knowledge Can You Pack Into the Parameters of a Language Model?",
+            "venue": "Technical Report",
+            "day": 10,
+            "month": 2,
+            "year": 2020
+        },
+        {
             "authors": "David Berthelot, Nicholas Carlini, Ekin D. Cubuk, Alex Kurakin, Kihyuk Sohn, Han Zhang, and Colin Raffel",
             "url": "http://colinraffel.com/publications/iclr2020remixmatch.pdf",
             "title": "ReMixMatch: Semi-Supervised Learning with Distribution Alignment and Augmentation Anchoring",
