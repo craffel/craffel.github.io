@@ -1,10 +1,19 @@
 {"publications":
     [
         {
+            "authors": "Samarth Sinha, Anirudh Goyal, Colin Raffel, and Augustus Odena",
+            "url": "http://colinraffel.com/publications/arxiv2020top.pdf",
+            "title": "Top-K Training of GANs: Improving Generators by Making Critics Less Critical",
+            "venue": "arXiv preprint arXiv:2002.06224",
+            "day": 14,
+            "month": 2,
+            "year": 2020
+        },
+        {
             "authors": "Adam Roberts*, Colin Raffel*, and Noam Shazeer",
             "url": "http://colinraffel.com/publications/arxiv2020how.pdf",
             "title": "How Much Knowledge Can You Pack Into the Parameters of a Language Model?",
-            "venue": "Technical Report",
+            "venue": "arXiv preprint arXiv:2002.08910",
             "day": 10,
             "month": 2,
             "year": 2020
