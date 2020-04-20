@@ -1,6 +1,24 @@
 {"publications":
     [
         {
+            "authors": "Martin Maas, David G. Andersen, Michael Isard, Mohammad Mahdi Javanmard, Kathryn S. McKinley, and Colin Raffel",
+            "url": "http://colinraffel.com/publications/asplos2020learning.pdf",
+            "title": "Learning-based Memory Allocation for C++ Server Workloads",
+            "venue": "25th International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS)",
+            "day": 16,
+            "month": 3,
+            "year": 2020
+        },
+        {
+            "authors": "Yao Qin, Nicholas Frosst, Colin Raffel, Garrison Cottrell, and Geoffrey Hinton",
+            "url": "http://colinraffel.com/publications/arxiv2020deflecting.pdf",
+            "title": "Deflecting Adversarial Attacks",
+            "venue": "arXiv preprint arXiv:2002.07405",
+            "day": 18,
+            "month": 2,
+            "year": 2020
+        },
+        {
             "authors": "Samarth Sinha, Anirudh Goyal, Colin Raffel, and Augustus Odena",
             "url": "http://colinraffel.com/publications/arxiv2020top.pdf",
             "title": "Top-K Training of GANs: Improving Generators by Making Critics Less Critical",
