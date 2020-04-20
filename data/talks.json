@@ -1,6 +1,12 @@
 {"talks":
     [
         {
+            "title": "Outskirts of Deep Generative Modeling",
+            "venue": "Faculty Job Talk",
+            "url": "http://colinraffel.com/talks/faculty2019outskirts.pdf",
+            "year": 2019
+        },
+        {
             "title": "Why are GANs Interesting?",
             "venue": "New York University CILVR Seminar",
             "url": "http://colinraffel.com/talks/nyu2018why.pdf",
