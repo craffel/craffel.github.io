@@ -1,6 +1,15 @@
 {"publications":
     [
         {
+            "authors": "Colin Raffel*, Noam Shazeer*, Adam Roberts*, Katherine Lee*, Sharan Narang, Michael Matena, Yanqi Zhou, Wei Li, and Peter J. Liu",
+            "url": "http://colinraffel.com/publications/jmlr2020exploring.pdf",
+            "title": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+            "venue": "Journal of Machine Learning Research (JMLR), 21(140)",
+            "day": 26,
+            "month": 7,
+            "year": 2020
+        },
+        {
             "authors": "Sharan Narang*, Colin Raffel*, Katherine Lee, Adam Roberts, Noah Fiedel, Karishma Malkan",
             "url": "http://colinraffel.com/publications/arxiv2020wt5.pdf",
             "title": "WT5?! Training Text-to-Text Models to Explain their Predictions",
@@ -79,15 +88,6 @@
             "venue": "Neural Information Processing Systems 33 (NeurIPS)",
             "day": 9,
             "month": 12,
-            "year": 2019
-        },
-        {
-            "authors": "Colin Raffel*, Noam Shazeer*, Adam Roberts*, Katherine Lee*, Sharan Narang, Michael Matena, Yanqi Zhou, Wei Li, and Peter J. Liu",
-            "url": "http://colinraffel.com/publications/arxiv2019exploring.pdf",
-            "title": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
-            "venue": "arXiv preprint arXiv:1910.10683",
-            "day": 23,
-            "month": 10,
             "year": 2019
         },
         {
