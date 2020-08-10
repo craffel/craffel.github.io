@@ -12,6 +12,19 @@
 
         <div class="vline"></div>
 
+        <h2>Academic Positions</h2>
+
+        <div class="block">
+            {% for item in academic %}
+            <div class="onelineitem">
+                <div class="yearrange">{{item.start}}&#8211;{{item.end}}</div>
+                <div class="yearright">
+                    <strong>{{item.title}}</strong>, {{item.place}}
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+
         <h2>Education</h2>
 
         <div class="block">
@@ -23,19 +36,6 @@
                     {{item.degree}}<br />
                     {% if item.lab %}{{item.lab}}<br />{% endif %}
                     {% if item.advisor %}Advisor: {{item.advisor}}<br />{% endif %}
-                </div>
-            </div>
-            {% endfor %}
-        </div>
-
-        <h2>Research Positions</h2>
-
-        <div class="block">
-            {% for item in research %}
-            <div class="onelineitem">
-                <div class="yearrange">{{item.start}}&#8211;{{item.end}}</div>
-                <div class="yearright">
-                    <strong>{{item.title}}</strong>, {{item.place}}
                 </div>
             </div>
             {% endfor %}

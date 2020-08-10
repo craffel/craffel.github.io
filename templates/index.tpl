@@ -110,6 +110,10 @@
             font-family: "Roboto", -apple-system, BlinkMacSystemFont, ".SFNSText-Regular", "San Francisco", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
         }
 
+        h2 a {
+            color: #333;
+        }
+
         h2 {
             margin-top: 1em;
         }
@@ -226,14 +230,8 @@
     <main>
 
         <p>
-            <strong>I will be joining the <a href="https://cs.unc.edu/">Computer Science Department at the University of North Carolina</a> as an assistant professor in fall 2020.</strong>
-            If you're interested in doing a Ph.D. at UNC and want to work on learning from limited labels (semi-supervised/unsupervised/transfer learning), please get in touch.
-        </p>
-        <p>
-            I am currently a Senior Research Scientist at <a href="https://research.google.com/teams/brain/">Google Brain</a>.
-            I did my Ph.D. at Columbia University in <a href="http://labrosa.ee.columbia.edu/">LabROSA</a>, supervised by <a href="http://www.ee.columbia.edu/~dpwe/">Dan Ellis</a>.
-            <!--In 2010, I received a Master's in Music, Science and Technology from Stanford University's <a href="https://ccrma.stanford.edu">CCRMA</a>, supervised by <a href="https://ccrma.stanford.edu/~jos/">Julius O. Smith III</a>.
-            I did my undergrad at Oberlin College, where I majored in Mathematics.//-->
+            I am an Assistant Professor in the <a href="https://cs.unc.edu/">Department of Computer Science</a> at the University of North Carolina, Chapel Hill.
+            I also spend one day a week as a Senior Research Scientist at <a href="https://research.google.com/teams/brain/">Google Brain</a>.
         </p>
 
     </main>
@@ -241,7 +239,6 @@
     <!-- Section navigation using anchors -->
     <nav style="margin-top: 1.5em;">
         <p>
-            <strong>Jump to: </strong>
             <a href="#publications">Publications</a> |
             <a href="#software-projects">Software Projects</a> |
             <a href="#talks">Talks</a> |
@@ -252,7 +249,7 @@
 
     <!-- Publications section -->
     <section>
-        <h2><a href="#publications" style="text-decoration: none;" id="publications">#</a> Publications</h2>
+        <h2><a href="#publications" style="text-decoration: none;" id="publications">Publications</a></h2>
 
 {% for item in publications %}
         <p>{% if item.url %}<a href="{{item.url}}">{% endif %}{{item.title}}{% if item.url %}</a>{% endif %}<br />
@@ -265,7 +262,7 @@
 
     <!-- Software projects section -->
     <section>
-        <h2><a href="#software-projects" style="text-decoration: none;" id="software-projects">#</a> Software Projects</h2>
+        <h2><a href="#software-projects" style="text-decoration: none;" id="software-projects">Software Projects</a></h2>
 
 {% for item in code %}
         <p><a href="{{item.url}}">{{item.title}}</a> - {{item.description}}</p>
@@ -274,7 +271,7 @@
 
     <!-- Talks section -->
     <section>
-        <h2><a href="#talks" style="text-decoration: none;" id="talks">#</a> Talks</h2>
+        <h2><a href="#talks" style="text-decoration: none;" id="talks">Talks</a></h2>
 
 {% for item in talks %}
         <p><a href="{{item.url}}">{{item.title}}</a> at {{item.venue}}, {{item.year}}.</p>
@@ -283,7 +280,7 @@
 
     <!-- Poster presentations section -->
     <section>
-        <h2><a href="#poster-presentations" style="text-decoration: none;" id="poster-presentations">#</a> Poster Presentations</h2>
+        <h2><a href="#poster-presentations" style="text-decoration: none;" id="poster-presentations">Poster Presentations</a></h2>
 
 {% for item in posters %}
         <p><a href="{{item.url}}">{{item.title}}</a> at {{item.venue}}, {{item.year}}.</p>
@@ -292,7 +289,7 @@
 
     <!-- Etc. section -->
     <section>
-        <h2><a href="#etc" style="text-decoration: none;" id="etc">#</a> Etc.</h2>
+        <h2><a href="#etc" style="text-decoration: none;" id="etc">Etc.</a></h2>
 
 {% for item in etc %}
         <p><a href="{{item.url}}">{{item.name}}</a> {{item.description}}</p>

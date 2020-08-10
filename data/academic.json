@@ -1,5 +1,11 @@
-{"research":
+{"academic":
     [
+        {
+            "place": "Department of Computer Science, UNC Chapel Hill",
+            "start": "2020",
+            "end": "now",
+            "title": "Assistant Professor"
+        },
         {
             "place": "Google Brain",
             "start": "2018",
@@ -17,12 +23,6 @@
             "start": "2016",
             "end": "2017",
             "title": "Resident"
-        },
-        {
-            "place": "Columbia University",
-            "start": "2012",
-            "end": "2016",
-            "title": "Graduate Research Assistant"
         }
     ]
 }
