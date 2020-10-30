@@ -1,6 +1,30 @@
 {"talks":
     [
         {
+            "title": "What Can MIR Learn From Transfer Learning in NLP",
+            "venue": "NLP for Music and Audio Workshop Keynote",
+            "url": "http://colinraffel.com/talks/nlp4musa2020what.pdf",
+            "year": 2020
+        },
+        {
+            "title": "Transfer Learning for NLP: T5 and Beyond",
+            "venue": "Montreal Institute for Learning Algorithms Tea Talk &amp; Spotify Research Seminar",
+            "url": "http://colinraffel.com/talks/mila2020transfer.pdf",
+            "year": 2020
+        },
+        {
+            "title": "Answering Questions by Querying the Implicit Knowledge Base Inside T5",
+            "venue": "Unstructed and Structured Knowledge Bases Workshop",
+            "url": "http://colinraffel.com/talks/uskb2020answering.pdf",
+            "year": 2020
+        },
+        {
+            "title": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+            "venue": "Allen Institute for Artificial Intelligence &amp; New York University CILVR Seminar",
+            "url": "http://colinraffel.com/talks/ai22020exploring.pdf",
+            "year": 2019
+        },
+        {
             "title": "Outskirts of Deep Generative Modeling",
             "venue": "Faculty Job Talk",
             "url": "http://colinraffel.com/talks/faculty2019outskirts.pdf",
