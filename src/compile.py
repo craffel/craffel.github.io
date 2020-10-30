@@ -20,7 +20,7 @@ def load_data(json_glob):
         with open(json_file) as f:
             data = json.load(f)
             data = {k: sorted(v, key=_ordinal_day) for k, v in data.items()}
-            entries = data.values()[0]
+            entries = list(data.values())[0]
             for entry in entries:
                 if 'day' in entry and 'month' in entry and 'year' in entry:
                     entry_time = datetime.datetime(
