@@ -231,7 +231,7 @@
 
         <p>
             I am an Assistant Professor in the <a href="https://cs.unc.edu/">Department of Computer Science</a> at the University of North Carolina, Chapel Hill.
-            I also spend one day a week as a Senior Research Scientist at <a href="https://research.google.com/teams/brain/">Google Brain</a>.
+            I also spend one day a week as a Staff Research Scientist at <a href="https://research.google.com/teams/brain/">Google Brain</a>.
         </p>
 
     </main>
