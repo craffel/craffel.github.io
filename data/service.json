@@ -1,25 +1,61 @@
 {"service":
     [
         {
+            "role": "Area Chair",
+            "venue": "International Conference on Learning Representations",
+            "start": 2021
+        },
+        {
+            "role": "Area Chair",
+            "venue": "AAAI Conference on Artificial Intelligence",
+            "start": 2021
+        },
+        {
+            "role": "Organizer",
+            "venue": "NeurIPS Competition on Efficient Open-Domain Question Answering",
+            "start": 2020
+        },
+        {
+            "role": "Area Chair",
+            "venue": "Neural Information Processing Systems",
+            "start": 2020
+        },
+        {
+            "role": "Area Chair",
+            "venue": "Conference on Empirical Methods in Natural Language Processing",
+            "start": 2020
+        },
+        {
+            "role": "Reviewer",
+            "venue": "Journal of Machine Learning Research",
+            "start": 2020
+        },
+        {
+            "role": "Reviewer",
+            "venue": "Transactions of the International Society for Music Information Retrieval",
+            "start": 2020
+        },
+        {
             "role": "Reviewer",
             "venue": "Machine Learning for Creativity and Design Workshop",
             "start": 2018
         },
         {
-            "role": "Program Committee Member",
+            "role": "Area Chair",
             "venue": "International Society for Music Information Retrieval Conference",
             "start": 2018
         },
         {
             "role": "Reviewer",
             "venue": "International Conference on Machine Learning",
-            "start": 2018
+            "start": 2018,
+            "end": 2020
         },
         {
             "role": "Reviewer",
             "venue": "International Conference on Learning Representations",
             "start": 2018,
-            "end": 2019
+            "end": 2020
         },
         {
             "role": "Reviewer",
@@ -30,7 +66,7 @@
             "role": "Reviewer",
             "venue": "Neural Information Processing Systems",
             "start": 2017,
-            "end": 2018
+            "end": 2019
         },
         {
             "url": "https://github.com/ismir-net/ismir2016-lbd",
