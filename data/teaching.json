@@ -1,6 +1,12 @@
 {"teaching":
     [
         {
+            "url": "https://github.com/craffel/dl3d-seminar/blob/master/README.md",
+            "name": "Instructor, Learning from Limited Labeled Data",
+            "location": "University of North Carolina, Chapel Hill",
+            "year": 2020
+        },
+        {
             "url": "https://www.blog.google/outreach-initiatives/diversity/tech-exchange-brings-black-and-latinx-students-google/",
             "name": "Instructor, Introduction to Machine Learning",
             "location": "Google TechExchange",
