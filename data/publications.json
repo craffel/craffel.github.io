@@ -1,11 +1,29 @@
 {"publications":
     [
         {
+            "authors": "Linting Xue*, Noah Constant*, Adam Roberts*, Mihir Kale, Rami Al-Rfou, Aditya Siddhant, Aditya Barua, and Colin Raffel",
+            "url": "http://colinraffel.com/publications/arxiv2020mt5.pdf",
+            "title": "mT5: A Massively Multilingual Pre-Trained Text-to-Text Transformer",
+            "venue": "arXiv preprint arXiv:2010.11934",
+            "day": 23,
+            "month": 10,
+            "year": 2020
+        },
+        {
             "authors": "Colin Raffel*, Noam Shazeer*, Adam Roberts*, Katherine Lee*, Sharan Narang, Michael Matena, Yanqi Zhou, Wei Li, and Peter J. Liu",
             "url": "http://colinraffel.com/publications/jmlr2020exploring.pdf",
             "title": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
             "venue": "Journal of Machine Learning Research (JMLR), 21(140)",
             "day": 26,
+            "month": 7,
+            "year": 2020
+        },
+        {
+            "authors": "Zhenlin Xu, Deyi Liu, Junlin Yang, Colin Raffel, and Marc Niethammer",
+            "url": "http://colinraffel.com/publications/arxiv2020robust.pdf",
+            "title": "Robust and Generalizable Visual Representation Learning via Random Convolutions",
+            "venue": "arXiv preprint arXiv:2007.13003",
+            "day": 25,
             "month": 7,
             "year": 2020
         },
