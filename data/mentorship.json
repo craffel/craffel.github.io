@@ -1,9 +1,40 @@
 {"mentorship":
     [
         {
+            "name": "Nikhil Kandpal",
+            "description": "PhD student at UNC",
+            "start": 2020,
+            "end": "now"
+        },
+        {
+            "name": "Michael Matena",
+            "description": "PhD student at UNC",
+            "start": 2020,
+            "end": "now"
+        },
+        {
+            "name": "Derek Tam",
+            "description": "PhD student at UNC",
+            "start": 2020,
+            "end": "now"
+        },
+        {
+            "name": "Zhenlin Xu",
+            "description": "PhD student at UNC",
+            "start": 2020,
+            "end": "now"
+        },
+        {
+            "name": "Jay Mohta",
+            "description": "Master's student at NC State",
+            "start": 2020,
+            "end": "now"
+        },
+        {
             "name": "Yao Qin",
             "description": "intern at Google Brain",
-            "start": 2018
+            "start": 2018,
+            "end": 2019
         },
         {
             "name": "Vaishnavh Nagarajan",
