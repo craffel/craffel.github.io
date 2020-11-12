@@ -245,7 +245,7 @@
 
     <!-- Publications section -->
     <section>
-        <h2><a href="#publications" style="text-decoration: none;" id="publications">Recent Publications</a></h2> <i>(<a href="http://colinraffel.com/cv.html">full list</a>)</i>
+        <h2><a href="#publications" style="text-decoration: none;" id="publications">Recent Publications</a></h2>  <i>(<a href="http://colinraffel.com/cv.html#publications">full list</a>)</i>
 
 {% for item in publications %}
         {% if item.recent %}<p>{% if item.url %}<a href="{{item.url}}">{% endif %}{{item.title}}{% if item.url %}</a>{% endif %}<br />
