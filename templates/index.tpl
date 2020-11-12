@@ -239,16 +239,6 @@
 
     </main>
 
-    <!-- Section navigation using anchors -->
-    <nav style="margin-top: 1.5em;">
-        <p>
-            <a href="#publications">Publications</a> |
-            <a href="#talks">Talks</a> |
-            <a href="#poster-presentations">Poster Presentations</a> |
-            <a href="#etc">Etc.</a>
-        </p>
-    </nav>
-
     <!-- Publications section -->
     <section>
         <h2><a href="#publications" style="text-decoration: none;" id="publications">Publications</a></h2>
@@ -268,24 +258,6 @@
 
 {% for item in talks %}
         <p><a href="{{item.url}}">{{item.title}}</a> at {{item.venue}}, {{item.year}}.</p>
-{% endfor %}
-    </section>
-
-    <!-- Poster presentations section -->
-    <section>
-        <h2><a href="#poster-presentations" style="text-decoration: none;" id="poster-presentations">Poster Presentations</a></h2>
-
-{% for item in posters %}
-        <p><a href="{{item.url}}">{{item.title}}</a> at {{item.venue}}, {{item.year}}.</p>
-{% endfor %}
-    </section>
-
-    <!-- Etc. section -->
-    <section>
-        <h2><a href="#etc" style="text-decoration: none;" id="etc">Etc.</a></h2>
-
-{% for item in etc %}
-        <p><a href="{{item.url}}">{{item.name}}</a> {{item.description}}</p>
 {% endfor %}
     </section>
 
