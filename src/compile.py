@@ -27,6 +27,8 @@ def load_data(json_glob):
                         entry['year'], entry['month'], entry['day'])
                     if entry_time > now:
                         entry['year'] = '{} (to appear)'.format(entry['year'])
+                    if entry_time > now - datetime.timedelta(days=365):
+                        entry['recent'] = True
                 if 'authors' in entry:
                     entry['authors'] = re.sub(
                         r'(Colin Raffel)', r'<b>\1</b>', entry['authors'])

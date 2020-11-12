@@ -12,7 +12,7 @@
 
         <div class="vline"></div>
 
-        <h2>Academic Positions</h2>
+        <h2 id="academic">Academic Positions</h2>
 
         <div class="block">
             {% for item in academic %}
@@ -25,7 +25,7 @@
             {% endfor %}
         </div>
 
-        <h2>Education</h2>
+        <h2 id="education">Education</h2>
 
         <div class="block">
             {% for item in education %}
@@ -41,7 +41,7 @@
             {% endfor %}
         </div>
 
-        <h2>Publications</h2>
+        <h2 id="publications">Publications</h2>
 
         <div class="block">
             {% for item in publications %}
@@ -51,7 +51,7 @@
             {% endfor %}
         </div>
 
-        <h2>Honors and Awards</h2>
+        <h2 id="awards">Honors and Awards</h2>
 
         <div class="block">
             {% for item in awards %}
@@ -65,7 +65,7 @@
             {% endfor %}
         </div>
 
-        <h2>Invited Talks</h2>
+        <h2 id="talks">Invited Talks</h2>
 
         <div class="block">
             {% for item in talks %}
@@ -77,7 +77,7 @@
             {% endfor %}
         </div>
 
-        <h2>Conference Presentations</h2>
+        <h2 id="presentations">Conference Presentations</h2>
 
         <div class="block">
             {% for item in presentations %}
@@ -89,7 +89,7 @@
             {% endfor %}
         </div>
 
-        <h2>Poster Presentations</h2>
+        <h2 id="posters">Poster Presentations</h2>
 
         <div class="block">
             {% for item in posters %}
@@ -101,7 +101,7 @@
             {% endfor %}
         </div>
 
-        <h2>Teaching</h2>
+        <h2 id="teaching">Teaching</h2>
 
         <div class="block">
             {% for item in teaching %}
@@ -114,7 +114,7 @@
             {% endfor %}
         </div>
 
-        <h2>Advising</h2>
+        <h2 id="mentorship">Advising</h2>
 
         <div class="block">
             {% for item in mentorship %}
@@ -127,7 +127,7 @@
             {% endfor %}
         </div>
 
-        <h2>Academic Service</h2>
+        <h2 id="service">Academic Service</h2>
 
         <div class="block">
             {% for item in service %}
@@ -140,7 +140,7 @@
             {% endfor %}
         </div>
 
-        <h2>Employment and Business Ventures</h2>
+        <h2 id="employment">Employment and Business Ventures</h2>
 
         <div class="block">
             {% for item in employment %}

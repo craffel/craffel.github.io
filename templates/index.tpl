@@ -115,7 +115,11 @@
         }
 
         h2 {
-            margin-top: 1em;
+            display: inline;
+        }
+
+        section {
+            margin-top: 1.5em;
         }
 
         a {
@@ -241,20 +245,20 @@
 
     <!-- Publications section -->
     <section>
-        <h2><a href="#publications" style="text-decoration: none;" id="publications">Publications</a></h2>
+        <h2><a href="#publications" style="text-decoration: none;" id="publications">Recent Publications</a></h2> <i>(<a href="http://colinraffel.com/cv.html">full list</a>)</i>
 
 {% for item in publications %}
-        <p>{% if item.url %}<a href="{{item.url}}">{% endif %}{{item.title}}{% if item.url %}</a>{% endif %}<br />
+        {% if item.recent %}<p>{% if item.url %}<a href="{{item.url}}">{% endif %}{{item.title}}{% if item.url %}</a>{% endif %}<br />
         {{item.authors}}<br />
         <i>{{item.venue}}</i>, {{item.year}}.<br />
 {% if item.note %}        <b>{{item.note}}</b><br />{% endif %}
-        </p>
+        </p>{% endif %}
 {% endfor %}
     </section>
 
     <!-- Talks section -->
     <section>
-        <h2><a href="#talks" style="text-decoration: none;" id="talks">Talks</a></h2>
+        <h2><a name="#talks" style="text-decoration: none;" id="talks">Talks</a></h2>
 
 {% for item in talks %}
         <p><a href="{{item.url}}">{{item.title}}</a> at {{item.venue}}, {{item.year}}.</p>
