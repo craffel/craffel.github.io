@@ -140,16 +140,6 @@
             {% endfor %}
         </div>
 
-        <h2>Software Libraries</h2>
-
-        <div class="block">
-            {% for item in code %}
-            <div class="onelineitem">
-                <span class="tt"><a href="{{item.url}}">{{item.title}}</a></span>, {{item.description}}
-            </div>
-            {% endfor %}
-        </div>
-
         <h2>Employment and Business Ventures</h2>
 
         <div class="block">

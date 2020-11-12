@@ -243,7 +243,6 @@
     <nav style="margin-top: 1.5em;">
         <p>
             <a href="#publications">Publications</a> |
-            <a href="#software-projects">Software Projects</a> |
             <a href="#talks">Talks</a> |
             <a href="#poster-presentations">Poster Presentations</a> |
             <a href="#etc">Etc.</a>
@@ -260,15 +259,6 @@
         <i>{{item.venue}}</i>, {{item.year}}.<br />
 {% if item.note %}        <b>{{item.note}}</b><br />{% endif %}
         </p>
-{% endfor %}
-    </section>
-
-    <!-- Software projects section -->
-    <section>
-        <h2><a href="#software-projects" style="text-decoration: none;" id="software-projects">Software Projects</a></h2>
-
-{% for item in code %}
-        <p><a href="{{item.url}}">{{item.title}}</a> - {{item.description}}</p>
 {% endfor %}
     </section>
 
