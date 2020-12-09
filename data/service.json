@@ -16,6 +16,11 @@
             "start": 2021
         },
         {
+            "role": "Mentor",
+            "venue": "Women in Machine Learning (WiML) Roundtable",
+            "start": 2020
+        },
+        {
             "role": "Organizer",
             "venue": "NeurIPS Competition on Efficient Open-Domain Question Answering",
             "start": 2020
@@ -23,6 +28,11 @@
         {
             "role": "Area Chair",
             "venue": "Neural Information Processing Systems",
+            "start": 2020
+        },
+        {
+            "role": "Panelist",
+            "venue": "Decoding Graduate Programs in CS",
             "start": 2020
         },
         {
@@ -39,6 +49,16 @@
             "role": "Reviewer",
             "venue": "Transactions of the International Society for Music Information Retrieval",
             "start": 2020
+        },
+        {
+            "role": "Mentor",
+            "venue": "Black in AI",
+            "start": 2020
+        },
+        {
+            "role": "Mentor",
+            "venue": "Women in Music Information Retrieval (WiMIR)",
+            "start": 2019
         },
         {
             "role": "Reviewer",
