@@ -2,6 +2,11 @@
     [
         {
             "role": "Area Chair",
+            "venue": "North American Chapter of the Association for Computational Linguistics",
+            "start": 2021
+        },
+        {
+            "role": "Area Chair",
             "venue": "International Conference on Learning Representations",
             "start": 2021
         },
