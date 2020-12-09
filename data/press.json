@@ -1,0 +1,28 @@
+{"press":
+    [
+        {
+            "title": "Learning-Based Methods for Comparing Sequences, with Applications to Audio-to-MIDI Alignment and Matching",
+            "publication": "The Thesis Review Podcast",
+            "url": "https://cs.nyu.edu/~welleck/episode2.html",
+            "year": 2020
+        },
+        {
+            "title": "An interview with Colin Raffel, Research Scientist at Google",
+            "publication": "Interviews with Sayak Paul",
+            "url": "https://spsayakpaul.medium.com/an-interview-with-colin-raffel-research-scientist-at-google-5e445a5e57c6",
+            "year": 2020
+        },
+        {
+            "title": "Global Researchers Reflect on 2019, Talk Trends for 2020",
+            "publication": "Synced Review",
+            "url": "https://syncedreview.com/2020/01/02/happy-ai-new-year-global-researchers-reflect-on-2019-talk-trends-for-2020/",
+            "year": 2020
+        },
+        {
+            "title": "The Limits of NLP",
+            "publication": "Data Skeptic Podcast",
+            "url": "https://podcasts.apple.com/us/podcast/the-limits-of-nlp/id890348705?i=1000460606378",
+            "year": 2019
+        }
+    ]
+}

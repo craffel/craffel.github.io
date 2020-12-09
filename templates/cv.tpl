@@ -65,6 +65,18 @@
             {% endfor %}
         </div>
 
+        <h2 id="press">Press</h2>
+
+        <div class="block">
+            {% for item in press %}
+            <div class="item">
+                <div class="year">{{item.year}}</div>
+                <strong><a href="{{item.url}}">{{item.title}}</a></strong><br />
+                {{item.publication}}
+            </div>
+            {% endfor %}
+        </div>
+
         <h2 id="talks">Invited Talks</h2>
 
         <div class="block">
