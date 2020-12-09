@@ -1,6 +1,12 @@
 {"talks":
     [
         {
+            "title": "Responsible publication: NLP case study",
+            "venue": "Navigating the Broader Impacts of AI Research Workshop Panel",
+            "url": "https://nbiair.com/",
+            "year": 2020
+        },
+        {
             "title": "What Can MIR Learn From Transfer Learning in NLP?",
             "venue": "NLP for Music and Audio Workshop Keynote",
             "url": "http://colinraffel.com/talks/nlp4musa2020what.pdf",
