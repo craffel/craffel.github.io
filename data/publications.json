@@ -74,11 +74,11 @@
         },
         {
             "authors": "Adam Roberts*, Colin Raffel*, and Noam Shazeer",
-            "url": "http://colinraffel.com/publications/arxiv2020how.pdf",
+            "url": "http://colinraffel.com/publications/emnlp2020how.pdf",
             "title": "How Much Knowledge Can You Pack Into the Parameters of a Language Model?",
-            "venue": "arXiv preprint arXiv:2002.08910",
-            "day": 10,
-            "month": 2,
+            "venue": "2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+            "day": 16,
+            "month": 11,
             "year": 2020
         },
         {
