@@ -1,0 +1,46 @@
+{"committees":
+    [
+        {
+            "name": "Ankur Sharma",
+            "location": "University of North Carolina, Chapel Hill",
+            "start": 2019,
+            "end": "now"
+        },
+        {
+            "name": "Zhenlin Xu",
+            "location": "University of North Carolina, Chapel Hill",
+            "start": 2020,
+            "end": "now"
+        },
+        {
+            "name": "Junhua Yan",
+            "location": "University of North Carolina, Chapel Hill",
+            "start": 2020,
+            "end": "now"
+        },
+        {
+            "name": "Yang Li",
+            "location": "University of North Carolina, Chapel Hill",
+            "start": 2020,
+            "end": "now"
+        },
+        {
+            "name": "Zhengyang Shen",
+            "location": "University of North Carolina, Chapel Hill",
+            "start": 2020,
+            "end": "now"
+        },
+        {
+            "name": "Dan Korn",
+            "location": "University of North Carolina, Chapel Hill",
+            "start": 2020,
+            "end": "now"
+        },
+        {
+            "name": "YoungJoong Kwon",
+            "location": "University of North Carolina, Chapel Hill",
+            "start": 2021,
+            "end": "now"
+        }
+    ]
+}

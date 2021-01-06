@@ -151,6 +151,19 @@
             </div>
             {% endfor %}
         </div>
+        
+        <h2 id="service">Doctoral Committees</h2>
+
+        <div class="block">
+            {% for item in committees %}
+            <div class="onelineitem">
+                <div class="yearrange">{{item.start}}{% if item.end %}&#8211;{{item.end}}{% endif %}</div>
+                <div class="yearright">
+                    <strong>{{item.name}}</strong>, {{item.location}}
+                </div>
+            </div>
+            {% endfor %}
+        </div>
 
         <h2 id="employment">Employment and Business Ventures</h2>
 
