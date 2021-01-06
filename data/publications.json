@@ -1,6 +1,24 @@
 {"publications":
     [
         {
+            "authors": "Sewon Min, Jordan Boyd-Graber, Chris Alberti, Danqi Chen, Eunsol Choi, Michael Collins, Kelvin Guu, Hannaneh Hajishirzi, Kenton Lee, Jennimaria Palomaki, Colin Raffel, Adam Roberts, Tom Kwiatkowski, and EfficientQA Participants",
+            "url": "http://colinraffel.com/publications/arxiv2021neurips.pdf",
+            "title": "NeurIPS 2020 EfficientQA Competition: Systems, Analyses and Lessons Learned",
+            "venue": "arXiv preprint arXiv:2101.00133",
+            "day": 1,
+            "month": 1,
+            "year": 2021
+        },
+        {
+            "authors": "Nicholas Carlini, Florian Tramer, Eric Wallace, Matthew Jagielski, Ariel Herbert-Voss, Katherine Lee, Adam Roberts, Tom Brown, Dawn Song, Ulfar Erlingsson, Alina Oprea, and Colin Raffel",
+            "url": "http://colinraffel.com/publications/arxiv2020extracting.pdf",
+            "title": "Extracting Training Data from Large Language Models",
+            "venue": "arXiv preprint arXiv:2012.07805",
+            "day": 14,
+            "month": 12,
+            "year": 2020
+        },
+        {
             "authors": "Kihyuk Sohn*, David Berthelot*, Chun-Liang Li, Zizhao Zhang, Nicholas Carlini, Ekin D. Cubuk, Alex Kurakin, Han Zhang, and Colin Raffel",
             "url": "http://colinraffel.com/publications/neurips2020fixmatch.pdf",
             "title": "FixMatch: Simplifying Semi-Supervised Learning with Consistency and Confidence",
