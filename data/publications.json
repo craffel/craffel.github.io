@@ -1,6 +1,24 @@
 {"publications":
     [
         {
+            "authors": "Zhenlin Xu, Deyi Liu, Junlin Yang, Colin Raffel, and Marc Niethammer",
+            "url": "http://colinraffel.com/publications/arxiv2020robust.pdf",
+            "title": "Robust and Generalizable Visual Representation Learning via Random Convolutions",
+            "venue": "9th International Conference on Learning Representations (ICLR)",
+            "day": 3,
+            "month": 5,
+            "year": 2021
+        },
+        {
+            "authors": "Sharan Narang, Hyung Won Chung, Yi Tay, William Fedus, Thibault Fevry, Michael Matena, Karishma Malkan, Noah Fiedel, Noam Shazeer, Zhenzhong Lan, Yanqi Zhou, Wei Li, Nan Ding, Jake Marcus, Adam Roberts, and Colin Raffel",
+            "url": "http://colinraffel.com/publications/arxiv2021do.pdf",
+            "title": "Do Transformer Modifications Transfer Across Implementations and Applications?",
+            "venue": "arXiv preprint arXiv:2102.11972",
+            "day": 23,
+            "month": 2,
+            "year": 2021
+        },
+        {
             "authors": "Sewon Min, Jordan Boyd-Graber, Chris Alberti, Danqi Chen, Eunsol Choi, Michael Collins, Kelvin Guu, Hannaneh Hajishirzi, Kenton Lee, Jennimaria Palomaki, Colin Raffel, Adam Roberts, Tom Kwiatkowski, and EfficientQA Participants",
             "url": "http://colinraffel.com/publications/arxiv2021neurips.pdf",
             "title": "NeurIPS 2020 EfficientQA Competition: Systems, Analyses and Lessons Learned",
@@ -51,15 +69,6 @@
             "title": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
             "venue": "Journal of Machine Learning Research (JMLR), 21(140)",
             "day": 26,
-            "month": 7,
-            "year": 2020
-        },
-        {
-            "authors": "Zhenlin Xu, Deyi Liu, Junlin Yang, Colin Raffel, and Marc Niethammer",
-            "url": "http://colinraffel.com/publications/arxiv2020robust.pdf",
-            "title": "Robust and Generalizable Visual Representation Learning via Random Convolutions",
-            "venue": "arXiv preprint arXiv:2007.13003",
-            "day": 25,
             "month": 7,
             "year": 2020
         },
