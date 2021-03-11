@@ -235,10 +235,7 @@
         <p>
             I am an Assistant Professor in the <a href="https://cs.unc.edu/">Department of Computer Science</a> at the University of North Carolina, Chapel Hill.
             I also spend one day a week as a Staff Research Scientist at <a href="https://research.google.com/teams/brain/">Google Brain</a>.
-        </p>
-        <p>
-            <strong>I am hiring Ph.D. students.</strong>
-            If you're interested in doing a Ph.D. at UNC and want to work on learning from limited labels (semi-supervised/unsupervised/transfer learning), please get in touch.
+            Much of my recent research focuses on machine learning algorithms for learning from limited labeled data, including semi-supervised, unsupervised, and transfer learning.
         </p>
 
     </main>
