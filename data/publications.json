@@ -58,10 +58,10 @@
             "authors": "Linting Xue*, Noah Constant*, Adam Roberts*, Mihir Kale, Rami Al-Rfou, Aditya Siddhant, Aditya Barua, and Colin Raffel",
             "url": "http://colinraffel.com/publications/arxiv2020mt5.pdf",
             "title": "mT5: A Massively Multilingual Pre-Trained Text-to-Text Transformer",
-            "venue": "arXiv preprint arXiv:2010.11934",
-            "day": 23,
-            "month": 10,
-            "year": 2020
+            "venue": "2021 Conference of the North American Chapter of the Association for Computational Linguistics (NAACL)",
+            "day": 6,
+            "month": 6,
+            "year": 2021
         },
         {
             "authors": "Colin Raffel*, Noam Shazeer*, Adam Roberts*, Katherine Lee*, Sharan Narang, Michael Matena, Yanqi Zhou, Wei Li, and Peter J. Liu",
