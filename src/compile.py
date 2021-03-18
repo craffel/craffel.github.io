@@ -32,6 +32,8 @@ def load_data(json_glob):
                 if 'authors' in entry:
                     entry['authors'] = re.sub(
                         r'(Colin Raffel)', r'<b>\1</b>', entry['authors'])
+                if 'end' in entry and entry['end'] == 'now':
+                    entry['current'] = True
             datas.append(data)
 
     return dict((k, v) for d in datas for (k, v) in d.items())

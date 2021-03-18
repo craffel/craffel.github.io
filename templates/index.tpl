@@ -240,9 +240,17 @@
 
     </main>
 
+    <!-- Students section -->
+    <section>
+        <h2><a href="#students" style="text-decoration: none;" id="students">Lab members</a></h2>
+        <p>
+{% for item in mentorship %}{% if item.current %}{% if item.url %}<a href="{{item.url}}">{% endif %}{{item.name}}{% if item.url %}</a>{% endif %}, {{item.description}}<br />
+{% endif %}{% endfor %}
+        </p>
+    </section>
     <!-- Publications section -->
     <section>
-        <h2><a href="#publications" style="text-decoration: none;" id="publications">Recent Publications</a></h2>  <i>(<a href="http://colinraffel.com/cv.html#publications">full list</a>)</i>
+        <h2><a href="#publications" style="text-decoration: none;" id="publications">Recent publications</a></h2>  <i>(<a href="http://colinraffel.com/cv.html#publications">full list</a>)</i>
 
 {% for item in publications %}
         {% if item.recent %}<p>{% if item.url %}<a href="{{item.url}}">{% endif %}{{item.title}}{% if item.url %}</a>{% endif %}<br />
