@@ -1,6 +1,15 @@
 {"publications":
     [
         {
+            "authors": "Derek Tam, Rakesh R Menon, Mohit Bansal, Shashank Srivastava, Colin Raffel",
+            "url": "https://arxiv.org/abs/2103.11955",
+            "title": "Improving and Simplifying Pattern Exploiting Training",
+            "venue": "arXiv preprint arxiv:2103.11955",
+            "day": 22,
+            "month": 3,
+            "year": 2021
+        },
+        {
             "authors": "Zhenlin Xu, Deyi Liu, Junlin Yang, Colin Raffel, and Marc Niethammer",
             "url": "http://colinraffel.com/publications/arxiv2020robust.pdf",
             "title": "Robust and Generalizable Visual Representation Learning via Random Convolutions",
@@ -16,6 +25,15 @@
             "venue": "arXiv preprint arXiv:2102.11972",
             "day": 23,
             "month": 2,
+            "year": 2021
+        },
+        {
+            "authors": "Colin Raffel and Kevin P. Murphey (ed.)",
+            "url": "http://colinraffel.com/publications/probml2021learning.pdf",
+            "title": "Learning with Fewer Labeled Examples",
+            "venue": "Book chapter in Probabilistic Machine Learning: An Introduction",
+            "day": 3,
+            "month": 1,
             "year": 2021
         },
         {
