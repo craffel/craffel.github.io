@@ -1,6 +1,12 @@
 {"service":
     [
         {
+            "url": "http://welmworkshop.github.io",
+            "role": "Lead Organizer",
+            "venue": "ICLR 2021 Workshop on Enormous Language Models",
+            "start": 2021
+        },
+        {
             "role": "Area Chair",
             "venue": "North American Chapter of the Association for Computational Linguistics",
             "start": 2021
