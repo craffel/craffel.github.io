@@ -8,6 +8,14 @@
             "url": "https://nkandpa2.github.io/"
         },
         {
+            "name": "Derek Tam",
+            "description": "PhD student at UNC",
+            "start": 2020,
+            "end": "now",
+            "url": "https://dptam.github.io/",
+            "coadvisor": "Mohit Bansal"
+        },
+        {
             "name": "Michael Matena",
             "description": "PhD student at UNC",
             "start": 2020,
@@ -15,18 +23,12 @@
             "url": "https://www.linkedin.com/in/michael-matena-2174b082"
         },
         {
-            "name": "Derek Tam",
-            "description": "PhD student at UNC",
-            "start": 2020,
-            "end": "now",
-            "url": "https://dptam.github.io/"
-        },
-        {
             "name": "Zhenlin Xu",
             "description": "PhD student at UNC",
             "start": 2020,
             "end": "now",
-            "url": "https://wildphoton.github.io/"
+            "url": "https://wildphoton.github.io/",
+            "coadvisor": "Marc Niethammer"
         },
         {
             "name": "Jay Mohta",

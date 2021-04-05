@@ -244,7 +244,7 @@
     <section>
         <h2><a href="#students" style="text-decoration: none;" id="students">Lab members</a></h2>
         <p>
-{% for item in mentorship %}{% if item.current %}{% if item.url %}<a href="{{item.url}}">{% endif %}{{item.name}}{% if item.url %}</a>{% endif %}, {{item.description}}<br />
+{% for item in mentorship %}{% if item.current %}{% if item.url %}<a href="{{item.url}}">{% endif %}{{item.name}}{% if item.url %}</a>{% endif %}, {{item.description}}{% if item.coadvisor %} <i>(co-advised with {{item.coadvisor}})</i>{% endif %}<br />
 {% endif %}{% endfor %}
         </p>
     </section>
