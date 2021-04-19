@@ -234,7 +234,7 @@
     <main>
         <p>
             I am an Assistant Professor in the <a href="https://cs.unc.edu/">Department of Computer Science</a> at the University of North Carolina, Chapel Hill.
-            I also spend one day a week as a Staff Research Scientist at <a href="https://research.google.com/teams/brain/">Google Brain</a>.
+            I also spend one day a week as a Faculty Researcher at <a href="http://huggingface.co/">Hugging Face</a>.
             Much of my recent research focuses on machine learning algorithms for learning from limited labeled data, including semi-supervised, unsupervised, and transfer learning.
         </p>
 

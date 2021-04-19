@@ -7,9 +7,15 @@
             "title": "Assistant Professor"
         },
         {
+            "place": "Hugging Face",
+            "start": "2021",
+            "end": "now",
+            "title": "Faculty Researcher"
+        },
+        {
             "place": "Google Brain",
             "start": "2020",
-            "end": "now",
+            "end": "2021",
             "title": "Staff Research Scientist"
         },
         {
