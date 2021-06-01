@@ -1,6 +1,12 @@
 {"press":
     [
         {
+            "title": "Robo-writers: the rise and risks of language-generating AI",
+            "publication": "Nature",
+            "url": "https://www.nature.com/articles/d41586-021-00530-0",
+            "year": 2020
+        },
+        {
             "title": "Learning-Based Methods for Comparing Sequences, with Applications to Audio-to-MIDI Alignment and Matching",
             "publication": "The Thesis Review Podcast",
             "url": "https://cs.nyu.edu/~welleck/episode2.html",

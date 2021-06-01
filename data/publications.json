@@ -1,7 +1,16 @@
 {"publications":
     [
         {
-            "authors": "Derek Tam, Rakesh R Menon, Mohit Bansal, Shashank Srivastava, Colin Raffel",
+            "authors": "Linting Xue*, Aditya Barua*, Noah Constant*, Rami Al-Rfou*, Sharan Narang, Mihir Kale, Adam Roberts, and Colin Raffel",
+            "url": "https://arxiv.org/abs/2105.13626",
+            "title": "ByT5: Towards a token-free future with pre-trained byte-to-byte models",
+            "venue": "arXiv preprint arxiv:2105.13626",
+            "day": 28,
+            "month": 5,
+            "year": 2021
+        },
+        {
+            "authors": "Derek Tam*, Rakesh R Menon*, Mohit Bansal, Shashank Srivastava, Colin Raffel",
             "url": "https://arxiv.org/abs/2103.11955",
             "title": "Improving and Simplifying Pattern Exploiting Training",
             "venue": "arXiv preprint arxiv:2103.11955",
