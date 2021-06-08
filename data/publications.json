@@ -1,6 +1,15 @@
 {"publications":
     [
         {
+            "authors": "Ching-Yuan Bai, Hsuan-Tien Lin, Colin Raffel, and Wendy Chih-wen Kan",
+            "url": "https://arxiv.org/abs/2106.03062",
+            "title": "On Training Sample Memorization: Lessons from Benchmarking Generative Modeling with a Large-scale Competition",
+            "venue": "27th ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD)",
+            "day": 18,
+            "month": 8,
+            "year": 2021
+        },
+        {
             "authors": "Linting Xue*, Aditya Barua*, Noah Constant*, Rami Al-Rfou*, Sharan Narang, Mihir Kale, Adam Roberts, and Colin Raffel",
             "url": "https://arxiv.org/abs/2105.13626",
             "title": "ByT5: Towards a token-free future with pre-trained byte-to-byte models",
@@ -56,12 +65,12 @@
         },
         {
             "authors": "Nicholas Carlini, Florian Tramer, Eric Wallace, Matthew Jagielski, Ariel Herbert-Voss, Katherine Lee, Adam Roberts, Tom Brown, Dawn Song, Ulfar Erlingsson, Alina Oprea, and Colin Raffel",
-            "url": "http://colinraffel.com/publications/arxiv2020extracting.pdf",
+            "url": "https://arxiv.org/abs/2012.07805",
             "title": "Extracting Training Data from Large Language Models",
-            "venue": "arXiv preprint arXiv:2012.07805",
-            "day": 14,
-            "month": 12,
-            "year": 2020
+            "venue": "30th USENIX Security Symposium",
+            "day": 11,
+            "month": 8,
+            "year": 2021
         },
         {
             "authors": "Kihyuk Sohn*, David Berthelot*, Chun-Liang Li, Zizhao Zhang, Nicholas Carlini, Ekin D. Cubuk, Alex Kurakin, Han Zhang, and Colin Raffel",
