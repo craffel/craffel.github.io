@@ -1,6 +1,12 @@
 {"talks":
     [
         {
+            "title": "Explicit and Implicit Entropy Minimization in Proxy-Label-Based Semi-Supervised Learning",
+            "venue": "CVPR Workshop on Learning with Limited and Imperfect Data",
+            "url": "http://colinraffel.com/talks/cvpr2021explicit.pdf",
+            "year": 2021
+        },
+        {
             "title": "The benefits of unified frameworks for language understanding",
             "venue": "Conceptual Understanding of Deep Learning Workshop",
             "url": "http://colinraffel.com/talks/cudl2021benefits.pdf",
