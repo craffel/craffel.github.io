@@ -1,6 +1,11 @@
 {"service":
     [
         {
+            "role": "Member",
+            "venue": "ACL Working Group on Efficient NLP",
+            "start": 2021
+        },
+        {
             "role": "Action Editor",
             "venue": "ACL Rolling Review",
             "start": 2021
