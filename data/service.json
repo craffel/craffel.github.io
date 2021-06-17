@@ -1,6 +1,11 @@
 {"service":
     [
         {
+            "role": "Action Editor",
+            "venue": "ACL Rolling Review",
+            "start": 2021
+        },
+        {
             "url": "http://welmworkshop.github.io",
             "role": "Lead Organizer",
             "venue": "ICLR 2021 Workshop on Enormous Language Models",
