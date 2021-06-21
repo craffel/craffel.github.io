@@ -14,7 +14,7 @@
         },
         {
             "title": "T5 and large language models: The good, the bad, and the ugly",
-            "venue": "Stanford University CS 224n Lecture, CU Boulder Applied Mathematics Colloqium, Twitter Machine Learning Seminar &amp; Google Graduade Symposium",
+            "venue": "Stanford University CS 224n Lecture, CU Boulder Applied Mathematics Colloqium, Twitter Machine Learning Seminar, Google Graduate Symposium &amp; TTIC NLP Seminar",
             "url": "http://colinraffel.com/talks/stanford2021t5.pdf",
             "year": 2020
         },
@@ -38,7 +38,7 @@
         },
         {
             "title": "Answering Questions by Querying the Implicit Knowledge Base Inside T5",
-            "venue": "Unstructed and Structured Knowledge Bases Workshop",
+            "venue": "Unstructured and Structured Knowledge Bases Workshop",
             "url": "http://colinraffel.com/talks/uskb2020answering.pdf",
             "year": 2020
         },
