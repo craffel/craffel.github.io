@@ -1,6 +1,12 @@
 {"press":
     [
         {
+            "title": "GitHub’s Commercial AI Tool Was Built From Open Source Code",
+            "publication": "Wired",
+            "url": "https://www.wired.com/story/github-commercial-ai-tool-built-open-source-code/",
+            "year": 2021
+        },
+        {
             "title": "Robo-writers: the rise and risks of language-generating AI",
             "publication": "Nature",
             "url": "https://www.nature.com/articles/d41586-021-00530-0",
