@@ -1,6 +1,12 @@
 {"talks":
     [
         {
+            "title": "Scaling up Models and Data",
+            "venue": "CIFAR Deep Learning and Reinforcement Learning Summer School",
+            "url": "http://colinraffel.com/talks/dlrl2021scaling.pdf",
+            "year": 2021
+        },
+        {
             "title": "Explicit and Implicit Entropy Minimization in Proxy-Label-Based Semi-Supervised Learning",
             "venue": "CVPR Workshop on Learning with Limited and Imperfect Data",
             "url": "http://colinraffel.com/talks/cvpr2021explicit.pdf",
