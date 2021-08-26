@@ -31,9 +31,9 @@
             "authors": "Derek Tam*, Rakesh R Menon*, Mohit Bansal, Shashank Srivastava, and Colin Raffel",
             "url": "https://arxiv.org/abs/2103.11955",
             "title": "Improving and Simplifying Pattern Exploiting Training",
-            "venue": "arXiv preprint arxiv:2103.11955",
-            "day": 22,
-            "month": 3,
+            "venue": "2021 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+            "day": 7,
+            "month": 11,
             "year": 2021
         },
         {
@@ -47,11 +47,11 @@
         },
         {
             "authors": "Sharan Narang, Hyung Won Chung, Yi Tay, William Fedus, Thibault Fevry, Michael Matena, Karishma Malkan, Noah Fiedel, Noam Shazeer, Zhenzhong Lan, Yanqi Zhou, Wei Li, Nan Ding, Jake Marcus, Adam Roberts, and Colin Raffel",
-            "url": "http://colinraffel.com/publications/arxiv2021do.pdf",
+            "url": "https://arxiv.org/abs/2102.11972",
             "title": "Do Transformer Modifications Transfer Across Implementations and Applications?",
-            "venue": "arXiv preprint arXiv:2102.11972",
-            "day": 23,
-            "month": 2,
+            "venue": "2021 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+            "day": 7,
+            "month": 11,
             "year": 2021
         },
         {
