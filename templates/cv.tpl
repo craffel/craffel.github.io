@@ -133,7 +133,7 @@
             <div class="onelineitem">
                 <div class="yearrange">{{item.start}}{% if item.end %}&#8211;{{item.end}}{% endif %}</div>
                 <div class="yearright">
-                    <strong>{{item.name}}</strong>, {{item.description}}
+                    <strong>{% if item.url %}<a href="{{item.url}}">{% endif %}{{item.name}}{% if item.url %}</a>{% endif %}</strong>, {{item.description}}
                 </div>
             </div>
             {% endfor %}
