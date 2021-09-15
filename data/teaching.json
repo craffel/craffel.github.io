@@ -1,6 +1,12 @@
 {"teaching":
     [
         {
+            "url": "https://github.com/craffel/comp790-information-theory-fall-2021",
+            "name": "Instructor, Information Theory",
+            "location": "University of North Carolina, Chapel Hill",
+            "year": 2021
+        },
+        {
             "url": "https://github.com/craffel/comp790-deep-learning-spring-2021",
             "name": "Instructor, Deep Learning",
             "location": "University of North Carolina, Chapel Hill",
