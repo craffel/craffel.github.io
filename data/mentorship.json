@@ -31,10 +31,69 @@
             "coadvisor": "Marc Niethammer"
         },
         {
+            "name": "Haokun Liu",
+            "description": "PhD student at UNC",
+            "start": 2021,
+            "end": "now",
+            "url": "https://haokunliu.github.io/"
+        },
+        {
+            "name": "Anisha Mascarenhas",
+            "description": "Master's student at UNC",
+            "start": 2021,
+            "end": "now",
+            "url": "https://anisham197.github.io/"
+        },
+        {
+            "name": "Muqeeth Mohammed",
+            "description": "Master's student at UNC",
+            "start": 2021,
+            "end": "now",
+            "url": "https://www.linkedin.com/in/muqeeth-mohammed/"
+        },
+        {
+            "name": "Vishal Baskaran",
+            "description": "Master's student at UNC",
+            "start": 2021,
+            "end": "now",
+            "url": "https://www.linkedin.com/in/vishal-overcome/"
+        },
+        {
+            "name": "Mansi Sakarvadia",
+            "description": "Undergraduate at UNC",
+            "start": 2021,
+            "end": "now",
+            "url": "https://www.mansisak.com/"
+        },
+        {
+            "name": "Tenghao Huang",
+            "description": "Undergraduate at UNC",
+            "start": 2021,
+            "end": "now"
+        },
+        {
+            "name": "Monty Evans",
+            "description": "Undergraduate at UNC",
+            "start": 2021,
+            "end": "now"
+        },
+        {
+            "name": "Ellie Evans",
+            "description": "Undergraduate at UNC",
+            "start": 2021,
+            "end": "now"
+        },
+        {
+            "name": "Varun Nair",
+            "description": "Undergraduate at Duke University",
+            "start": 2021,
+            "url": "https://www.linkedin.com/in/varunnair18"
+        },
+        {
             "name": "Jay Mohta",
             "description": "Master's student at NC State",
             "start": 2020,
-            "end": "now",
+            "end": 2021,
             "url": "https://www.linkedin.com/in/jay-mohta"
         },
         {
