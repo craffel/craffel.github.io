@@ -73,13 +73,14 @@
             "url": "http://linkedin.com/in/tenghao-huang-b0225116b"
         },
         {
-            "name": "Monty Evans",
+            "name": "Ellie Evans",
             "description": "Undergraduate at UNC",
             "start": 2021,
-            "end": "now"
+            "end": "now",
+            "url": "https://www.linkedin.com/in/ellieevansunc/"
         },
         {
-            "name": "Ellie Evans",
+            "name": "Monty Evans",
             "description": "Undergraduate at UNC",
             "start": 2021,
             "end": "now"
