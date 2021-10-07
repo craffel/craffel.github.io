@@ -1,6 +1,12 @@
 {"press":
     [
         {
+            "title": "Supersized AIs: Are truly intelligent machines just a matter of scale?",
+            "publication": "New Scientist",
+            "url": "https://www.newscientist.com/article/mg25133550-800-supersized-ais-are-truly-intelligent-machines-just-a-matter-of-scale/",
+            "year": 2021
+        },
+        {
             "title": "GitHub’s Commercial AI Tool Was Built From Open Source Code",
             "publication": "Wired",
             "url": "https://www.wired.com/story/github-commercial-ai-tool-built-open-source-code/",
