@@ -1,6 +1,12 @@
 {"talks":
     [
         {
+            "title": "A better way to get language models to do what you ask",
+            "venue": "AKBC 2021 Unstructured and Structured Knowledge Bases Workshop",
+            "url": "http://colinraffel.com/talks/uskb2020better.pdf",
+            "year": 2021
+        },
+        {
             "title": "Scaling up Models and Data",
             "venue": "CIFAR Deep Learning and Reinforcement Learning Summer School",
             "url": "http://colinraffel.com/talks/dlrl2021scaling.pdf",
@@ -44,7 +50,7 @@
         },
         {
             "title": "Answering Questions by Querying the Implicit Knowledge Base Inside T5",
-            "venue": "Unstructured and Structured Knowledge Bases Workshop",
+            "venue": "AKBC 2020 Unstructured and Structured Knowledge Bases Workshop",
             "url": "http://colinraffel.com/talks/uskb2020answering.pdf",
             "year": 2020
         },
