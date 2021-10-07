@@ -1,6 +1,11 @@
 {"awards":
     [
         {
+            "name": "SIGPLAN Research Highlight",
+            "venue": "for \"Learning-based Memory Allocation for C++ Server Workloads\"",
+            "year": 2021
+        },
+        {
             "name": "Top 10 Reviewer Award",
             "venue": "35th International Conference on Machine Learning",
             "year": 2018

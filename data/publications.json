@@ -133,7 +133,8 @@
             "venue": "25th International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS)",
             "day": 16,
             "month": 3,
-            "year": 2020
+            "year": 2020,
+            "note": "SIGPLAN Research Highlight"
         },
         {
             "authors": "Yao Qin, Nicholas Frosst, Colin Raffel, Garrison Cottrell, and Geoffrey Hinton",
