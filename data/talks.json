@@ -1,6 +1,18 @@
 {"talks":
     [
         {
+            "title": "The Sweet Lesson",
+            "venue": "SustaiNLP Workshop",
+            "url": "http://colinraffel.com/talks/sustainlp2021sweet.pdf",
+            "year": 2021
+        },
+        {
+            "title": "What do language models learn from language modeling?",
+            "venue": "Stanford University CS 330 Lecture",
+            "url": "http://colinraffel.com/talks/stanford2021what.pdf",
+            "year": 2021
+        },
+        {
             "title": "How and why should(n't) we scale machine learning?",
             "venue": "IBM AI Hardware Forum Keynote",
             "url": "http://colinraffel.com/talks/ibm2021how.pdf",
