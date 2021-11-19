@@ -1,6 +1,18 @@
 {"talks":
     [
         {
+            "title": "A call to build models like we build open-source software",
+            "venue": "Cornell University Artificial Intelligence Seminar",
+            "url": "http://colinraffel.com/talks/cornell2021call.pdf",
+            "year": 2021
+        },
+        {
+            "title": "A few possibly controversial opinions about large language models",
+            "venue": "Carnegie Mellon University Language Technologies Topical Seminar",
+            "url": "http://colinraffel.com/talks/cmu2021few.pdf",
+            "year": 2021
+        },
+        {
             "title": "The Sweet Lesson",
             "venue": "SustaiNLP Workshop",
             "url": "http://colinraffel.com/talks/sustainlp2021sweet.pdf",
@@ -20,7 +32,7 @@
         },
         {
             "title": "A better way to get language models to do what you ask",
-            "venue": "AKBC 2021 Unstructured and Structured Knowledge Bases Workshop",
+            "venue": "AKBC 2021 Unstructured and Structured Knowledge Bases Workshop and Cohere.ai",
             "url": "http://colinraffel.com/talks/uskb2021better.pdf",
             "year": 2021
         },
