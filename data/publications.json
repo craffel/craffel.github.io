@@ -1,6 +1,33 @@
 {"publications":
     [
         {
+            "authors": "Sabrina J. Mielke, Zaid Alyafeai, Elizabeth Salesky, Colin Raffel, Manan Dey, Matthias Gallé, Arun Raja, Chenglei Si, Wilson Y. Lee, Benoît Sagot, and Samson Tan",
+            "url": "https://arxiv.org/abs/2112.10508",
+            "title": "Between words and characters: A Brief History of Open-Vocabulary Modeling and Tokenization in NLP",
+            "venue": "arXiv preprint arxiv:2112.10508",
+            "day": 20,
+            "month": 12,
+            "year": 2021
+        },
+        {
+            "authors": "Yi-Lin Sung*, Varun Nair*, and Colin Raffel",
+            "url": "http://colinraffel.com/publications/neurips2020fixmatch.pdf",
+            "title": "Training Neural Networks with Fixed Sparse Masks",
+            "venue": "Neural Information Processing Systems 35 (NeurIPS)",
+            "day": 6,
+            "month": 12,
+            "year": 2021
+        },
+        {
+            "authors": "Michael Matena and Colin Raffel",
+            "url": "https://arxiv.org/abs/2111.09832",
+            "title": "Merging Models with Fisher-Weighted Averaging",
+            "venue": "arXiv preprint arxiv:2111.09832",
+            "day": 18,
+            "month": 11,
+            "year": 2021
+        },
+        {
             "authors": "Victor Sanh*, Albert Webson*, Colin Raffel*, Stephen H. Bach*, Lintang Sutawika, Zaid Alyafeai, Antoine Chaffin, Arnaud Stiegler, Teven Le Scao, Arun Raja, Manan Dey, M Saiful Bari, Canwen Xu, Urmish Thakker, Shanya Sharma Sharma, Eliza Szczechla, Taewoon Kim, Gunjan Chhablani, Nihal Nayak, Debajyoti Datta, Jonathan Chang, Mike Tian-Jian Jiang, Han Wang, Matteo Manica, Sheng Shen, Zheng Xin Yong, Harshit Pandey, Rachel Bawden, Thomas Wang, Trishala Neeraj, Jos Rozen, Abheesht Sharma, Andrea Santilli, Thibault Fevry, Jason Alan Fries, Ryan Teehan, Stella Biderman, Leo Gao, Tali Bers, Thomas Wolf, and Alexander M. Rush",
             "url": "https://arxiv.org/abs/2110.08207",
             "title": "Multitask Prompted Training Enables Zero-Shot Task Generalization",
