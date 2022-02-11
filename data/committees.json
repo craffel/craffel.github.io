@@ -1,6 +1,12 @@
 {"committees":
     [
         {
+            "name": "Peirong Liu",
+            "location": "University of North Carolina, Chapel Hill",
+            "start": 2022,
+            "end": "now"
+        },
+        {
             "name": "Zhenlin Xu",
             "location": "University of North Carolina, Chapel Hill",
             "start": 2020,

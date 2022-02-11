@@ -31,10 +31,10 @@
             "authors": "Victor Sanh*, Albert Webson*, Colin Raffel*, Stephen H. Bach*, Lintang Sutawika, Zaid Alyafeai, Antoine Chaffin, Arnaud Stiegler, Teven Le Scao, Arun Raja, Manan Dey, M Saiful Bari, Canwen Xu, Urmish Thakker, Shanya Sharma Sharma, Eliza Szczechla, Taewoon Kim, Gunjan Chhablani, Nihal Nayak, Debajyoti Datta, Jonathan Chang, Mike Tian-Jian Jiang, Han Wang, Matteo Manica, Sheng Shen, Zheng Xin Yong, Harshit Pandey, Rachel Bawden, Thomas Wang, Trishala Neeraj, Jos Rozen, Abheesht Sharma, Andrea Santilli, Thibault Fevry, Jason Alan Fries, Ryan Teehan, Stella Biderman, Leo Gao, Tali Bers, Thomas Wolf, and Alexander M. Rush",
             "url": "https://arxiv.org/abs/2110.08207",
             "title": "Multitask Prompted Training Enables Zero-Shot Task Generalization",
-            "venue": "arXiv preprint arxiv:2110.08207",
-            "day": 15,
-            "month": 10,
-            "year": 2021
+            "venue": "10th International Conference on Learning Representations (ICLR)",
+            "day": 25,
+            "month": 4,
+            "year": 2022
         },
         {
             "authors": "Jiaao Chen*, Derek Tam*, Colin Raffel, Mohit Bansal, and Diyi Yang",

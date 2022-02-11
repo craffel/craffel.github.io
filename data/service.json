@@ -1,6 +1,21 @@
 {"service":
     [
         {
+            "role": "Senior Area Chair",
+            "venue": "North American Chapter of the Association for Computational Linguistics",
+            "start": 2022
+        },
+        {
+            "role": "Panelist",
+            "venue": "National Science Foundation",
+            "start": 2022
+        },
+        {
+            "role": "Area Chair",
+            "venue": "Annual Meeting of the Association for Computational Linguistics",
+            "start": 2022
+        },
+        {
             "role": "Member",
             "venue": "ACL Working Group on Efficient NLP",
             "start": 2021
