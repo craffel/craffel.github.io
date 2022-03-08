@@ -1,6 +1,15 @@
 {"publications":
     [
         {
+            "authors": "Stephen H. Bach*, Victor Sanh*, Zheng-Xin Yong, Albert Webson, Colin Raffel, Nihal V. Nayak, Abheesht Sharma, Taewoon Kim, M Saiful Bari, Thibault Fevry, Zaid Alyafeai, Manan Dey, Andrea Santilli, Zhiqing Sun, Srulik Ben-David, Canwen Xu, Gunjan Chhablani, Han Wang, Jason Alan Fries, Maged S. Al-shaibani, Shanya Sharma, Urmish Thakker, Khalid Almubarak, Xiangru Tang, Dragomir Radev, Mike Tian-Jian Jiang, and Alexander M. Rush",
+            "url": "https://arxiv.org/abs/2202.01279",
+            "title": "PromptSource: An Integrated Development Environment and Repository for Natural Language Prompts",
+            "venue": "60th Annual Meeting of the Association for Computational Linguistics (ACL), Demo Track",
+            "day": 22,
+            "month": 5,
+            "year": 2022
+        },
+        {
             "authors": "Nikhil Kandpal, Eric Wallace, and Colin Raffel",
             "url": "https://arxiv.org/abs/2202.06539",
             "title": "Deduplicating Training Data Mitigates Privacy Risks in Language Models",
