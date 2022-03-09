@@ -29,7 +29,7 @@
         },
         {
             "authors": "Yi-Lin Sung*, Varun Nair*, and Colin Raffel",
-            "url": "http://colinraffel.com/publications/neurips2020fixmatch.pdf",
+            "url": "https://arxiv.org/abs/2111.09839",
             "title": "Training Neural Networks with Fixed Sparse Masks",
             "venue": "Neural Information Processing Systems 35 (NeurIPS)",
             "day": 6,
