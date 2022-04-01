@@ -1,6 +1,12 @@
 {"committees":
     [
         {
+            "name": "Tu Vu",
+            "location": "University of Massachusetts, Amherst",
+            "start": 2022,
+            "end": "now"
+        },
+        {
             "name": "Peirong Liu",
             "location": "University of North Carolina, Chapel Hill",
             "start": 2022,
