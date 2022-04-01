@@ -30,6 +30,19 @@ def load_data(json_glob):
                     if entry_time > now - datetime.timedelta(days=365):
                         entry['recent'] = True
                 if 'authors' in entry:
+
+                    if len(entry['authors'].split(', ')) > 11:
+                        im_last = entry['authors'].endswith('Colin Raffel')
+                        entry['authors'] = ", ".join(
+                            entry['authors'].split(',')[:11]
+                        )
+                        entry['authors'] += ', ...'
+                        if 'Colin Raffel' not in entry['authors']:
+                            if im_last:
+                                entry['authors'] += ' and Colin Raffel'
+                            else:
+                                entry['authors'] += ' Colin Raffel, ...'
+
                     entry['authors'] = re.sub(
                         r'(Colin Raffel)', r'<b>\1</b>', entry['authors'])
                 if 'end' in entry and entry['end'] == 'now':
