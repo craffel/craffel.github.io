@@ -1,6 +1,11 @@
 {"service":
     [
         {
+            "role": "Area Chair",
+            "venue": "Conference on Computational Natural Language Learning",
+            "start": 2022
+        },
+        {
             "role": "Senior Area Chair",
             "venue": "North American Chapter of the Association for Computational Linguistics",
             "start": 2022
