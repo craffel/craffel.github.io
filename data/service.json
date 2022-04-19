@@ -1,6 +1,11 @@
 {"service":
     [
         {
+            "role": "Senior Area Chair",
+            "venue": "Conference on Empirical Methods in Natural Language Processing",
+            "start": 2022
+        },
+        {
             "role": "Area Chair",
             "venue": "Conference on Computational Natural Language Learning",
             "start": 2022
