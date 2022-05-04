@@ -1,6 +1,12 @@
 {"committees":
     [
         {
+            "name": "Andrew Freeman",
+            "location": "University of North Carolina, Chapel Hill",
+            "start": 2022,
+            "end": "now"
+        },
+        {
             "name": "Tu Vu",
             "location": "University of Massachusetts, Amherst",
             "start": 2022,
@@ -13,12 +19,6 @@
             "end": "now"
         },
         {
-            "name": "Zhenlin Xu",
-            "location": "University of North Carolina, Chapel Hill",
-            "start": 2020,
-            "end": "now"
-        },
-        {
             "name": "Junhua Yan",
             "location": "University of North Carolina, Chapel Hill",
             "start": 2020,
@@ -28,13 +28,13 @@
             "name": "Yang Li",
             "location": "University of North Carolina, Chapel Hill",
             "start": 2020,
-            "end": "now"
+            "end": 2022
         },
         {
             "name": "Zhengyang Shen",
             "location": "University of North Carolina, Chapel Hill",
             "start": 2020,
-            "end": "now"
+            "end": 2022
         },
         {
             "name": "Dan Korn",
