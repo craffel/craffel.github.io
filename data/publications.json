@@ -1,7 +1,25 @@
 {"publications":
     [
         {
-            "authors": "Adam Roberts, Hyung Won Chung, Anselm Levskaya, Gaurav Mishra, James Bradbury, Daniel Andor, Sharan Narang, Brian Lester, Colin Gaffney, Afroz Mohiuddin, Curtis Hawthorne, Aitor Lewkowycz, Alex Salcianu, Marc van Zee, Jacob Austin, Sebastian Goodman, Livio Baldini Soares, Haitang Hu, Sasha Tsvyashchenko, Aakanksha Chowdhery, Jasmijn Bastings, Jannis Bulian, Xavier Garcia, Jianmo Ni, Andrew Chen, Kathleen Kenealy, Jonathan H. Clark, Stephan Lee, Dan Garrette, James Lee-Thorp, Colin Raffel, Noam Shazeer, Marvin Ritter, Maarten Bosma, Alexandre Passos, Jeremy Maitin-Shepard, Noah Fiedel, Mark Omernick, Brennan Saeta, Ryan Sepassi, Alexander Spiridonov, Joshua Newlan, Andrea Gesmundo",
+            "authors": "Haokun Liu, Derek Tam, Mohammed Muqeeth, Jay Mohta, Tenghao Huang, Mohit Bansal, and Colin Raffel",
+            "url": "https://arxiv.org/abs/2205.05638",
+            "title": "Few-Shot Parameter-Efficient Fine-Tuning is Better and Cheaper than In-Context Learning",
+            "venue": "arXiv preprint arXiv:2205.05638",
+            "day": 11,
+            "month": 5,
+            "year": 2022
+        },
+        {
+            "authors": "Thomas Wang*, Adam Roberts*, Daniel Hesslow, Teven Le Scao, Hyung Won Chung, Iz Beltagy, Julien Launay, and Colin Raffel",
+            "url": "https://arxiv.org/abs/2203.17189",
+            "title": "What Language Model Architecture and Pretraining Objective Work Best for Zero-Shot Generalization?",
+            "venue": "39th International Conference on Machine Learning (ICML)",
+            "day": 17,
+            "month": 7,
+            "year": 2022
+        },
+        {
+            "authors": "Adam Roberts, Hyung Won Chung, Anselm Levskaya, Gaurav Mishra, James Bradbury, Daniel Andor, Sharan Narang, Brian Lester, Colin Gaffney, Afroz Mohiuddin, Curtis Hawthorne, Aitor Lewkowycz, Alex Salcianu, Marc van Zee, Jacob Austin, Sebastian Goodman, Livio Baldini Soares, Haitang Hu, Sasha Tsvyashchenko, Aakanksha Chowdhery, Jasmijn Bastings, Jannis Bulian, Xavier Garcia, Jianmo Ni, Andrew Chen, Kathleen Kenealy, Jonathan H. Clark, Stephan Lee, Dan Garrette, James Lee-Thorp, Colin Raffel, Noam Shazeer, Marvin Ritter, Maarten Bosma, Alexandre Passos, Jeremy Maitin-Shepard, Noah Fiedel, Mark Omernick, Brennan Saeta, Ryan Sepassi, Alexander Spiridonov, Joshua Newlan, and Andrea Gesmundo",
             "url": "https://arxiv.org/abs/2203.17189",
             "title": "Scaling Up Models and Data with t5x and seqio",
             "venue": "arXiv preprint arXiv:2203.17189",
@@ -22,9 +40,9 @@
             "authors": "Nikhil Kandpal, Eric Wallace, and Colin Raffel",
             "url": "https://arxiv.org/abs/2202.06539",
             "title": "Deduplicating Training Data Mitigates Privacy Risks in Language Models",
-            "venue": "arXiv preprint arXiv:2202.06539",
-            "day": 14,
-            "month": 2,
+            "venue": "39th International Conference on Machine Learning (ICML)",
+            "day": 17,
+            "month": 7,
             "year": 2022
         },
         {
