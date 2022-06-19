@@ -11,7 +11,7 @@
         },
         {
             "authors": "Thomas Wang*, Adam Roberts*, Daniel Hesslow, Teven Le Scao, Hyung Won Chung, Iz Beltagy, Julien Launay, and Colin Raffel",
-            "url": "https://arxiv.org/abs/2203.17189",
+            "url": "https://arxiv.org/abs/2204.05832",
             "title": "What Language Model Architecture and Pretraining Objective Work Best for Zero-Shot Generalization?",
             "venue": "39th International Conference on Machine Learning (ICML)",
             "day": 17,
