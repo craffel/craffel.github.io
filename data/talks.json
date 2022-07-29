@@ -1,6 +1,12 @@
 {"talks":
     [
         {
+            "title": "How to Be an Academic Machine Learning Researcher in the Era of Scale",
+            "venue": "CIFAR Deep Learning and Reinforcement Learning Summer School",
+            "url": "http://colinraffel.com/talks/dlrl2022how.pdf",
+            "year": 2022
+        },
+        {
             "title": "Less Data, More ___? Data Augmentation and Semi-Supervised Learning for Natural Language Processing",
             "venue": "60th Annual Meeting of the Association for Computational Linguistics Tutorials",
             "url": "http://colinraffel.com/talks/acl2022less.pdf",
