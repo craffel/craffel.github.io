@@ -1,6 +1,12 @@
 {"talks":
     [
         {
+            "title": "Building Machine Learning Models Like Open-Source Software",
+            "venue": "Microsoft Research Summit & World Artificial Intelligence Conference",
+            "url": "http://colinraffel.com/talks/microsoft2022building.pdf",
+            "year": 2022
+        },
+        {
             "title": "How to Be an Academic Machine Learning Researcher in the Era of Scale",
             "venue": "CIFAR Deep Learning and Reinforcement Learning Summer School",
             "url": "http://colinraffel.com/talks/dlrl2022how.pdf",
