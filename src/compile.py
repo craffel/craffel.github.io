@@ -32,12 +32,16 @@ def load_data(json_glob):
                         entry['recent'] = True
 
                 if 'authors' in entry:
-                    num_authors = len(entry['authors'].split(', '))
-                    if num_authors > 11:
+                    authors = entry['authors'].split(',')
+                    if len(authors) > 11:
+                        n_to_show = 4
+                        if 'Colin Raffel' in authors[n_to_show]:
+                            n_to_show += 1
                         entry['authors'] = ", ".join(
-                            entry['authors'].split(',')[:5]
+                            entry['authors'].split(',')[:n_to_show]
                         )
-                        entry['authors'] += f', and {num_authors - 5} others'
+                        n_additional = len(authors) - n_to_show
+                        entry['authors'] += f', and {n_additional} others'
                         if 'Colin Raffel' not in entry['authors']:
                             entry['authors'] += ' including Colin Raffel'
 
