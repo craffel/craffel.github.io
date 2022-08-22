@@ -22,6 +22,7 @@ def load_data(json_glob):
             data = {k: sorted(v, key=_ordinal_day) for k, v in data.items()}
             entries = list(data.values())[0]
             for entry in entries:
+
                 if 'day' in entry and 'month' in entry and 'year' in entry:
                     entry_time = datetime.datetime(
                         entry['year'], entry['month'], entry['day'])
@@ -29,22 +30,20 @@ def load_data(json_glob):
                         entry['year'] = '{} (to appear)'.format(entry['year'])
                     if entry_time > now - datetime.timedelta(days=365):
                         entry['recent'] = True
-                if 'authors' in entry:
 
-                    if len(entry['authors'].split(', ')) > 11:
-                        im_last = entry['authors'].endswith('Colin Raffel')
+                if 'authors' in entry:
+                    num_authors = len(entry['authors'].split(', '))
+                    if num_authors > 11:
                         entry['authors'] = ", ".join(
-                            entry['authors'].split(',')[:11]
+                            entry['authors'].split(',')[:5]
                         )
-                        entry['authors'] += ', ...'
+                        entry['authors'] += f', and {num_authors - 5} others'
                         if 'Colin Raffel' not in entry['authors']:
-                            if im_last:
-                                entry['authors'] += ' and Colin Raffel'
-                            else:
-                                entry['authors'] += ' Colin Raffel, ...'
+                            entry['authors'] += ' including Colin Raffel'
 
                     entry['authors'] = re.sub(
                         r'(Colin Raffel)', r'<b>\1</b>', entry['authors'])
+
                 if 'end' in entry and entry['end'] == 'now':
                     entry['current'] = True
             datas.append(data)
