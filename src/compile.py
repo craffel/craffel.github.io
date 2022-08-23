@@ -32,13 +32,13 @@ def load_data(json_glob):
                         entry['recent'] = True
 
                 if 'authors' in entry:
-                    authors = entry['authors'].split(',')
+                    authors = entry['authors'].split(', ')
                     if len(authors) > 11:
                         n_to_show = 4
                         if 'Colin Raffel' in authors[n_to_show]:
                             n_to_show += 1
                         entry['authors'] = ", ".join(
-                            entry['authors'].split(',')[:n_to_show]
+                            entry['authors'].split(', ')[:n_to_show]
                         )
                         n_additional = len(authors) - n_to_show
                         entry['authors'] += f', and {n_additional} others'
