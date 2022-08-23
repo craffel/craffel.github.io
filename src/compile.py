@@ -37,6 +37,8 @@ def load_data(json_glob):
                         n_to_show = 4
                         if 'Colin Raffel' in authors[n_to_show]:
                             n_to_show += 1
+                        while "*" in authors[n_to_show]:
+                            n_to_show += 1
                         entry['authors'] = ", ".join(
                             entry['authors'].split(', ')[:n_to_show]
                         )
