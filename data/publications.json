@@ -13,9 +13,9 @@
             "authors": "Jason Wei, Yi Tay, Rishi Bommasani, Colin Raffel, Barret Zoph, Sebastian Borgeaud, Dani Yogatama, Maarten Bosma, Denny Zhou, Donald Metzler, Ed H Chi, Tatsunori Hashimoto, Oriol Vinyals, Percy Liang, Jeff Dean, William Fedus",
             "url": "https://arxiv.org/abs/2206.07682",
             "title": "Emergent Abilities of Large Language Models",
-            "venue": "arXiv preprint arXiv:2206.07682",
-            "day": 15,
-            "month": 6,
+            "venue": "Transactions on Machine Learning Research (TMLR)",
+            "day": 25,
+            "month": 8,
             "year": 2022
         },
         {
