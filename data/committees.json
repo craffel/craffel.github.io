@@ -1,6 +1,18 @@
 {"committees":
     [
         {
+            "name": "Xiang Zhou",
+            "location": "University of North Carolina, Chapel Hill",
+            "start": 2022,
+            "end": "now"
+        },
+        {
+            "name": "Chao Zhao",
+            "location": "University of North Carolina, Chapel Hill",
+            "start": 2022,
+            "end": "now"
+        },
+        {
             "name": "Andrew Freeman",
             "location": "University of North Carolina, Chapel Hill",
             "start": 2022,
