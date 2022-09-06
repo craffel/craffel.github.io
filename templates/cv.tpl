@@ -89,30 +89,6 @@
             {% endfor %}
         </div>
 
-        <h2 id="presentations">Conference Presentations</h2>
-
-        <div class="block">
-            {% for item in presentations %}
-            <div class="item">
-                <div class="year">{{item.year}}</div>
-                <strong><a href="{{item.url}}">{{item.title}}</a></strong><br />
-                {{item.venue}}
-            </div>
-            {% endfor %}
-        </div>
-
-        <h2 id="posters">Poster Presentations</h2>
-
-        <div class="block">
-            {% for item in posters %}
-            <div class="item">
-                <div class="year">{{item.year}}</div>
-                <strong><a href="{{item.url}}">{{item.title}}</a></strong><br />
-                {{item.venue}}
-            </div>
-            {% endfor %}
-        </div>
-
         <h2 id="teaching">Teaching</h2>
 
         <div class="block">
@@ -160,19 +136,6 @@
                 <div class="yearrange">{{item.start}}{% if item.end %}&#8211;{{item.end}}{% endif %}</div>
                 <div class="yearright">
                     <strong>{{item.name}}</strong>, {{item.location}}
-                </div>
-            </div>
-            {% endfor %}
-        </div>
-
-        <h2 id="employment">Employment and Business Ventures</h2>
-
-        <div class="block">
-            {% for item in employment %}
-            <div class="onelineitem">
-                <div class="yearrange">{{item.start}}{% if item.end %}&#8211;{{item.end}}{% endif %}</div>
-                <div class="yearright">
-                    {% if item.url %}<a href="{{item.url}}">{% endif %}<strong>{{item.name}}</strong>, {{item.role}}{% if item.url %}</a>{% endif %}
                 </div>
             </div>
             {% endfor %}
