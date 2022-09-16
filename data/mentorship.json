@@ -1,6 +1,20 @@
 {"mentorship":
     [
         {
+            "name": "Brian Lester",
+            "description": "PhD student at UNC",
+            "start": 2022,
+            "end": "now",
+            "url": "https://blester125.com/"
+        },
+        {
+            "name": "Haokun Liu",
+            "description": "PhD student at UNC",
+            "start": 2021,
+            "end": "now",
+            "url": "https://haokunliu.github.io/"
+        },
+        {
             "name": "Nikhil Kandpal",
             "description": "PhD student at UNC",
             "start": 2020,
@@ -21,21 +35,6 @@
             "start": 2020,
             "end": "now",
             "url": "https://www.linkedin.com/in/michael-matena-2174b082"
-        },
-        {
-            "name": "Zhenlin Xu",
-            "description": "PhD student at UNC",
-            "start": 2020,
-            "end": "now",
-            "url": "https://wildphoton.github.io/",
-            "coadvisor": "Marc Niethammer"
-        },
-        {
-            "name": "Haokun Liu",
-            "description": "PhD student at UNC",
-            "start": 2021,
-            "end": "now",
-            "url": "https://haokunliu.github.io/"
         },
         {
             "name": "Anisha Mascarenhas",
@@ -59,31 +58,63 @@
             "url": "https://www.linkedin.com/in/vishal-overcome/"
         },
         {
+            "name": "Peiyu Li",
+            "description": "Undergraduate at UNC",
+            "start": 2022,
+            "end": "now"
+        },
+        {
+            "name": "Tara Ghorpadkar",
+            "description": "Undergraduate at UNC",
+            "start": 2022,
+            "end": "now"
+        },
+        {
+            "name": "Yufan Liu",
+            "description": "Undergraduate at UNC",
+            "start": 2022,
+            "end": "now"
+        },
+        {
+            "name": "Haikang Deng",
+            "description": "Undergraduate at UNC",
+            "start": 2022,
+            "end": "now"
+        },
+        {
             "name": "Mansi Sakarvadia",
             "description": "Undergraduate at UNC",
             "start": 2021,
-            "end": "now",
+            "end": 2022,
             "url": "https://www.mansisak.com/"
         },
         {
             "name": "Tenghao Huang",
             "description": "Undergraduate at UNC",
             "start": 2021,
-            "end": "now",
+            "end": 2022,
             "url": "http://linkedin.com/in/tenghao-huang-b0225116b"
         },
         {
             "name": "Ellie Evans",
             "description": "Undergraduate at UNC",
             "start": 2021,
-            "end": "now",
+            "end": 2022,
             "url": "https://www.linkedin.com/in/ellieevansunc/"
         },
         {
             "name": "Monty Evans",
             "description": "Undergraduate at UNC",
             "start": 2021,
-            "end": "now"
+            "end": 2022
+        },
+        {
+            "name": "Zhenlin Xu",
+            "description": "PhD student at UNC",
+            "start": 2020,
+            "end": 2022,
+            "url": "https://wildphoton.github.io/",
+            "coadvisor": "Marc Niethammer"
         },
         {
             "name": "Varun Nair",
