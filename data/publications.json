@@ -1,6 +1,30 @@
 {"publications":
     [
         {
+            "authors": "Colin Raffel",
+            "title": "Building Machine Learning Models Like Open-Source Software",
+            "venue": "Communications of the Association for Computing Machinery",
+            "day": 29,
+            "month": 12,
+            "year": 2022
+        },
+        {
+            "authors": "Michael Matena and Colin Raffel",
+            "title": "A Combinatorial Perspective on the Optimization of Shallow ReLU Networks",
+            "venue": "Neural Information Processing Systems 36 (NeurIPS)",
+            "day": 29,
+            "month": 11,
+            "year": 2022
+        },
+        {
+            "authors": "Zhenlin Xu, Marc Niethammer, and Colin Raffel",
+            "title": "Compositional Generalization in Unsupervised Representation Learning: From Disentanglement to Emergent Language",
+            "venue": "Neural Information Processing Systems 36 (NeurIPS)",
+            "day": 29,
+            "month": 11,
+            "year": 2022
+        },
+        {
             "authors": "Alexander Borzunov, Dmitry Baranchuk, Tim Dettmers, Max Ryabinin, Younes Belkada, Artem Chumachenko, Pavel Samygin, and Colin Raffel",
             "url": "https://arxiv.org/abs/2209.01188",
             "title": "Petals: Collaborative Inference and Fine-tuning of Large Models",
@@ -40,9 +64,9 @@
             "authors": "Haokun Liu, Derek Tam, Mohammed Muqeeth, Jay Mohta, Tenghao Huang, Mohit Bansal, and Colin Raffel",
             "url": "https://arxiv.org/abs/2205.05638",
             "title": "Few-Shot Parameter-Efficient Fine-Tuning is Better and Cheaper than In-Context Learning",
-            "venue": "arXiv preprint arXiv:2205.05638",
-            "day": 11,
-            "month": 5,
+            "venue": "Neural Information Processing Systems 36 (NeurIPS)",
+            "day": 29,
+            "month": 11,
             "year": 2022
         },
         {
@@ -112,10 +136,10 @@
             "authors": "Michael Matena and Colin Raffel",
             "url": "https://arxiv.org/abs/2111.09832",
             "title": "Merging Models with Fisher-Weighted Averaging",
-            "venue": "arXiv preprint arxiv:2111.09832",
-            "day": 18,
+            "venue": "Neural Information Processing Systems 36 (NeurIPS)",
+            "day": 29,
             "month": 11,
-            "year": 2021
+            "year": 2022
         },
         {
             "authors": "Victor Sanh*, Albert Webson*, Colin Raffel*, Stephen H. Bach*, Lintang Sutawika, Zaid Alyafeai, Antoine Chaffin, Arnaud Stiegler, Teven Le Scao, Arun Raja, Manan Dey, M Saiful Bari, Canwen Xu, Urmish Thakker, Shanya Sharma Sharma, Eliza Szczechla, Taewoon Kim, Gunjan Chhablani, Nihal Nayak, Debajyoti Datta, Jonathan Chang, Mike Tian-Jian Jiang, Han Wang, Matteo Manica, Sheng Shen, Zheng Xin Yong, Harshit Pandey, Rachel Bawden, Thomas Wang, Trishala Neeraj, Jos Rozen, Abheesht Sharma, Andrea Santilli, Thibault Fevry, Jason Alan Fries, Ryan Teehan, Stella Biderman, Leo Gao, Tali Bers, Thomas Wolf, and Alexander M. Rush",
