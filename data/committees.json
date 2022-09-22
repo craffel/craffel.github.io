@@ -1,6 +1,12 @@
 {"committees":
     [
         {
+            "name": "Feng Cheng",
+            "location": "University of North Carolina, Chapel Hill",
+            "start": 2022,
+            "end": "now"
+        },
+        {
             "name": "Xiang Zhou",
             "location": "University of North Carolina, Chapel Hill",
             "start": 2022,
