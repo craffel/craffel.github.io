@@ -1,15 +1,8 @@
 {"publications":
     [
         {
-            "authors": "Colin Raffel",
-            "title": "Building Machine Learning Models Like Open-Source Software",
-            "venue": "Communications of the Association for Computing Machinery",
-            "day": 29,
-            "month": 12,
-            "year": 2022
-        },
-        {
             "authors": "Michael Matena and Colin Raffel",
+            "url": "https://arxiv.org/abs/2210.00176",
             "title": "A Combinatorial Perspective on the Optimization of Shallow ReLU Networks",
             "venue": "Neural Information Processing Systems 36 (NeurIPS)",
             "day": 29,
@@ -18,10 +11,20 @@
         },
         {
             "authors": "Zhenlin Xu, Marc Niethammer, and Colin Raffel",
+            "url": "https://arxiv.org/abs/2210.00482",
             "title": "Compositional Generalization in Unsupervised Representation Learning: From Disentanglement to Emergent Language",
             "venue": "Neural Information Processing Systems 36 (NeurIPS)",
             "day": 29,
             "month": 11,
+            "year": 2022
+        },
+        {
+            "authors": "Ajay Patel, Bryan Li, Mohammad Sadegh Rasooli, Noah Constant, Colin Raffel, and Chris Callison-Burch",
+            "url": "https://arxiv.org/abs/2209.14500",
+            "title": "Bidirectional Language Models Are Also Few-shot Learners",
+            "venue": "arXiv preprint arXiv:2209.14500",
+            "day": 29,
+            "month": 9,
             "year": 2022
         },
         {
