@@ -28,7 +28,7 @@
             "year": 2022
         },
         {
-            "authors": "Alexander Borzunov, Dmitry Baranchuk, Tim Dettmers, Max Ryabinin, Younes Belkada, Artem Chumachenko, Pavel Samygin, and Colin Raffel",
+            "authors": "Alexander Borzunov*, Dmitry Baranchuk*, Tim Dettmers*, Max Ryabinin*, Younes Belkada*, Artem Chumachenko, Pavel Samygin, and Colin Raffel",
             "url": "https://arxiv.org/abs/2209.01188",
             "title": "Petals: Collaborative Inference and Fine-tuning of Large Models",
             "venue": "arXiv preprint arXiv:2209.01188",
@@ -37,7 +37,7 @@
             "year": 2022
         },
         {
-            "authors": "Marcos Treviso, Tianchu Ji, Ji-Ung Lee, Betty van Aken, Qingqing Cao, Manuel R. Ciosici, Michael Hassid, Kenneth Heafield, Sara Hooker, Pedro H. Martins, André F. T. Martins, Peter Milder, Colin Raffel, Edwin Simpson, Noam Slonim, Niranjan Balasubramanian, Leon Derczynski, and Roy Schwartz",
+            "authors": "Marcos Treviso*, Tianchu Ji*, Ji-Ung Lee*, Betty van Aken, Qingqing Cao, Manuel R. Ciosici, Michael Hassid, Kenneth Heafield, Sara Hooker, Pedro H. Martins, André F. T. Martins, Peter Milder, Colin Raffel, Edwin Simpson, Noam Slonim, Niranjan Balasubramanian, Leon Derczynski, and Roy Schwartz",
             "url": "https://arxiv.org/abs/2209.00099",
             "title": "Efficient Methods for Natural Language Processing: A Survey",
             "venue": "arXiv preprint arXiv:2209.00099",
@@ -64,7 +64,7 @@
             "year": 2022
         },
         {
-            "authors": "Haokun Liu, Derek Tam, Mohammed Muqeeth, Jay Mohta, Tenghao Huang, Mohit Bansal, and Colin Raffel",
+            "authors": "Haokun Liu*, Derek Tam*, Mohammed Muqeeth*, Jay Mohta, Tenghao Huang, Mohit Bansal, and Colin Raffel",
             "url": "https://arxiv.org/abs/2205.05638",
             "title": "Few-Shot Parameter-Efficient Fine-Tuning is Better and Cheaper than In-Context Learning",
             "venue": "Neural Information Processing Systems 36 (NeurIPS)",
