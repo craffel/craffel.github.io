@@ -12,7 +12,7 @@
         {
             "authors": "Zhenlin Xu, Marc Niethammer, and Colin Raffel",
             "url": "https://arxiv.org/abs/2210.00482",
-            "title": "Compositional Generalization in Unsupervised Representation Learning: From Disentanglement to Emergent Language",
+            "title": "Compositional Generalization in Unsupervised Compositional Representation Learning: A Study on Disentanglement and Emergent Language",
             "venue": "Neural Information Processing Systems 36 (NeurIPS)",
             "day": 29,
             "month": 11,
