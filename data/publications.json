@@ -85,7 +85,7 @@
             "authors": "Teven Le Scao*, Thomas Wang*, Daniel Hesslow*, Lucile Saulnier*, Stas Bekman*, M Saiful Bari, Stella Biderman, Hady Elsahar, Jason Phang, Ofir Press, Colin Raffel, Victor Sanh, Sheng Shen, Lintang Sutawika, Jaesung Tae, Zheng Xin Yong, Julien Launay, Iz Beltagy",
             "url": "https://openreview.net/forum?id=rI7BL3fHIZq",
             "title": "What Language Model to Train if You Have One Million GPU Hours?",
-            "venue": "ACL Workshop on Challenges & Perspectives in Creating Large Language Models",
+            "venue": "Findings of the 2022 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
             "day": 27,
             "month": 5,
             "year": 2022
