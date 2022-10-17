@@ -128,7 +128,7 @@
 
         .headshot {
             float: right;
-            width: 14em;
+            width: 15em;
             padding-left: 2em;
         }
 
@@ -186,10 +186,30 @@
             fill: #005fd3;
         }
 
+        /* Show/hide for lab info etc. */
+        #lab-info {
+            margin-left: 14px;
+            display: none;
+        }
+        #lab-info:target {
+            display:block;
+        }
+
+        details {
+            margin-left: 28px;
+        }
+
+        summary {
+            margin-left: -14px;
+            font-weight: bold;
+        }
+
     </style>
 </head>
 
 <body>
+    <!-- Make details work on IE -->
+    <script src="//cdn.jsdelivr.net/npm/details-polyfill@1/index.min.js" async></script>
     <!-- Headshot -->
     <div class="headshot">
         <a href="images/me.jpg"><img src="images/me_small.jpg" alt="Colin Raffel Headshot" title="Colin Raffel Headshot" /></a>
@@ -235,8 +255,47 @@
         <p>
             I am an Assistant Professor in the <a href="https://cs.unc.edu/">Department of Computer Science</a> at the University of North Carolina, Chapel Hill.
             I also spend one day a week as a Faculty Researcher at <a href="http://huggingface.co/">Hugging Face</a>.
-            Much of my recent research focuses on machine learning algorithms for learning from limited labeled data, including semi-supervised, unsupervised, and transfer learning.
+            My research in machine learning aims to make it easy to get computers to do new things, including semi-supervised and transfer learning methods that dramatically reduce the need for labeled data and large language models that can perform new tasks based on natural language instructions alone.
+            My group also has a recent focus on methods for enabling <a href="https://colinraffel.com/blog/a-call-to-build-models-like-we-build-open-source-software.html">collaborative, communal, and continual model development</a>.
         </p>
+
+        <p>
+            <strong>I am hiring PhD students and a postdoc.</strong> If you are interested in joining our lab, <a href="#lab-info">click here</a> for more information.
+
+            <div id="lab-info" class="page">
+                Thanks for your interest in joining our lab! I aim to make our group a collaborative and friendly environment where we do high-impact work.
+                You can get a sense of what we work on by looking at our <a href="https://colinraffel.com/cv.html#publications">recent publications</a> and get an idea of who's in our group by looking at our <a href="https://colinraffel.com/#students">group members</a>.
+                For more information, please choose from the following options:
+                <details>
+                    <summary>I'm interested in doing a PhD at UNC in your lab.</summary>
+                    Great! On average, I plan to hire one PhD student per year. When I'm evaluating PhD candidates, the most important factor is whether their research interests are closely aligned with <a href="https://colinraffel.com/cv.html#publications">what we work on</a>. While we do a great deal of work in machine learning, we primarily focus on specific areas (for example, learning from limited labeled data). We also do work in the area of NLP, but we don't do much linguistically-focused work or focus on specific NLP subproblems. In general, the work we do tends to be more empirical and impact-driven than theoretical. While I generally look for candidates who have some research experience, I don't heavily weigh prior publications and have hired PhD students who had not published any first-author work (though prior publications don't hurt). I very much encourage applicants from underrepresented backgrounds or who took an unconventional path to their PhD. If you want me to read your application, just list me as a faculty interest and I will take a look - there's no need to email me separately unless you want to share something that isn't on your application (e.g. you have questions or comments on specific work we've done in the past). I don't interview students outside of the formal application process. Officially, admitted CS PhD at UNC are not hired by an advisor until after a research fair and ranking process that happens before the start of classes. However, I generally don't participate in this process and only admit students who I plan to hire. If you have any questions, feel free to <a href="mailto:craffel@gmail.com">email me</a>.
+                </details>
+                <details>
+                    <summary>I'm interested in joining your lab as a postdoc.</summary>
+                    Great! I am currently looking to hire a postdoc through funding provided by Open Philanthropy to investigate and improve factuality and trustworthiness in large language models. An ideal candidate should have experience in these areas and/or retrieval-augmented models and updating knowledge in pre-trained language models. My lab is not huge (~12 members split roughly evenly across PhD, MS, and undergrad students), so I'm not specifically looking for someone to take on lots of advising responsibilities (though I am not opposed to it!). Instead, I am primarily looking for someone to join my lab as an experienced senior researcher who will collaborate with my students and lead projects in this area. For more information about this position, you can take a look at the <a href="TODO">job posting</a> or <a href="mailto:craffel@gmail.com">email me</a>.
+                </details>
+                <details>
+                    <summary>I am applying to do an MS at UNC and want to join your lab.</summary>
+                    Here are a few things to know: First, the CS department at UNC does not have a large Master's program and we typically only admit a few Master's students each year. In fact, Master's students are treated as equivalent to unfunded PhD students. So, by the numbers and by the criteria, the bar is pretty high for MS admits. I also generally don't have dedicated funding for MS students. So, if you do apply, you can mention me as a faculty interest and I'll take a look at your application, but I typically don't admit MS students with the specific goal of having them work in my group. However, if you are admitted and are interested in working in my group, see the item below about joining my group as an admitted MS student.
+                </details>
+                <details>
+                    <summary>I'm a current MS student at UNC and want to join your lab or do an RAship with you.</summary>
+                    I am happy to have current MS students work in my group. Whether I am currently bringing on more students typically depends on research fit and whether I have the bandwidth to do more advising. For example, if an MS student would be a great fit to contribute to an existing project, I'd be more likely to bring them on than if the student was going to work on their own project and needed a significant amount of advising to work effectively. I prefer to bring on MS students who are interested in applying to PhD programs and are in their first year of study (so we have enough time to complete a project together before applications are due) I don't generally have specific funding for paying MS students as an RAs, but I might from time to time; feel free to ask.
+                </details>
+                <details>
+                    <summary>I'm an undergrad at UNC and want to join your lab or do a 495 with you.</summary>
+                    I aim to always have a few undergrads working in my group. I prefer to bring on undergrads who aim to do a PhD after they graduate. Since PhD applications are due at the end of the Fall semester, there is often not enough time to complete a project between when the Fall semester starts and when applications are due. As a result, I prefer to bring on undergrads who are juniors. Furthermore, since I (unfortunately) have limited capacity to do hands-on advising of undergrads, I prefer that they have taken <a href="https://catalog.unc.edu/search/?search=comp+664">COMP 664</a> (or have equivalent experience) first. In addition, I generally try to match undergrads with an existing project that is being led by a PhD student. All of the above ends up making for a pretty strict set of requirements - if you meet them, definitely get in touch with me and we'll see if there's a good project for you to join. If you only meet some of them, feel free to reach out and we can discuss if it makes sense for you to join the group. I also occasionally advise students on a one-off 495 if it is a small, self-contained project (e.g. a literature review) that requires limited hands-on advising.
+                </details>
+                <details>
+                    <summary>I'm not affiliated with UNC and want to join your lab as a visiting researcher or intern.</summary>
+                    Thanks for your interest, but unfortunately I don't bring on external visitors except in very special cases - e.g. we are already working on very closely-related projects and would benefit from collaborating.
+                </details>
+                <details>
+                    <summary>I want to do an internship with you at Hugging Face.</summary>
+                    Thanks for your interest, but unfortunately I don't host interns at Hugging Face. I'm happy to work with anyone at Hugging Face though, so if you do apply and end up doing an internship there, I'm happy to discuss working together.
+                </details>
+            </div>
+        <p>
 
     </main>
 
