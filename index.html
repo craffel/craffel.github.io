@@ -128,7 +128,7 @@
 
         .headshot {
             float: right;
-            width: 15em;
+            width: 14em;
             padding-left: 2em;
         }
 
@@ -195,6 +195,11 @@
             display:block;
         }
 
+        p + ul {
+            margin-top: -10px;
+        }
+
+        /* Indent details/summary lists */
         details {
             margin-left: 28px;
         }
@@ -255,8 +260,13 @@
         <p>
             I am an Assistant Professor in the <a href="https://cs.unc.edu/">Department of Computer Science</a> at the University of North Carolina, Chapel Hill.
             I also spend one day a week as a Faculty Researcher at <a href="http://huggingface.co/">Hugging Face</a>.
-            My research in machine learning aims to make it easy to get computers to do new things, including semi-supervised and transfer learning methods that dramatically reduce the need for labeled data and large language models that can perform new tasks based on natural language instructions alone.
-            My group also has a recent focus on methods for enabling <a href="https://colinraffel.com/blog/a-call-to-build-models-like-we-build-open-source-software.html">collaborative, communal, and continual model development</a>.
+            My research in machine learning aims to make it easy to get computers to do new things.
+            Specific areas of focus include:
+            <ul>
+                <li>Semi-supervised and transfer learning methods that dramatically reduce the need for labeled data</li>
+                <li>Language models that can perform new tasks based on natural language instructions alone</li>
+                <li>Systems and methods for <a href="https://colinraffel.com/blog/a-call-to-build-models-like-we-build-open-source-software.html">collaborative, communal, and continual model development</a></li>
+            </ul>
         </p>
 
         <p>
@@ -280,7 +290,7 @@
                 </details>
                 <details>
                     <summary>I'm a current MS student at UNC and want to join your lab or do an RAship with you.</summary>
-                    I am happy to have current MS students work in my group. Whether I am currently bringing on more students typically depends on research fit and whether I have the bandwidth to do more advising. For example, if an MS student would be a great fit to contribute to an existing project, I'd be more likely to bring them on than if the student was going to work on their own project and needed a significant amount of advising to work effectively. I prefer to bring on MS students who are interested in applying to PhD programs and are in their first year of study (so we have enough time to complete a project together before applications are due) I don't generally have specific funding for paying MS students as an RAs, but I might from time to time; feel free to ask.
+                    I am happy to have current MS students work in my group. Whether I am currently bringing on more students typically depends on research fit and whether I have the bandwidth to do more advising. For example, if an MS student would be a great fit to contribute to an existing project, I'd be more likely to bring them on than if the student was going to work on their own project and needed a significant amount of advising to work effectively. I prefer to bring on MS students who are interested in applying to PhD programs and are in their first year of study (so we have enough time to complete a project together before applications are due). I don't generally have specific funding for paying MS students as an RAs, but I might from time to time; feel free to ask.
                 </details>
                 <details>
                     <summary>I'm an undergrad at UNC and want to join your lab or do a 495 with you.</summary>
