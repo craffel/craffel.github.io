@@ -202,9 +202,11 @@
         /* Indent details/summary lists */
         details {
             margin-left: 28px;
+            margin-bottom: 2px;
         }
 
         summary {
+            margin-top: 2px;
             margin-left: -14px;
             font-weight: bold;
         }
