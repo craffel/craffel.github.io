@@ -1,6 +1,12 @@
 {"talks":
     [
         {
+            "title": "Infrastructure and Progress Towards the First Community-Built and Continually-Improved Model",
+            "venue": "Microsoft Research Efficient Large-Scale AI Workshop",
+            "url": "http://colinraffel.com/talks/microsoft2022infrastructure.pdf",
+            "year": 2022
+        },
+        {
             "title": "Building Machine Learning Models Like Open-Source Software",
             "venue": "Microsoft Research Summit & World Artificial Intelligence Conference",
             "url": "http://colinraffel.com/talks/microsoft2022building.pdf",
