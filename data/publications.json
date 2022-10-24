@@ -31,9 +31,9 @@
             "authors": "Alexander Borzunov*, Dmitry Baranchuk*, Tim Dettmers*, Max Ryabinin*, Younes Belkada*, Artem Chumachenko, Pavel Samygin, and Colin Raffel",
             "url": "https://arxiv.org/abs/2209.01188",
             "title": "Petals: Collaborative Inference and Fine-tuning of Large Models",
-            "venue": "arXiv preprint arXiv:2209.01188",
-            "day": 2,
-            "month": 9,
+            "venue": "NeurIPS Workshop on Broadening Research Collaborations in Machine Learning",
+            "day": 3,
+            "month": 12,
             "year": 2022
         },
         {
