@@ -1,6 +1,34 @@
 {"publications":
     [
         {
+            "authors": "Mohammed Muqeeth, Haokun Liu, and Colin Raffel",
+            "url": "http://colinraffel.com/publications/cacm2022building.pdf",
+            "title": "Models with Conditional Computation Learn Suboptimal Solutions",
+            "venue": "NeurIPS Workshop on Understanding Deep Learning Through Empirical Falsification (I Can't Believe It's Not Better)",
+            "day": 3,
+            "month": 12,
+            "year": 2022
+        },
+        {
+            "authors": "Colin Raffel",
+            "url": "http://colinraffel.com/publications/cacm2022building.pdf",
+            "title": "Building Machine Learning Models like Open-Source Software",
+            "venue": "Communications of the ACM",
+            "day": 31,
+            "month": 12,
+            "year": 2022
+        },
+        {
+            "authors": "Martin Maas, David G. Andersen, Michael Isard, Mohammad Mahdi Javanmard, Kathryn S. McKinley, and Colin Raffel",
+            "url": "http://colinraffel.com/publications/cacm2022combining.pdf",
+            "title": "Combining Machine Learning and Lifetime-based Resource Management for Memory Allocation and Beyond",
+            "venue": "Communications of the ACM",
+            "day": 31,
+            "month": 12,
+            "year": 2022,
+            "note": "CACM Research Highlight"
+        },
+        {
             "authors": "Michael Matena and Colin Raffel",
             "url": "https://arxiv.org/abs/2210.00176",
             "title": "A Combinatorial Perspective on the Optimization of Shallow ReLU Networks",
