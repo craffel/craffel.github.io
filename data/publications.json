@@ -2,7 +2,7 @@
     [
         {
             "authors": "Mohammed Muqeeth, Haokun Liu, and Colin Raffel",
-            "url": "http://colinraffel.com/publications/cacm2022building.pdf",
+            "url": "http://colinraffel.com/publications/icbinb2022models.pdf",
             "title": "Models with Conditional Computation Learn Suboptimal Solutions",
             "venue": "NeurIPS Workshop on Understanding Deep Learning Through Empirical Falsification (I Can't Believe It's Not Better)",
             "day": 3,
