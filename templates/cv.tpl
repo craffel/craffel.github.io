@@ -59,7 +59,7 @@
                 <div class="year">{{item.year}}</div>
                 <div class="yearright">
                     <strong>{{item.name}}</strong><br />
-                    {{item.venue}}
+                    {% if item.venue %}{{item.venue}}{% endif %}
                 </div>
             </div>
             {% endfor %}

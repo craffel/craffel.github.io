@@ -6,8 +6,16 @@
             "year": 2022
         },
         {
+            "name": "NSF CAREER Award",
+            "year": 2022
+        },
+        {
             "name": "SIGPLAN Research Highlight",
             "venue": "for \"Learning-based Memory Allocation for C++ Server Workloads\"",
+            "year": 2021
+        },
+        {
+            "name": "Google Research Award",
             "year": 2021
         },
         {
@@ -41,16 +49,12 @@
             "year": 2014
         },
         {
-            "name": "Prize for Reproducibility in Audio and Music Research",
-            "venue": "SoundSoftware.ac.uk",
+            "name": "SoundSoftware.ac.uk Prize for Reproducibility in Audio and Music Research",
             "year": 2013
         },
         {
-            "name": "Integrative Graduate Education and Research Training Fellowship",
-            "venue": "National Science Foundation",
+            "name": "NSF Integrative Graduate Education and Research Training Fellowship",
             "year": 2012
         }
     ]
 }
-
-
