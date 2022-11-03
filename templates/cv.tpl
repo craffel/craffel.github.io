@@ -12,19 +12,6 @@
 
         <div class="vline"></div>
 
-        <h2 id="academic">Academic Positions</h2>
-
-        <div class="block">
-            {% for item in academic %}
-            <div class="onelineitem">
-                <div class="yearrange">{{item.start}}&#8211;{{item.end}}</div>
-                <div class="yearright">
-                    <strong>{{item.title}}</strong>, {{item.place}}
-                </div>
-            </div>
-            {% endfor %}
-        </div>
-
         <h2 id="education">Education</h2>
 
         <div class="block">
@@ -41,12 +28,15 @@
             {% endfor %}
         </div>
 
-        <h2 id="publications">Publications</h2>
+        <h2 id="academic">Academic Positions</h2>
 
         <div class="block">
-            {% for item in publications %}
-            <div class="item">
-                {{item.authors}}, <u>{% if item.url %}<a href="{{item.url}}">{% endif %}&#x201c;{{item.title}}&#x201d;{% if item.url %}</a>{% endif %}</u>, <i>{{item.venue}}</i>, {{item.year}}.
+            {% for item in academic %}
+            <div class="onelineitem">
+                <div class="yearrange">{{item.start}}&#8211;{{item.end}}</div>
+                <div class="yearright">
+                    <strong>{{item.title}}</strong>, {{item.place}}
+                </div>
             </div>
             {% endfor %}
         </div>
@@ -65,14 +55,12 @@
             {% endfor %}
         </div>
 
-        <h2 id="press">Press</h2>
+        <h2 id="publications">Publications</h2>
 
         <div class="block">
-            {% for item in press %}
+            {% for item in publications %}
             <div class="item">
-                <div class="year">{{item.year}}</div>
-                <strong><a href="{{item.url}}">{{item.title}}</a></strong><br />
-                {{item.publication}}
+                {{item.authors}}, <u>{% if item.url %}<a href="{{item.url}}">{% endif %}&#x201c;{{item.title}}&#x201d;{% if item.url %}</a>{% endif %}</u>, <i>{{item.venue}}</i>, {{item.year}}.
             </div>
             {% endfor %}
         </div>
@@ -98,6 +86,18 @@
                 <div class="yearright">
                     <strong>{% if item.url %}<a href="{{item.url}}">{% endif %}{{item.name}}{% if item.url %}</a>{% endif %}</strong>, {{item.location}}
                 </div>
+            </div>
+            {% endfor %}
+        </div>
+
+        <h2 id="press">Press</h2>
+
+        <div class="block">
+            {% for item in press %}
+            <div class="item">
+                <div class="year">{{item.year}}</div>
+                <strong><a href="{{item.url}}">{{item.title}}</a></strong><br />
+                {{item.publication}}
             </div>
             {% endfor %}
         </div>
