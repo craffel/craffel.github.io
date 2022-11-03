@@ -1,0 +1,52 @@
+{"funding":
+    [
+        {
+            "source": "Filecoin Foundation grant",
+            "title": "Decomposing the Capabilities Learned by Machine Learning Models",
+            "amount": 87071,
+            "day": 2,
+            "month": 9,
+            "year": 2022
+        },
+        {
+            "source": "Open Philanthropy grant",
+            "title": "Investigating the Role of Data in the Truthfulness of Large Language Models",
+            "amount": 650406,
+            "day": 16,
+            "month": 5,
+            "year": 2022
+        },
+        {
+            "source": "National Science Foundation grant",
+            "title": "CAREER: Collaborative, Communal, and Continual Model Training for Democratizing Machine Learning",
+            "amount": 536000,
+            "day": 31,
+            "month": 3,
+            "year": 2022
+        },
+        {
+            "source": "Google Cloud research credits",
+            "amount": 5000,
+            "day": 12,
+            "month": 1,
+            "year": 2022
+        },
+        {
+            "source": "Google faculty research award",
+            "title": "Studying the Responsible Creation of Large Language Models",
+            "amount": 30000,
+            "day": 8,
+            "month": 9,
+            "year": 2021
+        },
+        {
+            "source": "National Science Foundation grant",
+            "title": "AI Institute for Engaged Learning",
+            "total": 19996290,
+            "amount": 468116,
+            "day": 28,
+            "month": 7,
+            "year": 2021
+        }
+    ]
+}
