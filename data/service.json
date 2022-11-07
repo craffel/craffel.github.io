@@ -1,8 +1,19 @@
 {"service":
     [
         {
+            "url": "https://tl4nlp.github.io/",
+            "role": "Organizer",
+            "venue": "NeurIPS Workshop on Transfer Learning for NLP",
+            "start": 2022
+        },
+        {
             "role": "Senior Area Chair",
             "venue": "Conference on Empirical Methods in Natural Language Processing",
+            "start": 2022
+        },
+        {
+            "role": "Panel Moderator",
+            "venue": "7th Workshop on Representation Learning for NLP",
             "start": 2022
         },
         {
@@ -13,6 +24,12 @@
         {
             "role": "Senior Area Chair",
             "venue": "North American Chapter of the Association for Computational Linguistics",
+            "start": 2022
+        },
+        {
+            "url": "https://pretraining.github.io/",
+            "role": "Organizer",
+            "venue": "ICML 2022 Workshop on Pre-Training",
             "start": 2022
         },
         {
