@@ -313,7 +313,7 @@
 
     <!-- Students section -->
     <section>
-        <h2><a href="#students" style="text-decoration: none;" id="students">Group members</a></h2> <i>(<a href="images/labphoto012722.png">online</a> and <a href="images/labphoto051121.jpg">offline</a>)</i>
+        <h2><a href="#students" style="text-decoration: none;" id="students">Group members</a></h2> <i>(<a href="images/labphoto111122.jpg">in the lab</a> and <a href="images/labphoto110422.jpg">in the woods</a>)</i>
         <p>
 {% for item in mentorship %}{% if item.current %}{% if item.url %}<a href="{{item.url}}">{% endif %}{{item.name}}{% if item.url %}</a>{% endif %}, {{item.description}}{% if item.coadvisor %} <i>(co-advised with {{item.coadvisor}})</i>{% endif %}<br />
 {% endif %}{% endfor %}
