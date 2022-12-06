@@ -1,6 +1,11 @@
 {"awards":
     [
         {
+            "name": "Best Paper Honorable Mention",
+            "venue": "NeurIPS Workshop on Broadening Research Collaborations in ML",
+            "year": 2022
+        },
+        {
             "name": "CACM Research Highlight",
             "venue": "for \"Learning-based Memory Allocation for C++ Server Workloads\"",
             "year": 2022
