@@ -1,6 +1,11 @@
 {"service":
     [
         {
+            "role": "Peer Reviewer",
+            "venue": "Canada CIFAR AI Chairs program",
+            "start": 2023
+        },
+        {
             "url": "https://tl4nlp.github.io/",
             "role": "Organizer",
             "venue": "NeurIPS Workshop on Transfer Learning for NLP",
