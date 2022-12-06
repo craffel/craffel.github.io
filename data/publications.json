@@ -1,6 +1,15 @@
 {"publications":
     [
         {
+            "authors": "Shachar Don-Yehiya, Elad Venezian, Colin Raffel, Noam Slonim, Yoav Katz, and Leshem Choshen",
+            "url": "https://arxiv.org/abs/2212.01378",
+            "title": "ColD Fusion: Collaborative Descent for Distributed Multitask Finetuning",
+            "venue": "arXiv preprint arXiv:2212.01378",
+            "day": 2,
+            "month": 12,
+            "year": 2022
+        },
+        {
             "authors": "Nikhil Kandpal, Haikang Deng, Adam Roberts, Eric Wallace, and Colin Raffel",
             "url": "https://arxiv.org/abs/2211.08411",
             "title": "Large Language Models Struggle to Learn Long-Tail Knowledge",
