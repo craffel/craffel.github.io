@@ -1,6 +1,18 @@
 {"talks":
     [
         {
+            "title": "Building Better Language Models: Insights from BigScience",
+            "venue": "Stanford Center for Research on Foundation Models",
+            "url": "http://colinraffel.com/talks/stanford2022building.pdf",
+            "year": 2022
+        },
+        {
+            "title": "Building Better Language Models",
+            "venue": "Johns Hopkins University CSCI 601.771 Lecture, Mosaic.ml, and Cohere for AI",
+            "url": "http://colinraffel.com/talks/jhu2022building.pdf",
+            "year": 2022
+        },
+        {
             "title": "Infrastructure and Progress Towards the First Community-Built and Continually-Improved Model",
             "venue": "Microsoft Research Efficient Large-Scale AI Workshop",
             "url": "http://colinraffel.com/talks/microsoft2022infrastructure.pdf",
@@ -8,7 +20,7 @@
         },
         {
             "title": "Building Machine Learning Models Like Open-Source Software",
-            "venue": "Microsoft Research Summit, World Artificial Intelligence Conference, Technische Universität Darmstadt, UT Austin Forum for Artificial Intelligence, Korea AI Summit",
+            "venue": "Microsoft Research Summit, World Artificial Intelligence Conference, Technische Universität Darmstadt, UT Austin Forum for Artificial Intelligence, and Korea AI Summit",
             "url": "http://colinraffel.com/talks/microsoft2022building.pdf",
             "year": 2022
         },
@@ -44,7 +56,7 @@
         },
         {
             "title": "What do language models learn from language modeling?",
-            "venue": "Stanford University CS 330 Lecture",
+            "venue": "Stanford University CS 330 Lecture and Advanced Language Processing Winter School",
             "url": "http://colinraffel.com/talks/stanford2021what.pdf",
             "year": 2021
         },
