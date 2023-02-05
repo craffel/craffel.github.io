@@ -272,7 +272,7 @@
         </p>
 
         <p>
-            <strong>I am hiring PhD students and a postdoc.</strong> If you are interested in joining our lab, <a href="#lab-info">click here</a> for more information.
+            If you are interested in joining our lab, <a href="#lab-info">click here</a> for more information.
 
             <div id="lab-info" class="page">
                 Thanks for your interest in joining our lab! I aim to make our group a collaborative and friendly environment where we do high-impact work.
