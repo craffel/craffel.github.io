@@ -1,14 +1,26 @@
 {"talks":
     [
         {
+            "title": "Collaborative, Communal, & Continual Machine Learning",
+            "venue": "Faculty job talk",
+            "url": "http://colinraffel.com/talks/faculty2023collaborative.pdf",
+            "year": 2023
+        },
+        {
             "title": "Building Better Language Models: Insights from BigScience",
             "venue": "Stanford Center for Research on Foundation Models",
             "url": "http://colinraffel.com/talks/stanford2022building.pdf",
             "year": 2022
         },
         {
+            "title": "Weird Things About Professorship",
+            "venue": "EMNLP Share Stories and Lessons Learned Workshop",
+            "url": "http://colinraffel.com/talks/emnlp2022weird.pdf",
+            "year": 2022
+        },
+        {
             "title": "Building Better Language Models",
-            "venue": "Johns Hopkins University CSCI 601.771 Lecture, Mosaic.ml, and Cohere for AI",
+            "venue": "Johns Hopkins University CSCI 601.771 Lecture, Mosaic.ml, and Vector Institute Research Symposium",
             "url": "http://colinraffel.com/talks/jhu2022building.pdf",
             "year": 2022
         },
@@ -20,7 +32,7 @@
         },
         {
             "title": "Building Machine Learning Models Like Open-Source Software",
-            "venue": "Microsoft Research Summit, World Artificial Intelligence Conference, Technische Universität Darmstadt, UT Austin Forum for Artificial Intelligence, and Korea AI Summit",
+            "venue": "Microsoft Research Summit, World Artificial Intelligence Conference, Technische Universität Darmstadt, UT Austin Forum for Artificial Intelligence, Korea AI Summit, Stanford CS324 Lecture, Stanford MLSys Seminar Series, and MLsys Symposium on Decentralized and Collaborative Learning",
             "url": "http://colinraffel.com/talks/microsoft2022building.pdf",
             "year": 2022
         },
