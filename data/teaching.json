@@ -1,6 +1,12 @@
 {"teaching":
     [
         {
+            "url": "https://github.com/craffel/comp790-deep-learning-spring-2021",
+            "name": "Instructor, Deep Learning",
+            "location": "UNC Chapel Hill",
+            "year": 2023
+        },
+        {
             "url": "https://github.com/craffel/llm-seminar/",
             "name": "Instructor, Large Language Models",
             "location": "UNC Chapel Hill",

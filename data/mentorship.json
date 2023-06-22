@@ -37,37 +37,11 @@
             "url": "https://www.linkedin.com/in/michael-matena-2174b082"
         },
         {
-            "name": "Anisha Mascarenhas",
-            "description": "Master's student at UNC",
-            "start": 2021,
-            "end": "now",
-            "url": "https://anisham197.github.io/"
-        },
-        {
             "name": "Muqeeth Mohammed",
             "description": "Master's student at UNC",
             "start": 2021,
             "end": "now",
             "url": "https://muqeeth.github.io"
-        },
-        {
-            "name": "Vishal Baskaran",
-            "description": "Master's student at UNC",
-            "start": 2021,
-            "end": "now",
-            "url": "https://www.linkedin.com/in/vishal-overcome/"
-        },
-        {
-            "name": "Peiyu Li",
-            "description": "Undergraduate at UNC",
-            "start": 2022,
-            "end": "now"
-        },
-        {
-            "name": "Tara Ghorpadkar",
-            "description": "Undergraduate at UNC",
-            "start": 2022,
-            "end": "now"
         },
         {
             "name": "Yufan Liu",
@@ -80,6 +54,30 @@
             "description": "Undergraduate at UNC",
             "start": 2022,
             "end": "now"
+        },
+        {
+            "name": "Anisha Mascarenhas",
+            "description": "Master's student at UNC",
+            "start": 2021,
+            "end": 2022,
+            "url": "https://anisham197.github.io/"
+        },
+        {
+            "name": "Vishal Baskaran",
+            "description": "Master's student at UNC",
+            "start": 2021,
+            "end": 2022,
+            "url": "https://www.linkedin.com/in/vishal-overcome/"
+        },
+        {
+            "name": "Peiyu Li",
+            "description": "Undergraduate at UNC",
+            "start": 2022
+        },
+        {
+            "name": "Tara Ghorpadkar",
+            "description": "Undergraduate at UNC",
+            "start": 2022
         },
         {
             "name": "Mansi Sakarvadia",
@@ -156,26 +154,6 @@
             "name": "Jacob Buckman",
             "description": "resident at Google Brain",
             "start": 2017
-        },
-        {
-            "name": "Rafael Valle",
-            "description": "visiting researcher at Columbia Univeristy",
-            "start": 2015
-        },
-        {
-            "name": "Hilary Mogul",
-            "description": "undergraduate student at Columbia University",
-            "start": 2014
-        },
-        {
-            "name": "Dylan Kario",
-            "description": "undergraduate student at Columbia University",
-            "start": 2014
-        },
-        {
-            "name": "Zhengshan Shi",
-            "description": "visiting researcher at Columbia University",
-            "start": 2013
         }
     ]
 }

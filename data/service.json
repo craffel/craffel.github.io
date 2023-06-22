@@ -14,7 +14,8 @@
         {
             "role": "Senior Area Chair",
             "venue": "Conference on Empirical Methods in Natural Language Processing",
-            "start": 2022
+            "start": 2022,
+            "end": 2023
         },
         {
             "role": "Panel Moderator",
@@ -46,6 +47,12 @@
             "role": "Area Chair",
             "venue": "Annual Meeting of the Association for Computational Linguistics",
             "start": 2022
+        },
+        {
+            "role": "Action Editor",
+            "venue": "Transactions on Machine Learning Research",
+            "start": 2022,
+            "end": 2023
         },
         {
             "role": "Member",
@@ -108,7 +115,8 @@
         {
             "role": "Reviewer",
             "venue": "Journal of Machine Learning Research",
-            "start": 2020
+            "start": 2020,
+            "end": 2023
         },
         {
             "role": "Reviewer",

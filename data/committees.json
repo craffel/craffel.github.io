@@ -1,22 +1,28 @@
 {"committees":
     [
         {
+            "name": "Albert Webson",
+            "location": "Brown University",
+            "start": 2022,
+            "end": "now"
+        },
+        {
             "name": "Feng Cheng",
             "location": "University of North Carolina, Chapel Hill",
             "start": 2022,
-            "end": "now"
+            "end": 2023
         },
         {
             "name": "Xiang Zhou",
             "location": "University of North Carolina, Chapel Hill",
             "start": 2022,
-            "end": "now"
+            "end": 2023
         },
         {
             "name": "Chao Zhao",
             "location": "University of North Carolina, Chapel Hill",
             "start": 2022,
-            "end": "now"
+            "end": 2023
         },
         {
             "name": "Andrew Freeman",
@@ -28,19 +34,19 @@
             "name": "Tu Vu",
             "location": "University of Massachusetts, Amherst",
             "start": 2022,
-            "end": "now"
+            "end": 2023
         },
         {
             "name": "Peirong Liu",
             "location": "University of North Carolina, Chapel Hill",
             "start": 2022,
-            "end": "now"
+            "end": 2023
         },
         {
             "name": "Junhua Yan",
             "location": "University of North Carolina, Chapel Hill",
             "start": 2020,
-            "end": "now"
+            "end": 2023
         },
         {
             "name": "Yang Li",
@@ -64,7 +70,7 @@
             "name": "YoungJoong Kwon",
             "location": "University of North Carolina, Chapel Hill",
             "start": 2021,
-            "end": "now"
+            "end": 2023
         }
     ]
 }
