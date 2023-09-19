@@ -1,6 +1,12 @@
 {"talks":
     [
         {
+            "title": "Build an Ecosystem, Not a Monolith",
+            "venue": "Simons Institute Workshop on Large Language Models and Transformers, Google Responsible Machine Learning Reading Group, University of Edinburgh ILCC Seminar, Stanford NLP Seminar, UCSD AI Seminar, and Yale CPSC 488/588 Lecture",
+            "url": "http://colinraffel.com/talks/simons2023build.pdf",
+            "year": 2023
+        },
+        {
             "title": "Collaborative, Communal, & Continual Machine Learning",
             "venue": "Faculty job talk",
             "url": "http://colinraffel.com/talks/faculty2023collaborative.pdf",
