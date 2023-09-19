@@ -1,6 +1,11 @@
 {"awards":
     [
         {
+            "name": "Caspar Bowden Award for Outstanding Research in Privacy Enhancing Technologies (Runner-Up)",
+            "venue": "for \"Extracting Training Data from Large Language Models\"",
+            "year": 2023
+        },
+        {
             "name": "Best Paper Honorable Mention",
             "venue": "NeurIPS Workshop on Broadening Research Collaborations in ML",
             "year": 2022
