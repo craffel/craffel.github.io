@@ -1,6 +1,12 @@
 {"press":
     [
         {
+            "title": "What Would the Chatbot Say?",
+            "publication": "ACM News",
+            "url": "https://cacm.acm.org/news/278237-what-would-the-chatbot-say/fulltext",
+            "year": 2023
+        },
+        {
             "title": "Petals is creating a free, distributed network for running text-generating AI",
             "publication": "TechCrunch",
             "url": "https://techcrunch.com/2022/12/20/petals-is-creating-a-free-distributed-network-for-running-text-generating-ai/",
