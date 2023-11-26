@@ -1,6 +1,12 @@
 {"teaching":
     [
         {
+            "url": "https://github.com/craffel/csc2516-deep-learning-fall-2023",
+            "name": "Instructor, Neural Networks and Deep Learning",
+            "location": "University of Toronto",
+            "year": 2023
+        },
+        {
             "url": "https://github.com/craffel/comp790-deep-learning-spring-2021",
             "name": "Instructor, Deep Learning",
             "location": "UNC Chapel Hill",

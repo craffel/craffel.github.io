@@ -1,48 +1,66 @@
 {"publications":
     [
         {
-            "authors": "Alon Albalak, Colin Raffel, and William Yang Wang",
-            "url": "https://arxiv.org/abs/2302.00674",
-            "title": "Improving Few-Shot Generalization by Exploring and Exploiting Auxiliary Data",
-            "venue": "arXiv preprint arXiv:2302.00674",
-            "day": 1,
-            "month": 2,
+            "authors": "Alon Albalak, Liangming Pan, Colin Raffel, and William Yang Wang",
+            "url": "https://openreview.net/forum?id=SckdgVW3Kq",
+            "title": "Efficient Online Data Mixing For Language Model Pre-Training",
+            "venue": "NeurIPS 2023 Workshop on Robustness of Few-shot and Zero-shot Learning in Large Foundation Models",
+            "day": 16,
+            "month": 12,
             "year": 2023
         },
         {
-            "authors": "Almog Gueta, Elad Venezian, Colin Raffel, Noam Slonim, Yoav Katz, and Leshem Choshen",
-            "url": "https://arxiv.org/abs/2302.04863",
-            "title": "Knowledge is a Region in Weight Space for Fine-tuned Language Models",
-            "venue": "arXiv preprint arXiv:2302.04863",
-            "day": 9,
-            "month": 2,
+            "authors": "Dhuvarakesh Karthikeyan, Colin Raffel, Benjamin Vincent, and Alex Rubinsteyn",
+            "url": "https://openreview.net/forum?id=SckdgVW3Kq",
+            "title": "Conditional Generation of Antigen Specific T-cell Receptor Sequences",
+            "venue": "NeurIPS 2023 Generative AI and Biology (GenBio) Workshop",
+            "day": 16,
+            "month": 12,
             "year": 2023
         },
         {
-            "authors": "Derek Tam, Colin Raffel, and Mohit Bansal",
-            "url": "https://openreview.net/forum?id=UMxeP-FuwyC",
-            "title": "Simple Weakly-Supervised Image Captioning via CLIP's Multimodal Embeddings",
-            "venue": "AAAI Workshop on Creative AI Across Modalities",
-            "day": 13,
-            "month": 2,
+            "authors": "Alexander Borzunov, Dmitry Baranchuk, Tim Dettmers, Max Ryabinin, Younes Belkada, Artem Chumachenko, Pavel Samygin, and Colin Raffel",
+            "url": "https://openreview.net/forum?id=HLQyRgRnoXo",
+            "title": "Distributed Inference and Fine-tuning of Large Language Models Over The Internet",
+            "venue": "Neural Information Processing Systems 37 (NeurIPS)",
+            "day": 12,
+            "month": 12,
             "year": 2023
         },
         {
-            "authors": "Niklas Muennighoff, Alexander M. Rush, Boaz Barak, Teven Le Scao, Aleksandra Piktus, Nouamane Tazi, Sampo Pyysalo, Thomas Wolf, and Colin Raffel",
-            "url": "https://arxiv.org/abs/2305.16264",
-            "title": "Scaling Data-Constrained Language Models",
-            "venue": "arXiv preprint arXiv:2305.16264",
-            "day": 25,
-            "month": 5,
+            "authors": "Prateek Yadav, Leshem Choshen, Colin Raffel and Mohit Bansal",
+            "url": "https://arxiv.org/abs/2311.13171",
+            "title": "ComPEFT: Compression for Communicating Parameter Efficient Updates via Sparsification and Quantization",
+            "venue": "arXiv preprint arXiv:2311.13171",
+            "day": 22,
+            "month": 11,
             "year": 2023
         },
         {
-            "authors": "Prateek Yadav, Derek Tam, Leshem Choshen, Colin Raffel, and Mohit Bansal",
-            "url": "https://arxiv.org/abs/2306.01708",
-            "title": "Resolving Interference When Merging Models",
-            "venue": "arXiv preprint arXiv:2306.01708",
-            "day": 2,
-            "month": 6,
+            "authors": "Haikang Deng and Colin Raffel",
+            "url": "https://arxiv.org/abs/2310.09520",
+            "title": "Reward-Augmented Decoding: Efficient Controlled Text Generation With a Unidirectional Reward Model",
+            "venue": "2023 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+            "day": 6,
+            "month": 12,
+            "year": 2023
+        },
+        {
+            "authors": "Michael Matena and Colin Raffel",
+            "url": "https://arxiv.org/abs/2310.04649",
+            "title": "NPEFF: Non-Negative Per-Example Fisher Factorization",
+            "venue": "arXiv preprint arXiv:2310.04649",
+            "day": 7,
+            "month": 10,
+            "year": 2023
+        },
+        {
+            "authors": "Nikhil Kandpal*, Brian Lester*, Mohammed Muqeeth, Anisha Mascarenhas, Monty Evans, Vishal Baskaran, Tenghao Huang, Haokun Liu, and Colin Raffel",
+            "url": "https://arxiv.org/abs/2306.04529",
+            "title": "Git-Theta: A Git Extension for Collaborative Development of Machine Learning Models",
+            "venue": "40th International Conference on Machine Learning",
+            "day": 23,
+            "month": 7,
             "year": 2023
         },
         {
@@ -55,12 +73,48 @@
             "year": 2023
         },
         {
-            "authors": "Nikhil Kandpal*, Brian Lester*, Mohammed Muqeeth, Anisha Mascarenhas, Monty Evans, Vishal Baskaran, Tenghao Huang, Haokun Liu, and Colin Raffel",
-            "url": "https://arxiv.org/abs/2306.04529",
-            "title": "Git-Theta: A Git Extension for Collaborative Development of Machine Learning Models",
-            "venue": "40th International Conference on Machine Learning",
-            "day": 23,
-            "month": 7,
+            "authors": "Prateek Yadav, Derek Tam, Leshem Choshen, Colin Raffel, and Mohit Bansal",
+            "url": "https://arxiv.org/abs/2306.01708",
+            "title": "TIES-Merging: Resolving Interference When Merging Models",
+            "venue": "Neural Information Processing Systems 37 (NeurIPS)",
+            "day": 12,
+            "month": 12,
+            "year": 2023
+        },
+        {
+            "authors": "Niklas Muennighoff, Alexander M. Rush, Boaz Barak, Teven Le Scao, Aleksandra Piktus, Nouamane Tazi, Sampo Pyysalo, Thomas Wolf, and Colin Raffel",
+            "url": "https://arxiv.org/abs/2305.16264",
+            "title": "Scaling Data-Constrained Language Models",
+            "venue": "Neural Information Processing Systems 37 (NeurIPS)",
+            "day": 12,
+            "month": 12,
+            "year": 2023
+        },
+        {
+            "authors": "Derek Tam, Colin Raffel, and Mohit Bansal",
+            "url": "https://openreview.net/forum?id=UMxeP-FuwyC",
+            "title": "Simple Weakly-Supervised Image Captioning via CLIP's Multimodal Embeddings",
+            "venue": "AAAI Workshop on Creative AI Across Modalities",
+            "day": 13,
+            "month": 2,
+            "year": 2023
+        },
+        {
+            "authors": "Almog Gueta, Elad Venezian, Colin Raffel, Noam Slonim, Yoav Katz, and Leshem Choshen",
+            "url": "https://arxiv.org/abs/2302.04863",
+            "title": "Knowledge is a Region in Weight Space for Fine-tuned Language Models",
+            "venue": "Findings of the 2023 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+            "day": 6,
+            "month": 12,
+            "year": 2023
+        },
+        {
+            "authors": "Alon Albalak, Colin Raffel, and William Yang Wang",
+            "url": "https://arxiv.org/abs/2302.00674",
+            "title": "Improving Few-Shot Generalization by Exploring and Exploiting Auxiliary Data",
+            "venue": "Neural Information Processing Systems 37 (NeurIPS)",
+            "day": 12,
+            "month": 12,
             "year": 2023
         },
         {

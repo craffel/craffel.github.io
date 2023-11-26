@@ -2,32 +2,31 @@
     [
         {
             "name": "Brian Lester",
-            "description": "PhD student at UNC",
+            "description": "PhD student at the University of Toronto",
             "start": 2022,
             "end": "now",
             "url": "https://blester125.com/"
         },
         {
             "name": "Haokun Liu",
-            "description": "PhD student at UNC",
+            "description": "PhD student at the University of Toronto",
             "start": 2021,
             "end": "now",
             "url": "https://haokunliu.github.io/"
         },
         {
             "name": "Nikhil Kandpal",
-            "description": "PhD student at UNC",
+            "description": "PhD student at the University of Toronto",
             "start": 2020,
             "end": "now",
             "url": "https://nkandpa2.github.io/"
         },
         {
             "name": "Derek Tam",
-            "description": "PhD student at UNC",
+            "description": "PhD student at the University of Toronto",
             "start": 2020,
             "end": "now",
-            "url": "https://dptam.github.io/",
-            "coadvisor": "Mohit Bansal"
+            "url": "https://dptam.github.io/"
         },
         {
             "name": "Michael Matena",

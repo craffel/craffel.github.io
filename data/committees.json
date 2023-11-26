@@ -1,6 +1,24 @@
 {"committees":
     [
         {
+            "name": "Gavin Guan",
+            "location": "University of Toronto",
+            "start": 2023,
+            "end": "now"
+        },
+        {
+            "name": "Alex Adams",
+            "location": "University of Toronto",
+            "start": 2023,
+            "end": "now"
+        },
+        {
+            "name": "Jiaao Chen",
+            "location": "Georgia Institute of Technology",
+            "start": 2023,
+            "end": "now"
+        },
+        {
             "name": "Andrew Freeman",
             "location": "University of North Carolina, Chapel Hill",
             "start": 2022,

@@ -260,12 +260,14 @@
     <!-- Bio and stuff -->
     <main>
         <p>
-            My research in machine learning aims to make it easy to get computers to do new things.
-            Specific areas of focus include:
+            I'm an associate professor at the University of Toronto and an associate research director at the Vector Institute.
+            My lab does research in the field of machine learning, which is in an era of <i>scale</i> — larger models trained on larger datasets are producing major advances across many applications.
+            This scale comes at significant cost, which in turn prevents most researchers from participating in the development of state-of-the-art models.
+            My lab therefore works on the following problems:
             <ul id="areas">
-                <li>Semi-supervised and transfer learning methods that dramatically reduce the need for labeled data</li>
-                <li>Language models that can perform new tasks based on natural language instructions alone</li>
-                <li>Systems and methods for <a href="https://colinraffel.com/blog/a-call-to-build-models-like-we-build-open-source-software.html">collaborative, communal, and continual model development</a></li>
+                <li>Enabling decentralized collaborative development of models, including modular architectures, cheaply-communicable updates, and merging methods</li>
+                <li>Developing more efficient training recipes</li>
+                <li>Identifying and mitigating risks associated with large-scale models</li>
             </ul>
         </p>
 
@@ -278,19 +280,19 @@
                 For more information, please choose from the following options:
                 <details>
                     <summary>I'm interested in doing a PhD in your lab.</summary>
-                    Great! On average, I plan to hire one PhD student per year. When I'm evaluating PhD candidates, the most important factor is whether their research interests are closely aligned with <a href="https://colinraffel.com/cv.html#publications">what we work on</a>. While we do a great deal of work in machine learning, we primarily focus on specific areas (<a href="#areas">click here</a> for a brief list of a few example areas). We also do work in the area of NLP, but we don't do much linguistically-focused work or focus on specific NLP subproblems. In general, the work we do tends to be more empirical and impact-driven than theoretical. While I generally look for candidates who have some research experience, I don't heavily weigh prior publications and have hired PhD students who had not published any first-author work (though prior publications don't hurt). I very much encourage applicants from underrepresented backgrounds or who took an unconventional path to their PhD. If you want me to read your application, just list me as a faculty interest and I will take a look - there's no need to email me separately unless you want to share something that isn't on your application (e.g. you have questions or comments on specific work we've done in the past). I don't interview students outside of the formal application process. If you have any questions, feel free to <a href="mailto:craffel@gmail.com">email me</a>.
+                    Great! On average, I plan to hire one or two PhD student per year. When I'm evaluating PhD candidates, the most important factor is whether their research interests are closely aligned with <a href="https://colinraffel.com/cv.html#publications">what we work on</a>. While we do a great deal of work in machine learning, we primarily focus on specific areas (<a href="#areas">click here</a> for a brief list of a few example areas). We also do work in the area of NLP, but we don't work on computational linguistice or focus on specific NLP subproblems. In general, the work we do tends to be more empirical and impact-driven than theoretical. While I generally look for candidates who have some research experience, I don't heavily weigh prior publications and have hired PhD students who had not published any first-author work (though prior publications don't hurt). I very much encourage applicants from underrepresented backgrounds or who took an unconventional path to their PhD. If you want me to read your application, just list me as a faculty interest and I will take a look - there's no need to email me separately unless you want to share something that isn't on your application (e.g. you have questions or comments on specific work we've done in the past). I don't interview students outside of the formal application process. If you have any specific questions, feel free to <a href="mailto:craffel@gmail.com">email me</a>.
                 </details>
                 <details>
                     <summary>I'm interested in joining your lab as a postdoc.</summary>
-                    Great! I am currently looking to hire a postdoc through funding provided by Open Philanthropy to investigate and improve factuality and trustworthiness in large language models. An ideal candidate should have experience in these areas and/or retrieval-augmented models and updating knowledge in pre-trained language models. My lab is not huge (~12 members split roughly evenly across PhD, MS, and undergrad students), so I'm not specifically looking for someone to take on lots of advising responsibilities (though I am not opposed to it!). Instead, I am primarily looking for someone to join my lab as an experienced senior researcher who will collaborate with my students and lead projects in this area. For more information about this position, you can take a look at the <a href="https://unc.peopleadmin.com/postings/243015">job posting</a> or <a href="mailto:craffel@gmail.com">email me</a>.
+                    Great! You should apply to the <a href="https://vectorinstitute.ai/programs/vector-postdoctoral-fellows/">Vector Postdoctoral Fellows</a> program. In general, I'm looking for postdocs whose research interests are similar to <a href="#areas">what we work on</a>. My lab is not huge (up to 12 members split roughly evenly across PhD, MS, and undergrad students), so I'm not necessarily looking for someone to take on lots of advising responsibilities (though I am not opposed to it!). Instead, I am primarily looking for someone to join my lab as an experienced senior researcher who will collaborate with my students and lead projects in this area. Please feel freeo to <a href="mailto:craffel@gmail.com">email me</a> if you're interested.
                 </details>
                 <details>
                     <summary>I am applying to do an MS and want to join your lab.</summary>
-                    I generally don't have dedicated funding for MS students. So, if you apply, you can mention me as a faculty interest and I'll take a look at your application, but I typically don't admit MS students with the specific goal of having them work in my group. However, if you are admitted and are interested in working in my group, see the item below about joining my group as an admitted MS student.
+                    Please note that the research-focused Master's in Computer Science at the University of Toronto is really only open to Canadian citizens. If you're not a Canadian citizen, you can apply for the MScAC. In either case, I don't have any control over the admissions process, so there is no reason to email me if you are a prospective student. If you are ultimately admitted and enroll at U of T, feel free to reach out once you get here if you're are interested in working in my group.
                 </details>
                 <details>
                     <summary>I'm a current MS student and want to join your lab or do an RAship with you.</summary>
-                    I am happy to have current MS students work in my group. Whether I am currently bringing on more students typically depends on research fit and whether I have the bandwidth to do more advising. For example, if an MS student would be a great fit to contribute to an existing project, I'd be more likely to bring them on than if the student was going to work on their own project and needed a significant amount of advising to work effectively. I prefer to bring on MS students who are interested in applying to PhD programs and are in their first year of study (so we have enough time to complete a project together before applications are due). If you do end up doing research in our lab, I'm happy to have you enroll in a 991 with me if you choose. I don't generally have specific funding for paying MS students as an RAs, but I might from time to time; feel free to ask.
+                    I am happy to have current MS students work in my group. Whether I am currently bringing on more students typically depends on research fit and whether I have the bandwidth to do more advising. For example, if an MS student would be a great fit to contribute to an existing project, I'd be more likely to bring them on than if the student was going to work on their own project and needed a significant amount of advising to work effectively. I prefer to bring on MS students who are interested in applying to PhD programs and are in their first year of study (so we have enough time to complete a project together before applications are due). I don't generally have specific funding for paying MS students as an RAs, but I might from time to time; feel free to ask.
                 </details>
                 <details>
                     <summary>I'm an undergrad and want to join your lab.</summary>
@@ -298,11 +300,7 @@
                 </details>
                 <details>
                     <summary>I want to join your lab as a visiting researcher or intern.</summary>
-                    Thanks for your interest, but unfortunately I don't bring on external visitors except in very special cases - e.g. we are already working on very closely-related projects and would benefit from collaborating.
-                </details>
-                <details>
-                    <summary>I want to do an internship with you at Hugging Face.</summary>
-                    Thanks for your interest, but unfortunately I don't host interns at Hugging Face. I'm happy to work with anyone at Hugging Face though, so if you do apply and end up doing an internship there, I'm happy to discuss working together.
+                    I hire interns through the <a href="https://vectorinstitute.ai/programs/internships/">Vector Internship</a> program, so if you're interested in joining our group as an intern or visitor, please apply. There's no need to email me separately - just list me as a faculty of interest and I'll take a look at your application.
                 </details>
             </div>
         <p>
