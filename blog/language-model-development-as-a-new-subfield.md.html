@@ -72,7 +72,7 @@ Let me give a few additional examples of papers and techniques that I think aim 
   Few-shot ICL avoids updating the model's parameters (assumption #1) and mostly ignores the fact that it significantly increases computational costs (assumption #3).
   A related and more recent variant of ICL is ["chain-of-thought prompting"](https://arxiv.org/abs/2201.11903), which adds reasoning steps to the in-context examples in hopes of improving performance by inducing the model to generate similar reasoning steps before generating its prediction.
   The fact that including reasoning steps further increases computational costs is, again, mostly ignored (assumption #3).
-- Techniques like [FlashAttention](https://arxiv.org/abs/2205.14135) and [Speculative Decoding](https://arxiv.org/abs/2211.17192) aim to make the model run more efficiently (goal #1) without changing the model or its outputs whatsoever (assumption #1).
+- Techniques like [FlashAttention](https://arxiv.org/abs/2205.14135) and [Speculative Decoding](https://arxiv.org/abs/2211.17192) aim to make the model run more efficiently (goal #2) without changing the model or its outputs whatsoever (assumption #1).
   More broadly, techniques like the [Heavy-Hitter Oracle](https://arxiv.org/abs/2306.14048) or [quantization](https://arxiv.org/abs/2208.07339) aim to reduce memory or computational costs with minimal performance degradation.
   The pursuit of these techniques, along with orthogonal hardware advances like NVIDIA's Transformer Engine, arguably supports the apparent disregard for increases in computational cost that arise from using a larger model (assumption #3).
 - While there certainly has been some effort to improve over the Transformer architecture or the optimizer used to train LLMs (in violation of assumption #1), the vast majority of these improvements have not been widely adopted, either due to inertia (i.e., enforcement of assumption #1) or the apparent fact that [they do not always transfer across applications](https://arxiv.org/abs/2102.11972).
@@ -115,6 +115,6 @@ VAEs are still an important component of state-of-the-art diffusion-based genera
 Hopefully, those of us who were working on deep learning and NLP before the LLM era can bring a similar perspective (and avoid digging our feet in too much).
 
 
-*Thanks to Derek Tam, Haokun Liu, and Chris Maddison for feedback on this blog post.*
+*Thanks to Derek Tam, Haokun Liu, Chris Maddison, and Boaz Barak for feedback on this blog post.*
 <script>window.markdeepOptions={}; window.markdeepOptions.tocStyle="none";</script>
 <!-- Markdeep: --><script src="markdeep.min.js"></script>
