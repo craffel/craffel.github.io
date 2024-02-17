@@ -2,7 +2,7 @@
     [
         {
             "authors": "Alon Albalak, Liangming Pan, Colin Raffel, and William Yang Wang",
-            "url": "https://openreview.net/forum?id=9Tze4oy4lw",
+            "url": "https://arxiv.org/abs/2312.02406",
             "title": "Efficient Online Data Mixing For Language Model Pre-Training",
             "venue": "NeurIPS 2023 Workshop on Robustness of Few-shot and Zero-shot Learning in Large Foundation Models",
             "day": 16,
@@ -20,7 +20,7 @@
         },
         {
             "authors": "Alexander Borzunov, Dmitry Baranchuk, Tim Dettmers, Max Ryabinin, Younes Belkada, Artem Chumachenko, Pavel Samygin, and Colin Raffel",
-            "url": "https://openreview.net/forum?id=HLQyRgRnoXo",
+            "url": "https://arxiv.org/abs/2312.08361",
             "title": "Distributed Inference and Fine-tuning of Large Language Models Over The Internet",
             "venue": "Neural Information Processing Systems 37 (NeurIPS)",
             "day": 12,
