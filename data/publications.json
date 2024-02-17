@@ -1,6 +1,33 @@
 {"publications":
     [
         {
+            "authors": "Mohammed Muqeeth, Haokun Liu, Yufan Liu, and Colin Raffel",
+            "url": "https://arxiv.org/abs/2402.05859",
+            "title": "Learning to Route Among Specialized Experts for Zero-Shot Generalization",
+            "venue": "arXiv preprint arXiv:2402.05859",
+            "day": 8,
+            "month": 2,
+            "year": 2024
+        },
+        {
+            "authors": "Derek Tam, Mohit Bansal, and Colin Raffel",
+            "url": "https://arxiv.org/abs/2312.04339",
+            "title": "Merging by Matching Models in Task Subspaces",
+            "venue": "arXiv:2312.04339",
+            "day": 7,
+            "month": 12,
+            "year": 2023
+        },
+        {
+            "authors": "Colin Raffel",
+            "url": "https://colinraffel.com/blog/language-model-development-as-a-new-subfield.html",
+            "title": "A New Alchemy: Language Model Development as a Subfield?",
+            "venue": "ICLR 2024 Blog Post Track",
+            "day": 7,
+            "month": 5,
+            "year": 2024
+        },
+        {
             "authors": "Alon Albalak, Liangming Pan, Colin Raffel, and William Yang Wang",
             "url": "https://arxiv.org/abs/2312.02406",
             "title": "Efficient Online Data Mixing For Language Model Pre-Training",
