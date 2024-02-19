@@ -1,6 +1,15 @@
 {"publications":
     [
         {
+            "authors": "Ajay Patel, Colin Raffel, and Chris Callison-Burch",
+            "url": "https://arxiv.org/abs/2402.05859",
+            "title": "DataDreamer: A Tool for Synthetic Data Generation and Reproducible LLM Workflows",
+            "venue": "arXiv preprint arXiv:2402.10379",
+            "day": 19,
+            "month": 2,
+            "year": 2024
+        },
+        {
             "authors": "Mohammed Muqeeth, Haokun Liu, Yufan Liu, and Colin Raffel",
             "url": "https://arxiv.org/abs/2402.05859",
             "title": "Learning to Route Among Specialized Experts for Zero-Shot Generalization",
