@@ -1,6 +1,16 @@
 {"awards":
     [
         {
+            "name": "ICBS Frontiers of Science Award in Theoretical Computer and Information Sciences",
+            "venue": "for \"Extracting Training Data from Large Language Models\"",
+            "year": 2024
+        },
+        {
+            "name": "NeurIPS Outstanding Paper (Runner-Up)",
+            "venue": "for \"Scaling Data-Constrained Language Models\"",
+            "year": 2023
+        },
+        {
             "name": "Caspar Bowden Award for Outstanding Research in Privacy Enhancing Technologies (Runner-Up)",
             "venue": "for \"Extracting Training Data from Large Language Models\"",
             "year": 2023
