@@ -121,10 +121,11 @@
             "authors": "Mohammed Muqeeth, Haokun Liu, and Colin Raffel",
             "url": "https://arxiv.org/abs/2306.03745",
             "title": "Soft Merging of Experts with Adaptive Routing",
-            "venue": "arXiv preprint arXiv:2206.03745",
-            "day": 6,
-            "month": 6,
-            "year": 2023
+            "venue": "Transactions on Machine Learning Research (TMLR)",
+            "day": 1,
+            "month": 7,
+            "year": 2024,
+            "note": "Featured Certification"
         },
         {
             "authors": "Prateek Yadav, Derek Tam, Leshem Choshen, Colin Raffel, and Mohit Bansal",
