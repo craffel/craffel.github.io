@@ -55,23 +55,6 @@
             {% endfor %}
         </div>
 
-        <h2 id="awards">Lab Funding</h2> 
-
-        <div class="block">
-            <div class="item">
-            <i>{{ "${:,d}".format(funding|sum(attribute="amount")) }} total funding received to date</i>
-            </div>
-            {% for item in funding %}
-            <div class="item">
-                <div class="year">{{item.year}}</div>
-                <div class="yearright">
-                    <strong>{{item.source}}</strong>, {{ "${:,d}".format(item.amount) }}{% if item.total %} to me, {{ "${:,d}".format(item.total) }} total{% endif %}{% if item.title %}
-                     <br /> <i>{{item.title}}</i>{% endif %}
-                </div>
-            </div>
-            {% endfor %}
-        </div>
-
         <h2 id="publications">Publications</h2>
 
         <div class="block">
