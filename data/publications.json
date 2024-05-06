@@ -1,31 +1,49 @@
 {"publications":
     [
         {
+            "authors": "Bowen Pan, Yikang Shen, Haokun Liu, Mayank Mishra, Gaoyuan Zhang, Aude Oliva, Colin Raffel, and Rameswar Panda",
+            "url": "https://arxiv.org/abs/2404.05567",
+            "title": "Dense Training, Sparse Inference: Rethinking Training of Mixture-of-Experts Language Models",
+            "venue": "arXiv preprint arXiv:2404.05567",
+            "day": 8,
+            "month": 4,
+            "year": 2024
+        },
+        {
+            "authors": "Alon Albalak, Yanai Elazar, Sang Michael Xie, Shayne Longpre, Nathan Lambert, Xinyi Wang, Niklas Muennighoff, Bairu Hou, Liangming Pan, Haewon Jeong, Colin Raffel, Shiyu Chang, Tatsunori Hashimoto, and William Yang Wang",
+            "url": "https://arxiv.org/abs/2402.16827",
+            "title": "A Survey on Data Selection for Language Models",
+            "venue": "arXiv preprint arXiv:2402.16827",
+            "day": 26,
+            "month": 2,
+            "year": 2024
+        },
+        {
             "authors": "Ajay Patel, Colin Raffel, and Chris Callison-Burch",
             "url": "https://arxiv.org/abs/2402.05859",
             "title": "DataDreamer: A Tool for Synthetic Data Generation and Reproducible LLM Workflows",
-            "venue": "arXiv preprint arXiv:2402.10379",
-            "day": 19,
-            "month": 2,
+            "venue": "61st Annual Meeting of the Association for Computational Linguistics (ACL)",
+            "day": 11,
+            "month": 8,
             "year": 2024
         },
         {
             "authors": "Mohammed Muqeeth, Haokun Liu, Yufan Liu, and Colin Raffel",
             "url": "https://arxiv.org/abs/2402.05859",
             "title": "Learning to Route Among Specialized Experts for Zero-Shot Generalization",
-            "venue": "arXiv preprint arXiv:2402.05859",
-            "day": 8,
-            "month": 2,
+            "venue": "41st International Conference on Machine Learning (ICML)",
+            "day": 21,
+            "month": 7,
             "year": 2024
         },
         {
             "authors": "Derek Tam, Mohit Bansal, and Colin Raffel",
             "url": "https://arxiv.org/abs/2312.04339",
             "title": "Merging by Matching Models in Task Subspaces",
-            "venue": "arXiv:2312.04339",
-            "day": 7,
-            "month": 12,
-            "year": 2023
+            "venue": "Transactions on Machine Learning Research (TMLR)",
+            "day": 1,
+            "month": 6,
+            "year": 2024
         },
         {
             "authors": "Colin Raffel",
@@ -221,8 +239,8 @@
             "url": "http://colinraffel.com/publications/cacm2022combining.pdf",
             "title": "Combining Machine Learning and Lifetime-based Resource Management for Memory Allocation and Beyond",
             "venue": "Communications of the Association for Computing Machinery (CACM)",
-            "day": 1,
-            "month": 4,
+            "day": 16,
+            "month": 3,
             "year": 2024,
             "note": "CACM Research Highlight"
         },
