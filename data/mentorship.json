@@ -5,105 +5,121 @@
             "description": "PhD student at the University of Toronto",
             "start": 2022,
             "end": "now",
-            "url": "https://blester125.com/"
+            "url": "https://blester125.com/",
+            "email": "bdlester@cs.unc.edu"
         },
         {
             "name": "Haokun Liu",
             "description": "PhD student at the University of Toronto",
             "start": 2021,
             "end": "now",
-            "url": "https://haokunliu.github.io/"
+            "url": "https://haokunliu.github.io/",
+            "email": "haokunl@cs.unc.edu"
         },
         {
             "name": "Nikhil Kandpal",
             "description": "PhD student at the University of Toronto",
             "start": 2020,
             "end": "now",
-            "url": "https://nkandpa2.github.io/"
+            "url": "https://nkandpa2.github.io/",
+            "email": "nkandpa2@cs.unc.edu"
         },
         {
             "name": "Derek Tam",
             "description": "PhD student at the University of Toronto",
             "start": 2020,
             "end": "now",
-            "url": "https://dptam.github.io/"
+            "url": "https://dptam.github.io/",
+            "email": "dtredsox@cs.unc.edu"
         },
         {
             "name": "Michael Matena",
             "description": "PhD student at UNC",
             "start": 2020,
             "end": "now",
-            "url": "https://www.linkedin.com/in/michael-matena-2174b082"
+            "url": "https://www.linkedin.com/in/michael-matena-2174b082",
+            "email": "michael.matena@gmail.com"
         },
         {
             "name": "Muqeeth Mohammed",
             "description": "Master's student at UNC",
             "start": 2021,
             "end": "now",
-            "url": "https://muqeeth.github.io"
+            "url": "https://muqeeth.github.io",
+            "email": "muqeeth@cs.unc.edu"
         },
         {
             "name": "Yufan Liu",
             "description": "Undergraduate at UNC",
             "start": 2022,
-            "end": 2023
+            "end": 2023,
+            "email": "harrylyf@gmail.com"
         },
         {
             "name": "Haikang Deng",
             "description": "Undergraduate at UNC",
             "start": 2022,
-            "end": 2023
+            "end": 2023,
+            "email": "frankdenghaikang@gmail.com"
         },
         {
             "name": "Anisha Mascarenhas",
             "description": "Master's student at UNC",
             "start": 2021,
             "end": 2022,
-            "url": "https://anisham197.github.io/"
+            "url": "https://anisham197.github.io/",
+            "email": "amascare@cs.unc.edu"
         },
         {
             "name": "Vishal Baskaran",
             "description": "Master's student at UNC",
             "start": 2021,
             "end": 2022,
-            "url": "https://www.linkedin.com/in/vishal-overcome/"
+            "url": "https://www.linkedin.com/in/vishal-overcome/",
+            "email": "athreya@cs.unc.edu"
         },
         {
             "name": "Peiyu Li",
             "description": "Undergraduate at UNC",
-            "start": 2022
+            "start": 2022,
+            "email": "lipeiyu2001@gmail.com"
         },
         {
             "name": "Tara Ghorpadkar",
             "description": "Undergraduate at UNC",
-            "start": 2022
+            "start": 2022,
+            "email": "taraghor@email.unc.edu"
         },
         {
             "name": "Mansi Sakarvadia",
             "description": "Undergraduate at UNC",
             "start": 2021,
             "end": 2022,
-            "url": "https://www.mansisak.com/"
+            "url": "https://www.mansisak.com/",
+            "email": "mansi.sakarvadia@gmail.com"
         },
         {
             "name": "Tenghao Huang",
             "description": "Undergraduate at UNC",
             "start": 2021,
             "end": 2022,
-            "url": "http://linkedin.com/in/tenghao-huang-b0225116b"
+            "url": "http://linkedin.com/in/tenghao-huang-b0225116b",
+            "email": "tenghao404@gmail.com"
         },
         {
             "name": "Ellie Evans",
             "description": "Undergraduate at UNC",
             "start": 2021,
             "end": 2022,
-            "url": "https://www.linkedin.com/in/ellieevansunc/"
+            "url": "https://www.linkedin.com/in/ellieevansunc/",
+            "email": "ellielynnevans@gmail.com"
         },
         {
             "name": "Monty Evans",
             "description": "Undergraduate at UNC",
             "start": 2021,
-            "end": 2022
+            "end": 2022,
+            "email": "montyevans@gmail.com"
         },
         {
             "name": "Zhenlin Xu",
@@ -111,48 +127,56 @@
             "start": 2020,
             "end": 2022,
             "url": "https://wildphoton.github.io/",
-            "coadvisor": "Marc Niethammer"
+            "coadvisor": "Marc Niethammer",
+            "email": "zhenlinx@cs.unc.edu"
         },
         {
             "name": "Varun Nair",
             "description": "Undergraduate at Duke University",
             "start": 2021,
-            "url": "https://www.linkedin.com/in/varunnair18"
+            "url": "https://www.linkedin.com/in/varunnair18",
+            "email": "nairvarun18@gmail.com"
         },
         {
             "name": "Jay Mohta",
             "description": "Master's student at NC State",
             "start": 2020,
             "end": 2021,
-            "url": "https://www.linkedin.com/in/jay-mohta"
+            "url": "https://www.linkedin.com/in/jay-mohta",
+            "email": "jay.mohta@gmail.com"
         },
         {
             "name": "Yao Qin",
             "description": "intern at Google Brain",
             "start": 2018,
-            "end": 2019
+            "end": 2019,
+            "email": "yaoqin@ucsb.edu"
         },
         {
             "name": "Vaishnavh Nagarajan",
             "description": "intern at Google Brain",
-            "start": 2018
+            "start": 2018,
+            "email": "vaishnavh.nagarajan@gmail.com"
         },
         {
             "name": "Ishaan Gulrajani",
             "description": "resident at Google Brain",
             "start": 2017,
-            "end": 2018
+            "end": 2018,
+            "email": "igul222@gmail.com"
         },
         {
             "name": "Avital Oliver",
             "description": "resident at Google Brain",
             "start": 2017,
-            "end": 2018
+            "end": 2018,
+            "email": "avital@thewe.net"
         },
         {
             "name": "Jacob Buckman",
             "description": "resident at Google Brain",
-            "start": 2017
+            "start": 2017,
+            "email": "jacobbuckman@gmail.com"
         }
     ]
 }
