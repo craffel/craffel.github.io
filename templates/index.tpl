@@ -272,7 +272,7 @@
         </p>
 
         <p>
-            If you are interested in joining our lab, please <a href="https://forms.gle/f2ZdQZWk78owqKco6">fill out this form</a> (there's no need to contact me separately).
+            <b>Interested in joining our lab?</b> Great! Please <a href="https://forms.gle/f2ZdQZWk78owqKco6">fill out this form</a> (there's no need to contact me separately).
 
     </main>
 
