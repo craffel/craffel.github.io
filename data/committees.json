@@ -1,6 +1,48 @@
 {"committees":
     [
         {
+            "name": "Zhenwei (Joseph) Tang",
+            "location": "University of Toronto",
+            "start": 2024,
+            "end": "now"
+        },
+        {
+            "name": "Lunjun Zhang",
+            "location": "University of Toronto",
+            "start": 2024,
+            "end": "now"
+        },
+        {
+            "name": "Ajay Patel",
+            "location": "University of Pennsylvania",
+            "start": 2024,
+            "end": "now"
+        },
+        {
+            "name": "Towaki Takikawa",
+            "location": "University of Toronto",
+            "start": 2024,
+            "end": "now"
+        },
+        {
+            "name": "Honghua Dong",
+            "location": "University of Toronto",
+            "start": 2024,
+            "end": "now"
+        },
+        {
+            "name": "Yangjun Ruan",
+            "location": "University of Toronto",
+            "start": 2024,
+            "end": "now"
+        },
+        {
+            "name": "Lucas Gomez",
+            "location": "McGill University",
+            "start": 2024,
+            "end": "now"
+        },
+        {
             "name": "Gavin Guan",
             "location": "University of Toronto",
             "start": 2023,
@@ -13,16 +55,22 @@
             "end": "now"
         },
         {
+            "name": "Zining Zhu",
+            "location": "University of Toronto",
+            "start": 2023,
+            "end": 2024
+        },
+        {
             "name": "Jiaao Chen",
             "location": "Georgia Institute of Technology",
             "start": 2023,
-            "end": "now"
+            "end": 2024
         },
         {
             "name": "Andrew Freeman",
             "location": "University of North Carolina, Chapel Hill",
             "start": 2022,
-            "end": "now"
+            "end": 2024
         },
         {
             "name": "Albert Webson",
