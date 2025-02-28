@@ -1,6 +1,54 @@
 {"publications":
     [
         {
+            "authors": "Loubna Ben Allal, Anton Lozhkov, Elie Bakouch, Gabriel Martín Blázquez, Guilherme Penedo, Lewis Tunstall, Andrés Marafioti, Hynek Kydlíček, Agustín Piqueres Lajarín, Vaibhav Srivastav, Joshua Lochner, Caleb Fahlgren, Xuan-Son Nguyen, Clémentine Fourrier, Ben Burtenshaw, Hugo Larcher, Haojun Zhao, Cyril Zakka, Mathieu Morlon, Colin Raffel, Leandro von Werra, and Thomas Wolf",
+            "url": "https://arxiv.org/abs/2502.02737",
+            "title": " SmolLM2: When Smol Goes Big -- Data-Centric Training of a Small Language Model ",
+            "venue": "arXiv preprint arXiv:2409.18314",
+            "submitted": "25th International Conference on Machine Learning (ICML)",
+            "day": 4,
+            "month": 2,
+            "year": 2025
+        },
+        {
+            "authors": "Fengyuan Liu, Nikhil Kandpal, and Colin Raffel",
+            "url": "https://arxiv.org/abs/2411.15102",
+            "title": "AttriBoT: A Bag of Tricks for Efficiently Approximating Leave-One-Out Context Attribution",
+            "venue": "13th International Conference on Learning Representations",
+            "day": 24,
+            "month": 4,
+            "year": 2025
+        },
+        {
+            "authors": "Derek Tam, Yash Kant, Brian Lester, Igor Gilitschenski, and Colin Raffel",
+            "url": "https://arxiv.org/abs/2409.18314",
+            "title": "Realistic Evaluation of Model Merging for Compositional Generalization",
+            "venue": "arXiv preprint arXiv:2409.18314",
+            "submitted": "25th International Conference on Machine Learning (ICML)",
+            "day": 26,
+            "month": 9,
+            "year": 2024
+        },
+        {
+            "authors": "Prateek Yadav, Colin Raffel, Mohammed Muqeeth, Lucas Caccia, Haokun Liu, Tianlong Chen, Mohit Bansal, Leshem Choshen, and Alessandro Sordoni",
+            "url": "https://arxiv.org/abs/2408.07057",
+            "title": "A Survey on Model MoErging: Recycling and Routing Among Specialized Experts for Collaborative Learning",
+            "venue": "arXiv preprint arXiv:2408.07057",
+            "submitted": "Transactions on Machine Learning (TMLR)",
+            "day": 13,
+            "month": 8,
+            "year": 2024
+        },
+        {
+            "authors": "Guilherme Penedo, Hynek Kydlíček, Loubna Ben allal, Anton Lozhkov, Margaret Mitchell, Colin Raffel, Leandro Von Werra, and Thomas Wolf",
+            "url": "https://arxiv.org/abs/2404.05567",
+            "title": "The FineWeb Datasets: Decanting the Web for the Finest Text Data at Scale",
+            "venue": "Neural Information Processing Systems 38 (NeurIPS)",
+            "day": 12,
+            "month": 12,
+            "year": 2024
+        },
+        {
             "authors": "Bowen Pan, Yikang Shen, Haokun Liu, Mayank Mishra, Gaoyuan Zhang, Aude Oliva, Colin Raffel, and Rameswar Panda",
             "url": "https://arxiv.org/abs/2404.05567",
             "title": "Dense Training, Sparse Inference: Rethinking Training of Mixture-of-Experts Language Models",
@@ -14,15 +62,14 @@
             "authors": "Alon Albalak, Yanai Elazar, Sang Michael Xie, Shayne Longpre, Nathan Lambert, Xinyi Wang, Niklas Muennighoff, Bairu Hou, Liangming Pan, Haewon Jeong, Colin Raffel, Shiyu Chang, Tatsunori Hashimoto, and William Yang Wang",
             "url": "https://arxiv.org/abs/2402.16827",
             "title": "A Survey on Data Selection for Language Models",
-            "venue": "arXiv preprint arXiv:2402.16827",
-            "submitted": "Transactions on Machine Learning (TMLR)",
+            "venue": "Transactions on Machine Learning (TMLR)",
             "day": 26,
             "month": 2,
             "year": 2024
         },
         {
             "authors": "Ajay Patel, Colin Raffel, and Chris Callison-Burch",
-            "url": "https://arxiv.org/abs/2402.05859",
+            "url": "https://arxiv.org/abs/2402.10379",
             "title": "DataDreamer: A Tool for Synthetic Data Generation and Reproducible LLM Workflows",
             "venue": "61st Annual Meeting of the Association for Computational Linguistics (ACL)",
             "day": 11,
