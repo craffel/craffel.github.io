@@ -1,9 +1,25 @@
 {"service":
     [
         {
+            "role": "Organizer",
+            "venue": "ICLR 2025 Workshop on Modularity for Collaborative, Decentralized, and Continual Deep Learning (MCDC)",
+            "start": 2025
+        },
+        {
+            "role": "Workshop Chair",
+            "venue": "Conference on Language Modeling",
+            "start": 2025
+        },
+        {
+            "role": "Senior Area Chair",
+            "venue": "International Conference on Learning Representations",
+            "start": 2025
+        },
+        {
             "role": "Senior Area Chair",
             "venue": "Neural Information Processing Systems",
-            "start": 2024
+            "start": 2024,
+            "end": 2025
         },
         {
             "role": "Peer Reviewer",
@@ -57,7 +73,7 @@
             "role": "Action Editor",
             "venue": "Transactions on Machine Learning Research",
             "start": 2022,
-            "end": 2024
+            "end": 2025
         },
         {
             "role": "Member",
