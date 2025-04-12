@@ -1,6 +1,30 @@
 {"committees":
     [
         {
+            "name": "Samarendra Chandan Bindu Dash",
+            "location": "University of Toronto",
+            "start": 2025,
+            "end": "now"
+        },
+        {
+            "name": "Baorun Mu",
+            "location": "University of Toronto",
+            "start": 2025,
+            "end": "now"
+        },
+        {
+            "name": "Prateek Yadav",
+            "location": "University of Toronto",
+            "start": 2024,
+            "end": 2025
+        },
+        {
+            "name": "Karthikeyan, Dhuvarakesh",
+            "location": "University of North Carolina",
+            "start": 2024,
+            "end": "now"
+        },
+        {
             "name": "Zhenwei (Joseph) Tang",
             "location": "University of Toronto",
             "start": 2024,
@@ -39,8 +63,7 @@
         {
             "name": "Lucas Gomez",
             "location": "McGill University",
-            "start": 2024,
-            "end": "now"
+            "start": 2024
         },
         {
             "name": "Gavin Guan",

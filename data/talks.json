@@ -1,8 +1,26 @@
 {"talks":
     [
         {
+            "title": "Merging and MoErging for Compositional Generalization",
+            "venue": "NeurIPS 2024 Workshop on Compositional Learning and ETH Zurich SPCL_Bcast()",
+            "url": "http://colinraffel.com/talks/neurips2024merging.pdf",
+            "year": 2024
+        },
+        {
+            "title": "The Most Expensive Part of an LLM Should Be Its Training Data",
+            "venue": "Toronto LLM x Law Hackathon",
+            "url": "http://colinraffel.com/talks/toronto2024most.pdf",
+            "year": 2024
+        },
+        {
+            "title": "Progress on a Permissively Licensed Text Dataset",
+            "venue": "Vector ML Security and Privacy Workshop and University of Pennsylvania CLunch",
+            "url": "http://colinraffel.com/talks/vector2024progress.pdf",
+            "year": 2024
+        },
+        {
             "title": "Build an Ecosystem, Not a Monolith",
-            "venue": "Simons Institute Workshop on Large Language Models and Transformers, Google Responsible Machine Learning Reading Group, University of Edinburgh ILCC Seminar, Stanford NLP Seminar, UCSD AI Seminar, and Yale CPSC 488/588 Lecture",
+            "venue": "Simons Institute Workshop on Large Language Models and Transformers, Google Responsible Machine Learning Reading Group, University of Edinburgh ILCC Seminar, Stanford NLP Seminar, UCSD AI Seminar, Yale CPSC 488/588 Lecture, University of Toronto CL Colloquium, and Open AGI Summit@EthCC",
             "url": "http://colinraffel.com/talks/simons2023build.pdf",
             "year": 2023
         },
@@ -110,7 +128,7 @@
         },
         {
             "title": "T5 and large language models: The good, the bad, and the ugly",
-            "venue": "Stanford University CS 224n Lecture, CU Boulder Applied Mathematics Colloqium, Twitter Machine Learning Seminar, Google Graduate Symposium &amp; TTIC NLP Seminar",
+            "venue": "Stanford University CS 224n Lecture, CU Boulder Applied Mathematics Colloquium, Twitter Machine Learning Seminar, Google Graduate Symposium &amp; TTIC NLP Seminar",
             "url": "http://colinraffel.com/talks/stanford2021t5.pdf",
             "year": 2020
         },

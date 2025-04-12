@@ -4,8 +4,8 @@
             "authors": "Loubna Ben Allal, Anton Lozhkov, Elie Bakouch, Gabriel Martín Blázquez, Guilherme Penedo, Lewis Tunstall, Andrés Marafioti, Hynek Kydlíček, Agustín Piqueres Lajarín, Vaibhav Srivastav, Joshua Lochner, Caleb Fahlgren, Xuan-Son Nguyen, Clémentine Fourrier, Ben Burtenshaw, Hugo Larcher, Haojun Zhao, Cyril Zakka, Mathieu Morlon, Colin Raffel, Leandro von Werra, and Thomas Wolf",
             "url": "https://arxiv.org/abs/2502.02737",
             "title": "SmolLM2: When Smol Goes Big -- Data-Centric Training of a Small Language Model ",
-            "venue": "arXiv preprint arXiv:2409.18314",
-            "submitted": "25th International Conference on Machine Learning (ICML)",
+            "venue": "arXiv preprint arXiv:2502.02737",
+            "submitted": "2nd Conference on Language Modeling (COLM)",
             "day": 4,
             "month": 2,
             "year": 2025
@@ -33,11 +33,10 @@
             "authors": "Prateek Yadav, Colin Raffel, Mohammed Muqeeth, Lucas Caccia, Haokun Liu, Tianlong Chen, Mohit Bansal, Leshem Choshen, and Alessandro Sordoni",
             "url": "https://arxiv.org/abs/2408.07057",
             "title": "A Survey on Model MoErging: Recycling and Routing Among Specialized Experts for Collaborative Learning",
-            "venue": "arXiv preprint arXiv:2408.07057",
-            "submitted": "Transactions on Machine Learning (TMLR)",
-            "day": 13,
-            "month": 8,
-            "year": 2024
+            "venue": "Transactions on Machine Learning (TMLR)",
+            "day": 18,
+            "month": 3,
+            "year": 2025
         },
         {
             "authors": "Guilherme Penedo, Hynek Kydlíček, Loubna Ben allal, Anton Lozhkov, Margaret Mitchell, Colin Raffel, Leandro Von Werra, and Thomas Wolf",
@@ -53,7 +52,6 @@
             "url": "https://arxiv.org/abs/2404.05567",
             "title": "Dense Training, Sparse Inference: Rethinking Training of Mixture-of-Experts Language Models",
             "venue": "arXiv preprint arXiv:2404.05567",
-            "submitted": "1st Conference on Language Modeling (COLM)",
             "day": 8,
             "month": 4,
             "year": 2024
@@ -134,10 +132,10 @@
             "authors": "Prateek Yadav, Leshem Choshen, Colin Raffel and Mohit Bansal",
             "url": "https://arxiv.org/abs/2311.13171",
             "title": "ComPEFT: Compression for Communicating Parameter Efficient Updates via Sparsification and Quantization",
-            "venue": "arXiv preprint arXiv:2311.13171",
-            "day": 22,
-            "month": 11,
-            "year": 2023
+            "venue": "Transactions on Machine Learning (TMLR)",
+            "day": 11,
+            "month": 4,
+            "year": 2025
         },
         {
             "authors": "Haikang Deng and Colin Raffel",
@@ -153,6 +151,7 @@
             "url": "https://arxiv.org/abs/2310.04649",
             "title": "NPEFF: Non-Negative Per-Example Fisher Factorization",
             "venue": "arXiv preprint arXiv:2310.04649",
+            "submitted": "25th International Conference on Machine Learning (ICML)",
             "day": 7,
             "month": 10,
             "year": 2023
@@ -347,7 +346,8 @@
             "venue": "Transactions on Machine Learning Research (TMLR)",
             "day": 11,
             "month": 5,
-            "year": 2023
+            "year": 2023,
+            "note": "Outstanding Certification Finalist"
         },
         {
             "authors": "Jason Wei, Yi Tay, Rishi Bommasani, Colin Raffel, Barret Zoph, Sebastian Borgeaud, Dani Yogatama, Maarten Bosma, Denny Zhou, Donald Metzler, Ed H Chi, Tatsunori Hashimoto, Oriol Vinyals, Percy Liang, Jeff Dean, William Fedus",
@@ -928,6 +928,3 @@
         }
     ]
 }
-
-
-
