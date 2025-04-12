@@ -1,14 +1,6 @@
 {"mentorship":
     [
         {
-            "name": "Malikeh Eghaghi",
-            "description": "PhD student at the University of Toronto",
-            "start": 2025,
-            "end": "now",
-            "url": "https://www.linkedin.com/in/malikeh97/",
-            "email": "malikehehghaghi@gmail.com"
-        },
-        {
             "name": "Marco Ciccone",
             "description": "Postdoc at the Vector Institute",
             "start": 2024,
@@ -17,20 +9,12 @@
             "email": "marco.ciccone88@gmail.com"
         },
         {
-            "name": "Wanru Zhao",
-            "description": "Intern at the Vector Institute",
-            "start": 2024,
-            "end": 2025,
-            "url": "https://ryan0v0.github.io/",
-            "email": "wz341@cam.ac.uk"
-        },
-        {
-            "name": "Cam Bishop",
-            "description": "Intern at the Vector Institute",
-            "start": 2024,
-            "end": 2025,
-            "url": "https://ca.linkedin.com/in/cameron-bishop-ai",
-            "email": "cam.t.bishop@gmail.com"
+            "name": "Malikeh Eghaghi",
+            "description": "PhD student at the University of Toronto",
+            "start": 2025,
+            "end": "now",
+            "url": "https://www.linkedin.com/in/malikeh97/",
+            "email": "malikehehghaghi@gmail.com"
         },
         {
             "name": "Gyung Hyun (Jay) Je",
@@ -46,29 +30,6 @@
             "end": "now",
             "url": "https://gsaltintas.github.io/",
             "email": "altintasgulsena@gmail.com"
-        },
-        {
-            "name": "Weiwei Sun",
-            "description": "Intern at the Vector Institute",
-            "start": 2024,
-            "url": "https://sunnweiwei.github.io/",
-            "email": "sunnweiwei@gmail.com"
-        },
-        {
-            "name": "Fengyuan Liu",
-            "description": "Undergraduate at the University of Toronto",
-            "start": 2024,
-            "end": "now",
-            "url": "https://linkedin.com/in/yuxinlyx5",
-            "email": "lyx.li@mail.utoronto.ca"
-        },
-        {
-            "name": "Yu Xin Li",
-            "description": "Undergraduate at the University of Toronto",
-            "start": 2024,
-            "end": "now",
-            "url": "https://linkedin.com/in/yuxinlyx5",
-            "email": "lyx.li@mail.utoronto.ca"
         },
         {
             "name": "Brian Lester",
@@ -111,10 +72,49 @@
             "email": "michael.matena@gmail.com"
         },
         {
+            "name": "Fengyuan Liu",
+            "description": "Undergraduate at the University of Toronto",
+            "start": 2024,
+            "end": "now",
+            "url": "https://linkedin.com/in/yuxinlyx5",
+            "email": "lyx.li@mail.utoronto.ca"
+        },
+        {
+            "name": "Yu Xin Li",
+            "description": "Undergraduate at the University of Toronto",
+            "start": 2024,
+            "end": "now",
+            "url": "https://linkedin.com/in/yuxinlyx5",
+            "email": "lyx.li@mail.utoronto.ca"
+        },
+        {
+            "name": "Wanru Zhao",
+            "description": "Intern at the Vector Institute",
+            "start": 2024,
+            "end": 2025,
+            "url": "https://ryan0v0.github.io/",
+            "email": "wz341@cam.ac.uk"
+        },
+        {
+            "name": "Cam Bishop",
+            "description": "Intern at the Vector Institute",
+            "start": 2024,
+            "end": 2025,
+            "url": "https://ca.linkedin.com/in/cameron-bishop-ai",
+            "email": "cam.t.bishop@gmail.com"
+        },
+        {
+            "name": "Weiwei Sun",
+            "description": "Intern at the Vector Institute",
+            "start": 2024,
+            "url": "https://sunnweiwei.github.io/",
+            "email": "sunnweiwei@gmail.com"
+        },
+        {
             "name": "Muqeeth Mohammed",
             "description": "Master's student at UNC",
             "start": 2021,
-            "end": "now",
+            "end": 2023,
             "url": "https://muqeeth.github.io",
             "email": "muqeeth@cs.unc.edu"
         },
