@@ -9,6 +9,14 @@
             "email": "marco.ciccone88@gmail.com"
         },
         {
+            "name": "Boglárka Ecsedi",
+            "description": "PhD student at the University of Toronto",
+            "start": 2025,
+            "end": "now",
+            "url": "https://www.linkedin.com/in/boglarka-ecsedi",
+            "email": "boglarka.ecsedi@mail.utoronto.ca"
+        },
+        {
             "name": "Malikeh Eghaghi",
             "description": "PhD student at the University of Toronto",
             "start": 2025,
@@ -72,10 +80,26 @@
             "email": "michael.matena@gmail.com"
         },
         {
+            "name": "Noah Juravsky",
+            "description": "Undergraduate student at the University of Toronto",
+            "start": 2025,
+            "end": "now",
+            "url": "https://www.noahjuravsky.com/",
+            "email": "noah.juravsky@mail.utoronto.ca"
+        },
+        {
+            "name": "Katherine Lambert",
+            "description": "Undergraduate student at the University of Toronto",
+            "start": 2025,
+            "end": "now",
+            "url": "https://ca.linkedin.com/in/lambert-katherine",
+            "email": "katherine.lambert@mail.utoronto.ca"
+        },
+        {
             "name": "Fengyuan Liu",
             "description": "Undergraduate at the University of Toronto",
             "start": 2024,
-            "end": "now",
+            "end": 2025,
             "url": "https://linkedin.com/in/fyliu",
             "email": "fy.liu@mail.utoronto.ca"
         },
@@ -83,7 +107,7 @@
             "name": "Yu Xin Li",
             "description": "Undergraduate at the University of Toronto",
             "start": 2024,
-            "end": "now",
+            "end": 2025,
             "url": "https://linkedin.com/in/yuxinlyx5",
             "email": "lyx.li@mail.utoronto.ca"
         },
