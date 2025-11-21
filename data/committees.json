@@ -1,6 +1,12 @@
 {"committees":
     [
         {
+            "name": "Weijia Shi",
+            "location": "University of Washington",
+            "start": 2025,
+            "end": "now"
+        },
+        {
             "name": "Samarendra Chandan Bindu Dash",
             "location": "University of Toronto",
             "start": 2025,
