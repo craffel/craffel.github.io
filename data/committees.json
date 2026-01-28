@@ -1,6 +1,12 @@
 {"committees":
     [
         {
+            "name": "Zhaoyu Li",
+            "location": "University of Toronto",
+            "start": 2025,
+            "end": "now"
+        },
+        {
             "name": "Weijia Shi",
             "location": "University of Washington",
             "start": 2025,
