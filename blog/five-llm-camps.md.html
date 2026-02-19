@@ -1,0 +1,40 @@
+<meta charset="utf-8" lang="en">
+<style>
+big { font-size: 300%; }
+.md .bib{padding-left:20px;text-indent:-20px;text-align:left}
+.md div.imagecaption{margin:5px 40px 5px 40px;}
+</style>
+
+        **The Five Camps of Language Model Development**
+        Colin Raffel
+        December 8, 2025
+        [colinraffel.com/blog](http://colinraffel.com/blog)
+
+The development of large language models is often split up into different stages. I like to think of each stage as a different camps:
+
+1. **Architecture and objective.** This is the "deep learning" camp. They treat the data as fixed and think that progress is primarily made by developing cleverer architectures and training methods. If you're muon-pilled or spend a lot of time thinking about alternative attention mechanisms or improving mixture-of-experts models, you're probably in this camp.
+
+1. **Pre-training data.** This camp thinks that the language model's fundamental capabilities mainly come from pre-training, so improvements should largely stem from better filtering, rephrasing, and otherwise "cleaning" the pre-training data. 
+
+1. **Post-training.** This camp aims to turn raw "base" models into something that can respond to queries, use tools, and otherwise carry out tasks. This is often via some combination of fine-tuning on demonstrations, learning from preferences or other feedback, and using reinforcement learning when there's a reward. They literally aim to "fix it in post". 
+
+1. **Engineering.** Language models tend to get better when you make them bigger or train them for longer. Doing so often requires scaling up compute, which requires engineering. Additionally, if we can make use of our compute more effectively - squeezing out more FLOPs or fitting bigger models on our existing hardware - we can often make models better.
+
+1. **~~Prompt~~ Context engineers.** This camp treats the language model as a fixed black box--text in, text out. They think the only way to control the language model or get it to do new things is to change what's in the input. This can include carefully crafting the system prompt, packing in relevant documents, and providing detailed instructions.
+
+I also like to caricaturize each camp as thinking that its work is the most important. For example, the pre-training camp says "I don't care if you give me a vanilla Transformer trained with Adam, ultimately the language model's going to get better if we make the data better". Or the post-training camp says "No matter how bad the base model is, I can always turn it into a good model with enough post-training." Or the engineering camp says "scale is all you need". Which camp do you fall into?
+
+There are some conveniences conferred by operationalizing language model development in this way. I think many "frontier" models are developed by semi-isolated teams, each corresponding to a given camp. The deep learning camp decides what model to train and how to train it, then the model gets trained using the engineering team's infra on the pre-training camp's data, until the model is finally post-trained. 
+
+But can language model development really be factorized like this? I think probably not. The caricatures of each camp reveal the ways they are wrong, or more broadly the ways that factorization might be suboptimal. I think there are lots of interesting research questions that cut across camps (some of which are already somewhat active areas of research):
+- Are there optimizers or loss functions that are more robust to noise in the pre-training data?
+- How can pre-training filtering be intentionally designed with an awareness of the behaviors/capabilities that post-training aims to surface?
+- Are there mixture-of-experts architectures that are especially well-suited to pre-training on heterogeneous data?
+- How can we efficiently distribute the collection of roll-outs for reinforcement learning?
+- What Transformer modifications are especially well-suited to improve hardware efficiency?
+While factorization is attractive and convenient, it's also likely limiting progress.
+
+It warrants mentioning that there are other camps in the language model campground (has this metaphor gone too far?), they're just less focused on capabilities. There's an evaluation camp whose aim is to figure out how to best evaluate whether all of the development is proceeding successfully as well as a few camps related to identifying and mitigating near- and long-term risks stemming from language models. It's fun to think about how those camps can intersect too.
+
+<script>window.markdeepOptions={}; window.markdeepOptions.tocStyle="none";</script>
+<!-- Markdeep: --><script src="markdeep.min.js"></script>
