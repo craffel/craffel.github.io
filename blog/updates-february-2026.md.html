@@ -1,0 +1,38 @@
+<meta charset="utf-8" lang="en">
+<style>
+big { font-size: 300%; }
+.md .bib{padding-left:20px;text-indent:-20px;text-align:left}
+.md div.imagecaption{margin:5px 40px 5px 40px;}
+</style>
+
+        **Updates, February 2026**
+        Colin Raffel
+        February 19, 2026
+        [colinraffel.com/blog](http://colinraffel.com/blog)
+
+*If you want to receive monthly updates from me like this one via email, please fill out [this form](https://forms.gle/9uxXZsGiegBbxthj7).* 
+
+# What we’re working on
+
+Two new papers on arxiv! Each is the product of an unbelievably long-term effort.
+
+Years ago, when working on [T0](https://arxiv.org/abs/2110.08207), we committed pretty heavily to the hypothesis that "unsupervised" LLM pre-training was implicit multitask learning. As a follow-up, I wanted to design a pipeline that filtered web-based pre-training datasets to only include "tasky" data. We did some preliminary experiments using a pipeline not too dissimilar to e.g. [DCLM](https://arxiv.org/abs/2406.11794)'s ELI5/OH-2.5 filtering, but didn't feel the results were good enough so we shelved the project for a while. A bit over a year ago, I brought up the project to my thesis supervisee Ajay, an expert on synthetic data. He pitched back a much better idea, where real-world LLM queries are templatized and matched to passages from relevant documents. The resulting pipeline can convert large portions of webtext corpora into mostly human-written query-response pairs. We call the resulting 300B-token dataset [FineInstructions](https://arxiv.org/abs/2601.22146) and show that it works much better than prior synthetic rephrasing pipelines at training instruction-following models from scratch.
+
+After working on [PHATGOOSE](https://arxiv.org/abs/2402.05859) a few years ago, we wanted to see if we could design a merging pipeline that recycled real-world LoRAs to continually improve a generalist LLM. After a year of effort, we mostly concluded that we couldn't compete with standard LLM development pipelines. So we pivoted to recycling LoRAs to improve fine-tuning on target tasks. After working on that for another year, it didn't really seem to work either. In particular, if you have a small target-task dataset, it appears that fine-tuning a new LoRA on the target-task dataset almost outperforms any kind of recycling. At this point, we decided to write a [paper](https://arxiv.org/abs/2602.12323) about our negative results. To the best of our knowledge, this is the first time anyone has actually tried to recycle noisy real-world LoRAs uploaded to the Hugging Face Hub.
+
+Separately, our [NeurIPS 2026 merging tutorial is online](https://neurips.cc/virtual/2025/loc/san-diego/109593). Take a look if you want a brain dump of our knowledge and opinions on model merging.
+
+# What I’m reading
+
+Like many, I have been reading a [few](https://arxiv.org/abs/2511.16072) [recent](https://arxiv.org/abs/2602.03837) [papers](https://arxiv.org/abs/2601.16175) on using LLMs to accelerate frontier science. I'm a little embarrassed to say that the closeness-to-home of this work makes it especially convincing to me as a demonstration of LLM capabilities. What I find most interesting are the cases where the LLM gets it slightly wrong (a common failure mode but human and LLM reasoning) but can self-correct when prompted, _and_ cases where humans have gotten it wrong but the LLM finds an error and suggests a correction. As ever it seems important to try to think through what capabilities will look like a year from now.
+
+I'd also like to share some [concurrent work](https://arxiv.org/abs/2601.22157) on the "recycling LoRAs" theme that is a bit more positive than our work mentioned above. In the setting where there is no downstream target-task data, they show that there often is a better fine-tuned variant of a given base model on model hubs, and propose an efficient algorithm for discovering these "hidden gem" LoRAs. The results here are consistent with ours--we also show that recycled LoRAs can be helpful individually on many target tasks.
+
+# What I’m thinking about
+
+If I'm being honest, most of my headspace over the past month has been taken up by my duties as an ICLR 2026 program chair. Before this year, I think I had a good sense of how the sausage was made, but overseeing the process end-to-end--with all of its unexpected challenges and edge cases--has still been eye-opening. I plan to write a lot more about this experience later, but a brief summary of my feelings could be: The conference (with ~20k submissions) is way too big, irresponsible LLM usage is just the latest iteration of long-standing shortcutting patterns, the [openreview leak](https://blog.iclr.cc/2025/12/03/iclr-2026-response-to-security-incident/) (and its downstream effects) is a pretty convincing demonstration of the bad will in the community, and we are inappropriately treating paper acceptance as a signal of researcher worth rather than paper validity/interestingness. On the last point, I unearthed a blog post draft on the subject that I had written many years ago, but had never posted on account of not wanting to seem overly grumpy. I'm now a curmudgeonly post-tenure professor, so I went ahead and posted it as a throwback [here](https://colinraffel.com/blog/we-are-over-indexing-on-paper-acceptance.html). Apart from that, I can only say I'm relieved it's (mostly) over and I'll see you in Rio!
+
+I'm also grappling a bit with the most recent batch of LLMs being good enough to carry out many parts of my and my trainee's jobs. There is a temptation to use these capabilities to accelerate research and offload unpleasant responsibilities, but on the other hand this will likely exacerbate many of the issues I mentioned above. Beyond that, I'm trying to think through how I can change my training practices (arguably one of the most important parts of my job) in light of this new reality. I don't have many concrete plans, but if this has been on your mind too, I'd be happy to hear your thoughts.
+
+<script>window.markdeepOptions={}; window.markdeepOptions.tocStyle="none";</script>
+<!-- Markdeep: --><script src="markdeep.min.js"></script>
