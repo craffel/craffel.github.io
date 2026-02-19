@@ -1,0 +1,35 @@
+<meta charset="utf-8" lang="en">
+<style>
+big { font-size: 300%; }
+.md .bib{padding-left:20px;text-indent:-20px;text-align:left}
+.md div.imagecaption{margin:5px 40px 5px 40px;}
+</style>
+
+        **Updates, January 2026**
+        Colin Raffel
+        January 7, 2026
+        [colinraffel.com/blog](http://colinraffel.com/blog)
+
+*Ed. note: I'm starting to write a (hopefully) monthly newsletter where I share work my lab has done along with other thoughts. I'll be posting them on this blog, but you can also sign up to get these newsletters by email by filling out [this form](https://forms.gle/9uxXZsGiegBbxthj7).* 
+
+# What we’re working on
+
+We had two papers hit arxiv at the end of 2025. The [first](https://arxiv.org/abs/2512.20757) is on toksuite, a benchmark and collection of models for measuring how tokenization impacts language model performance. The multilingual benchmark consists of a set of simple questions (suitable for base models) along with perturbed versions that allow fine-grained measurement of tokenizer robustness. Our set of models are identical (training data, model size, initialization, etc.) apart from their tokenizer, so evaluating these models on our benchmark allows us to study tokenizer characteristics in isolation. We find that simple tokenizer design choices like prenormalization can have a dramatic impact on robustness to certain perturbations, regardless of model scale.
+
+The [second](https://arxiv.org/abs/2512.24991) aims to answer the question: How many data points do I need to label to get human-level performance on a given task? We find that the cosine similarity of the gradients of low-confidence examples is remarkably good at predicting this notion of data efficiency. This leads to a simple and cheap algorithm that can produce a reliable "expected performance after fine-tuning on N examples" curve.
+# What I’m reading
+
+I was happy to read that [adversarial methods are poised for a comeback](https://arxiv.org/abs/2511.21667) in the context of RLHF. This is one of those ideas that I'd intuitively hope would work but would expect to be hard to get working in practice (and certainly it seems their approach required some exploration to get right). I'd still suspect there are a bunch of hidden gotchas (e.g. hyperparameter sensitivity) but I look forward to a renaissance of GAN hacks for making better reasoning models.
+
+I also enjoyed [this approach to cross-architecture merging](https://openreview.net/forum?id=VSDV0SWwOC) that was, for me, pretty unexpected: train a VAE to reconstruct model parameters and do merging by interpolating in latent space. The paper includes some clever infrastructure to get it working and the results are compelling.
+
+# What I’m thinking about
+
+A lot of the work we've done in my lab has, at least for me, been driven by some latent worry about near-term AI risks. For example, our focus on decentralized/collaborative model development was motivated by my worry about concentration of power as models got bigger, better, and more expensive. But I think much of our most impactful work has been along the lines of "making language models better". Increasingly I feel this isn't really the role I want our work to play, so we've been having some discussions about how we can better focus on technical problems that are more directly and singularly focused on identifying and mitigating risks.
+
+On the other side of things, I continue to wonder whether we could better coordinate open model development. Frontier models are built by giant teams divided into subgroups responsible for different stages of model development. This sometimes happens implicitly in open model development, where e.g. one team creates an LM pre-training dataset that another team uses for training a model. But deeper collaboration would likely be tricky, and past efforts to do a large-scale collaboration like BLOOM had some pitfalls. A simple thing that I think could help would be if we all just frequently told each other about our in-progress work rather than waiting until the papers/artifacts are out, but this sort of flies in the face of typical academic publishing practices.
+
+Happy to chat about any of the above! Thanks for reading.
+
+<script>window.markdeepOptions={}; window.markdeepOptions.tocStyle="none";</script>
+<!-- Markdeep: --><script src="markdeep.min.js"></script>
