@@ -1,6 +1,48 @@
 {"committees":
     [
         {
+            "name": "Shangbin Feng",
+            "location": "University of Washington",
+            "start": 2026,
+            "end": "now"
+        },
+        {
+            "name": "Donato Crisostomi",
+            "location": "Sapienza University of Rome",
+            "start": 2026,
+            "end": "now"
+        },
+        {
+            "name": "Ahmad Rashid",
+            "location": "University of Waterloo",
+            "start": 2026,
+            "end": "now"
+        },
+        {
+            "name": "Yongjin Yang",
+            "location": "University of Toronto",
+            "start": 2026,
+            "end": "now"
+        },
+        {
+            "name": "Ekansh Sharma",
+            "location": "University of Toronto",
+            "start": 2025,
+            "end": 2025
+        },
+        {
+            "name": "Nikolaos Dimitriadis",
+            "location": "École polytechnique fédérale de Lausanne",
+            "start": 2025,
+            "end": 2025
+        },
+        {
+            "name": "Evgenii Opryshko",
+            "location": "University of Toronto",
+            "start": 2025,
+            "end": "now"
+        },
+        {
             "name": "Zhaoyu Li",
             "location": "University of Toronto",
             "start": 2025,
@@ -23,6 +65,12 @@
             "location": "University of Toronto",
             "start": 2025,
             "end": "now"
+        },
+        {
+            "name": "Daniel Johnson",
+            "location": "University of Toronto",
+            "start": 2024,
+            "end": 2025
         },
         {
             "name": "Prateek Yadav",
@@ -52,7 +100,7 @@
             "name": "Ajay Patel",
             "location": "University of Pennsylvania",
             "start": 2024,
-            "end": "now"
+            "end": 2025
         },
         {
             "name": "Towaki Takikawa",
@@ -64,13 +112,13 @@
             "name": "Honghua Dong",
             "location": "University of Toronto",
             "start": 2024,
-            "end": "now"
+            "end": 2026
         },
         {
             "name": "Yangjun Ruan",
             "location": "University of Toronto",
             "start": 2024,
-            "end": "now"
+            "end": 2026
         },
         {
             "name": "Lucas Gomez",
