@@ -1,0 +1,38 @@
+<meta charset="utf-8" lang="en">
+<style>
+big { font-size: 300%; }
+.md .bib{padding-left:20px;text-indent:-20px;text-align:left}
+.md div.imagecaption{margin:5px 40px 5px 40px;}
+</style>
+
+        **Updates, April 2026**
+        Colin Raffel
+        April 16, 2026
+        [colinraffel.com/blog](http://colinraffel.com/blog)
+
+*If you want to receive monthly updates from me like this one via email, please fill out [this form](https://forms.gle/9uxXZsGiegBbxthj7).* 
+
+# What we're working on
+
+We put two papers up on arxiv over the last few weeks. The [first one](https://arxiv.org/abs/2604.01329) proposes a new merging method called ACTMat, which can be simplistically viewed as a data-free alternative to [RegMean](https://arxiv.org/abs/2212.09849). RegMean is sort of a cult classic merging method - despite working remarkably well and being proposed 3+ years ago, it is not widely used. This is likely for two reasons: First, it's easy to implement incorrectly (see Appendix A of [our paper](https://arxiv.org/abs/2604.01329) to learn why), and second, because it requires data access to estimate covariance matrices for merging. ACTMat builds up a series of approximations (all theoretically and empirically validated) that allow approximating the covariance matrices from the task vector. The resulting merging method works about as well as RegMean and outperforms all other data-free merging methods we tried.
+
+The [second](https://arxiv.org/abs/2604.13977) is a paperified version of our [Synthetic Data Playbook](https://huggingface.co/spaces/HuggingFaceFW/finephrase) blogpost (so you can pick your preferred level of academiciness). It's essentially a large-scale empirical study of how to do synthetic rephrasing of pre-training data. There are lots of practical recommendations; to give a noteworthy example, we find that you can do rephrasing pretty effectively with small models. This work was accompanied by the release of [FinePhrase](https://huggingface.co/datasets/HuggingFaceFW/finephrase), a rephrased variant of fineweb-edu using our best-known pipeline.
+
+Separately, I finally managed to write a sort of [retrospective on the ICLR 2026 review process](https://blog.iclr.cc/2026/03/31/a-retrospective-on-the-iclr-2026-review-process/). It's on the official ICLR blog, so it's not very juicy, but it gives an overview of our most notable trials and tribulations. I had meant to write some candid, unfiltered, personal reflections on my own blog, but I just can't bring myself to do it. Such things are best shared over a few drinks, I think.
+
+# What I'm reading
+
+We have been working a bit on jailbreaking and adversarial robustness of LLMs (a little more on that below) and have been doing some reading on that theme.
+
+My student Nikhil who is on (hopefully temporary) leave at OpenAI appeared on this [recent paper](https://arxiv.org/abs/2603.10521) on building the IH-Challenge dataset to train LLMs to follow the [Instruction Hierarchy](https://arxiv.org/abs/2404.13208). The Instruction Hierarchy provides a pretty intuitive way to formalize issues like jailbreaking and prompt injection. IH-Challenge has an interesting design: Rather than being a static dataset, it provides a series of scenarios along with a prompt that can be used to get an adaptive adversary to attack the current model. One of the interesting "future work" ideas in the paper is setting up an adversarial game, where the adversary is being trained to improve its attacks against a defender trained in tandem to resist them.
+
+To expand our idea of what "jailbreaking" can be, we also read [this older paper](https://arxiv.org/abs/2402.14020) showing that LLMs can be coerced into doing pretty much anything via the [GCG attack](https://arxiv.org/abs/2307.15043). On the one hand, the examples in the paper are striking; on the other hand, the attack space is quite large and in-context learning *does* seem to be some kind of learning, so perhaps it's not surprising that the model can "learn" to do these odd-looking things.
+
+# What I'm thinking about
+
+I, like many, have been continuing to experiment with using coding agents for research. Additionally, I've started getting emails from prospective students that include half-baked papers that smell a lot like they were primarily written by Claude. To avoid spiraling on the implications, I spent some time brainstorming some ideas for how LLMs could be used to make research better, rather than worse, which you can read [here](https://colinraffel.com/blog/how-llms-could-be-used-to-make-research-better.html). I've also been doing a lot of thinking, and a few experiments, about what happens when humans totally factor themselves out of a creation/judging process (like research and peer review) and let the LLMs run wild -- sort of a form of "rapid disempowerment". Unsurprisingly, collective LLM delusions abound. I hope to share more about this soon.
+
+Separately, my students have been working on a project proposing an evaluation for jailbreaking that measures attack success rate using varying levels of "pressure", i.e. effort on the part of the attacker. This has gotten me thinking about whether there's a relationship between the effort put into safeguarding a model and the effort required to jailbreak it. My thinking is probably heavily informed by the recent discussion around LLMs getting remarkably good at cybersecurity/cyberattacks, for example [this blog post](https://www.dbreunig.com/2026/04/14/cybersecurity-is-proof-of-work-now.html) arguing that the security of software may come to depend primarily on whether the tokens spend more tokens securing their software than the attackers spend breaking it.
+
+<script>window.markdeepOptions={}; window.markdeepOptions.tocStyle="none";</script>
+<!-- Markdeep: --><script src="markdeep.min.js"></script>
