@@ -1,6 +1,12 @@
 {"talks":
     [
         {
+            "title": "Model Merging: Theory, Practice and Applications",
+            "venue": "NeurIPS 2025 Tutorials",
+            "url": "https://neurips.cc/virtual/2025/loc/san-diego/109593",
+            "year": 2025
+        },
+        {
             "title": "Merging and MoErging for Compositional Generalization",
             "venue": "NeurIPS 2024 Workshop on Compositional Learning and ETH Zurich SPCL_Bcast()",
             "url": "http://colinraffel.com/talks/neurips2024merging.pdf",

@@ -1,6 +1,12 @@
 {"committees":
     [
         {
+            "name": "Sheza Munir",
+            "location": "University of Toronto",
+            "start": 2026,
+            "end": "now"
+        },
+        {
             "name": "Shangbin Feng",
             "location": "University of Washington",
             "start": 2026,
