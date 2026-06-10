@@ -1,0 +1,429 @@
+<html><head><meta charset="UTF-8"><meta http-equiv="content-type" content="text/html;charset=UTF-8"><style>body{max-width:680px;margin:auto;padding:20px;text-align:justify;line-height:140%; -webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-smoothing:antialiased;color:#222;font-family:Palatino,Georgia,"Times New Roman",serif}</style><style>body{counter-reset: h1 h2 h3 h4 h5 h6 paragraph}@page{margin:0;size:auto}.md code,pre{font-family:Menlo,Consolas,monospace;font-size:13.456847078400001px;line-height:140%}.md div.title{font-size:26px;font-weight:800;line-height:120%;text-align:center}.md div.afterTitles{height:10px}.md div.subtitle{text-align:center}.md .image{display:inline-block}.md img{max-width:100%;page-break-inside:avoid}.md li{text-align:left;text-indent:0}.md pre.listing {tab-size:4;-moz-tab-size:4;-o-tab-size:4;counter-reset:line}.md pre.listing .linenumbers span.line:before{width:30px;margin-left:-52px;font-size:80%;text-align:right;counter-increment:line;content:counter(line);display:inline-block;padding-right:13px;margin-right:8px;color:#ccc}.md div.tilde{margin:20px 0 -10px;text-align:center}.md div.imagecaption,.md div.tablecaption,.md div.listingcaption{margin:7px 5px 12px;text-align: justify;font-style:italic}.md div.imagecaption{margin-bottom:0}.md blockquote.fancyquote{margin:25px 0 25px;text-align:left;line-height:160%}.md blockquote.fancyquote::before{content:"“";color:#DDD;font-family:Times New Roman;font-size:45px;line-height:0;margin-right:6px;vertical-align:-0.3em}.md span.fancyquote{font-size:118%;color:#777;font-style:italic}.md span.fancyquote::after{content:"”";font-style:normal;color:#DDD;font-family:Times New Roman;font-size:45px;line-height:0;margin-left:6px;vertical-align:-0.3em}.md blockquote.fancyquote .author{width:100%;margin-top:10px;display:inline-block;text-align:right}.md small{font-size:60%}.md div.title,contents,.md .tocHeader,h1,h2,h3,h4,h5,h6,.md .shortTOC,.md .mediumTOC,.nonumberh1,.nonumberh2,.nonumberh3,.nonumberh4,.nonumberh5,.nonumberh6{font-family:Verdana,Helvetica,Arial,sans-serif;margin:13.4px 0 13.4px;padding:15px 0 3px;border-top:none;clear:both}.md h1,.md h2,.md h3,.md h4,.md h5,.md h6,.md .nonumberh1,.md .nonumberh2,.md .nonumberh3,.md .nonumberh4,.md .nonumberh5,.md .nonumberh6{page-break-after:avoid;break-after:avoid}.md svg.diagram{display:block;font-family:Menlo,Consolas,monospace;font-size:13.456847078400001px;text-align:center;stroke-linecap:round;stroke-width:2px;page-break-inside:avoid;stroke:#000;fill:#000}.md svg.diagram .opendot{fill:#FFF}.md svg.diagram text{stroke:none}@media print{@page{margin:1in 5mm;transform: scale(150%)}}@media print{.md .pagebreak{page-break-after:always;visibility:hidden}}.md a{font-family:Georgia,Palatino,'Times New Roman'}.md h1,.md .tocHeader,.md .nonumberh1{border-bottom:3px solid;font-size:20px;font-weight:bold;}.md h1,.md .nonumberh1{counter-reset: h2 h3 h4 h5 h6}.md h2,.md .nonumberh2{counter-reset: h3 h4 h5 h6;border-bottom:2px solid #999;color:#555;font-weight:bold;font-size:18px;}.md h3,.md h4,.md h5,.md h6,.md .nonumberh3,.md .nonumberh4,.md .nonumberh5,.md .nonumberh6{font-family:Helvetica,Arial,sans-serif;color:#555;font-size:16px;}.md h3{counter-reset:h4 h5 h6}.md h4{counter-reset:h5 h6}.md h5{counter-reset:h6}.md div.table{margin:16px 0 16px 0}.md table{border-collapse:collapse;line-height:140%;page-break-inside:avoid}.md table.table{margin:auto}.md table.calendar{width:100%;margin:auto;font-size:11px;font-family:Helvetica,Arial,sans-serif}.md table.calendar th{font-size:16px}.md .today{background:#ECF8FA}.md .calendar .parenthesized{color:#999;font-style:italic}.md div.tablecaption{text-align:center}.md table.table th{color:#FFF;background-color:#AAA;border:1px solid #888;padding:8px 15px 8px 15px}.md table.table td{padding:5px 15px 5px 15px;border:1px solid #888}.md table.table tr:nth-child(even){background:#EEE}.md pre.tilde{border-top: 1px solid #CCC;border-bottom: 1px solid #CCC;padding: 5px 0 5px 20px;margin:0 0 0 0;background:#FCFCFC;page-break-inside:avoid}.md a.target{width:0px;height:0px;visibility:hidden;font-size:0px;display:inline-block}.md a:link, .md a:visited{color:#38A;text-decoration:none}.md a:link:hover{text-decoration:underline}.md dt{font-weight:700}.md dl>dd{margin-top:-8px; margin-bottom:8px}.md dl>table{margin:35px 0 30px}.md code{white-space:pre-wrap;overflow-wrap:break-word;text-align:left;page-break-inside:avoid}.md .endnote{font-size:13px;line-height:15px;padding-left:10px;text-indent:-10px}.md .bib{padding-left:80px;text-indent:-80px;text-align:left}.markdeepFooter{font-size:9px;text-align:right;padding-top:80px;color:#999}.md .mediumTOC{float:right;font-size:12px;line-height:15px;border-left:1px solid #CCC;padding-left:15px;margin:15px 0px 15px 25px}.md .mediumTOC .level1{font-weight:600}.md .longTOC .level1{font-weight:600;display:block;padding-top:12px;margin:0 0 -20px}.md .shortTOC{text-align:center;font-weight:bold;margin-top:15px;font-size:14px}.md .admonition{position:relative;margin:1em 0;padding:.4rem 1rem;border-radius:.2rem;border-left:2.5rem solid rgba(68,138,255,.4);background-color:rgba(68,138,255,.15);}.md .admonition-title{font-weight:bold;border-bottom:solid 1px rgba(68,138,255,.4);padding-bottom:4px;margin-bottom:4px;margin-left: -1rem;padding-left:1rem;margin-right:-1rem;border-color:rgba(68,138,255,.4)}.md .admonition.tip{border-left:2.5rem solid rgba(50,255,90,.4);background-color:rgba(50,255,90,.15)}.md .admonition.tip::before{content:"\24d8";font-weight:bold;font-size:150%;position:relative;top:3px;color:rgba(26,128,46,.8);left:-2.95rem;display:block;width:0;height:0}.md .admonition.tip>.admonition-title{border-color:rgba(50,255,90,.4)}.md .admonition.warn,.md .admonition.warning{border-left:2.5rem solid rgba(255,145,0,.4);background-color:rgba(255,145,0,.15)}.md .admonition.warn::before,.md .admonition.warning::before{content:"\26A0";font-weight:bold;font-size:150%;position:relative;top:2px;color:rgba(128,73,0,.8);left:-2.95rem;display:block;width:0;height:0}.md .admonition.warn>.admonition-title,.md .admonition.warning>.admonition-title{border-color:rgba(255,145,0,.4)}.md .admonition.error{border-left: 2.5rem solid rgba(255,23,68,.4);background-color:rgba(255,23,68,.15)}.md .admonition.error>.admonition-title{border-color:rgba(255,23,68,.4)}.md .admonition.error::before{content: "\2612";font-family:"Arial";font-size:200%;position:relative;color:rgba(128,12,34,.8);top:-2px;left:-3rem;display:block;width:0;height:0}.md .admonition p:last-child{margin-bottom:0}.md li.checked,.md li.unchecked{list-style:none;overflow:visible;text-indent:-1.2em}.md li.checked:before,.md li.unchecked:before{content:"\2611";display:block;float:left;width:1em;font-size:120%}.md li.unchecked:before{content:"\2610"}</style><style>.md h1::before {
+content:counter(h1) " ";
+counter-increment: h1;margin-right:10px}.md h2::before {
+content:counter(h1) "."counter(h2) " ";
+counter-increment: h2;margin-right:10px}.md h3::before {
+content:counter(h1) "."counter(h2) "."counter(h3) " ";
+counter-increment: h3;margin-right:10px}.md h4::before {
+content:counter(h1) "."counter(h2) "."counter(h3) "."counter(h4) " ";
+counter-increment: h4;margin-right:10px}.md h5::before {
+content:counter(h1) "."counter(h2) "."counter(h3) "."counter(h4) "."counter(h5) " ";
+counter-increment: h5;margin-right:10px}.md h6::before {
+content:counter(h1) "."counter(h2) "."counter(h3) "."counter(h4) "."counter(h5) "."counter(h6) " ";
+counter-increment: h6;margin-right:10px}</style><style>.hljs{display:block;overflow-x:auto;padding:0.5em;background:#fff;color:#000;-webkit-text-size-adjust:none}.hljs-comment{color:#006a00}.hljs-keyword{color:#02E}.hljs-literal,.nginx .hljs-title{color:#aa0d91}.method,.hljs-list .hljs-title,.hljs-tag .hljs-title,.setting .hljs-value,.hljs-winutils,.tex .hljs-command,.http .hljs-title,.hljs-request,.hljs-status,.hljs-name{color:#008}.hljs-envvar,.tex .hljs-special{color:#660}.hljs-string{color:#c41a16}.hljs-tag .hljs-value,.hljs-cdata,.hljs-filter .hljs-argument,.hljs-attr_selector,.apache .hljs-cbracket,.hljs-date,.hljs-regexp{color:#080}.hljs-sub .hljs-identifier,.hljs-pi,.hljs-tag,.hljs-tag .hljs-keyword,.hljs-decorator,.ini .hljs-title,.hljs-shebang,.hljs-prompt,.hljs-hexcolor,.hljs-rule .hljs-value,.hljs-symbol,.hljs-symbol .hljs-string,.hljs-number,.css .hljs-function,.hljs-function .hljs-title,.coffeescript .hljs-attribute{color:#A0C}.hljs-function .hljs-title{font-weight:bold;color:#000}.hljs-class .hljs-title,.smalltalk .hljs-class,.hljs-type,.hljs-typename,.hljs-tag .hljs-attribute,.hljs-doctype,.hljs-class .hljs-id,.hljs-built_in,.setting,.hljs-params,.clojure .hljs-attribute{color:#5c2699}.hljs-variable{color:#3f6e74}.css .hljs-tag,.hljs-rule .hljs-property,.hljs-pseudo,.hljs-subst{color:#000}.css .hljs-class,.css .hljs-id{color:#9b703f}.hljs-value .hljs-important{color:#ff7700;font-weight:bold}.hljs-rule .hljs-keyword{color:#c5af75}.hljs-annotation,.apache .hljs-sqbracket,.nginx .hljs-built_in{color:#9b859d}.hljs-preprocessor,.hljs-preprocessor *,.hljs-pragma{color:#643820}.tex .hljs-formula{background-color:#eee;font-style:italic}.diff .hljs-header,.hljs-chunk{color:#808080;font-weight:bold}.diff .hljs-change{background-color:#bccff9}.hljs-addition{background-color:#baeeba}.hljs-deletion{background-color:#ffc8bd}.hljs-comment .hljs-doctag{font-weight:bold}.method .hljs-id{color:#000}</style><style>div.title { padding-top: 40px; } div.afterTitles { height: 15px; }</style><meta charset="utf-8" lang="en">
+<style>
+  big { font-size: 300%; }
+  .md .bib{padding-left:20px;text-indent:-20px;text-align:left}
+  .md div.imagecaption{margin:5px 40px 5px 40px;}
+</style>
+
+        
+<style>
+  /* the compiled file wraps content in an inline <span class="md">; make it a
+     block (as Markdeep's live renderer does) so % widths resolve to the column */
+  .md{ display:block; }
+
+  /* --- interactive FLOPS-vs-GDP plot (scoped to .plotcard) --- */
+  .plotcard{
+    --card:#FFFFFF; --border:#E3E6EB; --txt:#1E2530; --txt-dim:#6B7685;
+    --tick:#9AA3AF; --grid:#EDEFF2; --grid-strong:#E2E5EA;
+    --blue:#2D6CDF; --blue-deep:#1B4DA6; --orange:#E5792E;
+    position:relative; width:100%; margin:1.4em 0;
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  }
+  .plotcard svg{display:block; width:100%; height:auto; aspect-ratio:920/560; overflow:visible;}
+  .plotcard .grid-line{stroke:var(--grid); stroke-width:1;}
+  .plotcard .grid-line.frame{stroke:var(--grid-strong);}
+  .plotcard .axis-tick{fill:var(--tick); font-size:11px;}
+  .plotcard .trend{stroke:var(--orange); stroke-width:2; fill:none; stroke-linecap:round;}
+  .plotcard .dot{fill:var(--blue); stroke:#fff; stroke-width:1.5; cursor:pointer; transition:r .15s, fill .15s;}
+  .plotcard .dot:hover, .plotcard .dot.active{fill:var(--blue-deep); r:8.5;}
+  .plotcard .dot-label{fill:var(--txt-dim); font-size:10.5px; pointer-events:none; transition:fill .15s, font-weight .15s;}
+  .plotcard .dot-label.active{fill:var(--txt); font-weight:700;}
+  .plotcard .axis-title{fill:var(--txt); font-size:14px; font-weight:600;}
+  .plotcard .crosshair line{stroke:var(--blue); stroke-width:1; stroke-dasharray:3 4; opacity:.45;}
+  .plotcard .tip{position:absolute; pointer-events:none; opacity:0; transform:translateY(4px);
+    transition:opacity .14s, transform .14s; z-index:5; background:var(--card);
+    border:1px solid var(--border); border-radius:10px; padding:11px 13px; min-width:184px;
+    box-shadow:0 10px 26px rgba(16,24,40,.14); text-align:left; line-height:135%;}
+  .plotcard .tip.show{opacity:1; transform:translateY(0);}
+  .plotcard .tip .tname{font-weight:700; font-size:14.5px; margin-bottom:8px;}
+  .plotcard .tip .trow{display:flex; justify-content:space-between; gap:16px; font-size:12px; padding:2.5px 0;}
+  .plotcard .tip .trow .k{color:var(--txt-dim);}
+  .plotcard .tip .trow .v{color:var(--txt); font-weight:600;}
+  .plotcard .tip .trow .v.hi{color:var(--blue);}
+  @media (prefers-reduced-motion:reduce){ .plotcard *{transition:none!important;} }
+</style>
+        </head><body style="visibility: visible;"><span class="md"><p><title>Estimating public cluster FLOPS vs. GDP</title></p><div class="title"> Estimating public cluster FLOPS vs. GDP </div>
+
+<div class="subtitle"> Colin Raffel </div>
+<div class="subtitle"> June 10, 2026 </div>
+<div class="subtitle"> <a href="http://colinraffel.com/blog">colinraffel.com/blog</a> </div>
+<div class="afterTitles"></div>
+
+<p></p><p>
+
+Many countries invest in AI computing infrastructure by building GPU clusters.
+Computing resources on these clusters are typically made avaliable through an application-based process, and access is generally possible for academics and other researchers.
+The total amount of public GPU compute available in a given country varies quite a lot; we wouldn't necessarily expect a small country to invest as heavily in AI infrastructure as a much larger country would.
+Plotting each country's GDP against the total GPU FLOPS available across all of its public clusters can give a sense of each country's level of investment in AI research.
+I spent some time searching the web and massaging data (with some help from Claude and Gemini) to produce the plot shown below.
+
+</p>
+
+<!-- ===== interactive FLOPS-vs-GDP plot ===== -->
+<div class="plotcard" id="plot-interactive" style="display:none">
+  <svg id="plot" viewBox="0 0 920 560" preserveAspectRatio="xMidYMid meet" role="img"
+       style="display:block; width:100%; height:auto; aspect-ratio:920/560;"
+       aria-label="Scatter plot of national public-cluster GPU compute versus national GDP">
+    <g id="gGrid"></g>
+    <g id="gTrend"></g>
+    <g id="gCross" class="crosshair"></g>
+    <g id="gDots"></g>
+    <g id="gLabels"></g>
+    <text class="axis-title" x="482" y="548" text-anchor="middle">National GDP</text>
+    <text class="axis-title" text-anchor="middle" transform="translate(26,262) rotate(-90)">Total compute (FLOP/s)</text>
+  </svg>
+  <div class="tip" id="tip"></div>
+</div>
+<noscript>
+  <img src="images/flops-vs-gdp/plot.png"
+       alt="Log-log scatter plot of total public-cluster FP16 FLOP/s versus national GDP for 26 countries, with a power-law trend line."
+       style="max-width:100%; display:block; margin:1.4em auto;">
+</noscript>
+<script>
+
+/* ============================================================
+   RAW DATA  (verbatim from the three source CSVs)
+   ============================================================ */
+const CLUSTERS_CSV = `Cluster Name,Country,Number of GPUs,GPU Type
+Aurora,USA,63744,Intel Max 1550
+El Capitan,USA,45000,AMD MI300A
+Frontier,USA,37888,AMD MI250X
+JUPITER Booster,Germany,23536,NVIDIA GH200
+Leonardo,Italy,15872,NVIDIA A100
+HPC6,Italy,13320,AMD MI250X
+LUMI,Finland,11912,AMD MI250X
+Alps,Switzerland,10752,NVIDIA GH200
+Perlmutter,USA,7168,NVIDIA A100
+Isambard-AI,United Kingdom,5448,NVIDIA GH200
+Piz Daint,Switzerland,4800,NVIDIA P100
+Tuolumne,USA,4608,AMD MI300A
+MareNostrum 5,Spain,4480,NVIDIA H100
+Pengcheng Cloud Brain II,China,4096,Huawei Ascend 910
+JUWELS Booster,Germany,3744,NVIDIA A100
+Lassen,USA,3152,NVIDIA V100
+Shaheen III,Saudi Arabia,2800,NVIDIA GH200
+Polaris,USA,2240,NVIDIA A100
+Jean Zay (V100 partition),France,1832,NVIDIA V100
+Arrhenius,Sweden,1528,NVIDIA GH200
+ASPIRE 2B,Singapore,1500,NVIDIA H200
+Jean Zay (H100 partition),France,1456,NVIDIA H100
+Adastra,France,1424,AMD MI250X
+Miyabi,Japan,1120,NVIDIA GH200
+Dawn,United Kingdom,1024,Intel Max 1550
+SuperMUC-NG,Germany,960,Intel Max 1550
+SuperMUC-NG Phase 2,Germany,960,Intel Max 1550
+Vulcan,Canada,820,NVIDIA L40s
+MeluXina,Luxembourg,800,NVIDIA A100
+Setonix,Australia,768,AMD MI250X
+Hunter,Germany,752,AMD MI300A
+Berzelius Ampere,Sweden,752,NVIDIA A100
+Beluga,Canada,688,NVIDIA V100
+HoreKa,Germany,668,NVIDIA A100
+Gadi,Australia,640,NVIDIA V100
+Fir,Canada,640,NVIDIA H100
+Narval,Canada,636,NVIDIA A100
+Capella,Germany,624,NVIDIA H100
+Karolina,Czech Republic,576,NVIDIA A100
+Roihu,Finland,528,NVIDIA GH200
+JADE2,United Kingdom,504,NVIDIA V100
+Olivia,Norway,448,NVIDIA GH200
+Delta,USA,440,NVIDIA A100
+Helios,Poland,440,NVIDIA GH200
+Jean Zay (A100 partition),France,416,NVIDIA A100
+Delta,USA,400,NVIDIA A40
+Helma,Germany,384,NVIDIA H100
+Helma,Germany,384,NVIDIA H200
+Athena,Poland,384,NVIDIA A100
+Wisteria/BDEC-01 Aquarius,Japan,360,NVIDIA A100
+Jetstream2,USA,360,NVIDIA A100
+Frontera,USA,360,NVIDIA RTX 5000
+Snellius H100,Netherlands,352,NVIDIA H100
+ASPIRE 2A,Singapore,352,NVIDIA A100
+Alvis,Sweden,340,NVIDIA A40
+Alvis,Sweden,340,NVIDIA A100
+PARAM Siddhi-AI,India,336,NVIDIA A100
+Rorqual,Canada,324,NVIDIA H100
+Puhti-AI,Finland,320,NVIDIA V100
+ASPIRE 2A+,Singapore,320,NVIDIA H100
+Nibi,Canada,288,NVIDIA H100
+Bridges-2 GPU,USA,264,NVIDIA V100
+Vega,Slovenia,240,NVIDIA A100
+JUWELS Cluster,Germany,224,NVIDIA V100
+Expanse,USA,208,NVIDIA V100
+Baskerville,United Kingdom,208,NVIDIA A100
+Hawk AI Expansion,Germany,192,NVIDIA A100
+Alvis,Sweden,160,NVIDIA T4
+Snellius A100,Netherlands,144,NVIDIA A100
+Cirrus Phase II,United Kingdom,144,NVIDIA V100
+Cirrus,United Kingdom,144,NVIDIA V100
+Neuron,South Korea,140,NVIDIA V100
+Deucalion,Portugal,132,NVIDIA A100
+Joliot-Curie,France,128,NVIDIA V100
+Discoverer+,Bulgaria,128,NVIDIA H200
+Berzelius Hopper,Sweden,128,NVIDIA H200
+VSC-5,Austria,124,NVIDIA A100
+Gadi,Australia,120,NVIDIA H200
+Neuron,South Korea,120,NVIDIA A100`;
+
+const GPUS_CSV = `GPU Type,FP16/BF16 TFLOPS (Dense),VRAM (GB)
+AMD MI100,184.6,32
+AMD MI250X,383,128
+AMD MI300A,980.6,128
+Huawei Ascend 910,256,32
+Intel Max 1550,839,128
+NVIDIA A100,312,80
+NVIDIA A40,149.7,48
+NVIDIA B200,2250,180
+NVIDIA GH200,989,96
+NVIDIA H100,989,80
+NVIDIA H200,989,141
+NVIDIA L40s,362,48
+NVIDIA P100,21.2,16
+NVIDIA RTX 5000,89.2,16
+NVIDIA T4,65,16
+NVIDIA V100,125,32`;
+
+const COUNTRIES_CSV = `Country,Current GDP,Population
+Australia,2123963000000,27724744
+Austria,623719000000,9220882
+Bulgaria,148121000000,6423207
+Canada,2507340000000,41472081
+China,20851593000000,1404890000
+Czech Republic,432597000000,10915839
+Denmark,503772000000,6031247
+Finland,337669000000,5650152
+France,3596094000000,69081996
+Germany,5452858000000,83497147
+India,4153191000000,1417492000
+Italy,2738164000000,58936123
+Japan,4379253000000,122810000
+Luxembourg,110417000000,690959
+Netherlands,1449704000000,18147273
+Norway,599406000000,5633770
+Poland,1134248000000,37281000
+Portugal,380637000000,10749635
+Saudi Arabia,1388676000000,35300280
+Singapore,659572000000,6110200
+Slovenia,86732000000,2135107
+South Korea,1931008000000,51111158
+Spain,2091222000000,49687120
+Sweden,760481000000,10605725
+Switzerland,1146911000000,9139676
+UAE,621546000000,11294243
+UK,4264794000000,69487000
+USA,32383920000000,341784857
+Taiwan,976719000000,23262544`;
+
+/* ============================================================
+   PARSE + JOIN + AGGREGATE
+   ============================================================ */
+function parseCSV(t){
+  const [head, ...rows] = t.trim().split("\n");
+  const cols = head.split(",");
+  return rows.map(r=>{ const cells=r.split(","); const o={};
+    cols.forEach((c,i)=> o[c.trim()]=cells[i]); return o; });
+}
+const NAME_FIX = { "United Kingdom":"UK" };
+
+const gpuTflops = {};
+parseCSV(GPUS_CSV).forEach(g => gpuTflops[g["GPU Type"].trim()] = +g["FP16/BF16 TFLOPS (Dense)"]);
+
+const country = {};
+parseCSV(COUNTRIES_CSV).forEach(c => country[c.Country.trim()] = {gdp:+c["Current GDP"], pop:+c.Population});
+
+const tally = {};
+parseCSV(CLUSTERS_CSV).forEach(c=>{
+  let name=c.Country.trim(); name=NAME_FIX[name]||name;
+  const n=+c["Number of GPUs"], tf=gpuTflops[c["GPU Type"].trim()];
+  if(tf==null) return;
+  const t=tally[name]||(tally[name]={gpus:0,flops:0});
+  t.gpus+=n; t.flops+=n*tf*1e12;
+});
+const DATA = Object.keys(tally).filter(n=>country[n]).map(n=>({
+  country:n, gpus:tally[n].gpus, flops:tally[n].flops, gdp:country[n].gdp, pop:country[n].pop
+}));
+
+/* ============================================================
+   METRICS + FORMATTERS
+   ============================================================ */
+const fmtUSD = v => v>=1e12 ? "$"+(v/1e12).toFixed(2)+"T" : v>=1e9 ? "$"+(v/1e9).toFixed(0)+"B" : "$"+(v/1e6).toFixed(0)+"M";
+const fmtPop = v => v>=1e9 ? (v/1e9).toFixed(2)+"B" : v>=1e6 ? (v/1e6).toFixed(1)+"M" : (v/1e3).toFixed(0)+"K";
+const fmtGPU = v => Math.round(v).toLocaleString("en-US");
+const fmtFLO = v => v>=1e18 ? (v/1e18).toFixed(2)+" EFLOP/s" : v>=1e15 ? (v/1e15).toFixed(1)+" PFLOP/s" : (v/1e12).toFixed(0)+" TFLOP/s";
+const tickUSD = v => v>=1e12 ? "$"+(v/1e12).toFixed(v/1e12>=10?0:1)+"T" : v>=1e9 ? "$"+(v/1e9).toFixed(0)+"B" : "$"+(v/1e6).toFixed(0)+"M";
+const tickPop = v => v>=1e9 ? (v/1e9).toFixed(1)+"B" : v>=1e6 ? (v/1e6).toFixed(0)+"M" : (v/1e3).toFixed(0)+"K";
+const tickGPU = v => v>=1e3 ? (v/1e3).toFixed(v/1e3>=10?0:1)+"k" : ""+Math.round(v);
+const tickFLO = v => v>=1e18 ? (v/1e18).toFixed(0)+" EF" : v>=1e15 ? (v/1e15).toFixed(0)+" PF" : (v/1e12).toFixed(0)+" TF";
+
+const METRIC = {
+  gdp:  {get:d=>d.gdp,  full:fmtUSD, tick:tickUSD, label:"National GDP"},
+  pop:  {get:d=>d.pop,  full:fmtPop, tick:tickPop, label:"Population"},
+  gpus: {get:d=>d.gpus, full:fmtGPU, tick:tickGPU, label:"Total GPUs"},
+  flops:{get:d=>d.flops,full:fmtFLO, tick:tickFLO, label:"Total compute"},
+};
+
+/* ============================================================
+   STATE + GEOMETRY  (scale fixed to log)
+   ============================================================ */
+const state = { x:"gdp", y:"flops" };
+const VB={w:920,h:560}, PAD={l:74,r:30,t:24,b:60};
+const PLOT={ x0:PAD.l, y0:VB.h-PAD.b, w:VB.w-PAD.l-PAD.r, h:VB.h-PAD.t-PAD.b };
+const SVGNS="http://www.w3.org/2000/svg";
+const el=id=>document.getElementById(id);
+const make=(tag,a={})=>{const e=document.createElementNS(SVGNS,tag);for(const k in a)e.setAttribute(k,a[k]);return e;};
+
+function buildScale(values, pMin, pMax){           // log scale
+  let lo=Math.log10(Math.min(...values)), hi=Math.log10(Math.max(...values));
+  const pad=(hi-lo)*0.06||0.3; lo-=pad; hi+=pad;
+  return { to:v=> pMin+(Math.log10(v)-lo)/(hi-lo)*(pMax-pMin), lo, hi };
+}
+function logTicks(lo,hi){ const out=[]; for(let p=Math.floor(lo);p<=Math.ceil(hi);p++){
+  const v=Math.pow(10,p); if(Math.log10(v)>=lo-1e-9 && Math.log10(v)<=hi+1e-9) out.push(v); } return out; }
+
+function regress(pts){                              // power-law fit in log space
+  const X=pts.map(p=>Math.log10(p.x)), Y=pts.map(p=>Math.log10(p.y));
+  const n=X.length, mx=X.reduce((a,b)=>a+b,0)/n, my=Y.reduce((a,b)=>a+b,0)/n;
+  let sxx=0,sxy=0; for(let i=0;i<n;i++){sxx+=(X[i]-mx)**2;sxy+=(X[i]-mx)*(Y[i]-my);}
+  const slope=sxy/sxx, intercept=my-slope*mx;
+  return { predict:x=>Math.pow(10, slope*Math.log10(x)+intercept) };
+}
+
+/* ============================================================
+   RENDER
+   ============================================================ */
+const prevPos={}; let rafId=null;
+const reduceMotion=matchMedia("(prefers-reduced-motion:reduce)").matches;
+
+function render(){
+  const mx=METRIC[state.x], my=METRIC[state.y];
+  const sx=buildScale(DATA.map(mx.get), PLOT.x0, PLOT.x0+PLOT.w);
+  const sy=buildScale(DATA.map(my.get), PLOT.y0, PLOT.y0-PLOT.h);
+  drawGrid(sx,sy,mx,my); drawTrend(sx,sy,mx,my); drawDots(sx,sy,mx,my);
+}
+
+function drawGrid(sx,sy,mx,my){
+  const g=el("gGrid"); g.replaceChildren();
+  logTicks(sy.lo,sy.hi).forEach(v=>{ const py=sy.to(v);
+    g.appendChild(make("line",{class:"grid-line",x1:PLOT.x0,x2:PLOT.x0+PLOT.w,y1:py,y2:py}));
+    const t=make("text",{class:"axis-tick",x:PLOT.x0-9,y:py+3.5,"text-anchor":"end"}); t.textContent=my.tick(v); g.appendChild(t); });
+  logTicks(sx.lo,sx.hi).forEach(v=>{ const px=sx.to(v);
+    g.appendChild(make("line",{class:"grid-line",x1:px,x2:px,y1:PLOT.y0,y2:PLOT.y0-PLOT.h}));
+    const t=make("text",{class:"axis-tick",x:px,y:PLOT.y0+18,"text-anchor":"middle"}); t.textContent=mx.tick(v); g.appendChild(t); });
+  g.appendChild(make("line",{class:"grid-line frame",x1:PLOT.x0,y1:PLOT.y0,x2:PLOT.x0+PLOT.w,y2:PLOT.y0}));
+  g.appendChild(make("line",{class:"grid-line frame",x1:PLOT.x0,y1:PLOT.y0,x2:PLOT.x0,y2:PLOT.y0-PLOT.h}));
+}
+
+function drawTrend(sx,sy,mx,my){
+  const g=el("gTrend"); g.replaceChildren();
+  const fit=regress(DATA.map(d=>({x:mx.get(d),y:my.get(d)})));
+  const N=64, segs=[];
+  for(let i=0;i<=N;i++){ const xv=Math.pow(10, sx.lo+(i/N)*(sx.hi-sx.lo)); const yv=fit.predict(xv);
+    if(isFinite(yv)&&yv>0) segs.push([sx.to(xv), sy.to(yv)]); }
+  if(segs.length>1){
+    const d="M"+segs.map(p=>p[0].toFixed(1)+" "+p[1].toFixed(1)).join(" L");
+    const path=make("path",{class:"trend",d}); g.appendChild(path);
+    if(!reduceMotion){ path.style.opacity=0; requestAnimationFrame(()=>{ path.style.transition="opacity .4s"; path.style.opacity=1; }); }
+  }
+}
+
+function drawDots(sx,sy,mx,my){
+  const gd=el("gDots"), gl=el("gLabels");
+  gd.replaceChildren(); gl.replaceChildren();
+  const targets=DATA.map(d=>({d, cx:sx.to(mx.get(d)), cy:sy.to(my.get(d))}));
+  const nodes=targets.map(t=>{
+    const s=prevPos[t.d.country]||{cx:t.cx,cy:t.cy};
+    const dot=make("circle",{class:"dot",cx:s.cx,cy:s.cy,r:6,tabindex:0,role:"button","aria-label":t.d.country});
+    const lab=make("text",{class:"dot-label",x:s.cx+10,y:s.cy+3.5}); lab.textContent=t.d.country;
+    gd.appendChild(dot); gl.appendChild(lab);
+    const place=(cx,cy)=>{ dot.setAttribute("cx",cx);dot.setAttribute("cy",cy); lab.setAttribute("x",cx+10);lab.setAttribute("y",cy+3.5); };
+    attachInteract(dot,lab,t.d,()=>({cx:+dot.getAttribute("cx"),cy:+dot.getAttribute("cy")}));
+    return {t,start:s,place};
+  });
+  if(reduceMotion){ nodes.forEach(n=>{n.place(n.t.cx,n.t.cy); prevPos[n.t.d.country]={cx:n.t.cx,cy:n.t.cy};}); return; }
+  if(rafId) cancelAnimationFrame(rafId);
+  const dur=480,t0=performance.now(),ease=t=>1-Math.pow(1-t,3);
+  (function frame(now){ const k=Math.min(1,(now-t0)/dur),e=ease(k);
+    nodes.forEach(n=>n.place(n.start.cx+(n.t.cx-n.start.cx)*e, n.start.cy+(n.t.cy-n.start.cy)*e));
+    if(k<1) rafId=requestAnimationFrame(frame); else nodes.forEach(n=>prevPos[n.t.d.country]={cx:n.t.cx,cy:n.t.cy});
+  })(t0);
+}
+
+/* hover: crosshair lines (no readouts) + infobox */
+const tip=el("tip"), gCross=el("gCross");
+function attachInteract(dot,lab,d,getPos){
+  const on=()=>{ dot.classList.add("active"); lab.classList.add("active"); showCross(getPos()); showTip(getPos(),d); };
+  const off=()=>{ dot.classList.remove("active"); lab.classList.remove("active"); gCross.replaceChildren(); tip.classList.remove("show"); };
+  dot.addEventListener("mouseenter",on); dot.addEventListener("mouseleave",off);
+  dot.addEventListener("focus",on); dot.addEventListener("blur",off);
+}
+function showCross(pos){
+  gCross.replaceChildren();
+  gCross.appendChild(make("line",{x1:pos.cx,y1:pos.cy,x2:pos.cx,y2:PLOT.y0}));
+  gCross.appendChild(make("line",{x1:pos.cx,y1:pos.cy,x2:PLOT.x0,y2:pos.cy}));
+}
+function showTip(pos,d){
+  const rx=(el("plot").clientWidth||VB.w)/VB.w, ry=(el("plot").clientHeight||VB.h)/VB.h;
+  const rank=[...DATA].sort((a,b)=>METRIC[state.y].get(b)-METRIC[state.y].get(a)).findIndex(r=>r.country===d.country)+1;
+  const row=(k,v,hi)=>`<div class="trow"><span class="k">${k}</span><span class="v${hi?" hi":""}">${v}</span></div>`;
+  tip.innerHTML=`<div class="tname">${d.country}</div>`+
+    row("Total GPUs",fmtGPU(d.gpus),state.y==="gpus")+
+    row("Compute",fmtFLO(d.flops),state.y==="flops")+
+    row("GDP",fmtUSD(d.gdp),state.x==="gdp")+
+    row("Population",fmtPop(d.pop),state.x==="pop")+
+    row("Rank ("+METRIC[state.y].label.toLowerCase()+")","#"+rank+" of "+DATA.length,false);
+  tip.classList.add("show");
+  const px=pos.cx*rx, py=pos.cy*ry, tw=tip.offsetWidth, th=tip.offsetHeight;
+  let left=px+18, top=py-th-10;
+  if(left+tw>el("plot").clientWidth) left=px-tw-18;
+  if(top<0) top=py+16;
+  tip.style.left=left+"px"; tip.style.top=top+"px";
+}
+
+/* fixed view: GDP (x) vs total compute (y) */
+document.getElementById("plot-interactive").style.display="";
+render();
+window.addEventListener("resize",()=>tip.classList.remove("show"));
+
+</script>
+<!-- ===== end plot ===== -->
+
+<p>
+
+The data for this plot is available in <a href="https://github.com/craffel/flops-vs-gdp">this GitHub repo</a>.
+Some of the exact numbers were hard to pin down, and while I ultimately tabulated ~80 clusters, it's entirely possible that I missed some—please feel free to open a PR or issue if anything looks off.
+FLOPS are measured here in terms of float16 or bfloat16 performance; while there is no perfect metric to measure compute capacity, I feel this is the most relevant and easily measurable across all of the diverse hardware in all of these clusters.
+The trend and patterns look pretty similar if you consider simply "# of GPUs” or “total VRAM”.
+
+</p><p>
+
+There is, unsurprisingly, some correlation between a country's GDP and the size of their public AI infrastructure.
+The plot also clearly demonstrates a set of “overachievers”, i.e. countries with an unusually large amount of GPU compute that seem to closely track their own fit line: Finland (thanks to the LUMI cluster), Switzerland (ALPS), Italy (Leonardo), Germany (JUWELS), and the USA (Aurora, El Capitan, Frontier, etc.).
+I won't comment on the countries that fall on the other side of the main fit line!
+
+</p><p>
+
+Interestingly, Canada currently falls right on the main fit line.
+I initially undertook this exercise to get a sense of how Canada would stack up after the <a href="https://ised-isde.canada.ca/site/ised/en/ai-sovereign-compute-infrastructure-program">$980M CAD SCIP funding</a> is put to use.
+In the simple case where this funding is used to build out a single large cluster built from today's hardware, we might hope that we will get a new cluster with around 10,000 B200s (assuming total system cost of around $100,000 CAD per B200, which is not far off from other recent purchases that I'm aware of).
+This would bring online 22.5 EFLOPS of additional compute, bumping Canada up from the main trend line to sit comfortably among the overachievers.
+Let's hope we can bring this compute online soon!
+
+</p><p>
+
+<script>window.markdeepOptions={}; window.markdeepOptions.tocStyle=&ldquo;none&rdquo;;</script>
+
+</p><p>
+
+</p></span><div class="markdeepFooter"><i>formatted by <a href="http://casual-effects.com/markdeep" style="color:#999">Markdeep&nbsp;1.03&nbsp;&nbsp;</a></i><div style="display:inline-block;font-size:13px;font-family:'Times New Roman',serif;vertical-align:middle;transform:translate(-3px,-1px)rotate(135deg);">✒</div></div></body></html>

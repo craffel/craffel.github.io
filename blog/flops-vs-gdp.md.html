@@ -1,0 +1,37 @@
+<meta charset="utf-8" lang="en">
+<style>
+  big { font-size: 300%; }
+  .md .bib{padding-left:20px;text-indent:-20px;text-align:left}
+  .md div.imagecaption{margin:5px 40px 5px 40px;}
+</style>
+
+        **Estimating public cluster FLOPS vs. GDP**
+        Colin Raffel
+        June 10, 2026
+        [colinraffel.com/blog](http://colinraffel.com/blog)
+
+Many countries invest in AI computing infrastructure by building GPU clusters.
+Computing resources on these clusters are typically made avaliable through an application-based process, and access is generally possible for academics and other researchers.
+The total amount of public GPU compute available in a given country varies quite a lot; we wouldn't necessarily expect a small country to invest as heavily in AI infrastructure as a much larger country would.
+Plotting each country's GDP against the total GPU FLOPS available across all of its public clusters can give a sense of each country's level of investment in AI research.
+I spent some time searching the web and massaging data (with some help from Claude and Gemini) to produce the plot shown below.
+
+
+
+The data for this plot is available in [this GitHub repo](https://github.com/craffel/flops-vs-gdp).
+Some of the exact numbers were hard to pin down, and while I ultimately tabulated ~80 clusters, it's entirely possible that I missed some--please feel free to open a PR or issue if anything looks off.
+FLOPS are measured here in terms of float16 or bfloat16 performance; while there is no perfect metric to measure compute capacity, I feel this is the most relevant and easily measurable across all of the diverse hardware in all of these clusters.
+The trend and patterns look pretty similar if you consider simply "# of GPUs" or "total VRAM".
+
+There is, unsurprisingly, some correlation between a country's GDP and the size of their public AI infrastructure.
+The plot also clearly demonstrates a set of "overachievers", i.e. countries with an unusually large amount of GPU compute that seem to closely track their own fit line: Finland (thanks to the LUMI cluster), Switzerland (ALPS), Italy (Leonardo), Germany (JUWELS), and the USA (Aurora, El Capitan, Frontier, etc.).
+I won't comment on the countries that fall on the other side of the main fit line!
+
+Interestingly, Canada currently falls right on the main fit line.
+I initially undertook this exercise to get a sense of how Canada would stack up after the [$980M CAD SCIP funding](https://ised-isde.canada.ca/site/ised/en/ai-sovereign-compute-infrastructure-program) is put to use.
+In the simple case where this funding is used to build out a single large cluster built from today's hardware, we might hope that we will get a new cluster with around 10,000 B200s (assuming total system cost of around $100,000 CAD per B200, which is not far off from other recent purchases that I'm aware of).
+This would bring online 22.5 EFLOPS of additional compute, bumping Canada up from the main trend line to sit comfortably among the overachievers.
+Let's hope we can bring this compute online soon!
+
+<script>window.markdeepOptions={}; window.markdeepOptions.tocStyle="none";</script>
+<!-- Markdeep: --><script src="markdeep.min.js"></script>
