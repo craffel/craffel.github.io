@@ -1,0 +1,34 @@
+<meta charset="utf-8" lang="en">
+<style>
+big { font-size: 300%; }
+.md .bib{padding-left:20px;text-indent:-20px;text-align:left}
+.md div.imagecaption{margin:5px 40px 5px 40px;}
+</style>
+
+        **Updates, April 2026**
+        Colin Raffel
+        April 16, 2026
+        [colinraffel.com/blog](http://colinraffel.com/blog)
+
+*If you want to receive monthly updates from me like this one via email, please fill out [this form](https://forms.gle/9uxXZsGiegBbxthj7).* 
+
+# What we're working on
+
+A [new paper](https://arxiv.org/abs/2606.11409) on arxiv about evaluating adversarial robustness of LMs. Most prior work involves simply testing whether a given attack can jailbreak a model after a fixed number of rounds of refinement. However, different attacks have different costs and one attack might succeed after fewer rounds than another. Our paper proposes studying the risk-pressure curve, which shows the attack success rate as a function of the amount of computation expended. We introduce two summary metrics for this curve and use our new evaluation approach to surface insights about different methods that standard evaluation would miss. I see this paper as the first step towards considering whether the value gained from a successful attack is worth the effort that the adversary must expend to carry it out.
+
+I also spent some time preparing a [talk at UW](https://youtu.be/A26Ede2vADY) on "my worries". It's sort of a catch-all talk discussing various ways that I think the future could be made worse thanks to AI, and describing some of the work we've done to address these issues. The talk is pretty informal and speculative, because I am a bit allergic to people having extremely strong opinions when they are predicting the future, but it is also the first time I'm using "worry" as a primary motivator for our work, so may be of interest.
+
+# What I'm reading
+I enjoyed the [Bitter Lesson on Data Filtering](http://arxiv.org/abs/2605.19407) paper. I think it rigorously empirically validates trends that have been observed but rarely studied in detail, namely that as you scale up model size, it is better to train on noisier data rather than repeat data. But I actually would have told the *opposite* story. They extrapolate trends to show that, for the 240T-token Common Crawl pool, filtering becomes harmful for a 1e30-FLOP training run. Such a training run would take a few hundred years on a 100,000-B200 cluster, so is very far beyond our foreseeable compute capacity. This estimate is probably also orders of magnitude too low because larger web crawls (e.g. those done by Google) plus synthetic/rephrased data probably expand it by many orders of magnitude. So for any realistic budget, filtering is clearly important. Additionally, I think making better small models is a super important endeavor (and can also be used to "steepen the scaling curve" to produce better larger models), and it is in exactly that setting where filtering appears to be especially important. So, three cheers for data filtering!
+
+I also enjoyed [EMO](https://arxiv.org/abs/2605.06663), a simple (unsupervised) method that makes the experts in MoEs more specialized. The gist is just that tokens within a given document should use the same subset of experts (plus some technical details to make this work efficiently). This barely affects performance, but allows you to drop domain-irrelevant experts. Would be interesting to see whether irrelevant experts could be dropped on a per-instance basis and whether this provides a course-but-useful form of unlearning in the context of safety.
+
+# What I'm thinking about
+Canada, like many countries, has been working to expand its public GPU computing infrastructure. This has gotten me thinking about whether there's a relationship between a country's GDP and their compute capacity, so I spent an afternoon doing some analysis with Claud and Gemini and wrote [this blog post](https://colinraffel.com/blog/flops-vs-gdp.html). Interestingly there is a clear set of "overachievers" whose capacity significantly outpaces typical trends. If Canada manages to bring compute online via [SCIP](https://ised-isde.canada.ca/site/ised/en/ai-sovereign-compute-infrastructure-program) it may very well join the overachievers.
+
+Somewhat unwittingly and begrudgingly, I have been experimenting with research agents for the "collective delusions" project mentioned at the end of the talk I linked above. So, naturally, I have been thinking a lot about their implications and shortcomings. Though they exhibit known issues like poor ideation and a lack of diversity, research agents also seem good enough to produce workshop-level papers with minimal human effort and intervention. While it's reasonable to expect them to get better, I do think there is a degree to which research is a fundamentally subjective endeavor, informed by our tastes, real-world experience, and long-term goals. I'm trying to do some work to characterize this more precisely. I've separately been thinking about how we are going to need to revamp our approach to publication and scientific dissemination. More to come, hopefully.
+
+I've additionally been trying to think through what technical work can be done to stem the tide of AI-induced economic upheaval. For a week or so I managed to convince myself that small model development would be a good candidate, and I wrote a (still unpublished) [blog post](https://colinraffel.com/blog/small-personalized-language-models-as-a-meaningful-step-towards-a-less-dystopian-future.md.html) laying out the justifications. But after some more thought and discussions with better-informed people, I question virtually all of the rationale I gave in the post. So, back to the drawing board and open to ideas!
+
+<script>window.markdeepOptions={}; window.markdeepOptions.tocStyle="none";</script>
+<!-- Markdeep: --><script src="markdeep.min.js"></script>
