@@ -1,6 +1,18 @@
 {"committees":
     [
         {
+            "name": "Clara Na",
+            "location": "Carnegie Mellon University",
+            "start": 2026,
+            "end": "now"
+        },
+        {
+            "name": "Margaret Li",
+            "location": "University of Washington",
+            "start": 2026,
+            "end": "now"
+        },
+        {
             "name": "Sheza Munir",
             "location": "University of Toronto",
             "start": 2026,
