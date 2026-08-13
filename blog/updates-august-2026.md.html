@@ -1,0 +1,38 @@
+<meta charset="utf-8" lang="en">
+<style>
+big { font-size: 300%; }
+.md .bib{padding-left:20px;text-indent:-20px;text-align:left}
+.md div.imagecaption{margin:5px 40px 5px 40px;}
+</style>
+
+        **Updates, August 2026**
+        Colin Raffel
+        August 13, 2026
+        [colinraffel.com/blog](http://colinraffel.com/blog)
+
+*If you want to receive monthly updates from me like this one via email, please fill out [this form](https://forms.gle/9uxXZsGiegBbxthj7).* 
+
+# A social note
+
+I find myself increasingly unable and/or unwilling to attend conferences, mainly due to personal needs. This means I miss out on a lot of the personal interaction that makes conferences worthwhile. Hence I am especially excited when someone drops by Toronto and we get to catch up. I recently had great in-person catch ups with [Daphne](https://www.daphnei.com/), [Julien](http://lolo.science/), and [Fartash](https://fartashf.github.io/). If you ever happen to be in town, please reach out!
+
+# What we're working on
+I had hoped to share some new preprints, but instead we have three preprints that are a bit delayed. Hopefully they will show up in the next newsletter! As a sneak preview: One project aims to conclusively show that merging works better than multitask learning during instruction tuning, another proposes a modular approach to multilingual tokenization, and the third is my pet project (mentioned at the end of the [talk](https://youtu.be/A26Ede2vADY) I sent out last newsletter) on compounding errors that arise when language models interact repeatedly.
+
+# What I'm reading
+
+I have always felt that the deep learning research ideas that stick are the ones that are simple, easy to implement, and effective. How can this hypothesis be tested? With research agents, of course! Indeed, [this recent paper](https://arxiv.org/abs/2606.11045) puts this idea to the test by forcing a research agent to try to reimplement different training recipes based on progressively shorter summaries. They find that many training pipelines can be compressed into very short summaries. When deliberate overfitting confounds results, reproducibility fails. A cute demonstration of a guiding principle of our field.
+
+We have very little knowledge about how "distillation attacks" (a darkly funny term) are carried out and how effective they are. Anyone performing such an attack is unlikely to share details on how they did it; anyone making accusations of an attack is likely to exaggerate its danger. Given that reasoning traces would be required for distillation and that such traces are hidden (via encryption) from end-users of an API, an important step must be the recovery of such traces. [This work](https://arxiv.org/abs/2603.07267) shows that the simplest method you'd design--simply training a model to infill missing traces--seems to work fine. [This more recent paper](https://arxiv.org/abs/2608.09867) also shows that a simple vulnerability (now patched) allows decryption of reasoning traces, effectively by asking another (weaker, jailbroken) model from the same family to output the decrypted trace of another model. We can only speculate which, if either, of these techniques are actually used in distillation attacks.
+
+# What I'm thinking about
+
+Three new blog posts:
+- [Three Machine Learning Publication Venues for the Research Agent Era](https://colinraffel.com/blog/three-machine-learning-publication-venues-for-the-research-agent-era.html), a mostly unserious meditation on how we can change publication venues to address the ever-growing acceleration of research.
+- [When will language models be good enough?](https://colinraffel.com/blog/when-will-language-models-be-good-enough.html), where I posit that current language models are "good enough" for most use cases and that it might not be the worst thing if we stop trying to make better models and instead focus on making the models we have more efficient.
+- [Academic Research Does Not Exist To Serve Industry](https://colinraffel.com/blog/academic-research-does-not-exist-to-serve-industry.html), a semi-grumpy post where I try to debunk claims that academic research is somehow irrelevant if it does not improve a company's bottom line.
+
+I have (like many, I suspect) been trying hard to shift my LLM usage to open-weight models, given that they are now "good enough" and using them is probably better aligned with my worldview. This led me to a broader experimentation with different agent harnesses, and the realization that *the infrastructure for running these agents is wildly complex!* Just reading through the (checks number) **21** listed features of [oh-my-pi](https://omp.sh/) should make one's head spin. I confess to only knowing much about a subset of these features. If I was not already teaching my deep learning course starting in a few weeks, I might be inclined to learn more and make some educational materials about how these systems work.
+
+<script>window.markdeepOptions={}; window.markdeepOptions.tocStyle="none";</script>
+<!-- Markdeep: --><script src="markdeep.min.js"></script>
