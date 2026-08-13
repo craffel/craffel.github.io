@@ -1,0 +1,29 @@
+<meta charset="utf-8" lang="en">
+<style>
+big { font-size: 300%; }
+.md .bib{padding-left:20px;text-indent:-20px;text-align:left}
+.md div.imagecaption{margin:5px 40px 5px 40px;}
+</style>
+
+        **Academic Research Does Not Exist To Serve Industry**
+        Colin Raffel
+        August 13, 2026
+        [colinraffel.com/blog](http://colinraffel.com/blog)
+
+From time to time, an academic machine learning researcher (often a student, though not always) will come to me in despair because they recently heard something disheartening from a colleague working in industry, often including comments like:
+- None of the research done in academia is actually useful. 
+- Any time we try a method from academia, it doesn't work.
+- Academia-scale experiments are irrelevant.
+- We don't even read papers anymore.
+[Here](https://x.com/kellerjordan0/status/2084721463089902074) is one recent example. These kinds of statements are not terribly worrisome to me and I often forget that they can be disheartening to others. This blog post serves as a written summary of the reassurances I dole out to despairing colleagues.
+
+First, the notion that methods become more or less relevant at different scales should not be surprising; indeed, The Bitter Lesson has made this a modern dictum of the field. I remember during my PhD (over a decade ago...) I hosted a talk by a Google researcher who essentially said "none of the fancy new deep learning methodology matters when you have enough data and compute", so this is not a new notion either. But to me, this is by no means a reason to claim that small-scale work is fundamentally irrelevant. Most researchers and practitioners operate at relatively small scales, and a method that reliably helps at that scale is therefore helpful to a large body of researchers whether or not it helps at the "frontier". What's more, brute-force scaling incurs high costs. Any time we can get comparable performance at lower cost, we should celebrate. Additionally, small-scale work often forces creativity that sometimes leads to new methods that actually *do* scale, but this idea (which is the basis of a talk called "The Sweet Lesson" I used to give) probably warrants a separate post. I don't mean to imply that academic researchers *prefer* to work at smaller scales; it is simply a side effect of the unattainably high investment required to work at the frontier. In practice, however, the financial limitations of academia lead to scale limitations but *not necessarily* limitations on usefulness. 
+
+Similarly and more broadly, the insight that methods often don't reproduce when reimplemented in a new setting should unfortunately also not be surprising. Deep learning in particular is an empirical science whose success and failure in a particular application often comes down to seemingly trivial implementation details. Variation in these details can influence whether a given method is helpful in a given implementation or application. There have been many studies leading to this conclusion; one example is our [paper](https://arxiv.org/abs/2102.11972) from five years ago showing that most improvements to the Transformer architecture failed to provide benefits when transferred to a new implementation (the exceptions--MoEs and SwiGLU--have indeed withstood the test of time). Of course, the brittleness of methodological work in deep learning is nothing to be proud of. Papers should do everything we can to ensure results are robust, such as trying out new methods on lots of models in lots of applications implemented in many different codebases. And the goal of work on scaling laws and reliable scaling strategies aims to improve the state of affairs. But if this was an easily fixable property of deep learning research, we probably would have fixed it by now.
+
+Having clarified those points, a more fundamental objection that I have to "academia is irrelevant"-style statements is the underlying premise that academic research should be done in service of industry. In other words, if someone from industry says "academic research is not useful", they are implicitly asserting that research is only useful if it's useful to industry, i.e. it can be used to improve a product or help a company make money. This is not a goal of the work I do; in fact, much of the research we've done in our lab has been guided by the principle of *not* being useful to industry. One example is our research program on collaborative machine learning, whose primary goal was to make it possible for decentralized communities--not centralized corporations--to build powerful models together. When I announced this research program, a former colleague from Google told me that it was a remarkably appropriate academic endeavor precisely because it was outside of the purview of large companies. More recently, I find myself motivated to do work that addresses the risks of modern AI, which is not only unhelpful but also often directionally *opposed* to industry!
+
+Of course, I don't aim to indict the pursuit of industry-supporting research in academia. If a researcher finds themselves motivated by the chance that their work will make frontier models better, then by all means they should pursue that goal (and might want to consider whether they could do so more effectively within industry). But the (implict) assertion that this is the overarching goal of academic research is wrong to the point of being offensive. So the next time you encounter statements of this kind, be skeptical, and don't take it as an indictment of your research!
+
+<script>window.markdeepOptions={}; window.markdeepOptions.tocStyle="none";</script>
+<!-- Markdeep: --><script src="markdeep.min.js"></script>
