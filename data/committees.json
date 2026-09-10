@@ -1,6 +1,12 @@
 {"committees":
     [
         {
+            "name": "Dongfu Jiang",
+            "location": "University of Waterloo",
+            "start": 2026,
+            "end": "now"
+        },
+        {
             "name": "Clara Na",
             "location": "Carnegie Mellon University",
             "start": 2026,
@@ -92,7 +98,7 @@
         },
         {
             "name": "Prateek Yadav",
-            "location": "University of Toronto",
+            "location": "University of North Carolina",
             "start": 2024,
             "end": 2025
         },

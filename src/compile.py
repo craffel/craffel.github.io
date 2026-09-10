@@ -1,3 +1,10 @@
+# /// script
+# requires-python = ">=3.12"
+# dependencies = [
+#   "jinja2",
+# ]
+# ///
+
 import jinja2
 import os
 import glob

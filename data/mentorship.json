@@ -1,12 +1,29 @@
 {"mentorship":
     [
         {
+            "name": "John Kirchenbauer",
+            "description": "Postdoc at the Vector Institute",
+            "start": 2026,
+            "end": "now",
+            "url": "https://vectorinstitute.ai/team/john-kirchenbauer/",
+            "email": "john.kirchenbauer@vectorinstitute.ai"
+        },
+        {
             "name": "Marco Ciccone",
             "description": "Postdoc at the Vector Institute",
             "start": 2024,
             "end": "now",
             "url": "https://marcociccone.github.io/",
             "email": "marco.ciccone88@gmail.com"
+        },
+        {
+            "name": "Markus Frohmann",
+            "description": "PhD student at the University of Toronto",
+            "start": 2026,
+            "end": "now",
+            "url": "https://markusfrohmann.com/",
+            "email": "markus.frohmann@gmail.com",
+            "coadvisor": "Edoardo Ponti"
         },
         {
             "name": "Boglárka Ecsedi",
@@ -56,14 +73,6 @@
             "email": "haokunl@cs.unc.edu"
         },
         {
-            "name": "Nikhil Kandpal",
-            "description": "PhD student at the University of Toronto",
-            "start": 2020,
-            "end": "now",
-            "url": "https://nkandpa2.github.io/",
-            "email": "nkandpa2@cs.unc.edu"
-        },
-        {
             "name": "Derek Tam",
             "description": "PhD student at the University of Toronto",
             "start": 2020,
@@ -72,10 +81,34 @@
             "email": "dtredsox@cs.unc.edu"
         },
         {
+            "name": "Marawan Gamal",
+            "description": "Intern at the Vector Institute",
+            "start": 2026,
+            "end": "now",
+            "url": "https://marawangamal.github.io/",
+            "email": "marawan.gamal@mila.quebec"
+        },
+        {
+            "name": "Mansi Sakarvadia",
+            "description": "Intern at the Vector Institute",
+            "start": 2026,
+            "end": "now",
+            "url": "https://mansisak.com/",
+            "email": "sakarvadia@uchicago.edu"
+        },
+        {
+            "name": "Nikhil Kandpal",
+            "description": "PhD student at the University of Toronto",
+            "start": 2020,
+            "end": 2026,
+            "url": "https://nkandpa2.github.io/",
+            "email": "nkandpa2@cs.unc.edu"
+        },
+        {
             "name": "Michael Matena",
             "description": "PhD student at UNC",
             "start": 2020,
-            "end": "now",
+            "end": 2026,
             "url": "https://www.linkedin.com/in/michael-matena-2174b082",
             "email": "michael.matena@gmail.com"
         },
@@ -83,7 +116,7 @@
             "name": "Noah Juravsky",
             "description": "Undergraduate student at the University of Toronto",
             "start": 2025,
-            "end": "now",
+            "end": 2026,
             "url": "https://www.noahjuravsky.com/",
             "email": "noah.juravsky@mail.utoronto.ca"
         },
