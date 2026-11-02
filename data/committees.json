@@ -3,8 +3,7 @@
         {
             "name": "Dongfu Jiang",
             "location": "University of Waterloo",
-            "start": 2026,
-            "end": "now"
+            "start": 2026
         },
         {
             "name": "Clara Na",
@@ -33,14 +32,12 @@
         {
             "name": "Donato Crisostomi",
             "location": "Sapienza University of Rome",
-            "start": 2026,
-            "end": "now"
+            "start": 2026
         },
         {
             "name": "Ahmad Rashid",
             "location": "University of Waterloo",
-            "start": 2026,
-            "end": "now"
+            "start": 2026
         },
         {
             "name": "Yongjin Yang",
@@ -51,14 +48,12 @@
         {
             "name": "Ekansh Sharma",
             "location": "University of Toronto",
-            "start": 2025,
-            "end": 2025
+            "start": 2025
         },
         {
             "name": "Nikolaos Dimitriadis",
             "location": "École polytechnique fédérale de Lausanne",
-            "start": 2025,
-            "end": 2025
+            "start": 2025
         },
         {
             "name": "Evgenii Opryshko",
@@ -76,7 +71,7 @@
             "name": "Weijia Shi",
             "location": "University of Washington",
             "start": 2025,
-            "end": "now"
+            "end": 2026
         },
         {
             "name": "Samarendra Chandan Bindu Dash",
@@ -106,13 +101,13 @@
             "name": "Karthikeyan, Dhuvarakesh",
             "location": "University of North Carolina",
             "start": 2024,
-            "end": "now"
+            "end": 2026
         },
         {
             "name": "Zhenwei (Joseph) Tang",
             "location": "University of Toronto",
             "start": 2024,
-            "end": "now"
+            "end": 2026
         },
         {
             "name": "Lunjun Zhang",

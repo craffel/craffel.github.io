@@ -1,6 +1,12 @@
 {"mentorship":
     [
         {
+            "name": "Xuechen Li",
+            "description": "Postdoc at University of Toronto",
+            "start": 2026,
+            "end": "now"
+        },
+        {
             "name": "John Kirchenbauer",
             "description": "Postdoc at the Vector Institute",
             "start": 2026,

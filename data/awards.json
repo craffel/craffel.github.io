@@ -1,6 +1,15 @@
 {"awards":
     [
         {
+            "name": "COLM Outstanding Paper",
+            "venue": "for \"How Can We Synthesize High-Quality Pretraining Data? A Systematic Study of Prompt Design, Generator Model, and Source Data\"",
+            "year": 2026
+        },
+        {
+            "name": "Google Research Award",
+            "year": 2025
+        },
+        {
             "name": "TMLR Outstanding Certification Finalist",
             "venue": "for \"Beyond the Imitation Game: Quantifying and extrapolating the capabilities of language model\"",
             "year": 2024
